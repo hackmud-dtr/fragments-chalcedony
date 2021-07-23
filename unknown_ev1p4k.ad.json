@@ -1,0 +1,155 @@
+{
+	"_id": "unknown_ev1p4k.ad",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_ev1p4k.ad",
+	"sector": "K_0449",
+	"sec_level": 4,
+	"date_added": 1604947151163,
+	"last_scraped": 1609736657435,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604947151163
+		},
+		{
+			"type": "died",
+			"when": 1613593414716
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1609776635719,
+	"category": "fishie_tank",
+	"last_update": 1609932764409,
+	"output": [
+		{
+			"args": {},
+			"calls": 258883,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"arms\\n2",
+						"8 Give ",
+						"1D8 Giv",
+						"\\n21D9 ",
+						" arms\\n",
+						"y\\n21D8 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 27750,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"me a ",
+				"ive me",
+				"ve me a",
+				"e with ",
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"ld play\\n",
+				"lay\\n21D8",
+				"ay\\n21D8 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"arms\\n2",
+						"8 Give ",
+						"1D8 Giv",
+						"\\n21D9 ",
+						" arms\\n",
+						"y\\n21D8 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 134360,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"arms\\n2",
+						"8 Give ",
+						"1D8 Giv",
+						"\\n21D9 ",
+						" arms\\n",
+						"y\\n21D8 "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622542594447,
+	"edit": 22,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

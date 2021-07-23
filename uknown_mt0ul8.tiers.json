@@ -1,0 +1,170 @@
+{
+	"_id": "uknown_mt0ul8.tiers",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_mt0ul8.tiers",
+	"sector": "HJG_2473",
+	"sec_level": 4,
+	"date_added": 1605771672926,
+	"last_scraped": 1609979324122,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605771672926
+		},
+		{
+			"type": "died",
+			"when": 1613848743324
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622543181240,
+	"edit": 20,
+	"scrape_ct": 17,
+	"next_scrape": 1610022251980,
+	"category": "fishie_tank",
+	"last_update": 1609979324122,
+	"output": [
+		{
+			"args": {},
+			"calls": 177256,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ng an",
+				"at th",
+				" thin",
+				" AI d",
+				"ining ",
+				"er, Sa",
+				"rain an",
+				"inks li",
+				"a tauto",
+				" an AI ",
+				"ne train",
+				"AI that "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ng an",
+						"at th",
+						"er, Sa",
+						"inks li",
+						" an AI ",
+						"AI that "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 23032,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ng an",
+				"at th",
+				" thin",
+				" AI d",
+				"ining ",
+				"er, Sa",
+				"rain an",
+				"inks li",
+				"a tauto",
+				" an AI ",
+				"ne train",
+				"AI that "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ng an",
+						"at th",
+						"er, Sa",
+						"inks li",
+						" an AI ",
+						"AI that "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 165012,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ng an",
+				"at th",
+				" thin",
+				" AI d",
+				"ining ",
+				"er, Sa",
+				"rain an",
+				"inks li",
+				"a tauto",
+				" an AI ",
+				"ne train",
+				"AI that "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ng an",
+						"at th",
+						"er, Sa",
+						"inks li",
+						" an AI ",
+						"AI that "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"ng an",
+				"at th",
+				"er, Sa",
+				"inks li",
+				" an AI ",
+				"AI that "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

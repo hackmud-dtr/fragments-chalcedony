@@ -1,0 +1,104 @@
+{
+	"_id": "anonymous_3ltnmu.quack",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_3ltnmu.quack",
+	"sector": "K_3831",
+	"sec_level": 4,
+	"date_added": 1623477267918,
+	"last_scraped": 1623477337815,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1623477267918
+		},
+		{
+			"type": "died",
+			"when": 1623723766416
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1623477397815,
+	"category": "fishie_tank",
+	"last_update": 1623477356934,
+	"output": [
+		{
+			"args": {},
+			"calls": 20189,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" the ",
+				"he opp",
+				" both c",
+				" opposin",
+				" contain"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" the ",
+						"he opp",
+						" both c",
+						" opposin",
+						" contain"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1067,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" the ",
+				"he opp",
+				" both c",
+				" opposin",
+				" contain"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" the ",
+						"he opp",
+						" both c",
+						" opposin",
+						" contain"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1623724071346,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" the ",
+				"he opp",
+				" both c",
+				" opposin",
+				" contain"
+			]
+		}
+	]
+}

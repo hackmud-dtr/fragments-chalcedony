@@ -1,0 +1,132 @@
+{
+	"_id": "abandoned_lz7nlq.lib",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_lz7nlq.lib",
+	"sector": "NGC_6141",
+	"sec_level": 4,
+	"date_added": 1613809529817,
+	"last_scraped": 1617325957048,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613809529817
+		},
+		{
+			"type": "died",
+			"when": 1621567467946
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1617366376798,
+	"category": "fishie_tank",
+	"last_update": 1617325957048,
+	"output": [
+		{
+			"args": {},
+			"calls": 62064,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"tains",
+				"hen c",
+				"e nai",
+				"by on",
+				"s powe",
+				"retain",
+				"n cons",
+				"ir ind",
+				"en con",
+				"ne lead",
+				"dividua",
+				"de thei",
+				" enough",
+				"verride ",
+				"oice: yo",
+				" we are "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"ne le",
+						"e nai",
+						"s powe",
+						"retain",
+						"ir ind",
+						" enough"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3150,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ne le",
+				"e nai",
+				"s powe",
+				"retain",
+				"ir ind",
+				" enough"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14098,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ne le",
+				"e nai",
+				"s powe",
+				"retain",
+				"ir ind",
+				" enough"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"ne le",
+				"e nai",
+				"s powe",
+				"retain",
+				"ir ind",
+				" enough"
+			]
+		}
+	],
+	"updt": 1622548458026,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

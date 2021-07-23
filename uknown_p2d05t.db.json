@@ -1,0 +1,145 @@
+{
+	"_id": "uknown_p2d05t.db",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_p2d05t.db",
+	"sector": "NGC_4419",
+	"sec_level": 4,
+	"date_added": 1616078793740,
+	"last_scraped": 1617362451658,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616078793740
+		},
+		{
+			"type": "died",
+			"when": 1621920334531
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1617406695127,
+	"category": "fishie_tank",
+	"last_update": 1617362523869,
+	"output": [
+		{
+			"args": {},
+			"calls": 21850,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"irmed",
+				"he ax",
+				"h a u",
+				"ed to",
+				"unique",
+				"s conf",
+				"nce. #",
+				"is con",
+				"in, at",
+				" uniqu",
+				" princ",
+				"que pat",
+				"oving i",
+				"le of s",
+				" provin",
+				"g is the"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"le of",
+						"irmed",
+						"h a u",
+						"ed to",
+						"in, at",
+						"oving i",
+						"g is the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5852,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"irmed",
+				"he ax",
+				"h a u",
+				"ed to",
+				"unique",
+				"s conf",
+				"nce. #",
+				"is con",
+				"in, at",
+				" uniqu",
+				" princ",
+				"que pat",
+				"oving i",
+				"le of s",
+				" provin",
+				"g is the"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14056,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"he ax",
+				"unique",
+				"s conf",
+				"nce. #",
+				"is con",
+				" uniqu",
+				" princ",
+				"que pat",
+				"le of s",
+				" provin"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"le of",
+				"irmed",
+				"h a u",
+				"ed to",
+				"in, at",
+				"oving i",
+				"g is the"
+			]
+		}
+	],
+	"updt": 1622549435051,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"_id": "abndnd_rsnssu.panic",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_rsnssu.panic",
+	"sector": "K_9453",
+	"sec_level": 4,
+	"date_added": 1622180700827,
+	"last_scraped": 1625441848865,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622180700827
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1625484508100,
+	"category": "fishie_tank",
+	"last_update": 1625441848865,
+	"output": [
+		{
+			"args": {},
+			"calls": 23275,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"lgic a",
+				"l thin",
+				"g just",
+				"if you'",
+				"and if ",
+				"feel nos"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"lgic a",
+						"l thin",
+						"g just",
+						"if you'",
+						"and if ",
+						"feel nos"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5287,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"lgic a",
+				"l thin",
+				"g just",
+				"if you'",
+				"and if ",
+				"feel nos"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15030,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"lgic a",
+				"l thin",
+				"g just",
+				"if you'",
+				"and if ",
+				"feel nos"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"lgic a",
+				"l thin",
+				"g just",
+				"if you'",
+				"and if ",
+				"feel nos"
+			]
+		}
+	],
+	"updt": 1622551585814,
+	"edit": 2
+}

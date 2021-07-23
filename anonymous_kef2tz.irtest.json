@@ -1,0 +1,142 @@
+{
+	"_id": "anonymous_kef2tz.irtest",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_kef2tz.irtest",
+	"sector": "NGC_0613",
+	"sec_level": 4,
+	"date_added": 1614555666115,
+	"last_scraped": 1617330104056,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614555666115
+		},
+		{
+			"type": "died",
+			"when": 1617865702593
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1617372037064,
+	"category": "fishie_tank",
+	"last_update": 1617330158845,
+	"output": [
+		{
+			"args": {},
+			"calls": 68470,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"only ",
+				"9 in ",
+				"1E4A ",
+				"erefor",
+				"e only",
+				"\\n1E49",
+				".\\n1E4",
+				"ing.\\n1",
+				"re the o",
+				"n the bu",
+				"erson\\n1",
+				" the onl",
+				"ilding.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1E4A ",
+						"erefor",
+						"e only",
+						".\\n1E4",
+						"re the o",
+						"n the bu",
+						"erson\\n1",
+						" the onl",
+						"ilding.\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 10682,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"only ",
+				"9 in ",
+				"1E4A ",
+				"erefor",
+				"e only",
+				"\\n1E49",
+				".\\n1E4",
+				"ing.\\n1",
+				"re the o",
+				"n the bu",
+				"erson\\n1",
+				" the onl",
+				"ilding.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 88021,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"1E4A ",
+				"erefor",
+				"e only",
+				".\\n1E4",
+				"re the o",
+				"n the bu",
+				"erson\\n1",
+				" the onl",
+				"ilding.\\n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"1E4A ",
+				"erefor",
+				"e only",
+				".\\n1E4",
+				"re the o",
+				"n the bu",
+				"erson\\n1",
+				" the onl",
+				"ilding.\\n"
+			]
+		}
+	],
+	"updt": 1622548850198,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

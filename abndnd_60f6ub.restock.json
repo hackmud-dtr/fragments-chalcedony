@@ -1,0 +1,137 @@
+{
+	"_id": "abndnd_60f6ub.restock",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_60f6ub.restock",
+	"sector": "K_6413",
+	"sec_level": 4,
+	"date_added": 1608268193094,
+	"last_scraped": 1609925256689,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1608268193094
+		},
+		{
+			"type": "died",
+			"when": 1615251131723
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1609969083656,
+	"category": "fishie_tank",
+	"last_update": 1609925256689,
+	"output": [
+		{
+			"args": {},
+			"calls": 78636,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"1 Use",
+				" R, si",
+				"ser Erin",
+				"e one pe",
+				"\\n2141 Us"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1 Use",
+						" R, si",
+						"ser Erin",
+						"e one pe",
+						"\\n2141 Us"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8821,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"1 Use",
+				" R, si",
+				"ser Erin",
+				"e one pe",
+				"\\n2141 Us"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1 Use",
+						" R, si",
+						"ser Erin",
+						"e one pe",
+						"\\n2141 Us"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 123858,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"1 Use",
+				" R, si",
+				"ser Erin",
+				"e one pe",
+				"\\n2141 Us"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1 Use",
+						" R, si",
+						"ser Erin",
+						"e one pe",
+						"\\n2141 Us"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"1 Use",
+				" R, si",
+				"ser Erin",
+				"e one pe",
+				"\\n2141 Us"
+			]
+		}
+	],
+	"updt": 1622544547178,
+	"edit": 12
+}

@@ -1,0 +1,122 @@
+{
+	"_id": "anonymous_pzyuc0.lockbreaker",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_pzyuc0.lockbreaker",
+	"sector": "NGC_8947",
+	"sec_level": 4,
+	"date_added": 1613464454139,
+	"last_scraped": 1617324891597,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613464454139
+		},
+		{
+			"type": "died",
+			"when": 1621947025315
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 9,
+	"next_scrape": 1617367491431,
+	"category": "fishie_tank",
+	"last_update": 1617324891597,
+	"output": [
+		{
+			"args": {},
+			"calls": 66906,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y. Ma",
+				"of cu",
+				"ay, m",
+				"tural v",
+				"ne day,",
+				"ural val"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"y. Ma",
+						"of cu",
+						"ay, m",
+						"tural v",
+						"ne day,",
+						"ural val"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7332,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y. Ma",
+				"of cu",
+				"ay, m",
+				"tural v",
+				"ne day,",
+				"ural val"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 71385,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y. Ma",
+				"of cu",
+				"ay, m",
+				"tural v",
+				"ne day,",
+				"ural val"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"y. Ma",
+				"of cu",
+				"ay, m",
+				"tural v",
+				"ne day,",
+				"ural val"
+			]
+		}
+	],
+	"updt": 1622548263379,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

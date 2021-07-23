@@ -1,0 +1,151 @@
+{
+	"_id": "anon_yor1nt._",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_yor1nt._",
+	"sector": "NGC_3855",
+	"sec_level": 4,
+	"date_added": 1620404201126,
+	"last_scraped": 1622567525931,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1620404201126
+		},
+		{
+			"type": "died",
+			"when": 1623310188470
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1622612995957,
+	"category": "fishie_tank",
+	"last_update": 1622567525931,
+	"output": [
+		{
+			"args": {},
+			"calls": 52831,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"00 01",
+				"0 010",
+				" 0100",
+				" 0001",
+				"0100 0",
+				"001 01",
+				"100 000",
+				"0000 000",
+				"00\\n0000",
+				"00 0000 ",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00 01",
+						" 0001",
+						"001 01",
+						"100 000",
+						"0000 000",
+						"00\\n0000",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2921,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"00 01",
+				" 0001",
+				"001 01",
+				"100 000",
+				"0000 000",
+				"00\\n0000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00 01",
+						" 0001",
+						"001 01",
+						"100 000",
+						"0000 000",
+						"00\\n0000",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36607,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"00 01",
+				" 0001",
+				"001 01",
+				"100 000",
+				"0000 000",
+				"00\\n0000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00 01",
+						" 0001",
+						"001 01",
+						"100 000",
+						"0000 000",
+						"00\\n0000",
+						"00 0000 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"00 01",
+				" 0001",
+				"001 01",
+				"100 000",
+				"0000 000",
+				"00\\n0000",
+				"00 0000 "
+			]
+		}
+	],
+	"updt": 1623310533617,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

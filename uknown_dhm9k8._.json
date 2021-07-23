@@ -1,0 +1,106 @@
+{
+	"_id": "uknown_dhm9k8._",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_dhm9k8._",
+	"sector": "K_0087",
+	"sec_level": 4,
+	"date_added": 1621246229564,
+	"last_scraped": 1625477604968,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1621246229564
+		}
+	],
+	"updt": 1622551196518,
+	"edit": 3,
+	"scrape_ct": 16,
+	"next_scrape": 1625517895843,
+	"category": "fishie_tank",
+	"last_update": 1625477604968,
+	"output": [
+		{
+			"args": {},
+			"calls": 44435,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ata t",
+				"you sho",
+				"siderin",
+				"lly con",
+				"g ## I ",
+				" should",
+				"y consid",
+				"really c",
+				"ng the d",
+				"## I thi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"iderin",
+						"you sho",
+						"lly con",
+						"## I thi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2011,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ou sh",
+				"the da",
+				"nk you",
+				"hing t",
+				"ering ##",
+				" I think"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10468,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ou sh",
+				"the da",
+				"nk you",
+				"hing t",
+				"ering ##",
+				" I think"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"iderin",
+				"you sho",
+				"lly con",
+				"## I thi"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

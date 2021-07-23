@@ -1,0 +1,148 @@
+{
+	"_id": "unknown_8yns7f.confirm",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_8yns7f.confirm",
+	"sector": "SPC_7126",
+	"sec_level": 4,
+	"date_added": 1605112880936,
+	"last_scraped": 1609677791622,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605112880936
+		},
+		{
+			"type": "died",
+			"when": 1614034600568
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1609718134255,
+	"category": "fishie_tank",
+	"last_update": 1609925817798,
+	"output": [
+		{
+			"args": {},
+			"calls": 144364,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rengt",
+				"n mutua",
+				"2173 at",
+				" cards ",
+				"ds go to",
+				"al stren",
+				"acker ca",
+				" attacke"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rengt",
+						"acker",
+						"ttacke",
+						"n mutua",
+						" attack"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 21551,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rengt",
+				"n mutua",
+				"2173 at",
+				" cards ",
+				"ds go to",
+				"al stren",
+				"acker ca",
+				" attacke"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rengt",
+						"acker",
+						"ttacke",
+						"n mutua",
+						" attack"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 135338,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rengt",
+				"acker",
+				"ttacke",
+				"n mutua",
+				" attack"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rengt",
+						"acker",
+						"ttacke",
+						"n mutua",
+						" attack"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622542788095,
+	"edit": 16,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"rengt",
+				"acker",
+				"ttacke",
+				"n mutua",
+				" attack"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

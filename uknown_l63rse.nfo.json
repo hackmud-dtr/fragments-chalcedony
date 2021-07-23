@@ -1,0 +1,44 @@
+{
+	"_id": "uknown_l63rse.nfo",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_l63rse.nfo",
+	"sector": "VNP_5798",
+	"sec_level": 4,
+	"date_added": 1608080803031,
+	"last_scraped": 1619336677120,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1608080803031
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613748409698,
+				"from": "VNP_5798",
+				"to": "HJG_3792"
+			}
+		],
+		{
+			"type": "died",
+			"when": 1619865728480
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"pl_output": "{\"version\":\"1.0.0\",\"scripts\":{\"math\":{\"usage\":\"{ e: \\\"expression\\\", env: {x: 4} }\",\"desc\":\"Fairly simple math expression parser, check dtr.man{page:\\\"dapper.math\\\"} for more info\",\"args\":[{\"name\":\"e\",\"type\":\"string\",\"optional\":false,\"desc\":\"expression to be parsed\"},{\"name\":\"env\",\"type\":\"object\",\"optional\":true,\"desc\":\"key:value pairs of external variables to inject\"}],\"returns\":\"ok object if called from scriptor, otherwise string\",\"subscript\":true,\"scriptor\":true,\"cli\":true}}}",
+	"next_scrape": 1619419877867,
+	"updt": 1622544547178,
+	"edit": 4995
+}

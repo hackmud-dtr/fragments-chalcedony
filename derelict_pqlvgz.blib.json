@@ -1,0 +1,136 @@
+{
+	"_id": "derelict_pqlvgz.blib",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_pqlvgz.blib",
+	"sector": "VNP_7774",
+	"sec_level": 4,
+	"date_added": 1613663374119,
+	"last_scraped": 1617325251855,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613663374119
+		},
+		{
+			"type": "died",
+			"when": 1621305987356
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1617365003079,
+	"category": "fishie_tank",
+	"last_update": 1617325325628,
+	"output": [
+		{
+			"args": {},
+			"calls": 78259,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"loopi",
+				"ties (",
+				"sorry!",
+				"ioriti",
+				". I'm ",
+				"s (agai",
+				"rities ",
+				"ies (ag",
+				"I'm loo",
+				"i all. ",
+				" Hi all",
+				"rry!) | ",
+				"n, sorry"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ritie",
+						"loopi",
+						"iorit",
+						"s (aga",
+						"ities ",
+						"ies (ag",
+						"n, sorry"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 12833,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"loopi",
+				"ties (",
+				"sorry!",
+				"ioriti",
+				". I'm ",
+				"s (agai",
+				"rities ",
+				"ies (ag",
+				"I'm loo",
+				"i all. ",
+				" Hi all",
+				"rry!) | ",
+				"n, sorry"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 82296,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			]
+		}
+	],
+	"updt": 1622548458026,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

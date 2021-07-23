@@ -1,0 +1,135 @@
+{
+	"_id": "abandoned_ld33km.upgrades",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_ld33km.upgrades",
+	"sector": "SPC_8233",
+	"sec_level": 4,
+	"date_added": 1613152280913,
+	"last_scraped": 1617404456946,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613152280913
+		},
+		{
+			"type": "died",
+			"when": 1619308486189
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1617444107345,
+	"category": "fishie_tank",
+	"last_update": 1617404475538,
+	"output": [
+		{
+			"args": {},
+			"calls": 72261,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"_FILE",
+				"ROR | ",
+				"R | TI",
+				"A91C\\n",
+				"E0X5282",
+				"SYST ERR",
+				"ST0X13_S",
+				"ROG ERRO",
+				"G ERROR ",
+				"_CLST0X1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"R | TI",
+						"SYST ERR",
+						"_CLST0X1"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"E0X5282",
+						"ST0X13_S"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6129,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"_FILE",
+				"ROR | ",
+				"R | TI",
+				"A91C\\n",
+				"E0X5282",
+				"SYST ERR",
+				"ST0X13_S",
+				"ROG ERRO",
+				"G ERROR ",
+				"_CLST0X1"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29481,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"_FILE",
+				"YST ER",
+				"ROR | ",
+				"A91C\\n",
+				"ROG ERRO",
+				"G ERROR "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"R | TI",
+				"SYST ERR",
+				"_CLST0X1"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"E0X5282",
+				"ST0X13_S"
+			]
+		}
+	],
+	"updt": 1622548068191,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

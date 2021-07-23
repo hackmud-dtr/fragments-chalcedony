@@ -1,0 +1,125 @@
+{
+	"_id": "abandoned_ll7to9.db",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_ll7to9.db",
+	"sector": "VNP_1400",
+	"sec_level": 4,
+	"date_added": 1615707533875,
+	"last_scraped": 1617405254769,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1615707533875
+		},
+		{
+			"type": "died",
+			"when": 1623328768922
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1617448710176,
+	"category": "fishie_tank",
+	"last_update": 1622514407840,
+	"output": [
+		{
+			"args": {},
+			"calls": 86701,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"P card",
+				"e\\n216",
+				"ce dow",
+				"t\\n2168",
+				"t be\\n21",
+				"7 face d",
+				"167 face",
+				" must be"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"P card",
+						"e\\n216",
+						"ce dow",
+						"t\\n2168",
+						"t be\\n21",
+						"7 face d",
+						"167 face",
+						" must be"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 12554,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ards ",
+				"P card",
+				"egins ",
+				"e\\n216",
+				"ce dow",
+				"t\\n2168",
+				"t be\\n21",
+				"mbat\\n21",
+				"down whe",
+				"7 face d",
+				"167 face",
+				" must be"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 73960,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"P card",
+				"e\\n216",
+				"ce dow",
+				"t\\n2168",
+				"t be\\n21",
+				"7 face d",
+				"167 face",
+				" must be"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"P card",
+				"e\\n216",
+				"ce dow",
+				"t\\n2168",
+				"t be\\n21",
+				"7 face d",
+				"167 face",
+				" must be"
+			]
+		}
+	],
+	"updt": 1623328904113,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

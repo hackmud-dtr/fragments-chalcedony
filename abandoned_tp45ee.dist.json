@@ -1,0 +1,89 @@
+{
+	"_id": "abandoned_tp45ee.dist",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_tp45ee.dist",
+	"sector": "NGC_2429",
+	"sec_level": 4,
+	"date_added": 1622982940652,
+	"last_scraped": 1622983050971,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622982940652
+		},
+		{
+			"type": "died",
+			"when": 1623256221963
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1622983110971,
+	"category": "fishie_tank",
+	"last_update": 1622983050971,
+	"output": [
+		{
+			"args": {},
+			"calls": 12754,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"6_FIL",
+				"RROR | ",
+				"EF902D6",
+				"T ERROR ",
+				"902D6\\nS",
+				"D6\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"6_FIL",
+						"RROR | ",
+						"T ERROR "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"EF902D6",
+						"902D6\\nS",
+						"D6\\nSYST "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"6_FIL",
+				"RROR | ",
+				"T ERROR "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"EF902D6",
+				"902D6\\nS",
+				"D6\\nSYST "
+			]
+		}
+	],
+	"updt": 1623256580327,
+	"edit": 2
+}

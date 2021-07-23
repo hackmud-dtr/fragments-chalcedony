@@ -1,0 +1,156 @@
+{
+	"_id": "abandoned_pzf240.db",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_pzf240.db",
+	"sector": "K_3627",
+	"sec_level": 4,
+	"date_added": 1616698907428,
+	"last_scraped": 1622546669893,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616698907428
+		},
+		{
+			"type": "died",
+			"when": 1625484345549
+		}
+	],
+	"updt": 1625477498162,
+	"edit": 7,
+	"scrape_ct": 18,
+	"next_scrape": 1622589061108,
+	"category": "fishie_tank",
+	"last_update": 1625446189805,
+	"output": [
+		{
+			"args": {},
+			"calls": 32384,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"t to ",
+				"ER im",
+				"-glob",
+				"R imiy",
+				"| SUBJ",
+				" great",
+				"waki co",
+				"ts grea",
+				"ntroduc",
+				"awaki |",
+				"ona Miya",
+				"Miyawaki",
+				"everyone",
+				": Introd",
+				" Iona Mi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"-glob",
+						" great",
+						"waki co",
+						"ntroduc",
+						"awaki |",
+						" Iona M",
+						"ona Miya"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7455,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ode-g",
+				"hi ev",
+				"de-gl",
+				": Ion",
+				"-glob",
+				"roduct",
+				" great",
+				"waki co",
+				"veryone",
+				"ntroduc",
+				"awaki |",
+				" Iona M",
+				" everyo",
+				"ona Miya",
+				"global |"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"-glob",
+						" great",
+						"waki co",
+						"ntroduc",
+						"awaki |",
+						" Iona M",
+						"ona Miya"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27199,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"-glob",
+				" great",
+				"waki co",
+				"ntroduc",
+				"awaki |",
+				" Iona M",
+				"ona Miya"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"-glob",
+						" great",
+						"waki co",
+						"ntroduc",
+						"awaki |",
+						" Iona M",
+						"ona Miya"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"-glob",
+				" great",
+				"waki co",
+				"ntroduc",
+				"awaki |",
+				" Iona M",
+				"ona Miya"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

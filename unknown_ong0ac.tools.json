@@ -1,0 +1,112 @@
+{
+	"_id": "unknown_ong0ac.tools",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_ong0ac.tools",
+	"sector": "K_9850",
+	"sec_level": 4,
+	"date_added": 1618912133719,
+	"last_scraped": 1618912169126,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618912133719
+		},
+		{
+			"type": "died",
+			"when": 1621649107117
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1618912229126,
+	"category": "fishie_tank",
+	"last_update": 1618912225432,
+	"output": [
+		{
+			"args": {},
+			"calls": 11229,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"es ar",
+				"assph",
+				"s are a",
+				"e annoy",
+				"are ann",
+				"# passp",
+				"sphrases",
+				"annoying"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"es ar",
+						"assph",
+						"s are a",
+						"e annoy",
+						"are ann",
+						"# passp",
+						"sphrases",
+						"annoying"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2519,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"es ar",
+				"assph",
+				"s are a",
+				"e annoy",
+				"are ann",
+				"# passp",
+				"sphrases",
+				"annoying"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"es ar",
+				"assph",
+				"s are a",
+				"e annoy",
+				"are ann",
+				"# passp",
+				"sphrases",
+				"annoying"
+			]
+		}
+	],
+	"updt": 1622550412030,
+	"edit": 3
+}

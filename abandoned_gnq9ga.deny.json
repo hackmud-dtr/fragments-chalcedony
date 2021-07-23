@@ -1,0 +1,84 @@
+{
+	"_id": "abandoned_gnq9ga.deny",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_gnq9ga.deny",
+	"sector": "SPC_5154",
+	"sec_level": 4,
+	"date_added": 1617647823978,
+	"last_scraped": 1617647915808,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1617647823978
+		},
+		{
+			"type": "died",
+			"when": 1617667028577
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1617647975808,
+	"category": "fishie_tank",
+	"last_update": 1617647915808,
+	"output": [
+		{
+			"args": {},
+			"calls": 24680,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" ## R",
+				"isk to",
+				" I'd u",
+				"is exact",
+				"# Risk i"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" ## R",
+						"isk to",
+						" I'd u",
+						"is exact",
+						"# Risk i"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				" ## R",
+				"isk to",
+				" I'd u",
+				"is exact",
+				"# Risk i"
+			]
+		}
+	],
+	"updt": 1622550021846,
+	"edit": 4
+}

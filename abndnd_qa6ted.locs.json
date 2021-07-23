@@ -1,0 +1,138 @@
+{
+	"_id": "abndnd_qa6ted.locs",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_qa6ted.locs",
+	"sector": "SPC_9191",
+	"sec_level": 4,
+	"date_added": 1612817965369,
+	"last_scraped": 1612818644655,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612817965369
+		},
+		{
+			"type": "died",
+			"when": 1613088095196
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 5,
+	"next_scrape": 1612818704655,
+	"category": "fishie_tank",
+	"last_update": 1612818664105,
+	"output": [
+		{
+			"args": {},
+			"calls": 83723,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rom a ",
+				" from ",
+				"y:\\n209",
+				"D play ",
+				"9C draw",
+				"\\n209D ",
+				" card f",
+				"card to ",
+				", or\\n209"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rom a ",
+						" from ",
+						"y:\\n209",
+						"D play ",
+						"9C draw",
+						"\\n209D ",
+						" card f",
+						"card to ",
+						", or\\n209"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7996,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rom a ",
+				" from ",
+				"y:\\n209",
+				"D play ",
+				"9C draw",
+				"\\n209D ",
+				" card f",
+				"card to ",
+				", or\\n209"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 62828,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rom a ",
+				" from ",
+				"y:\\n209",
+				"D play ",
+				"9C draw",
+				"\\n209D ",
+				" card f",
+				"card to ",
+				", or\\n209"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"rom a ",
+				" from ",
+				"y:\\n209",
+				"D play ",
+				"9C draw",
+				"\\n209D ",
+				" card f",
+				"card to ",
+				", or\\n209"
+			]
+		}
+	],
+	"updt": 1622547873561,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

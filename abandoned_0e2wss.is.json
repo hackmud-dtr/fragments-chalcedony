@@ -1,0 +1,129 @@
+{
+	"_id": "abandoned_0e2wss.is",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_0e2wss.is",
+	"sector": "K_9261",
+	"sec_level": 4,
+	"date_added": 1619089568107,
+	"last_scraped": 1622581309740,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1619089568107
+		},
+		{
+			"type": "died",
+			"when": 1625543064453
+		}
+	],
+	"updt": 1625478279908,
+	"edit": 6,
+	"scrape_ct": 18,
+	"next_scrape": 1622624523156,
+	"category": "fishie_tank",
+	"last_update": 1625448444884,
+	"output": [
+		{
+			"args": {},
+			"calls": 35465,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"isper",
+				"hate ",
+				" Whis",
+				"e. I d",
+				"a\\n1E2",
+				"27 Whi",
+				" throu",
+				"E26 int",
+				"ate thi",
+				"this\\n1E",
+				"rface. I",
+				"I do too",
+				"too\\n1E27",
+				"do too\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"isper",
+						"hate ",
+						" Whis",
+						"e. I d",
+						" throu",
+						"this\\n1E",
+						"too\\n1E27"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5908,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"hate ",
+				"ate t",
+				"terfac",
+				"te thi",
+				"hrough",
+				"e. I d",
+				"Whisper",
+				"26 inte",
+				" too\\n1",
+				" throug",
+				"this\\n1E",
+				"ough a\\n",
+				"ers thro",
+				"7 Whispe",
+				". I do t",
+				"too\\n1E27"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11745,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"his\\n1",
+				"a\\n1E2",
+				"27 Whi",
+				"E26 int",
+				"ate thi",
+				"rface. I",
+				"I do too",
+				"do too\\n1"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"isper",
+				"hate ",
+				" Whis",
+				"e. I d",
+				" throu",
+				"this\\n1E",
+				"too\\n1E27"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

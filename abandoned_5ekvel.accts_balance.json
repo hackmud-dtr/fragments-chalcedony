@@ -1,0 +1,110 @@
+{
+	"_id": "abandoned_5ekvel.accts_balance",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_5ekvel.accts_balance",
+	"sector": "K_1885",
+	"sec_level": 4,
+	"date_added": 1618069190291,
+	"last_scraped": 1622580816002,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618069190291
+		},
+		{
+			"type": "died",
+			"when": 1626884023702
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1622623254742,
+	"category": "fishie_tank",
+	"last_update": 1625448058223,
+	"output": [
+		{
+			"args": {},
+			"calls": 72915,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"It's ",
+				"2206 ",
+				"206 I",
+				"Goodbye,",
+				"'t, Mall"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"It's ",
+						"2206 ",
+						"206 I",
+						"Goodbye,",
+						"'t, Mall"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6781,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"It's ",
+				" I don",
+				"ry\\n220",
+				"r if I ",
+				"er if I",
+				"s better",
+				"I see. G",
+				"Goodbye,",
+				"etter if",
+				"'t, Mall",
+				". Goodby",
+				", Mallor",
+				"y\\n2206 I"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10735,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"It's ",
+				"2206 ",
+				"206 I",
+				"Goodbye,",
+				"'t, Mall"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"It's ",
+				"2206 ",
+				"206 I",
+				"Goodbye,",
+				"'t, Mall"
+			]
+		}
+	],
+	"updt": 1625477889282,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

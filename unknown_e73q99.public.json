@@ -1,0 +1,124 @@
+{
+	"_id": "unknown_e73q99.public",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_e73q99.public",
+	"sector": "NGC_0705",
+	"sec_level": 4,
+	"date_added": 1619468882311,
+	"last_scraped": 1619469122158,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1619468882311
+		},
+		{
+			"type": "died",
+			"when": 1619471251102
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622550608813,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1619469182158,
+	"category": "fishie_tank",
+	"last_update": 1619469141022,
+	"output": [
+		{
+			"args": {},
+			"calls": 24542,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the a",
+				"d to ",
+				"oving ",
+				"ttern i",
+				"ng is t",
+				"tience. ",
+				"pattern ",
+				"n is con",
+				"atic pri",
+				" the pro",
+				" is the "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"the a",
+						"d to ",
+						"oving ",
+						"ttern i",
+						"ng is t",
+						"tience. ",
+						"pattern ",
+						"n is con",
+						"atic pri",
+						" the pro",
+						" is the "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 800,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the a",
+				"d to ",
+				"oving ",
+				"ttern i",
+				"ng is t",
+				"tience. ",
+				"pattern ",
+				"n is con",
+				"atic pri",
+				" the pro",
+				" is the "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"the a",
+				"d to ",
+				"oving ",
+				"ttern i",
+				"ng is t",
+				"tience. ",
+				"pattern ",
+				"n is con",
+				"atic pri",
+				" the pro",
+				" is the "
+			]
+		}
+	]
+}

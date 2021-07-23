@@ -1,0 +1,114 @@
+{
+	"_id": "abndnd_zginrv.com",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_zginrv.com",
+	"sector": "HJG_3404",
+	"sec_level": 4,
+	"date_added": 1614945591217,
+	"last_scraped": 1617354966652,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614945591217
+		},
+		{
+			"type": "died",
+			"when": 1621874597473
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622549043737,
+	"edit": 9,
+	"scrape_ct": 9,
+	"next_scrape": 1617396188238,
+	"category": "fishie_tank",
+	"last_update": 1617354966652,
+	"output": [
+		{
+			"args": {},
+			"calls": 67448,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"scard",
+				"r dis",
+				"fender",
+				"eir st",
+				"stack\\n",
+				"ck\\n2175 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"scard",
+						"r dis",
+						"fender",
+						"eir st",
+						"stack\\n",
+						"ck\\n2175 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8339,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"scard",
+				"r dis",
+				"fender",
+				"eir st",
+				"stack\\n",
+				"ck\\n2175 "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 92709,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"scard",
+				"r dis",
+				"fender",
+				"eir st",
+				"stack\\n",
+				"ck\\n2175 "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"scard",
+				"r dis",
+				"fender",
+				"eir st",
+				"stack\\n",
+				"ck\\n2175 "
+			]
+		}
+	]
+}

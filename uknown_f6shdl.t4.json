@@ -1,0 +1,134 @@
+{
+	"_id": "uknown_f6shdl.t4",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_f6shdl.t4",
+	"sector": "K_6597",
+	"sec_level": 4,
+	"date_added": 1615085669608,
+	"last_scraped": 1622579261855,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1615085669608
+		},
+		{
+			"type": "died",
+			"when": 1623897132494
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1622621870285,
+	"category": "fishie_tank",
+	"last_update": 1622579261855,
+	"output": [
+		{
+			"args": {},
+			"calls": 68372,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"thing",
+				"ey se",
+				" them",
+				" coul",
+				"we mad",
+				"et ner",
+				"and th",
+				" choos",
+				"o sing ",
+				"g rathe",
+				" But we",
+				"when, ev",
+				"peak. Bu",
+				"his way.",
+				"en, they"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"ey se",
+						" them",
+						" coul",
+						"g rathe",
+						" But we",
+						"peak. Bu",
+						"his way.",
+						"en, they"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6299,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ey se",
+				" them",
+				" coul",
+				"g rathe",
+				" But we",
+				"peak. Bu",
+				"his way.",
+				"en, they"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 90866,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" them",
+				" coul",
+				"hey se",
+				"em thi",
+				"g rathe",
+				" nervou",
+				" But we",
+				"peak. Bu",
+				"made the",
+				"his way.",
+				"en, they"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"ey se",
+				" them",
+				" coul",
+				"g rathe",
+				" But we",
+				"peak. Bu",
+				"his way.",
+				"en, they"
+			]
+		}
+	],
+	"updt": 1623897267977,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

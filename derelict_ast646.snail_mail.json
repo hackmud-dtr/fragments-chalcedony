@@ -1,0 +1,116 @@
+{
+	"_id": "derelict_ast646.snail_mail",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_ast646.snail_mail",
+	"sector": "NGC_8947",
+	"sec_level": 4,
+	"date_added": 1613559346209,
+	"last_scraped": 1613559482137,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613559346209
+		},
+		{
+			"type": "died",
+			"when": 1613850520542
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1613559542137,
+	"category": "fishie_tank",
+	"last_update": 1613559482137,
+	"output": [
+		{
+			"args": {},
+			"calls": 39947,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"T0X13",
+				"T0XE23",
+				"PROG E",
+				"F_CLST",
+				"E23E_F",
+				" ERROR",
+				"X5282A9",
+				"TW ERRO",
+				"RROR | ",
+				"ERROR |",
+				"23E_FILE"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"PROG E",
+						"F_CLST",
+						" ERROR",
+						"TW ERRO",
+						"RROR | ",
+						"ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"T0X13",
+						"T0XE23",
+						"E23E_F",
+						"X5282A9",
+						"23E_FILE"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"PROG E",
+				"F_CLST",
+				" ERROR",
+				"TW ERRO",
+				"RROR | ",
+				"ERROR |"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"T0X13",
+				"T0XE23",
+				"E23E_F",
+				"X5282A9",
+				"23E_FILE"
+			]
+		}
+	],
+	"updt": 1622548263379,
+	"edit": 4
+}

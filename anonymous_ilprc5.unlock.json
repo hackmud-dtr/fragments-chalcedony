@@ -1,0 +1,88 @@
+{
+	"_id": "anonymous_ilprc5.unlock",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_ilprc5.unlock",
+	"sector": "NGC_7889",
+	"sec_level": 4,
+	"date_added": 1623284964300,
+	"last_scraped": 1623285055252,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1623284964300
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1623285115252,
+	"category": "fishie_tank",
+	"last_update": 1625453004351,
+	"output": [
+		{
+			"args": {},
+			"calls": 17442,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"DY I ",
+				"e this",
+				"ot beli",
+				": MUSIC",
+				"this but",
+				"obal | S"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"DY I ",
+						"e this",
+						"ot beli",
+						": MUSIC",
+						"this but",
+						"obal | S"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3939,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"DY I ",
+				"e this",
+				"ot beli",
+				": MUSIC",
+				"this but",
+				"obal | S"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"DY I ",
+				"e this",
+				"ot beli",
+				": MUSIC",
+				"this but",
+				"obal | S"
+			]
+		}
+	],
+	"updt": 1623285112892,
+	"edit": 1
+}

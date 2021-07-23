@@ -1,0 +1,124 @@
+{
+	"_id": "anon_js8cn1.t2_finder",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_js8cn1.t2_finder",
+	"sector": "SPC_7124",
+	"sec_level": 4,
+	"date_added": 1615050674298,
+	"last_scraped": 1615050712292,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1615050674298
+		},
+		{
+			"type": "died",
+			"when": 1615318051692
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1615050772292,
+	"category": "fishie_tank",
+	"last_update": 1615050765810,
+	"output": [
+		{
+			"args": {},
+			"calls": 17593,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"nder ",
+				"in the",
+				"ack\\n2",
+				" defen",
+				"r stack",
+				"\\n2174 ",
+				" stay i",
+				" discar",
+				"n their ",
+				"ck\\n2175 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"nder ",
+						"in the",
+						"ack\\n2",
+						" defen",
+						"r stack",
+						"\\n2174 ",
+						" stay i",
+						" discar",
+						"n their ",
+						"ck\\n2175 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4180,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"nder ",
+				"in the",
+				"ack\\n2",
+				" defen",
+				"r stack",
+				"\\n2174 ",
+				" stay i",
+				" discar",
+				"n their ",
+				"ck\\n2175 "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"nder ",
+				"in the",
+				"ack\\n2",
+				" defen",
+				"r stack",
+				"\\n2174 ",
+				" stay i",
+				" discar",
+				"n their ",
+				"ck\\n2175 "
+			]
+		}
+	],
+	"updt": 1622549043737,
+	"edit": 4
+}

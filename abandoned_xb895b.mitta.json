@@ -1,0 +1,48 @@
+{
+	"_id": "abandoned_xb895b.mitta",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_xb895b.mitta",
+	"sector": "HJG_7694",
+	"sec_level": 4,
+	"date_added": 1610135264690,
+	"last_scraped": 1621919863066,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1610135264690
+		},
+		{
+			"type": "died",
+			"when": 1616470601847
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1616470620419,
+				"from": "HJG_7694",
+				"to": "HJG_9324"
+			}
+		],
+		{
+			"type": "died",
+			"when": 1621920099620
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622545525758,
+	"edit": 6439,
+	"pl_output": "{\"ok\":false,\"msg\":\"abandoned_xb895b.mitta is a safety wrapper with a difference - it protects both script owners and script runners alike. When run from the CLI, it checks that all of its scriptor arguments are above the `Nsafe` level, then executes its `Nrun` argument, passing in all of its remaining arguments.\\n\\nScript owners can take advantage of abandoned_xb895b.mitta by adding the following lines to the top of their script, immediately after a call to kanavoy.karan, if that script is also being used. The template used here is only an example, and templates are optional.\\n\\nlet template = {amount:{type:\\\"gc_num\\\", min:0}, xfer:{type:\\\"scriptor\\\", values:[\\\"accts.xfer_gc_to\\\"]}}\\nargs = #fs.abandoned_xb895b.mitta(args,template)\\n\\nThis guarantees that any scriptor arguments can be used safely, as if your script was the top-level script call.\\n\\nTemplates consist of an object with keys of the arguments you expect, and values for those keys comprised of a `Ntype` (any JavaScript type, plus `Vany`, `Vgc_str`, `Vgc_num`, `Vinteger`, and `Vscriptor`), and optionally any `Ntop`, `Nmax`, `Nmin`, `Nint` (integer), `Ndefault`, and arrays of `Nvalues` and `Nusers`. If the `Ntype` is `Vscriptor`, the `Vvalues` consist of scriptor names you are prepared to accept.\\n\\nIf `Ntop` is true, then the argument will be deleted if the top level script is not the caller or abandoned_xb895b.mitta. This is useful for, for instance, making sure only the user can enter confirm:true and not a malicious wrapper.\\n\\nThe `Nusers` array is a list of users who are permitted to pass that argument. Useful for locking commands down to only a certain whitelist of users.\\n\\nThe `Ndefault` value replaces both unspecified and illegal arguments.\\n\\nFor instance, in the example above, I expect two arguments. `Namount`, which is a positive number or GC string, and `Nxfer`, which is a scriptor to accts.xfer_gc_to. Excess arguments not in the template are passed through unmodified.\"}",
+	"next_scrape": 1622013202417
+}

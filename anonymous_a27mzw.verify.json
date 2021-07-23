@@ -1,0 +1,116 @@
+{
+	"_id": "anonymous_a27mzw.verify",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_a27mzw.verify",
+	"sector": "SPC_8233",
+	"sec_level": 4,
+	"date_added": 1613177949915,
+	"last_scraped": 1613178039752,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613177949915
+		},
+		{
+			"type": "died",
+			"when": 1613197983391
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1613178099752,
+	"category": "fishie_tank",
+	"last_update": 1613178057772,
+	"output": [
+		{
+			"args": {},
+			"calls": 24665,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"RROR | ",
+				"ROG ERR",
+				" PROG E",
+				"R | NETW",
+				"OG ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | NETW "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"RROR | ",
+						"ROG ERR",
+						" PROG E",
+						"R | NETW",
+						"OG ERROR",
+						"| NETW E",
+						" ERROR |",
+						" | NETW "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1131,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"RROR | ",
+				"ROG ERR",
+				" PROG E",
+				"R | NETW",
+				"OG ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | NETW "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"RROR | ",
+				"ROG ERR",
+				" PROG E",
+				"R | NETW",
+				"OG ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | NETW "
+			]
+		}
+	],
+	"updt": 1622548068191,
+	"edit": 4
+}

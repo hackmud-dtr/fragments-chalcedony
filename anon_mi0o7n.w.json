@@ -1,0 +1,116 @@
+{
+	"_id": "anon_mi0o7n.w",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_mi0o7n.w",
+	"sector": "NGC_2730",
+	"sec_level": 4,
+	"date_added": 1619195465197,
+	"last_scraped": 1625476294881,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1619195465197
+		},
+		{
+			"type": "died",
+			"when": 1625837950567
+		}
+	],
+	"updt": 1625478279908,
+	"edit": 4,
+	"scrape_ct": 20,
+	"next_scrape": 1625517849529,
+	"category": "fishie_tank",
+	"last_update": 1625476294881,
+	"output": [
+		{
+			"args": {},
+			"calls": 28367,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0101 ",
+				"00 0101",
+				"00 0000",
+				" 0000 0",
+				"1 0100 0",
+				"0001 010",
+				"0 0100 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0101 ",
+						"00 0000",
+						"1 0100 0",
+						"0 0100 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4489,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0101 ",
+				"00 0000",
+				"1 0100 0",
+				"0 0100 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0101 ",
+						"00 0000",
+						"1 0100 0",
+						"0 0100 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22249,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" 0101",
+				"0 0001 ",
+				"01 0100 ",
+				"00 0000 ",
+				"0 0100 0",
+				" 0100 01"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0101 ",
+				"00 0000",
+				"1 0100 0",
+				"0 0100 0"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

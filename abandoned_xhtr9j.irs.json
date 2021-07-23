@@ -1,0 +1,146 @@
+{
+	"_id": "abandoned_xhtr9j.irs",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_xhtr9j.irs",
+	"sector": "SPC_4469",
+	"sec_level": 4,
+	"date_added": 1616172882388,
+	"last_scraped": 1616173135292,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616172882388
+		},
+		{
+			"type": "died",
+			"when": 1616193360275
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 13,
+	"next_scrape": 1616173195292,
+	"category": "fishie_tank",
+	"last_update": 1616173135292,
+	"output": [
+		{
+			"args": {},
+			"calls": 33275,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"u, Ma",
+				"been v",
+				", Mall",
+				"ry help",
+				"ory\\n21",
+				"5 You'v",
+				"21A5 You",
+				" Mallory",
+				"y\\n21A5 Y",
+				"allory\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"u, Ma",
+						"been v",
+						", Mall",
+						"ry help",
+						"ory\\n21",
+						"5 You'v",
+						"21A5 You",
+						" Mallory",
+						"y\\n21A5 Y",
+						"allory\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2791,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"u, Ma",
+				"been v",
+				", Mall",
+				"ry help",
+				"ory\\n21",
+				"5 You'v",
+				"21A5 You",
+				" Mallory",
+				"y\\n21A5 Y",
+				"allory\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15196,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"u, Ma",
+				"been v",
+				", Mall",
+				"ry help",
+				"ory\\n21",
+				"5 You'v",
+				"21A5 You",
+				" Mallory",
+				"y\\n21A5 Y",
+				"allory\\n2"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"u, Ma",
+				"been v",
+				", Mall",
+				"ry help",
+				"ory\\n21",
+				"5 You'v",
+				"21A5 You",
+				" Mallory",
+				"y\\n21A5 Y",
+				"allory\\n2"
+			]
+		}
+	],
+	"updt": 1622549435051,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

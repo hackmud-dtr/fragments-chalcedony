@@ -1,0 +1,120 @@
+{
+	"_id": "unidentified_70yjkg.rpg",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_70yjkg.rpg",
+	"sector": "NGC_2405",
+	"sec_level": 4,
+	"date_added": 1617830601714,
+	"last_scraped": 1622580707196,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1617830601714
+		},
+		{
+			"type": "died",
+			"when": 1624508534946
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1622622268627,
+	"category": "fishie_tank",
+	"last_update": 1622580707196,
+	"output": [
+		{
+			"args": {},
+			"calls": 34146,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ssion",
+				"just ",
+				"why we",
+				"s disc",
+				"ch is ",
+				". ## c",
+				"have th",
+				"e not j",
+				". Which",
+				" Yes. W",
+				"na sneak",
+				" need to"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"just ",
+						"why we",
+						"s disc",
+						". ## c",
+						" Yes. W",
+						"na sneak"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4084,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"just ",
+				"why we",
+				"s disc",
+				". ## c",
+				" Yes. W",
+				"na sneak"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12245,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ssion",
+				"ch is ",
+				"have th",
+				"e not j",
+				". Which",
+				" need to"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"just ",
+				"why we",
+				"s disc",
+				". ## c",
+				" Yes. W",
+				"na sneak"
+			]
+		}
+	],
+	"updt": 1624508636572,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

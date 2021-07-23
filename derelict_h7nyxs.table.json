@@ -1,0 +1,132 @@
+{
+	"_id": "derelict_h7nyxs.table",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_h7nyxs.table",
+	"sector": "K_0336",
+	"sec_level": 4,
+	"date_added": 1590116426700,
+	"last_scraped": 1593783025272,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1590116426700
+		},
+		{
+			"type": "died",
+			"when": 1593196161208
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1593196264077,
+				"from": "K_0336",
+				"to": "K_1365"
+			}
+		],
+		{
+			"type": "died",
+			"when": 1601911382614
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
+		},
+		{
+			"type": "died",
+			"when": 1603284151302
+		},
+		{
+			"type": "died",
+			"when": 1603434543750
+		},
+		{
+			"type": "died",
+			"when": 1603434642646
+		},
+		{
+			"type": "died",
+			"when": 1603597711089
+		},
+		{
+			"type": "died",
+			"when": 1603774474467
+		},
+		{
+			"type": "died",
+			"when": 1603939894684
+		},
+		{
+			"type": "died",
+			"when": 1604017212499
+		},
+		{
+			"type": "died",
+			"when": 1604172612378
+		},
+		{
+			"type": "died",
+			"when": 1604172623611
+		},
+		{
+			"type": "died",
+			"when": 1607134720682
+		},
+		{
+			"type": "died",
+			"when": 1607276475243
+		},
+		{
+			"type": "died",
+			"when": 1607447436906
+		},
+		{
+			"type": "died",
+			"when": 1607447532260
+		},
+		{
+			"type": "died",
+			"when": 1607448415208
+		},
+		{
+			"type": "died",
+			"when": 1608925453008
+		},
+		{
+			"type": "died",
+			"when": 1609165709899
+		},
+		{
+			"type": "died",
+			"when": 1609387844235
+		},
+		{
+			"type": "died",
+			"when": 1609639526034
+		},
+		{
+			"type": "died",
+			"when": 1609908294705
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"Arguments to domnomnom.table must be one of:\\n   1. `Varray_of_rows`\\n   2. { `Nrows`:`Varray_of_rows` }\\n   3. { `NT`:`V#s.script_that_returns.array_of_rows`, `Na`:`V{args_to: \\\"T\\\"}` }\\n\\nUnless option 1. is chosen, the following arguments refine the output: \\n   `Nheaders`: `V[\\\"column_key_0\\\", \\\"column_key_0\\\"]` to specify the order of columns. If headers are listed, non-listed headers are dropped.\\n   `Nseparator`: `V\\\" | \\\"`  to customize lines between column\\n\\nexample usage: domnomnom.table{ `NT`: #s.users.top }\"}",
+	"next_scrape": 1593866947616,
+	"updt": 1622534385872,
+	"edit": 1465
+}

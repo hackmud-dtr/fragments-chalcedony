@@ -1,0 +1,112 @@
+{
+	"_id": "derelict_hxdscr.bots",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_hxdscr.bots",
+	"sector": "NGC_8320",
+	"sec_level": 4,
+	"date_added": 1618611692374,
+	"last_scraped": 1618611746416,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618611692374
+		},
+		{
+			"type": "died",
+			"when": 1621968759914
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1618611806416,
+	"category": "fishie_tank",
+	"last_update": 1618611784126,
+	"output": [
+		{
+			"args": {},
+			"calls": 31667,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r inc",
+				"te of ",
+				"'t thi",
+				"ower in",
+				"on't th",
+				"t think ",
+				"increase",
+				". I don'"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"r inc",
+						"te of ",
+						"'t thi",
+						"ower in",
+						"on't th",
+						"t think ",
+						"increase",
+						". I don'"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2080,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"r inc",
+				"te of ",
+				"'t thi",
+				"ower in",
+				"on't th",
+				"t think ",
+				"increase",
+				". I don'"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"r inc",
+				"te of ",
+				"'t thi",
+				"ower in",
+				"on't th",
+				"t think ",
+				"increase",
+				". I don'"
+			]
+		}
+	],
+	"updt": 1622550218237,
+	"edit": 3
+}

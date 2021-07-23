@@ -1,0 +1,115 @@
+{
+	"_id": "anonymous_8llivl.dist",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_8llivl.dist",
+	"sector": "HJG_3825",
+	"sec_level": 4,
+	"date_added": 1618720143846,
+	"last_scraped": 1625475752080,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618720143846
+		},
+		{
+			"type": "died",
+			"when": 1626837623693
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1625522483433,
+	"category": "fishie_tank",
+	"last_update": 1625475752080,
+	"output": [
+		{
+			"args": {},
+			"calls": 25784,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"et me",
+				"ane.\\n",
+				" let m",
+				"win?\\n2",
+				"id you ",
+				"he deck",
+				"you let ",
+				"olutely.",
+				"ne.\\n20D",
+				"e.\\n20D5"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ane.\\n",
+						" let m",
+						"you let",
+						"win?\\n2",
+						"id you ",
+						"olutely."
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3007,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ane.\\n",
+				" let m",
+				"you let",
+				"win?\\n2",
+				"id you ",
+				"olutely."
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15338,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"u let ",
+				"h\\n20C",
+				"e deck",
+				" deck i",
+				"let me w",
+				".\\n20D5 ",
+				" win?\\n2"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ane.\\n",
+				" let m",
+				"you let",
+				"win?\\n2",
+				"id you ",
+				"olutely."
+			]
+		}
+	],
+	"updt": 1625478084053,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

@@ -1,0 +1,142 @@
+{
+	"_id": "anonymous_zfw6kf.con_spec_scriptor",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_zfw6kf.con_spec_scriptor",
+	"sector": "VNP_2518",
+	"sec_level": 4,
+	"date_added": 1609622107374,
+	"last_scraped": 1609738887459,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1609622107374
+		},
+		{
+			"type": "died",
+			"when": 1612145736811
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1609784843047,
+	"category": "fishie_tank",
+	"last_update": 1609934389325,
+	"output": [
+		{
+			"args": {},
+			"calls": 76108,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"versa",
+				"mes it",
+				"es she",
+				" them, ",
+				" it's a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"versa",
+						"mes it",
+						"es she",
+						" them, ",
+						" it's a "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6287,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"versa",
+				"mes it",
+				"es she",
+				" them, ",
+				" it's a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"versa",
+						"mes it",
+						"es she",
+						" them, ",
+						" it's a "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16813,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"versa",
+				"mes it",
+				"es she",
+				" them, ",
+				" it's a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"versa",
+						"mes it",
+						"es she",
+						" them, ",
+						" it's a "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622545331181,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"versa",
+				"mes it",
+				"es she",
+				" them, ",
+				" it's a "
+			]
+		}
+	]
+}

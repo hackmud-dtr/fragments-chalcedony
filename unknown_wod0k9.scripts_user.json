@@ -1,0 +1,137 @@
+{
+	"_id": "unknown_wod0k9.scripts_user",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_wod0k9.scripts_user",
+	"sector": "HJG_3825",
+	"sec_level": 4,
+	"date_added": 1618698555176,
+	"last_scraped": 1622581090925,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618698555176
+		},
+		{
+			"type": "died",
+			"when": 1626706907044
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1622626000486,
+	"category": "fishie_tank",
+	"last_update": 1625448167388,
+	"output": [
+		{
+			"args": {},
+			"calls": 28597,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"SECT0",
+				"BC7D1",
+				"2BC7D",
+				"T0X7A_",
+				"27_FIL",
+				"2160 TR",
+				"032160 ",
+				"0 TRAP ",
+				"X7A_SECT",
+				"ECT0XF22",
+				"CLST0X7A",
+				"7D17A\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"BC7D1",
+						"0XF22",
+						"27_FIL",
+						"2160 TR",
+						"032160 ",
+						"X7A_SECT",
+						"CLST0X7A"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7789,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0XF22",
+				"2BC7D1",
+				"27_FIL",
+				"2160 TR",
+				"0X7A_SE",
+				"X7A_SECT",
+				"D17A\\nAD",
+				"D032160 ",
+				"CLST0X7A",
+				"BF_CLST0",
+				"A\\nAD032",
+				"17A\\nAD0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"BC7D1",
+						"0XF22",
+						"27_FIL",
+						"2160 TR",
+						"032160 ",
+						"X7A_SECT",
+						"CLST0X7A"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3535,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"SECT0",
+				"7A_SE",
+				"2BC7D",
+				"03216",
+				"T0X7A_",
+				"0 TRAP ",
+				"ECT0XF22",
+				"7D17A\\nAD"
+			]
+		}
+	],
+	"updt": 1625478084053,
+	"edit": 6,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"BC7D1",
+				"0XF22",
+				"27_FIL",
+				"2160 TR",
+				"032160 ",
+				"X7A_SECT",
+				"CLST0X7A"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

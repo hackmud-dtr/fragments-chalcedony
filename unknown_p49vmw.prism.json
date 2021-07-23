@@ -1,0 +1,177 @@
+{
+	"_id": "unknown_p49vmw.prism",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_p49vmw.prism",
+	"sector": "SPC_2254",
+	"sec_level": 4,
+	"date_added": 1607110359540,
+	"last_scraped": 1609677917157,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1607110359540
+		},
+		{
+			"type": "died",
+			"when": 1613609870296
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622543960950,
+	"edit": 19,
+	"scrape_ct": 19,
+	"next_scrape": 1609723592150,
+	"category": "fishie_tank",
+	"last_update": 1609925947025,
+	"output": [
+		{
+			"args": {},
+			"calls": 226999,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"B you",
+				"o rece",
+				"e\\n1E2",
+				" happy",
+				"your re",
+				"s there",
+				"ive\\n1E",
+				"I am ha",
+				"equest!",
+				"6 Is th",
+				"1E2B yo",
+				"py to re",
+				"est!\\n1E",
+				"\\n1E2B y"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e\\n1E2",
+						" happy",
+						"your re",
+						"s there",
+						"ive\\n1E",
+						"1E2B yo",
+						"py to re"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 23882,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"B you",
+				"o rece",
+				"e\\n1E2",
+				" happy",
+				"your re",
+				"s there",
+				"ive\\n1E",
+				"I am ha",
+				"equest!",
+				"6 Is th",
+				"1E2B yo",
+				"py to re",
+				"est!\\n1E",
+				"\\n1E2B y"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e\\n1E2",
+						" happy",
+						"your re",
+						"s there",
+						"ive\\n1E",
+						"1E2B yo",
+						"py to re"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 135530,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"B you",
+				"o rece",
+				"e\\n1E2",
+				" happy",
+				"your re",
+				"s there",
+				"ive\\n1E",
+				"I am ha",
+				"equest!",
+				"6 Is th",
+				"1E2B yo",
+				"py to re",
+				"est!\\n1E",
+				"\\n1E2B y"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e\\n1E2",
+						" happy",
+						"your re",
+						"s there",
+						"ive\\n1E",
+						"1E2B yo",
+						"py to re"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e\\n1E2",
+				" happy",
+				"your re",
+				"s there",
+				"ive\\n1E",
+				"1E2B yo",
+				"py to re"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

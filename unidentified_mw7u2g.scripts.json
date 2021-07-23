@@ -1,0 +1,159 @@
+{
+	"_id": "unidentified_mw7u2g.scripts",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_mw7u2g.scripts",
+	"sector": "VNP_1456",
+	"sec_level": 4,
+	"date_added": 1614758631351,
+	"last_scraped": 1617404981549,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614758631351
+		},
+		{
+			"type": "died",
+			"when": 1618122825973
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 13,
+	"next_scrape": 1617448256076,
+	"category": "fishie_tank",
+	"last_update": 1617405000945,
+	"output": [
+		{
+			"args": {},
+			"calls": 92608,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e exc",
+				"2 Yes",
+				"1 the",
+				" the ",
+				"the la",
+				"ne dec",
+				"k?\\n21",
+				"ds in ",
+				"deck\\n",
+				" in th",
+				"Yes. If",
+				"k\\n2104",
+				"2102 Ye",
+				". If da",
+				" lane de",
+				" cards i",
+				" deck?\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e exc",
+						"the la",
+						"ne dec",
+						"Yes. If",
+						". If da",
+						" lane de",
+						" deck?\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6660,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e exc",
+				"2 Yes",
+				"1 the",
+				" the ",
+				"the la",
+				"ne dec",
+				"k?\\n21",
+				"ds in ",
+				"deck\\n",
+				" in th",
+				"Yes. If",
+				"k\\n2104",
+				"2102 Ye",
+				". If da",
+				" lane de",
+				" cards i",
+				" deck?\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 73612,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"1 the",
+				" the ",
+				"k?\\n21",
+				"ds in ",
+				"deck\\n",
+				" in th",
+				"Yes. If",
+				"the lan",
+				"k\\n2104",
+				"ge exce",
+				"2102 Ye",
+				"2 Yes. ",
+				"102 Yes",
+				". If da",
+				"ne deck?",
+				"If damag",
+				"ds\\n2103",
+				"\\n2102 Y",
+				" lane de",
+				" exceeds",
+				" cards i",
+				" deck?\\n2"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e exc",
+				"the la",
+				"ne dec",
+				"Yes. If",
+				". If da",
+				" lane de",
+				" deck?\\n2"
+			]
+		}
+	],
+	"updt": 1622548850198,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

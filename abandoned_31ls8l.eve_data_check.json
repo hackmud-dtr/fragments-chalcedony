@@ -1,0 +1,134 @@
+{
+	"_id": "abandoned_31ls8l.eve_data_check",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_31ls8l.eve_data_check",
+	"sector": "SPC_1100",
+	"sec_level": 4,
+	"date_added": 1606876442546,
+	"last_scraped": 1609995988238,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606876442546
+		},
+		{
+			"type": "died",
+			"when": 1613545440928
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1610039560246,
+	"category": "fishie_tank",
+	"last_update": 1609995988238,
+	"output": [
+		{
+			"args": {},
+			"calls": 234130,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"BJ: Ind",
+				": Index",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"ri | SUB",
+				"dex proc",
+				"ari | SU"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"J: Ind",
+						" SUBJ: ",
+						" Index ",
+						" | SUBJ",
+						"dex proc"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 32166,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"BJ: Ind",
+				": Index",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"ri | SUB",
+				"dex proc",
+				"ari | SU"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"J: Ind",
+						" SUBJ: ",
+						" Index ",
+						" | SUBJ",
+						"dex proc"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 161360,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"BJ: Ind",
+				": Index",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"ri | SUB",
+				"dex proc",
+				"ari | SU"
+			]
+		}
+	],
+	"updt": 1622543766803,
+	"edit": 20,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"J: Ind",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"dex proc"
+			]
+		}
+	]
+}

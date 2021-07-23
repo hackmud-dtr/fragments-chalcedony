@@ -1,0 +1,157 @@
+{
+	"_id": "derelict_j56f9x.ad3",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_j56f9x.ad3",
+	"sector": "K_5784",
+	"sec_level": 4,
+	"date_added": 1611514857228,
+	"last_scraped": 1617347543710,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1611514857228
+		},
+		{
+			"type": "died",
+			"when": 1618803076654
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1617392477977,
+	"category": "fishie_tank",
+	"last_update": 1617347599659,
+	"output": [
+		{
+			"args": {},
+			"calls": 96126,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"LE0XBD",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
+				"X8F99_FI",
+				"LST0X0A_",
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"F_CLS",
+						"LE0XBD",
+						"ILE0XB",
+						"X8F99_FI",
+						"LST0X0A_",
+						"8F99_FIL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 13573,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"LE0XBD",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
+				"X8F99_FI",
+				"LST0X0A_",
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"F_CLS",
+						"LE0XBD",
+						"ILE0XB",
+						"X8F99_FI",
+						"LST0X0A_",
+						"8F99_FIL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 75151,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"LE0XBD",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
+				"X8F99_FI",
+				"LST0X0A_",
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"F_CLS",
+						"LE0XBD",
+						"ILE0XB",
+						"X8F99_FI",
+						"LST0X0A_",
+						"8F99_FIL"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"F_CLS",
+				"LE0XBD",
+				"ILE0XB",
+				"X8F99_FI",
+				"LST0X0A_",
+				"8F99_FIL"
+			]
+		}
+	],
+	"updt": 1622546700823,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

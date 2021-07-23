@@ -1,0 +1,156 @@
+{
+	"_id": "anonymous_oxnwtq.offload",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_oxnwtq.offload",
+	"sector": "NGC_9996",
+	"sec_level": 4,
+	"date_added": 1612021588679,
+	"last_scraped": 1617348166755,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612021588679
+		},
+		{
+			"type": "died",
+			"when": 1621250558854
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622546896477,
+	"edit": 7,
+	"scrape_ct": 19,
+	"next_scrape": 1617392154882,
+	"category": "fishie_tank",
+	"last_update": 1617348204591,
+	"output": [
+		{
+			"args": {},
+			"calls": 37030,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o hel",
+				"ld a ",
+				"ration",
+				"later ",
+				"a cura",
+				" the p",
+				"the pro",
+				"t makes",
+				"olicy t",
+				"e proje",
+				"a team ",
+				" that m",
+				" of the",
+				"ter stag",
+				"cy that "
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"a cura",
+						" the p",
+						"the pro",
+						"t makes",
+						"e proje",
+						"a team ",
+						" of the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5267,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o hel",
+				"ld a ",
+				"ration",
+				"later ",
+				"a cura",
+				" the p",
+				"the pro",
+				"t makes",
+				"olicy t",
+				"e proje",
+				"a team ",
+				" that m",
+				" of the",
+				"ter stag",
+				"cy that "
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"a cura",
+						" the p",
+						"the pro",
+						"t makes",
+						"e proje",
+						"a team ",
+						" of the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8202,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o hel",
+				"ld a ",
+				" cura",
+				"ration",
+				"later ",
+				"olicy t",
+				" that m",
+				"ter stag",
+				"cy that "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"a cura",
+				" the p",
+				"the pro",
+				"t makes",
+				"e proje",
+				"a team ",
+				" of the"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

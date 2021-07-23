@@ -1,0 +1,107 @@
+{
+	"_id": "anonymous_cbid8k.inspectsy",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_cbid8k.inspectsy",
+	"sector": "HJG_3825",
+	"sec_level": 4,
+	"date_added": 1618766824359,
+	"last_scraped": 1625511925113,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618766824359
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1625557703082,
+	"category": "fishie_tank",
+	"last_update": 1625511925113,
+	"output": [
+		{
+			"args": {},
+			"calls": 48997,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" 0101",
+				"0 0100",
+				"101 000",
+				"0100 000",
+				"01 0100 ",
+				"0 0000 0",
+				" 0000 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0101",
+						"0 0100",
+						"100 000",
+						"01 0100 ",
+						"0 0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3145,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" 0101",
+				"0 0100",
+				"101 000",
+				"0100 000",
+				"01 0100 ",
+				"0 0000 0",
+				" 0000 01"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28367,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" 0101",
+				"0 0100",
+				"101 000",
+				"0100 000",
+				"01 0100 ",
+				"0 0000 0",
+				" 0000 01"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" 0101",
+				"0 0100",
+				"100 000",
+				"01 0100 ",
+				"0 0000 0"
+			]
+		}
+	],
+	"updt": 1625511897129,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

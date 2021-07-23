@@ -1,0 +1,182 @@
+{
+	"_id": "abndnd_audhdp.owo",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_audhdp.owo",
+	"sector": "SPC_5374",
+	"sec_level": 4,
+	"date_added": 1607136400956,
+	"last_scraped": 1609943726131,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1607136400956
+		},
+		{
+			"type": "died",
+			"when": 1610145753582
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1609985346480,
+	"category": "fishie_tank",
+	"last_update": 1609943726131,
+	"output": [
+		{
+			"args": {},
+			"calls": 193293,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"111 00",
+				"11 1111",
+				"1111 011",
+				"1 1111 0",
+				"1 0111 1",
+				"00 0000 ",
+				" 0111 11",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"111 00",
+						"11 1111",
+						"1111 011",
+						"1 1111 0",
+						"1 0111 1",
+						"00 0000 ",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 22366,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"111 00",
+				"1111 01",
+				"11 1111",
+				"000 000",
+				"00 0000",
+				"0 0000 ",
+				"11 0111 ",
+				"0111 111",
+				" 0111 11",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"111 00",
+						"1111 01",
+						"11 1111",
+						"000 000",
+						"00 0000",
+						"0 0000 ",
+						"11 0111 ",
+						"0111 111",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 174305,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"111 00",
+				"11 000",
+				"1111 01",
+				"11 1111",
+				"1 1111 ",
+				"000 000",
+				"00 0000",
+				"0 0000 ",
+				"11 0111 ",
+				"0111 111",
+				" 0111 11",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"111 00",
+						"11 000",
+						"1111 01",
+						"11 1111",
+						"1 1111 ",
+						"000 000",
+						"00 0000",
+						"0 0000 ",
+						"11 0111 ",
+						"0111 111",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622543960950,
+	"edit": 19,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"111 00",
+				"11 000",
+				"11 1111",
+				"000 000",
+				"1111 011",
+				"11 0111 ",
+				"1 1111 0",
+				"1 0111 1",
+				"0111 111",
+				"00 0000 ",
+				" 0111 11",
+				" 0000 00"
+			]
+		}
+	]
+}

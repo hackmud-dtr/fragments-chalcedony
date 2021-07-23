@@ -1,0 +1,81 @@
+{
+	"_id": "uknown_h8vdbo.donate",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_h8vdbo.donate",
+	"sector": "SPC_1198",
+	"sec_level": 4,
+	"date_added": 1625651555216,
+	"last_scraped": 1625651647095,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1625651555216
+		},
+		{
+			"type": "died",
+			"when": 1625672879302
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1625651707095,
+	"category": "fishie_tank",
+	"last_update": 1625651647095,
+	"output": [
+		{
+			"args": {},
+			"calls": 15332,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"RROR ",
+				"CLST0",
+				" ERRO",
+				"15_SEC",
+				"XCE_CLS",
+				"0B\\nSYS",
+				"XAD0C_FI",
+				" | NETW "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"RROR ",
+						"CLST0",
+						" ERRO",
+						"15_SEC",
+						"XCE_CLS",
+						"0B\\nSYS",
+						"XAD0C_FI",
+						" | NETW "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"RROR ",
+				"CLST0",
+				" ERRO",
+				"15_SEC",
+				"XCE_CLS",
+				"0B\\nSYS",
+				"XAD0C_FI",
+				" | NETW "
+			]
+		}
+	],
+	"updt": 1625651680797,
+	"edit": 1
+}

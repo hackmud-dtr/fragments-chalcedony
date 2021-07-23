@@ -1,0 +1,122 @@
+{
+	"_id": "derelict_v3cs4n.status",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_v3cs4n.status",
+	"sector": "K_1885",
+	"sec_level": 4,
+	"date_added": 1618175548744,
+	"last_scraped": 1622557890999,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618175548744
+		},
+		{
+			"type": "died",
+			"when": 1624173546925
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1622600045846,
+	"category": "fishie_tank",
+	"last_update": 1622557890999,
+	"output": [
+		{
+			"args": {},
+			"calls": 46055,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ODY Hi",
+				"ities ",
+				"Hi all",
+				"DY Hi ",
+				"!) | B",
+				"ies (ag",
+				"es (aga",
+				"l. I'm l",
+				"in, sorr",
+				". I'm lo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"l. I'm",
+						"ities ",
+						"!) | B",
+						" I'm l",
+						"ies (ag",
+						"es (aga",
+						"in, sorr"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2968,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"l. I'm",
+				"ities ",
+				"!) | B",
+				" I'm l",
+				"ies (ag",
+				"es (aga",
+				"in, sorr"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 46164,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"l. I'm",
+				"ities ",
+				"!) | B",
+				" I'm l",
+				"ies (ag",
+				"es (aga",
+				"in, sorr"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"l. I'm",
+				"ities ",
+				"!) | B",
+				" I'm l",
+				"ies (ag",
+				"es (aga",
+				"in, sorr"
+			]
+		}
+	],
+	"updt": 1624173732118,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

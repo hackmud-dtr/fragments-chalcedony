@@ -1,0 +1,132 @@
+{
+	"_id": "derelict_1joycr.pzqsa0_verification",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_1joycr.pzqsa0_verification",
+	"sector": "NGC_8947",
+	"sec_level": 4,
+	"date_added": 1613466100366,
+	"last_scraped": 1617350384918,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613466100366
+		},
+		{
+			"type": "died",
+			"when": 1620359967694
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1617393788351,
+	"category": "fishie_tank",
+	"last_update": 1617350384918,
+	"output": [
+		{
+			"args": {},
+			"calls": 68051,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ty to",
+				"to pu",
+				"put t",
+				"his i",
+				"entra",
+				". Thi",
+				"ut thi",
+				"her. W",
+				"unity t",
+				"t's only",
+				"It's onl",
+				"ack cent",
+				" days to"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ty to",
+						"to pu",
+						"his i",
+						". Thi",
+						"t's only",
+						"It's onl"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1352,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ty to",
+				"to pu",
+				"his i",
+				". Thi",
+				"t's only",
+				"It's onl"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14033,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"n a fe",
+				"lack c",
+				"gether",
+				"an opp",
+				"opportu",
+				" opport",
+				"t's only",
+				"s is an ",
+				"put this"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"ty to",
+				"to pu",
+				"his i",
+				". Thi",
+				"t's only",
+				"It's onl"
+			]
+		}
+	],
+	"updt": 1622548263379,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

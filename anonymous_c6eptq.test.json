@@ -1,0 +1,108 @@
+{
+	"_id": "anonymous_c6eptq.test",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_c6eptq.test",
+	"sector": "K_9850",
+	"sec_level": 4,
+	"date_added": 1618859274729,
+	"last_scraped": 1618859309159,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618859274729
+		},
+		{
+			"type": "died",
+			"when": 1621952601007
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1618859369159,
+	"category": "fishie_tank",
+	"last_update": 1618859364602,
+	"output": [
+		{
+			"args": {},
+			"calls": 17242,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"XE9_SE",
+				"en' Th",
+				"cript\"",
+				"37C\\n{",
+				" Their ",
+				"ECT0X63A",
+				"C\\n{\"data"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"XE9_SE",
+						"en' Th",
+						"cript\"",
+						"37C\\n{",
+						" Their ",
+						"ECT0X63A",
+						"C\\n{\"data"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3245,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"XE9_SE",
+				"en' Th",
+				"cript\"",
+				"37C\\n{",
+				" Their ",
+				"ECT0X63A",
+				"C\\n{\"data"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"XE9_SE",
+				"en' Th",
+				"cript\"",
+				"37C\\n{",
+				" Their ",
+				"ECT0X63A",
+				"C\\n{\"data"
+			]
+		}
+	],
+	"updt": 1622550412030,
+	"edit": 3
+}

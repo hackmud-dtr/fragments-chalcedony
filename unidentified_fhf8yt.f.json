@@ -1,0 +1,133 @@
+{
+	"_id": "unidentified_fhf8yt.f",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_fhf8yt.f",
+	"sector": "K_9004",
+	"sec_level": 4,
+	"date_added": 1613286010401,
+	"last_scraped": 1613286247552,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613286010401
+		},
+		{
+			"type": "died",
+			"when": 1613559809029
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1613286307552,
+	"category": "fishie_tank",
+	"last_update": 1613286247552,
+	"output": [
+		{
+			"args": {},
+			"calls": 49104,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"get r",
+				"good a",
+				" I was",
+				"se 'patt",
+				" a good "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"good a",
+						" a good "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" I was",
+						"se 'patt"
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"get r"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2814,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"get r",
+				"good a",
+				" I was",
+				"se 'patt",
+				" a good "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10359,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"get r",
+				"good a",
+				" I was",
+				"se 'patt",
+				" a good "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"good a",
+				" a good "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" I was",
+				"se 'patt"
+			]
+		},
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"get r"
+			]
+		}
+	],
+	"updt": 1622548068191,
+	"edit": 5
+}

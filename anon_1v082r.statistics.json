@@ -1,0 +1,90 @@
+{
+	"_id": "anon_1v082r.statistics",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_1v082r.statistics",
+	"sector": "HJG_0316",
+	"sec_level": 4,
+	"date_added": 1621009220872,
+	"last_scraped": 1621009311128,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1621009220872
+		},
+		{
+			"type": "died",
+			"when": 1624015295604
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1624015358983,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1621009371128,
+	"category": "fishie_tank",
+	"last_update": 1622523962088,
+	"output": [
+		{
+			"args": {},
+			"calls": 24311,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"lory\\n2",
+				"ery cle",
+				"ory\\n21C",
+				"er\\n21C7 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lory\\n2",
+						"ery cle",
+						"ory\\n21C",
+						"er\\n21C7 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4389,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ry cl",
+				"er, Ma",
+				"21C8 :",
+				"ever\\n2",
+				"\\n21C8 ",
+				" Very c"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"lory\\n2",
+				"ery cle",
+				"ory\\n21C",
+				"er\\n21C7 "
+			]
+		}
+	]
+}

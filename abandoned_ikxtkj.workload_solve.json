@@ -1,0 +1,128 @@
+{
+	"_id": "abandoned_ikxtkj.workload_solve",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_ikxtkj.workload_solve",
+	"sector": "HJG_3671",
+	"sec_level": 4,
+	"date_added": 1612913800137,
+	"last_scraped": 1612914306969,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612913800137
+		},
+		{
+			"type": "died",
+			"when": 1615446009721
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1612914366969,
+	"category": "fishie_tank",
+	"last_update": 1612914378920,
+	"output": [
+		{
+			"args": {},
+			"calls": 36710,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rases",
+				"ssphra",
+				"# passp",
+				"re annoy",
+				"are anno",
+				"annoying",
+				" annoyin"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"rases",
+						"ssphra",
+						"# passp",
+						"re annoy",
+						"are anno",
+						"annoying",
+						" annoyin"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 9110,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rases",
+				"ssphra",
+				"# passp",
+				"re annoy",
+				"are anno",
+				"annoying",
+				" annoyin"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 57670,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rases",
+				"ssphra",
+				"# passp",
+				"re annoy",
+				"are anno",
+				"annoying",
+				" annoyin"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"rases",
+				"ssphra",
+				"# passp",
+				"re annoy",
+				"are anno",
+				"annoying",
+				" annoyin"
+			]
+		}
+	],
+	"updt": 1622548068191,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

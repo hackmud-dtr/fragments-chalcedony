@@ -1,0 +1,132 @@
+{
+	"_id": "anonymous_0y5gs8.record",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_0y5gs8.record",
+	"sector": "K_0692",
+	"sec_level": 4,
+	"date_added": 1612685208812,
+	"last_scraped": 1617348931484,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612685208812
+		},
+		{
+			"type": "died",
+			"when": 1621879857778
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1617392504803,
+	"category": "fishie_tank",
+	"last_update": 1617348931484,
+	"output": [
+		{
+			"args": {},
+			"calls": 77457,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"TW ER",
+				"B550B",
+				"C_FILE",
+				"\\nSYST",
+				"T0X15_S",
+				"ECT0XAD",
+				"FT0XCE_C",
+				"_CLST0X1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"TW ER",
+						"B550B",
+						"C_FILE",
+						"\\nSYST",
+						"T0X15_S",
+						"ECT0XAD",
+						"FT0XCE_C",
+						"_CLST0X1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5055,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"TW ER",
+				"B550B",
+				"C_FILE",
+				"\\nSYST",
+				"T0X15_S",
+				"ECT0XAD",
+				"FT0XCE_C",
+				"_CLST0X1"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23305,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"TW ER",
+				"B550B",
+				"C_FILE",
+				"\\nSYST",
+				"T0X15_S",
+				"ECT0XAD",
+				"FT0XCE_C",
+				"_CLST0X1"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"TW ER",
+				"B550B",
+				"C_FILE",
+				"\\nSYST",
+				"T0X15_S",
+				"ECT0XAD",
+				"FT0XCE_C",
+				"_CLST0X1"
+			]
+		}
+	],
+	"updt": 1622547873561,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"_id": "unknown_jx0vrf.bot_brain",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unknown_jx0vrf.bot_brain",
+	"sector": "VNP_1400",
+	"sec_level": 4,
+	"date_added": 1615681153327,
+	"last_scraped": 1615681225642,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1615681153327
+		},
+		{
+			"type": "died",
+			"when": 1615929193862
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1615681285642,
+	"category": "fishie_tank",
+	"last_update": 1615681263168,
+	"output": [
+		{
+			"args": {},
+			"calls": 21985,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" of o",
+				"nt eve",
+				"ave a ",
+				"_go_on",
+				"values ",
+				"s befor",
+				"lear se",
+				"# [do_go",
+				" before "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" of o",
+						"nt eve",
+						"ave a ",
+						"_go_on",
+						"values ",
+						"s befor",
+						"lear se",
+						"# [do_go",
+						" before "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2357,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" of o",
+				"nt eve",
+				"ave a ",
+				"_go_on",
+				"values ",
+				"s befor",
+				"lear se",
+				"# [do_go",
+				" before "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				" of o",
+				"nt eve",
+				"ave a ",
+				"_go_on",
+				"values ",
+				"s befor",
+				"lear se",
+				"# [do_go",
+				" before "
+			]
+		}
+	],
+	"updt": 1622549239617,
+	"edit": 4
+}

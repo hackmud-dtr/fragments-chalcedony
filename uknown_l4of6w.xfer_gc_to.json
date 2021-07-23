@@ -1,0 +1,130 @@
+{
+	"_id": "uknown_l4of6w.xfer_gc_to",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_l4of6w.xfer_gc_to",
+	"sector": "NGC_7762",
+	"sec_level": 4,
+	"date_added": 1617424318149,
+	"last_scraped": 1622580487113,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1617424318149
+		},
+		{
+			"type": "died",
+			"when": 1624092611168
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1622622362215,
+	"category": "fishie_tank",
+	"last_update": 1622580487113,
+	"output": [
+		{
+			"args": {},
+			"calls": 53238,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"force",
+				"ves as",
+				"d\\n215",
+				"REAK is",
+				"it reso",
+				"is play",
+				"7 BREAK",
+				"58 face",
+				" played",
+				" is >. ",
+				"EAK is p",
+				"e up to ",
+				"s as 2.\\n",
+				" as 2.\\n2",
+				" 2.\\n2157"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"is >.",
+						"ves as",
+						"d\\n215",
+						"it reso",
+						"58 face",
+						" played",
+						" as 2.\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1275,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"is >.",
+				"ves as",
+				"d\\n215",
+				"it reso",
+				"58 face",
+				" played",
+				" as 2.\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10796,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"layed",
+				"force",
+				"REAK is",
+				"is play",
+				"7 BREAK",
+				" is >. ",
+				"EAK is p",
+				"e up to ",
+				"s as 2.\\n",
+				" 2.\\n2157"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"is >.",
+				"ves as",
+				"d\\n215",
+				"it reso",
+				"58 face",
+				" played",
+				" as 2.\\n2"
+			]
+		}
+	],
+	"updt": 1624092801553,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

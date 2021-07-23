@@ -1,0 +1,149 @@
+{
+	"_id": "abndnd_bvzrfd.kp",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_bvzrfd.kp",
+	"sector": "K_6590",
+	"sec_level": 4,
+	"date_added": 1612466612174,
+	"last_scraped": 1612466791857,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612466612174
+		},
+		{
+			"type": "died",
+			"when": 1612683090428
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1612466851857,
+	"category": "fishie_tank",
+	"last_update": 1612466848112,
+	"output": [
+		{
+			"args": {},
+			"calls": 31768,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ting.",
+				"t be!",
+				"denti",
+				" Okay",
+				" it? ",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ting.",
+						"t be!",
+						"denti",
+						" Okay",
+						" it? ",
+						"orry. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5579,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ting.",
+				"t be!",
+				"denti",
+				" Okay",
+				" it? ",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ting.",
+						"t be!",
+						"denti",
+						" Okay",
+						" it? ",
+						"orry. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23234,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ting.",
+				"t be!",
+				"denti",
+				" Okay",
+				" it? ",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ting.",
+						"t be!",
+						"denti",
+						" Okay",
+						" it? ",
+						"orry. ##"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622547092155,
+	"edit": 6,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"ting.",
+				"t be!",
+				"denti",
+				" Okay",
+				" it? ",
+				"orry. ##"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

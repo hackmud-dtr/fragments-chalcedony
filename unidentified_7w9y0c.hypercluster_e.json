@@ -1,0 +1,119 @@
+{
+	"_id": "unidentified_7w9y0c.hypercluster_e",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_7w9y0c.hypercluster_e",
+	"sector": "SPC_7780",
+	"sec_level": 4,
+	"date_added": 1617109755487,
+	"last_scraped": 1617402545757,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1617109755487
+		},
+		{
+			"type": "died",
+			"when": 1620452036088
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1617443251858,
+	"category": "fishie_tank",
+	"last_update": 1617402600238,
+	"output": [
+		{
+			"args": {},
+			"calls": 58638,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"Mallo",
+				"llory",
+				"lever",
+				"7 Ver",
+				"21C8 ",
+				"21C7 Ve"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Mallo",
+						"llory",
+						"lever",
+						"7 Ver",
+						"21C8 ",
+						"21C7 Ve"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5894,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"Mallo",
+				"llory",
+				"lever",
+				"7 Ver",
+				"21C8 ",
+				"21C7 Ve"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23646,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"Mallo",
+				"llory",
+				"lever",
+				"7 Ver",
+				"21C8 ",
+				"21C7 Ve"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"Mallo",
+				"llory",
+				"lever",
+				"7 Ver",
+				"21C8 ",
+				"21C7 Ve"
+			]
+		}
+	],
+	"updt": 1622549826581,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

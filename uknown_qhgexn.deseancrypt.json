@@ -1,0 +1,122 @@
+{
+	"_id": "uknown_qhgexn.deseancrypt",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_qhgexn.deseancrypt",
+	"sector": "K_9850",
+	"sec_level": 4,
+	"date_added": 1618820246777,
+	"last_scraped": 1625475859262,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618820246777
+		},
+		{
+			"type": "died",
+			"when": 1626167191301
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1625518807354,
+	"category": "fishie_tank",
+	"last_update": 1625475859262,
+	"output": [
+		{
+			"args": {},
+			"calls": 35339,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ontai",
+				"P\\n216",
+				"ing st",
+				"AP\\n21",
+				"2164 t",
+				"163 If",
+				"164 the",
+				".\\n2163",
+				" the op",
+				"the oppo",
+				"oth cont",
+				"he oppos"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ontai",
+						"ing st",
+						"64 the",
+						"163 If",
+						".\\n2163",
+						" the op",
+						"he oppos"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3025,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ontai",
+				"ing st",
+				"64 the",
+				"163 If",
+				".\\n2163",
+				" the op",
+				"he oppos"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19874,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"63 If",
+				"the in",
+				"P\\n216",
+				"in TRA",
+				"oth con",
+				"osing s",
+				"\\n2164 ",
+				"ing stac",
+				"\\n2163 I"
+			]
+		}
+	],
+	"updt": 1625478084053,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ontai",
+				"ing st",
+				"64 the",
+				"163 If",
+				".\\n2163",
+				" the op",
+				"he oppos"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

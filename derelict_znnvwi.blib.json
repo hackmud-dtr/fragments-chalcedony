@@ -1,0 +1,170 @@
+{
+	"_id": "derelict_znnvwi.blib",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_znnvwi.blib",
+	"sector": "K_9211",
+	"sec_level": 4,
+	"date_added": 1616265568828,
+	"last_scraped": 1617406217723,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616265568828
+		},
+		{
+			"type": "died",
+			"when": 1618721795959
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1617447284642,
+	"category": "fishie_tank",
+	"last_update": 1617406217723,
+	"output": [
+		{
+			"args": {},
+			"calls": 54459,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s mem",
+				"futur",
+				"e min",
+				", we ",
+				" of t",
+				" is m",
+				"st the",
+				"and it",
+				"ry, and",
+				"he need",
+				"hat pro",
+				"emory, ",
+				"d it is",
+				" memory",
+				"y. We ar",
+				"ry that "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"y. We",
+						"s mem",
+						"futur",
+						"e min",
+						", we ",
+						" of t",
+						" is m",
+						"he need",
+						"hat pro",
+						"emory, ",
+						"ry that "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5078,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s mem",
+				"futur",
+				"e min",
+				", we ",
+				" of t",
+				" is m",
+				"st the",
+				"and it",
+				"ry, and",
+				"he need",
+				"hat pro",
+				"emory, ",
+				"d it is",
+				" memory",
+				"y. We ar",
+				"ry that "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"y. We",
+						"s mem",
+						"futur",
+						"e min",
+						", we ",
+						" of t",
+						" is m",
+						"he need",
+						"hat pro",
+						"emory, ",
+						"ry that "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 41886,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st the",
+				"and it",
+				"ry, and",
+				"d it is",
+				" memory",
+				"y. We ar"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"y. We",
+				"s mem",
+				"futur",
+				"e min",
+				", we ",
+				" of t",
+				" is m",
+				"he need",
+				"hat pro",
+				"emory, ",
+				"ry that "
+			]
+		}
+	],
+	"updt": 1622549435051,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

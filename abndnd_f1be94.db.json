@@ -1,0 +1,152 @@
+{
+	"_id": "abndnd_f1be94.db",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_f1be94.db",
+	"sector": "SPC_9415",
+	"sec_level": 4,
+	"date_added": 1611938539711,
+	"last_scraped": 1611939011297,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1611938539711
+		},
+		{
+			"type": "died",
+			"when": 1614643409704
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622546896477,
+	"edit": 7,
+	"scrape_ct": 13,
+	"next_scrape": 1611939071297,
+	"category": "fishie_tank",
+	"last_update": 1611939011297,
+	"output": [
+		{
+			"args": {},
+			"calls": 44648,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e playe",
+				"cker BR",
+				"but cann",
+				".\\n215B ",
+				"ombat\\n21",
+				"layed\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e playe",
+						"cker BR",
+						"but cann",
+						".\\n215B ",
+						"ombat\\n21",
+						"layed\\n21"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1744,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e playe",
+				"cker BR",
+				"but cann",
+				".\\n215B ",
+				"ombat\\n21",
+				"layed\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e playe",
+						"cker BR",
+						"but cann",
+						".\\n215B ",
+						"ombat\\n21",
+						"layed\\n21"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17821,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e playe",
+				"cker BR",
+				"but cann",
+				".\\n215B ",
+				"ombat\\n21",
+				"layed\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e playe",
+						"cker BR",
+						"but cann",
+						".\\n215B ",
+						"ombat\\n21",
+						"layed\\n21"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e playe",
+				"cker BR",
+				"but cann",
+				".\\n215B ",
+				"ombat\\n21",
+				"layed\\n21"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

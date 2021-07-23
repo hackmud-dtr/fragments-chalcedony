@@ -1,0 +1,195 @@
+{
+	"_id": "unidentified_rvd64g.mail",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_rvd64g.mail",
+	"sector": "NGC_5311",
+	"sec_level": 4,
+	"date_added": 1558821408422,
+	"last_scraped": 1561426654858,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563476422349
+		},
+		{
+			"type": "died",
+			"when": 1567612251595
+		},
+		{
+			"type": "died",
+			"when": 1567707930870
+		},
+		{
+			"type": "died",
+			"when": 1568679125709
+		},
+		{
+			"type": "died",
+			"when": 1570594420466
+		},
+		{
+			"type": "died",
+			"when": 1576356668404
+		},
+		{
+			"type": "died",
+			"when": 1584515942412
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
+		},
+		{
+			"type": "died",
+			"when": 1603284151302
+		},
+		{
+			"type": "died",
+			"when": 1603434543750
+		},
+		{
+			"type": "died",
+			"when": 1603434642646
+		},
+		{
+			"type": "died",
+			"when": 1603597711089
+		},
+		{
+			"type": "died",
+			"when": 1603774474467
+		},
+		{
+			"type": "died",
+			"when": 1603939894684
+		},
+		{
+			"type": "died",
+			"when": 1604017212499
+		},
+		{
+			"type": "died",
+			"when": 1604172612378
+		},
+		{
+			"type": "died",
+			"when": 1604172623611
+		},
+		{
+			"type": "died",
+			"when": 1607134720682
+		},
+		{
+			"type": "died",
+			"when": 1607276475243
+		},
+		{
+			"type": "died",
+			"when": 1607447436906
+		},
+		{
+			"type": "died",
+			"when": 1607447532260
+		},
+		{
+			"type": "died",
+			"when": 1607448415208
+		},
+		{
+			"type": "died",
+			"when": 1608925453008
+		},
+		{
+			"type": "died",
+			"when": 1609165709899
+		},
+		{
+			"type": "died",
+			"when": 1609387844235
+		},
+		{
+			"type": "died",
+			"when": 1609639526034
+		},
+		{
+			"type": "died",
+			"when": 1609908294705
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622511316764,
+	"edit": 138,
+	"next_scrape": 1561510279295,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1561426654858,
+	"output": [
+		{
+			"args": {},
+			"calls": 27130,
+			"base": "`D      ___           ___           ___                       ___`\r\n`E     /\\  \\         /\\__\\         /\\  \\          ___        /\\__\\`\r\n`F    /::\\  \\       /::|  |       /::\\  \\        /\\  \\      /:/  /`\r\n`G   /:/\\:\\  \\     /:|:|  |      /:/\\:\\  \\       \\:\\  \\    /:/  /`\r\n`H  /::\\~\\:\\  \\   /:/|:|__|__   /::\\~\\:\\  \\      /::\\__\\  /:/  /`\r\n`I /:/\\:\\ \\:\\__\\ /:/ |::::\\__\\ /:/\\:\\ \\:\\__\\  __/:/\\/__/ /:/__/`\r\n`J \\:\\~\\:\\ \\/__/ \\/__/~~/:/  / \\/__\\:\\/:/  / /\\/:/  /    \\:\\  \\`\r\n`K  \\:\\ \\:\\__\\         /:/  /       \\::/  /  \\::/__/      \\:\\  \\`\r\n`L   \\:\\ \\/__/        /:/  /        /:/  /    \\:\\__\\       \\:\\  \\`\r\n`M    \\:\\__\\         /:/  /        /:/  /      \\/__/        \\:\\__\\`\r\n`N     \\/__/         \\/__/         \\/__/                     \\/__/`\n`QMail` `Fsoftware` made by `Yryo`\nVersion: \"1.0.2\"\n\nCommands:\n\tList mails (20 mails per page):\n\t\tpage:1\t\t \t\t\t[`LREQUIRED`]\n\t\tunread:false \t\t\t[`MOPTIONAL`]\n\t\tarchive:false \t\t\t[`MOPTIONAL`]\n\tCreate mail:\n\t\tto:\"user\" \t\t\t\t[`LREQUIRED`]\n\t\tsubject:\"Hello there\" \t[`LREQUIRED`]\n\t\tcontent:\"git gud\" \t\t[`LREQUIRED`]\n\tArchive a mail:\n\t\tarchive:1\t\t\t\t[`LREQUIRED`]\n\tRead a mail:\n\t\tread:1\t\t\t\t\t[`LREQUIRED`]\n\n`CDonations are gratefully accepted but are not required to use the service.`\n`CUse accts.xfer_gc_to { to:\"ryo\", amount:\"1KGC\", memo:\"ryo.mail donation\"} to donate, thanks!`\"\n\n`AUseful macros:`\n/mail = ryo.mail {{page:{0}}}\n/readmail = ryo.mail {{read:{0}}}\n/archivemail = ryo.mail {{archive:{0}}}\n/sendmail = ryo.mail {{to:\"{0}\", subject:{1}, content:{2}}}\n\n`AUsage:`\n\n`T /mail 1 ` \t\t\t\t\t\t\t\t\t\t`C// Lists the mails in page 1`\n`T /sendmail ryo \"My subject\" \"My content\" ` \t\t`C// Send a mail`\n\n\n`AYou have ``D0``A mail(s), use ryo.mail{page:1} to list them.`",
+			"fragments": [
+				"0000 0",
+				"000 00",
+				"00 0000",
+				" 0111 1",
+				"1111 011",
+				"111 0000",
+				"11 1111 ",
+				"1 1111 0",
+				"0111 111"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000 0",
+						"000 00",
+						"00 0000",
+						" 0111 1",
+						"1111 011",
+						"111 0000",
+						"11 1111 ",
+						"1 1111 0",
+						"0111 111"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0000 0",
+				"000 00",
+				"00 0000",
+				" 0111 1",
+				"1111 011",
+				"111 0000",
+				"11 1111 ",
+				"1 1111 0",
+				"0111 111"
+			]
+		}
+	]
+}

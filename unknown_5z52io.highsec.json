@@ -1,0 +1,110 @@
+{
+	"_id": "unknown_5z52io.highsec",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_5z52io.highsec",
+	"sector": "K_0478",
+	"sec_level": 4,
+	"date_added": 1625351354615,
+	"last_scraped": 1625351444264,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1625351354615
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1625351504264,
+	"category": "fishie_tank",
+	"last_update": 1625463054467,
+	"output": [
+		{
+			"args": {},
+			"calls": 18402,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ws th",
+				"ndivi",
+				"left ",
+				"ssom, ",
+				"sly bl",
+				"n pers",
+				"idual ",
+				"re ever",
+				" reality"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ws th",
+						"left ",
+						"ssom, ",
+						"sly bl",
+						"n pers",
+						"idual ",
+						"re ever",
+						" reality"
+					]
+				},
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"ndivi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3782,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ws th",
+				"ndivi",
+				"left ",
+				"ssom, ",
+				"sly bl",
+				"n pers",
+				"idual ",
+				"re ever",
+				" reality"
+			]
+		}
+	],
+	"updt": 1625351623449,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ws th",
+				"left ",
+				"ssom, ",
+				"sly bl",
+				"n pers",
+				"idual ",
+				"re ever",
+				" reality"
+			]
+		},
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"ndivi"
+			]
+		}
+	]
+}

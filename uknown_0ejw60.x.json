@@ -1,0 +1,118 @@
+{
+	"_id": "uknown_0ejw60.x",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "uknown_0ejw60.x",
+	"sector": "K_9211",
+	"sec_level": 4,
+	"date_added": 1616423296318,
+	"last_scraped": 1622579708233,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616423296318
+		},
+		{
+			"type": "died",
+			"when": 1623975399974
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1622624915216,
+	"category": "fishie_tank",
+	"last_update": 1622579708233,
+	"output": [
+		{
+			"args": {},
+			"calls": 90669,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"re an",
+				"noying",
+				" annoy",
+				" passph",
+				"ses are ",
+				"passphra",
+				"hrases a",
+				"es are a"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"re an",
+						"s are ",
+						"noying",
+						" annoy",
+						"hrases ",
+						"passphra"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 10816,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"re an",
+				"s are ",
+				"noying",
+				" annoy",
+				"hrases ",
+				"passphra"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 44153,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"re an",
+				"noying",
+				" annoy",
+				" passph",
+				"ses are ",
+				"passphra",
+				"hrases a",
+				"es are a"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"re an",
+				"s are ",
+				"noying",
+				" annoy",
+				"hrases ",
+				"passphra"
+			]
+		}
+	],
+	"updt": 1623975464262,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

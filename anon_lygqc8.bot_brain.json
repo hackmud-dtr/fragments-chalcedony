@@ -1,0 +1,112 @@
+{
+	"_id": "anon_lygqc8.bot_brain",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_lygqc8.bot_brain",
+	"sector": "HJG_8839",
+	"sec_level": 4,
+	"date_added": 1623984573358,
+	"last_scraped": 1623984663294,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1623984573358
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1623984723294,
+	"category": "fishie_tank",
+	"last_update": 1625457043027,
+	"output": [
+		{
+			"args": {},
+			"calls": 19883,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"OR | ",
+				"LE0XE",
+				"6_FIL",
+				"E0XEEF",
+				"ERROR |",
+				"0XEEF902"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"OR | ",
+						"6_FIL",
+						"ERROR |"
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"OR | ",
+						"LE0XE",
+						"ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"E0XEEF",
+						"0XEEF902"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4325,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"OR | ",
+				"LE0XE",
+				"6_FIL",
+				"E0XEEF",
+				"ERROR |",
+				"0XEEF902"
+			]
+		}
+	],
+	"updt": 1623984850576,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"OR | ",
+				"6_FIL",
+				"ERROR |"
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"OR | ",
+				"LE0XE",
+				"ERROR |"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"E0XEEF",
+				"0XEEF902"
+			]
+		}
+	]
+}

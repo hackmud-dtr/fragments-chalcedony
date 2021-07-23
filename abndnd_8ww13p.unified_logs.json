@@ -1,0 +1,130 @@
+{
+	"_id": "abndnd_8ww13p.unified_logs",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abndnd_8ww13p.unified_logs",
+	"sector": "NGC_9996",
+	"sec_level": 4,
+	"date_added": 1612021588679,
+	"last_scraped": 1617294709103,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612021588679
+		},
+		{
+			"type": "died",
+			"when": 1619947481712
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"updt": 1622546896477,
+	"edit": 5,
+	"scrape_ct": 16,
+	"next_scrape": 1617339851388,
+	"category": "fishie_tank",
+	"last_update": 1617294709103,
+	"output": [
+		{
+			"args": {},
+			"calls": 31841,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"G ERR",
+				"_SECT",
+				"xtnl-a",
+				"C32859",
+				"-addr ",
+				"ME ERRO",
+				"| NETW ",
+				" TIME E",
+				"XA2_CLST",
+				"t forget"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"G ERR",
+						"_SECT",
+						"xtnl-a",
+						"C32859",
+						"-addr ",
+						"ME ERRO",
+						"| NETW ",
+						" TIME E",
+						"XA2_CLST",
+						"t forget"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4139,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"J: Don",
+				"| USER",
+				"PROG ER",
+				"E0_SECT",
+				"0XCC328",
+				" NETW E",
+				"ROR | TI",
+				" ERROR |"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 2545,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"J: Don",
+				"| USER",
+				"PROG ER",
+				"E0_SECT",
+				"0XCC328",
+				" NETW E",
+				"ROR | TI",
+				" ERROR |"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"G ERR",
+				"_SECT",
+				"xtnl-a",
+				"C32859",
+				"-addr ",
+				"ME ERRO",
+				"| NETW ",
+				" TIME E",
+				"XA2_CLST",
+				"t forget"
+			]
+		}
+	]
+}

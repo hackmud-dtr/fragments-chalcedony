@@ -1,0 +1,173 @@
+{
+	"_id": "unidentified_k0qbc7.scrape",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "unidentified_k0qbc7.scrape",
+	"sector": "VNP_0361",
+	"sec_level": 4,
+	"date_added": 1604714100768,
+	"last_scraped": 1609675645518,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604714100768
+		},
+		{
+			"type": "died",
+			"when": 1613851723274
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1609722035584,
+	"category": "fishie_tank",
+	"last_update": 1609924059062,
+	"output": [
+		{
+			"args": {},
+			"calls": 147598,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ction",
+				"tiate ",
+				"may\\n2",
+				"Initia",
+				"he att",
+				"ate co",
+				"n a lan",
+				"acker, ",
+				"a lane.",
+				"y\\n20B1 ",
+				"attacker",
+				"20B2 My ",
+				".\\n20B1 ",
+				"ne.\\n20B2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"tiate ",
+						"n a la",
+						"may\\n2",
+						"Initia",
+						"he att",
+						"attacker"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 18384,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ction",
+				"tiate ",
+				"may\\n2",
+				"Initia",
+				"he att",
+				"ate co",
+				"n a lan",
+				"acker, ",
+				"a lane.",
+				"y\\n20B1 ",
+				"attacker",
+				"20B2 My ",
+				".\\n20B1 ",
+				"ne.\\n20B2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"tiate ",
+						"n a la",
+						"may\\n2",
+						"Initia",
+						"he att",
+						"attacker"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 123848,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ction",
+				"tiate ",
+				"may\\n2",
+				"Initia",
+				"he att",
+				"ate co",
+				"n a lan",
+				"acker, ",
+				"a lane.",
+				"y\\n20B1 ",
+				"attacker",
+				"20B2 My ",
+				".\\n20B1 ",
+				"ne.\\n20B2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"tiate ",
+						"n a la",
+						"may\\n2",
+						"Initia",
+						"he att",
+						"attacker"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622542594447,
+	"edit": 14,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"tiate ",
+				"n a la",
+				"may\\n2",
+				"Initia",
+				"he att",
+				"attacker"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

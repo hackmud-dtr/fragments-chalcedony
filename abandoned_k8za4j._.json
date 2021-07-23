@@ -1,0 +1,119 @@
+{
+	"_id": "abandoned_k8za4j._",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_k8za4j._",
+	"sector": "HJG_3404",
+	"sec_level": 4,
+	"date_added": 1614907456493,
+	"last_scraped": 1617331682089,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614907456493
+		},
+		{
+			"type": "died",
+			"when": 1622412413113
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"scrape_ct": 13,
+	"next_scrape": 1617371989059,
+	"category": "fishie_tank",
+	"last_update": 1617331718728,
+	"output": [
+		{
+			"args": {},
+			"calls": 79667,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"obvio",
+				"ten, t",
+				" answe",
+				"e are n",
+				"politica",
+				"ntal sci"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"obvio",
+						"ten, t",
+						" answe",
+						"e are n",
+						"politica",
+						"ntal sci"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7167,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"obvio",
+				"ten, t",
+				" answe",
+				"e are n",
+				"politica",
+				"ntal sci"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36226,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"obvio",
+				"ten, t",
+				" answe",
+				"e are n",
+				"politica",
+				"ntal sci"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"obvio",
+				"ten, t",
+				" answe",
+				"e are n",
+				"politica",
+				"ntal sci"
+			]
+		}
+	],
+	"updt": 1622549043737,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}

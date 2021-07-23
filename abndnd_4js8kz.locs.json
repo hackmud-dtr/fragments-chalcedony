@@ -1,0 +1,125 @@
+{
+	"_id": "abndnd_4js8kz.locs",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_4js8kz.locs",
+	"sector": "K_9453",
+	"sec_level": 4,
+	"date_added": 1622177884377,
+	"last_scraped": 1625477912973,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622177884377
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1625521372957,
+	"category": "fishie_tank",
+	"last_update": 1625477912973,
+	"output": [
+		{
+			"args": {},
+			"calls": 40474,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"T0X88",
+				"ROR |",
+				"ETW E",
+				"T ERRO",
+				"MFT0X8",
+				"9_SECT",
+				"69_SEC",
+				"2_CLST",
+				"_FILE0",
+				"YST ERR",
+				"X8C8517",
+				"SYST ER",
+				"OR | NE",
+				"LE0X8C8",
+				"FILE0X8",
+				"885F_FI",
+				"0X82_CL"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"T0X88",
+						"ETW E",
+						"T ERRO",
+						"9_SECT",
+						"X8C8517",
+						"SYST ER",
+						"885F_FI",
+						"0X82_CL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3402,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"T0X88",
+				"ETW E",
+				"T ERRO",
+				"9_SECT",
+				"X8C8517",
+				"SYST ER",
+				"885F_FI",
+				"0X82_CL"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8167,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"T0X88",
+				"ETW E",
+				"T ERRO",
+				"9_SECT",
+				"X8C8517",
+				"SYST ER",
+				"885F_FI",
+				"0X82_CL"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"T0X88",
+				"ETW E",
+				"T ERRO",
+				"9_SECT",
+				"X8C8517",
+				"SYST ER",
+				"885F_FI",
+				"0X82_CL"
+			]
+		}
+	],
+	"updt": 1622551585814,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

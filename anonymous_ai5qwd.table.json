@@ -1,0 +1,176 @@
+{
+	"_id": "anonymous_ai5qwd.table",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anonymous_ai5qwd.table",
+	"sector": "K_1908",
+	"sec_level": 4,
+	"date_added": 1607480836343,
+	"last_scraped": 1609953012535,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1607480836343
+		},
+		{
+			"type": "died",
+			"when": 1614393032231
+		},
+		{
+			"type": "died",
+			"when": 1617291633650
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"next_scrape": 1609994423785,
+	"category": "fishie_tank",
+	"last_update": 1609953012535,
+	"output": [
+		{
+			"args": {},
+			"calls": 209673,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ta-ne",
+				"pract",
+				"-prac",
+				" squa",
+				"with d",
+				"rt squ",
+				"uaring ",
+				"t we ne",
+				"h data-",
+				"eed to ",
+				"ecessit",
+				"but we ",
+				"squaring"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ta-ne",
+						"-prac",
+						" squa",
+						"with d",
+						"ut we ",
+						"eed to ",
+						"squaring"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 21326,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ta-ne",
+				"pract",
+				"-prac",
+				" squa",
+				"with d",
+				"rt squ",
+				"uaring ",
+				"t we ne",
+				"h data-",
+				"eed to ",
+				"ecessit",
+				"but we ",
+				"squaring"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ta-ne",
+						"-prac",
+						" squa",
+						"with d",
+						"ut we ",
+						"eed to ",
+						"squaring"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 176045,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ta-ne",
+				"pract",
+				"-prac",
+				" squa",
+				"with d",
+				"rt squ",
+				"uaring ",
+				"t we ne",
+				"h data-",
+				"eed to ",
+				"ecessit",
+				"but we ",
+				"squaring"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ta-ne",
+						"-prac",
+						" squa",
+						"with d",
+						"ut we ",
+						"eed to ",
+						"squaring"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1622544155671,
+	"edit": 17,
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"ta-ne",
+				"-prac",
+				" squa",
+				"with d",
+				"ut we ",
+				"eed to ",
+				"squaring"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}

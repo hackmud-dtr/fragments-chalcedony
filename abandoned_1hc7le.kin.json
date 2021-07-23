@@ -1,0 +1,178 @@
+{
+	"_id": "abandoned_1hc7le.kin",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "abandoned_1hc7le.kin",
+	"sector": "HJG_6148",
+	"sec_level": 4,
+	"date_added": 1622241666342,
+	"last_scraped": 1622241684515,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622241666342
+		},
+		{
+			"type": "died",
+			"when": 1622264738826
+		},
+		{
+			"type": "died",
+			"when": 1622510985114
+		},
+		{
+			"type": "died",
+			"when": 1622511007796
+		},
+		{
+			"type": "died",
+			"when": 1625436508927
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1622241744515,
+	"category": "fishie_tank",
+	"last_update": 1622241756359,
+	"output": [
+		{
+			"args": {},
+			"calls": 3428,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"When ",
+				"th wo",
+				"nolog",
+				"dical",
+				"der -",
+				"he rad",
+				"al min",
+				" POST\"",
+				"nd tech",
+				" you lo",
+				" GUEST ",
+				"technolo",
+				"come the",
+				" them. W"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"th wo",
+						"dical",
+						"der -",
+						"he rad",
+						"al min",
+						" POST\"",
+						"nd tech",
+						" you lo",
+						"come the"
+					]
+				},
+				{
+					"document": "guest post",
+					"frags": [
+						"nolog",
+						" GUEST ",
+						"technolo"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"When "
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"When "
+					]
+				},
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						" them. W"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3184,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"When ",
+				"th wo",
+				"nolog",
+				"dical",
+				"der -",
+				"he rad",
+				"al min",
+				" POST\"",
+				"nd tech",
+				" you lo",
+				" GUEST ",
+				"technolo",
+				"come the",
+				" them. W"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"th wo",
+				"dical",
+				"der -",
+				"he rad",
+				"al min",
+				" POST\"",
+				"nd tech",
+				" you lo",
+				"come the"
+			]
+		},
+		{
+			"document": "guest post",
+			"frags": [
+				"nolog",
+				" GUEST ",
+				"technolo"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"When "
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"When "
+			]
+		},
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				" them. W"
+			]
+		}
+	],
+	"updt": 1622551585814,
+	"edit": 3
+}

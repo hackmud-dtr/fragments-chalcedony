@@ -1,0 +1,80 @@
+{
+	"_id": "derelict_4rtcgg.autos",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_4rtcgg.autos",
+	"sector": "VNP_2162",
+	"sec_level": 4,
+	"date_added": 1624459653128,
+	"last_scraped": 1624459745146,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1624459653128
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1624459805146,
+	"category": "fishie_tank",
+	"last_update": 1625459109268,
+	"output": [
+		{
+			"args": {},
+			"calls": 14562,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"justed ",
+				"ibility",
+				" have a",
+				"n compat"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"justed ",
+						"ibility",
+						" have a",
+						"n compat"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3882,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"justed ",
+				"ibility",
+				" have a",
+				"n compat"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"justed ",
+				"ibility",
+				" have a",
+				"n compat"
+			]
+		}
+	],
+	"updt": 1624459763737,
+	"edit": 1
+}
