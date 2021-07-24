@@ -123,10 +123,14 @@
 		{
 			"type": "died",
 			"when": 1625436508927
+		},
+		{
+			"type": "died",
+			"when": 1627098914976
 		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Arguments to domnomnom.table must be one of:\\n   1. `Varray_of_rows`\\n   2. { `Nrows`:`Varray_of_rows` }\\n   3. { `NT`:`V#s.script_that_returns.array_of_rows`, `Na`:`V{args_to: \\\"T\\\"}` }\\n\\nUnless option 1. is chosen, the following arguments refine the output: \\n   `Nheaders`: `V[\\\"column_key_0\\\", \\\"column_key_0\\\"]` to specify the order of columns. If headers are listed, non-listed headers are dropped.\\n   `Nseparator`: `V\\\" | \\\"`  to customize lines between column\\n\\nexample usage: domnomnom.table{ `NT`: #s.users.top }\"}",
 	"next_scrape": 1593866947616,
-	"updt": 1622534385872,
-	"edit": 1465
+	"updt": 1625461077125,
+	"edit": 1466
 }
