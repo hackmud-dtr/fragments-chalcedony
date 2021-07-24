@@ -1,24 +1,28 @@
 {
 	"_id": "uknown_dhm9k8._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_dhm9k8._",
 	"sector": "K_0087",
 	"sec_level": 4,
 	"date_added": 1621246229564,
-	"last_scraped": 1625477604968,
+	"last_scraped": 1627105729397,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621246229564
+		},
+		{
+			"type": "died",
+			"when": 1627111200757
 		}
 	],
-	"updt": 1622551196518,
-	"edit": 3,
+	"updt": 1625479060373,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1625517895843,
+	"next_scrape": 1627145759043,
 	"category": "fishie_tank",
-	"last_update": 1625477604968,
+	"last_update": 1627105729397,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2011,
+			"calls": 4075,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,27 +64,37 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"s rea",
 				"ou sh",
-				"the da",
-				"nk you",
+				"g the",
+				"really",
 				"hing t",
+				"the dat",
+				"ring ## ",
+				"hink you",
 				"ering ##",
-				" I think"
+				" I think",
+				" conside"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10468,
+			"calls": 21699,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"s rea",
 				"ou sh",
-				"the da",
-				"nk you",
+				"g the",
+				"really",
 				"hing t",
+				"the dat",
+				"ring ## ",
+				"hink you",
 				"ering ##",
-				" I think"
+				" I think",
+				" conside"
 			]
 		}
 	],
@@ -93,14 +107,6 @@
 				"lly con",
 				"## I thi"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
