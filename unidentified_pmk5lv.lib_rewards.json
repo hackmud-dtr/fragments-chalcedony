@@ -6,25 +6,17 @@
 	"sector": "K_1000",
 	"sec_level": 4,
 	"date_added": 1626482608524,
-	"last_scraped": 1626482697433,
+	"last_scraped": 1627114051759,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626482608524
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626482757433,
+	"next_scrape": 1627156576756,
 	"category": "fishie_tank",
-	"last_update": 1626482697433,
+	"last_update": 1627114051759,
 	"output": [
 		{
 			"args": {},
@@ -55,6 +47,45 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1157,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"nct? ",
+				" a pr",
+				"at def",
+				"y was d",
+				"in, we ",
+				"aid Mal",
+				" defunc",
+				"ho said "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16532,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"nct? ",
+				" a pr",
+				"at def",
+				"y was d",
+				"in, we ",
+				"aid Mal",
+				" defunc",
+				"ho said "
+			]
 		}
 	],
 	"identified": [
@@ -71,5 +102,7 @@
 				"ho said "
 			]
 		}
-	]
+	],
+	"updt": 1626482732163,
+	"edit": 1
 }

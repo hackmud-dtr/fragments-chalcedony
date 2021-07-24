@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_3dtcgw.j",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_3dtcgw.j",
 	"sector": "K_0478",
 	"sec_level": 4,
 	"date_added": 1625530553657,
-	"last_scraped": 1625530644830,
+	"last_scraped": 1627107963827,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625530704830,
+	"next_scrape": 1627149012300,
 	"category": "risk_factor",
-	"last_update": 1625530644830,
+	"last_update": 1627107963827,
 	"output": [
 		{
 			"args": {},
@@ -37,6 +34,26 @@
 				"0000 000",
 				"000 0000"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"00 0000",
+				" 0100 0",
+				"0000 000",
+				"00 0100 ",
+				"0 0000 0",
+				" 0000\\n0",
+				" 0000 00",
+				"0\\n0000 0"
+			]
 		}
-	]
+	],
+	"updt": 1625530661916,
+	"edit": 1,
+	"cannot_identify": true
 }
