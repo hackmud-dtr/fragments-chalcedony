@@ -1,37 +1,42 @@
 {
 	"_id": "uknown_pgpdrc.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_pgpdrc.bot_scam_do_not_run",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624064633733,
-	"last_scraped": 1625457296657,
+	"last_scraped": 1627158815920,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624064633733
 		}
 	],
-	"updt": 1624064836414,
-	"edit": 2,
+	"updt": 1625480232906,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1625499714559,
+	"next_scrape": 1627202541289,
 	"category": "fishie_tank",
-	"last_update": 1625457296657,
+	"last_update": 1627158815920,
 	"output": [
 		{
 			"args": {},
-			"calls": 20272,
+			"calls": 36833,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"XF227",
+				"FT0XB",
 				"appen",
+				"7D177",
 				"0320E",
 				"E0X2BC",
+				"_FILE0",
 				" happe",
 				" attack",
 				"when the",
-				"SECT0XF2"
+				"SECT0XF2",
+				"ECT0XF22"
 			],
 			"hits": [
 				{
@@ -98,6 +103,14 @@
 				"when the",
 				"SECT0XF2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
