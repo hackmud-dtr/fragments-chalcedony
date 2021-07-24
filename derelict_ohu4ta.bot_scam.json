@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ohu4ta.bot_scam",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_ohu4ta.bot_scam",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1621996379581,
-	"last_scraped": 1625441739437,
+	"last_scraped": 1627154710112,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,23 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625481699285,
+	"next_scrape": 1627201000803,
 	"category": "fishie_tank",
-	"last_update": 1625441739437,
+	"last_update": 1627154710112,
 	"output": [
 		{
 			"args": {},
-			"calls": 24586,
+			"calls": 34098,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"you a",
+				"3 6 l",
 				" 6 lan",
+				"ks in a",
 				"ave you",
 				"42 6 de",
+				"2043 6 ",
+				"e you ar",
+				"044 Have",
 				" Have yo",
 				"nes.\\n204",
 				"line.\\n20",
@@ -103,6 +107,14 @@
 			]
 		}
 	],
-	"updt": 1622551585814,
-	"edit": 2
+	"updt": 1625479646277,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
