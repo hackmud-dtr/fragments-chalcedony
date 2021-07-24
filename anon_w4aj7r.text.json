@@ -127,10 +127,14 @@
 		{
 			"type": "died",
 			"when": 1625436508927
+		},
+		{
+			"type": "died",
+			"when": 1627098914976
 		}
 	],
-	"updt": 1622521482222,
-	"edit": 1411,
+	"updt": 1625447391126,
+	"edit": 1412,
 	"pl_output": "\ndark.text is a library for working with text (strings).\n\n  `Na`(`Vx`):       `Nargument` format for `Vx`, as a string\n  `Nb`(`Vx`):       decodes `Nbase64` text `Vx` as an array of bytes\n  `Nc`:          (not yet used)\n  `Nd`(`Vx`, `Vy`):    `Ndecorrupts` `Vx`, only matching for `Vy` if given (*)\n  `Ne`:          (not yet used)\n  `Nf`(`Vx`, `Vy`):    `Nfinds` matches of `Vy` in `Vx`\n  `Ng`(`Vx`, `Vy`):    unique `Ngroups` from matches of `Vy` in `Vx`\n  `Nh`:          (not yet used)\n  `Ni`(`Vx`):       checks if `Vx` `Nis` text\n  `Nj`(`Vx`):       converts to `VJSON` string\n  `Nk`(`Vx`, `Vy`, `Vz`): makes `Ncut` of `Vx` starting at `Vy`, ending just after `Vz` or at end of `Vx`\n  `Nl`(`Vx`):       `Nlowercases` `Vx`\n  `Nm`(`Vx`, `Vy`):    checks if `Vy` `Nmatches` `Vx`\n  `Nn`:          (not yet used)\n  `No`(`Vx`):       `Norders` the letters in `Vx`\n  `Np`(`Vx`, `Vy`):    `Npermutations` of the letters in `Vx`, excluding `Vy`\n  `Nq`:          (not yet used)\n  `Nr`(`Vx`, `Vy`):    `Nremoves` `Vy` from `Vx`\n  `Ns`(`Vx`, `Vy`, `Vz`): `Nsubstitutes` `Vy` with `Vz` in`Vx`\n  `Nt`(`Vx`):       makes `Ntext` version of `Vx`\n  `Nu`(`Vx`):       `Nuppercases` `Vx`\n  `Nv`:          (not yet used)\n  `Nw`(`Vx`, `Vy`):    returns `Nwhich` of `Vy` matches `Vx`, or false (**)\n  `Nx`:          (not yet used)\n  `Ny`:          (not yet used)\n  `Nz`(`Vx`):       does a naive `Nshift` of base64 text `Vx`\n  `N$`:          (not yet used)\n  `N_`:          (not yet used)\n\ndecorruption works by continuation-- if more data is needed, a function is\nreturned which takes in a string. the strings are lined up to remove corrupted\ncharacters, and eventually the decorrupted string is returned instead of the\ncontinuation function.\n\nfor the `Nwhich` function, the argument takes in a pair of regexps and values;\nthe value is returned when the regexp matches. this is useful for answering\na known list of questions.\n",
 	"next_scrape": 1578943603652,
 	"category": "UNKNOWN CATEGORY",
