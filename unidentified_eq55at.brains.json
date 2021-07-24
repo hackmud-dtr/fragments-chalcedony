@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_eq55at.brains",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_eq55at.brains",
 	"sector": "VNP_2162",
 	"sec_level": 4,
 	"date_added": 1624553535704,
-	"last_scraped": 1625459529787,
+	"last_scraped": 1627104318657,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624553535704
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1625539533982,
+	"next_scrape": 1627196524453,
 	"category": "risk_factor",
 	"last_update": 1625459529787,
 	"output": [
@@ -52,7 +47,16 @@
 			]
 		}
 	],
-	"updt": 1624553964549,
-	"edit": 1,
-	"cannot_identify": true
+	"updt": 1625480623170,
+	"edit": 2,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "anon_yjts12.gc",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_yjts12.gc",
 	"sector": "VNP_2162",
 	"sec_level": 4,
 	"date_added": 1624493892455,
-	"last_scraped": 1625459349899,
+	"last_scraped": 1627104245875,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624493892455
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1625549728431,
+	"next_scrape": 1627187807341,
 	"category": "risk_factor",
 	"last_update": 1625459349899,
 	"output": [
@@ -55,6 +50,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1624494172514,
-	"edit": 2
+	"updt": 1625480623170,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

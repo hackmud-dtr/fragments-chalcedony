@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_ky5fuy.lib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_ky5fuy.lib",
 	"sector": "HJG_0243",
 	"sec_level": 4,
 	"date_added": 1624394838372,
-	"last_scraped": 1625458873230,
+	"last_scraped": 1627104226979,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624394838372
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1625539243650,
+	"next_scrape": 1627183967280,
 	"category": "risk_factor",
 	"last_update": 1625458873230,
 	"output": [
@@ -54,7 +49,16 @@
 			]
 		}
 	],
-	"updt": 1624395065481,
-	"edit": 2,
-	"cannot_identify": true
+	"updt": 1625480623170,
+	"edit": 3,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
