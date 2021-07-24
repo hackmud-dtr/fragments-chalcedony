@@ -6,7 +6,7 @@
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1623078321106,
-	"last_scraped": 1625452369016,
+	"last_scraped": 1627158160228,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,28 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625494525127,
+	"next_scrape": 1627197840477,
 	"category": "fishie_tank",
-	"last_update": 1625452369016,
+	"last_update": 1627158254982,
 	"output": [
 		{
 			"args": {},
-			"calls": 16824,
+			"calls": 29640,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"appro",
 				" is s",
+				"ure of",
 				"orians",
+				"ing to",
+				" the po",
 				"story is",
 				"rted app",
 				"rently. ",
 				"happenin",
-				" posture"
+				"fferentl",
+				" posture",
+				" history"
 			],
 			"hits": [
 				{
@@ -50,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2780,
+			"calls": 5626,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +64,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"appro",
 				" is s",
+				"ure of",
 				"orians",
+				"ing to",
+				" the po",
 				"story is",
 				"rted app",
 				"rently. ",
 				"happenin",
-				" posture"
+				"fferentl",
+				" posture",
+				" history"
 			]
 		},
 		{
@@ -98,6 +110,11 @@
 			]
 		}
 	],
-	"updt": 1623078670233,
-	"edit": 1
+	"updt": 1627158235083,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
