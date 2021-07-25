@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ca2tga.hata",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_ca2tga.hata",
 	"sector": "HJG_6995",
 	"sec_level": 4,
 	"date_added": 1626989509730,
-	"last_scraped": 1627118489494,
+	"last_scraped": 1627199356409,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627161547043,
+	"next_scrape": 1627239385402,
 	"category": "clicker",
-	"last_update": 1627118489494,
+	"last_update": 1627199356409,
 	"output": [
 		{
 			"args": {},
-			"calls": 8824,
+			"calls": 18284,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"roven",
@@ -54,7 +54,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 10018,
+			"calls": 17560,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"roven",
@@ -103,6 +103,11 @@
 			]
 		}
 	],
-	"updt": 1626989755475,
-	"edit": 2
+	"updt": 1627140834675,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
