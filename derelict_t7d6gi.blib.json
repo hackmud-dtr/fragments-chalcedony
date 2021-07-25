@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_t7d6gi.blib",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_t7d6gi.blib",
 	"sector": "K_0087",
 	"sec_level": 4,
 	"date_added": 1621129709960,
-	"last_scraped": 1627107453367,
+	"last_scraped": 1627197994806,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1627187150936,
+	"next_scrape": 1627282940216,
 	"category": "risk_factor",
-	"last_update": 1627107437427,
+	"last_update": 1627197994806,
 	"output": [
 		{
 			"args": {},
@@ -34,18 +34,22 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 420,
+			"calls": 526,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"X08_C",
-				"T0X08",
+				"FT0X0",
 				"26_FI",
-				"X8926_",
+				"T0X08_",
 				"LST0XC",
-				"ECT0X8",
+				"0X08_C",
 				"08_CLS",
+				"SECT0X8",
 				"CT0X892",
+				"8_CLST0",
 				"XC4_SECT",
+				"T0XC4_SE",
+				"T0X8926_",
+				"C4_SECT0",
 				"0XC4_SEC"
 			]
 		},
@@ -1162,13 +1166,10 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1625513851584,
-	"edit": 6,
+	"updt": 1627139079456,
+	"edit": 7,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
