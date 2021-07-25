@@ -1,0 +1,69 @@
+{
+	"_id": "anonymous_bopm8s.fix_args",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_bopm8s.fix_args",
+	"sector": "K_8246",
+	"sec_level": 4,
+	"date_added": 1627171598537,
+	"last_scraped": 1627171688383,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1627171598537
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1627171748383,
+	"category": "fishie_tank",
+	"last_update": 1627171688383,
+	"output": [
+		{
+			"args": {},
+			"calls": 17014,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ss of a",
+				"e: Prio",
+				"ODY stor",
+				"n time. ",
+				"n issue ",
+				" is less"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ss of a",
+						"e: Prio",
+						"ODY stor",
+						"n time. ",
+						"n issue ",
+						" is less"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"ss of a",
+				"e: Prio",
+				"ODY stor",
+				"n time. ",
+				"n issue ",
+				" is less"
+			]
+		}
+	]
+}
