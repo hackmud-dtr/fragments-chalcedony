@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_pcek4t.linux",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_pcek4t.linux",
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1623028938233,
-	"last_scraped": 1627099727986,
+	"last_scraped": 1627194124694,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627143521108,
+	"next_scrape": 1627235353690,
 	"category": "fishie_tank",
-	"last_update": 1627099727986,
+	"last_update": 1627194237009,
 	"output": [
 		{
 			"args": {},
-			"calls": 21221,
+			"calls": 24851,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"retty",
+				"f any",
 				"was pr",
 				"t was ",
+				"s a lo",
+				"one da",
+				"Histor",
 				"ay, may",
 				"al valu",
-				"ltural v"
+				"ltural v",
+				" pretty "
 			],
 			"hits": [
 				{
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4022,
+			"calls": 7379,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"retty",
+				"f any",
 				"was pr",
 				"t was ",
+				"s a lo",
+				"one da",
+				"Histor",
 				"ay, may",
 				"al valu",
-				"ltural v"
+				"ltural v",
+				" pretty "
 			]
 		},
 		{
@@ -93,6 +101,11 @@
 			]
 		}
 	],
-	"updt": 1625480036752,
-	"edit": 3
+	"updt": 1627139661927,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
