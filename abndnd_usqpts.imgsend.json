@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_usqpts.imgsend",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_usqpts.imgsend",
 	"sector": "SPC_7425",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_7425",
 				"to": "VNP_1400"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1627490273720
+		}
 	],
-	"updt": 1627411747914,
-	"edit": 2320,
+	"updt": 1627412530125,
+	"edit": 2321,
 	"pl_output": "image.substring is not a function",
 	"next_scrape": 1627504647225
 }
