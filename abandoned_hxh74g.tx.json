@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_hxh74g.tx",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "abandoned_hxh74g.tx",
-	"sector": "VNP_1655",
+	"sector": "NGC_4404",
 	"sec_level": 1,
 	"date_added": 1622067220229,
-	"last_scraped": 1625490227317,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1627538718498
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1627539504780,
+				"from": "NGC_4404",
+				"to": "VNP_1655"
+			}
+		]
 	],
-	"updt": 1627166249172,
-	"edit": 10,
+	"updt": 1627538790482,
+	"edit": 11,
 	"pl_output": "i get it.\na name like tx.\nmust be a transfer script, i'll honeypot my way in!\n\nit's locked down.\n\nyou have been penalised one third of your belongings.",
 	"next_scrape": 1625574250419
 }
