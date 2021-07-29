@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_8xnc9a.tiresias_6",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_8xnc9a.tiresias_6",
 	"sector": "HJG_4305",
 	"sec_level": 4,
 	"date_added": 1627572566913,
-	"last_scraped": 1627572575826,
+	"last_scraped": 1627572657105,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,21 +15,32 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1627572635826,
+	"scrape_ct": 18,
+	"next_scrape": 1627656928316,
 	"category": "risk_factor",
-	"last_update": 1627572575826,
+	"last_update": 1627572657105,
 	"output": [
 		{
 			"args": {},
-			"calls": 1007,
+			"calls": 3692,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"eive\\n",
+				"6 Is th",
+				"request!",
+				"e\\n1E2B y",
+				"\\n1E2A I "
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 124,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"eive\\n",
 				"6 Is th",
@@ -39,5 +50,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1627572612274,
+	"edit": 1
 }
