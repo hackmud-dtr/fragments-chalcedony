@@ -3,26 +3,34 @@
 	"type": "fragment",
 	"mode": "skip",
 	"script": "unknown_ygazmx.t1",
-	"sector": "K_0473",
+	"sector": "SPC_6006",
 	"sec_level": 4,
 	"date_added": 1625061469929,
-	"last_scraped": 1627626896306,
+	"last_scraped": 1627627026630,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625061469929
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1627626978029,
+				"from": "SPC_6006",
+				"to": "K_0473"
+			}
+		]
 	],
-	"updt": 1627626566816,
-	"edit": 1900,
+	"updt": 1627626957370,
+	"edit": 1901,
 	"pl_output": "Please set `Vtarget` to a valid loc",
-	"next_scrape": 1627668612819,
+	"next_scrape": 1627627086630,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1627626896306,
+	"last_update": 1627627026630,
 	"output": [
 		{
 			"args": {},
-			"calls": 939972,
+			"calls": 1748168,
 			"base": "Please set `Vtarget` to a valid loc",
 			"fragments": [
 				"ilabl",
@@ -62,5 +70,6 @@
 				" availab"
 			]
 		}
-	]
+	],
+	"scrape_ct": 16
 }
