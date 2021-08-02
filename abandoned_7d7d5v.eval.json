@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_7d7d5v.eval",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_7d7d5v.eval",
-	"sector": "SPC_9508",
+	"sector": "HJG_4376",
 	"sec_level": 4,
 	"date_added": 1623547145676,
-	"last_scraped": 1627266060962,
+	"last_scraped": 1627913826898,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1627913064814
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1627913375789,
+				"from": "HJG_4376",
+				"to": "SPC_9508"
+			}
+		]
 	],
-	"updt": 1627266133055,
-	"edit": 79,
+	"updt": 1627913441756,
+	"edit": 81,
 	"pl_output": "{\"ok\":false,\"msg\":\"params are\\n{\\n  s:\\\"script\\\", \\n  c: {context: \\\"object\\\"},\\n  a: {args: \\\"object\\\"},\\n  b: [\\n    (...a) => #fs.some.script(...a),\\n    (...a) => #fs.another.script(...a)\\n  ]\\n}\"}",
-	"next_scrape": 1627354168940
+	"next_scrape": 1627994699886
 }
