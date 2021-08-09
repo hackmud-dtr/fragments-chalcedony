@@ -1,0 +1,45 @@
+{
+	"_id": "abndnd_xeomby.bot_brain",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_xeomby.bot_brain",
+	"sector": "HJG_1950",
+	"sec_level": 4,
+	"date_added": 1628485203047,
+	"last_scraped": 1628485256027,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1628485203047
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1628485316027,
+	"category": "fishie_tank",
+	"last_update": 1628485256027,
+	"output": [
+		{
+			"args": {},
+			"calls": 19853,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"I do?",
+				" Do y",
+				" of th",
+				"of the ",
+				"Do you ",
+				" Of cour",
+				" deck.\\n",
+				"o?\\n20AE "
+			]
+		}
+	]
+}
