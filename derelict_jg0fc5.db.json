@@ -1,0 +1,90 @@
+{
+	"_id": "derelict_jg0fc5.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_jg0fc5.db",
+	"sector": "VNP_4576",
+	"sec_level": 4,
+	"date_added": 1628787326375,
+	"last_scraped": 1628787367045,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1628787326375
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1628787427045,
+	"category": "fishie_tank",
+	"last_update": 1628787376633,
+	"output": [
+		{
+			"args": {},
+			"calls": 21051,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"uffle",
+				"016 R",
+				"mise? ",
+				"randomis",
+				"ndomise?",
+				"Data?\\n2",
+				"a?\\n2017 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"uffle",
+						"016 R",
+						"mise? ",
+						"randomis",
+						"ndomise?",
+						"Data?\\n2",
+						"a?\\n2017 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1345,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"uffle",
+				"016 R",
+				"mise? ",
+				"randomis",
+				"ndomise?",
+				"Data?\\n2",
+				"a?\\n2017 "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"uffle",
+				"016 R",
+				"mise? ",
+				"randomis",
+				"ndomise?",
+				"Data?\\n2",
+				"a?\\n2017 "
+			]
+		}
+	]
+}
