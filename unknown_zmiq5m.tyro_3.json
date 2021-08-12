@@ -1,16 +1,77 @@
 {
 	"_id": "unknown_zmiq5m.tyro_3",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "unknown_zmiq5m.tyro_3",
 	"sector": "VNP_4576",
 	"sec_level": 4,
 	"date_added": 1628735311305,
-	"last_scraped": 0,
+	"last_scraped": 1628735361485,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628735311305
+		}
+	],
+	"updt": 1628735317883,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1628735421485,
+	"category": "fishie_tank",
+	"last_update": 1628735361485,
+	"output": [
+		{
+			"args": {},
+			"calls": 19536,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"said ",
+				"as pr",
+				" as i",
+				"t pert",
+				"ned fo",
+				"re in v",
+				"or said",
+				" prohibi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"said ",
+						"as pr",
+						" as i",
+						"t pert",
+						"ned fo",
+						"re in v",
+						"or said",
+						" prohibi"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"said ",
+				"as pr",
+				" as i",
+				"t pert",
+				"ned fo",
+				"re in v",
+				"or said",
+				" prohibi"
+			]
 		}
 	]
 }
