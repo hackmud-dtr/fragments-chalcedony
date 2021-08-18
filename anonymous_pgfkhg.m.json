@@ -15,6 +15,46 @@
 		{
 			"type": "died",
 			"when": 1628737758728
+		},
+		{
+			"type": "died",
+			"when": 1629239163664
+		},
+		{
+			"type": "died",
+			"when": 1629239172401
+		},
+		{
+			"type": "died",
+			"when": 1629239189589
+		},
+		{
+			"type": "died",
+			"when": 1629239233827
+		},
+		{
+			"type": "died",
+			"when": 1629239243798
+		},
+		{
+			"type": "died",
+			"when": 1629255737889
+		},
+		{
+			"type": "died",
+			"when": 1629255751398
+		},
+		{
+			"type": "died",
+			"when": 1629255762814
+		},
+		{
+			"type": "died",
+			"when": 1629255824248
+		},
+		{
+			"type": "died",
+			"when": 1629255833911
 		}
 	],
 	"scrape_ct": 17,
@@ -45,12 +85,16 @@
 					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 					"frags": [
 						"R fbr",
-						"ERROR",
+						"OR | ",
 						"ECT0X",
 						"E0X8C",
-						"57C3_",
-						"0X57C3",
+						"RROR |",
 						"XA7_CLS",
+						"X1F_SEC",
+						" ERROR ",
+						"SYST ERR",
+						"PROG ERR",
+						"0X57C3_F",
 						" NETW ER"
 					]
 				}
@@ -81,6 +125,26 @@
 				"0X8C911B",
 				"_CLST0X1",
 				" NETW ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ST ER",
+						"R fbr",
+						"R | U",
+						"ECT0X",
+						"E0X8C",
+						"57C3_",
+						"0X57C3",
+						"XA7_CLS",
+						"F_SECT0",
+						"W ERROR ",
+						"0X8C911B",
+						"_CLST0X1",
+						" NETW ER"
+					]
+				}
 			]
 		},
 		{
@@ -103,7 +167,37 @@
 				"0X8C911B",
 				"_CLST0X1",
 				" NETW ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ST ER",
+						"R fbr",
+						"R | U",
+						"ECT0X",
+						"E0X8C",
+						"57C3_",
+						"0X57C3",
+						"XA7_CLS",
+						"F_SECT0",
+						"W ERROR ",
+						"0X8C911B",
+						"_CLST0X1",
+						" NETW ER"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1628737859781,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	],
 	"identified": [
@@ -111,24 +205,22 @@
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 			"frags": [
 				"R fbr",
-				"ERROR",
+				"R | U",
+				"OR | ",
 				"ECT0X",
 				"E0X8C",
-				"57C3_",
-				"0X57C3",
+				"RROR |",
 				"XA7_CLS",
+				"X1F_SEC",
+				"F_SECT0",
+				"W ERROR ",
+				"SYST ERR",
+				"PROG ERR",
+				"0X8C911B",
+				"0X57C3_F",
+				"_CLST0X1",
 				" NETW ER"
 			]
-		}
-	],
-	"updt": 1627157843754,
-	"edit": 6,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
