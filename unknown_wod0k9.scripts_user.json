@@ -19,6 +19,46 @@
 		{
 			"type": "died",
 			"when": 1627098914976
+		},
+		{
+			"type": "died",
+			"when": 1629239163664
+		},
+		{
+			"type": "died",
+			"when": 1629239172401
+		},
+		{
+			"type": "died",
+			"when": 1629239189589
+		},
+		{
+			"type": "died",
+			"when": 1629239233827
+		},
+		{
+			"type": "died",
+			"when": 1629239243798
+		},
+		{
+			"type": "died",
+			"when": 1629255737889
+		},
+		{
+			"type": "died",
+			"when": 1629255751398
+		},
+		{
+			"type": "died",
+			"when": 1629255762814
+		},
+		{
+			"type": "died",
+			"when": 1629255824248
+		},
+		{
+			"type": "died",
+			"when": 1629255833911
 		}
 	],
 	"scrape_ct": 20,
@@ -48,13 +88,18 @@
 				{
 					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
+						"SECT0",
 						"BC7D1",
-						"0XF22",
+						"2BC7D",
+						"T0X7A_",
 						"27_FIL",
 						"2160 TR",
 						"032160 ",
+						"0 TRAP ",
 						"X7A_SECT",
-						"CLST0X7A"
+						"ECT0XF22",
+						"CLST0X7A",
+						"7D17A\\nAD"
 					]
 				}
 			]
@@ -88,13 +133,18 @@
 				{
 					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
-						"BC7D1",
 						"0XF22",
+						"2BC7D1",
 						"27_FIL",
 						"2160 TR",
-						"032160 ",
+						"0X7A_SE",
 						"X7A_SECT",
-						"CLST0X7A"
+						"D17A\\nAD",
+						"D032160 ",
+						"CLST0X7A",
+						"BF_CLST0",
+						"A\\nAD032",
+						"17A\\nAD0"
 					]
 				}
 			]
@@ -114,28 +164,51 @@
 				"0 TRAP ",
 				"ECT0XF22",
 				"7D17A\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"SECT0",
+						"7A_SE",
+						"2BC7D",
+						"03216",
+						"T0X7A_",
+						"0 TRAP ",
+						"ECT0XF22",
+						"7D17A\\nAD"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1626707162778,
-	"edit": 7,
+	"updt": 1627138102582,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
-				"BC7D1",
-				"0XF22",
+				"SECT0",
+				"T0X7A_",
+				"2BC7D1",
 				"27_FIL",
 				"2160 TR",
-				"032160 ",
+				"0X7A_SE",
+				"0 TRAP ",
 				"X7A_SECT",
-				"CLST0X7A"
+				"ECT0XF22",
+				"D032160 ",
+				"CLST0X7A",
+				"BF_CLST0",
+				"A\\nAD032",
+				"17A\\nAD0",
+				"7D17A\\nAD"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
