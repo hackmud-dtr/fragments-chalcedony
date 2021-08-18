@@ -1,31 +1,26 @@
 {
 	"_id": "anonymous_9k79jr.smiley",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_9k79jr.smiley",
 	"sector": "VNP_4176",
 	"sec_level": 4,
 	"date_added": 1626779366105,
-	"last_scraped": 1626779455525,
+	"last_scraped": 1629296140941,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626779366105
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626779515525,
+	"next_scrape": 1629339931786,
 	"category": "fishie_tank",
-	"last_update": 1627116613654,
+	"last_update": 1629296140941,
 	"output": [
 		{
 			"args": {},
-			"calls": 22883,
+			"calls": 32637,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ion t",
@@ -57,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3729,
+			"calls": 5648,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,9 +68,58 @@
 				"of your",
 				" why I'",
 				"t everyb"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"ion t",
+						" I ge",
+						"ot eve",
+						"e impr",
+						"y I'm h",
+						"of your",
+						" why I'",
+						"t everyb"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28341,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ion t",
+				" I ge",
+				"ot eve",
+				"e impr",
+				"y I'm h",
+				"of your",
+				" why I'",
+				"t everyb"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"ion t",
+						" I ge",
+						"ot eve",
+						"e impr",
+						"y I'm h",
+						"of your",
+						" why I'",
+						"t everyb"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -90,7 +134,5 @@
 				"t everyb"
 			]
 		}
-	],
-	"updt": 1626779492440,
-	"edit": 1
+	]
 }

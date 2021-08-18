@@ -1,31 +1,26 @@
 {
 	"_id": "derelict_yagb8r._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_yagb8r._",
 	"sector": "K_7528",
 	"sec_level": 4,
 	"date_added": 1626929730259,
-	"last_scraped": 1626929820868,
+	"last_scraped": 1629296200120,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626929730259
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626929880868,
+	"next_scrape": 1629341528499,
 	"category": "fishie_tank",
-	"last_update": 1627117904944,
+	"last_update": 1629296200120,
 	"output": [
 		{
 			"args": {},
-			"calls": 23262,
+			"calls": 29135,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ows sh",
@@ -62,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3923,
+			"calls": 5397,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,9 +73,68 @@
 				"l. She k",
 				"e others",
 				" She kno"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ows sh",
+						"te? she",
+						"shes no",
+						"others #",
+						"l. She k",
+						"e others",
+						" She kno"
+					]
+				},
+				{
+					"document": "Bo Yi",
+					"frags": [
+						" not li"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29012,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ows sh",
+				"te? she",
+				"shes no",
+				" not li",
+				"others #",
+				"l. She k",
+				"e others",
+				" She kno"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ows sh",
+						"te? she",
+						"shes no",
+						"others #",
+						"l. She k",
+						"e others",
+						" She kno"
+					]
+				},
+				{
+					"document": "Bo Yi",
+					"frags": [
+						" not li"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140834675,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -100,7 +154,5 @@
 				" not li"
 			]
 		}
-	],
-	"updt": 1626929967639,
-	"edit": 2
+	]
 }

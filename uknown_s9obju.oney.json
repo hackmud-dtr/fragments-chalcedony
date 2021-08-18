@@ -1,43 +1,40 @@
 {
 	"_id": "uknown_s9obju.oney",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_s9obju.oney",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627211249869,
-	"last_scraped": 1627211340568,
+	"last_scraped": 1629297685121,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627211249869
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627211400568,
+	"next_scrape": 1629340106258,
 	"category": "fishie_tank",
-	"last_update": 1627211340568,
+	"last_update": 1629297685121,
 	"output": [
 		{
 			"args": {},
-			"calls": 18575,
+			"calls": 26105,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ted y",
+				"ld ha",
+				"capac",
 				"apaci",
+				"_this",
 				"this_i",
 				"kward_",
 				"awkwar",
 				" would",
+				"s_is_aw",
 				"eriousl",
+				" you th",
 				" this ex"
 			],
 			"hits": [
@@ -55,19 +52,91 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4203,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ld ha",
+				"capac",
+				"_this",
+				"riousl",
+				"s_is_aw",
+				" you th",
+				" this ex"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ld ha",
+						"capac",
+						"_this",
+						"riousl",
+						"s_is_aw",
+						" you th",
+						" this ex"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22132,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ld ha",
+				"capac",
+				"_this",
+				"riousl",
+				"s_is_aw",
+				" you th",
+				" this ex"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ld ha",
+						"capac",
+						"_this",
+						"riousl",
+						"s_is_aw",
+						" you th",
+						" this ex"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1627211385019,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
 			"frags": [
 				"ted y",
+				"ld ha",
+				"capac",
 				"apaci",
+				"_this",
 				"this_i",
 				"kward_",
 				"awkwar",
 				" would",
+				"s_is_aw",
 				"eriousl",
+				" you th",
 				" this ex"
 			]
 		}

@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_6msssl.npcs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_6msssl.npcs",
 	"sector": "NGC_8739",
 	"sec_level": 4,
 	"date_added": 1626822170851,
-	"last_scraped": 1627116996374,
+	"last_scraped": 1629289561183,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626822170851
 		}
 	],
-	"updt": 1626822486008,
-	"edit": 2,
+	"updt": 1627140834675,
+	"edit": 3,
 	"scrape_ct": 18,
-	"next_scrape": 1627163699639,
+	"next_scrape": 1629334415399,
 	"category": "fishie_tank",
-	"last_update": 1627116996374,
+	"last_update": 1629289561183,
 	"output": [
 		{
 			"args": {},
-			"calls": 10587,
+			"calls": 21614,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				":\\n20B",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1726,
+			"calls": 3427,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,13 +64,26 @@
 				".\\n20B3",
 				"solve:\\n",
 				" and res"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						":\\n20B",
+						" My st",
+						"nd reso",
+						".\\n20B3",
+						"solve:\\n",
+						" and res"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 16564,
+			"calls": 26033,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				":\\n20B",
@@ -79,6 +92,19 @@
 				".\\n20B3",
 				"solve:\\n",
 				" and res"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						":\\n20B",
+						" My st",
+						"nd reso",
+						".\\n20B3",
+						"solve:\\n",
+						" and res"
+					]
+				}
 			]
 		}
 	],

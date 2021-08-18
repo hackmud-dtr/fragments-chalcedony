@@ -1,12 +1,12 @@
 {
 	"_id": "anon_w71imd.fishie_tank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_w71imd.fishie_tank",
 	"sector": "SPC_1198",
 	"sec_level": 4,
 	"date_added": 1625640506815,
-	"last_scraped": 1627182114017,
+	"last_scraped": 1629291055522,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,27 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627228112159,
+	"next_scrape": 1629334241792,
 	"category": "coin_flipper",
-	"last_update": 1627182114017,
+	"last_update": 1629291055522,
 	"output": [
 		{
 			"args": {},
-			"calls": 37242,
+			"calls": 46464,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				"FILE0",
+				"ERROR ",
 				"| NETW",
 				"ROR | U",
 				"E0X5282",
 				"E ERROR",
 				"0X1F_CL",
 				"ROR | NE",
+				"R | TIME",
 				"R | PROG",
 				"0X5282A9",
+				"| TIME E",
 				"2A91C\\nSY"
 			],
 			"hits": [
@@ -56,6 +60,8 @@
 			]
 		}
 	],
+	"updt": 1627182269978,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -76,7 +82,5 @@
 				"2A91C\\nSY"
 			]
 		}
-	],
-	"updt": 1627182074818,
-	"edit": 3
+	]
 }

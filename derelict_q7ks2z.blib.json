@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_q7ks2z.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_q7ks2z.blib",
 	"sector": "K_1000",
 	"sec_level": 4,
 	"date_added": 1626530282856,
-	"last_scraped": 1626530373510,
+	"last_scraped": 1629240113166,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626530282856
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626530433510,
+	"next_scrape": 1629321842044,
 	"category": "risk_factor",
 	"last_update": 1626530373510,
 	"output": [
@@ -38,6 +33,12 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1626530431844,
-	"edit": 1
+	"updt": 1627140637987,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

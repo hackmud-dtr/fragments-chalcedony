@@ -1,40 +1,43 @@
 {
 	"_id": "anonymous_n3b8ef.island",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_n3b8ef.island",
 	"sector": "K_3386",
 	"sec_level": 4,
 	"date_added": 1626278406995,
-	"last_scraped": 1626278497097,
+	"last_scraped": 1629295608212,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626278406995
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626278557097,
+	"next_scrape": 1629335618813,
 	"category": "fishie_tank",
-	"last_update": 1627111710308,
+	"last_update": 1629295608212,
 	"output": [
 		{
 			"args": {},
-			"calls": 18618,
+			"calls": 26519,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ty to",
+				"nces ",
+				"ity t",
+				"his g",
 				" of h",
 				" far ",
 				"ntienc",
+				" becom",
 				" we und",
 				" is con",
+				" 'Play'",
+				"y-based ",
+				"takes th",
 				"run of l",
+				"obabilit",
 				"conditio",
 				" mark on"
 			],
@@ -59,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3899,
+			"calls": 5594,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -68,33 +71,97 @@
 			],
 			"fragments": [
 				"ty to",
+				"nces ",
+				"ity t",
+				"his g",
 				" of h",
 				" far ",
 				"ntienc",
+				" becom",
 				" we und",
 				" is con",
+				" 'Play'",
+				"y-based ",
+				"takes th",
 				"run of l",
+				"obabilit",
 				"conditio",
 				" mark on"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ty to",
+						" of h",
+						" far ",
+						"ntienc",
+						" we und",
+						" is con",
+						"run of l",
+						"conditio",
+						" mark on"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26114,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"nces ",
+				"ity t",
+				"his g",
+				" becom",
+				" 'Play'",
+				"y-based ",
+				"takes th",
+				"obabilit"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"nces ",
+						"ity t",
+						"his g",
+						" becom",
+						" 'Play'",
+						"y-based ",
+						"takes th",
+						"obabilit"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
 			"frags": [
 				"ty to",
+				"nces ",
+				"ity t",
+				"his g",
 				" of h",
 				" far ",
 				"ntienc",
+				" becom",
 				" we und",
 				" is con",
+				" 'Play'",
+				"y-based ",
+				"takes th",
 				"run of l",
+				"obabilit",
 				"conditio",
 				" mark on"
 			]
 		}
-	],
-	"updt": 1626278652933,
-	"edit": 2
+	]
 }

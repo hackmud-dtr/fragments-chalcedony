@@ -1,28 +1,20 @@
 {
 	"_id": "unidentified_2q95fb.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_2q95fb.bot_scam_do_not_run",
 	"sector": "HJG_2512",
 	"sec_level": 4,
 	"date_added": 1627323338643,
-	"last_scraped": 1627323428388,
+	"last_scraped": 1629256796915,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627323338643
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627323488388,
+	"next_scrape": 1629341557884,
 	"category": "risk_factor",
 	"last_update": 1627323428388,
 	"output": [
@@ -41,6 +33,12 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627323403630,
-	"edit": 1
+	"updt": 1627323792051,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

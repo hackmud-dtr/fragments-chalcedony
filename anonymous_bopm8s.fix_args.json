@@ -1,41 +1,42 @@
 {
 	"_id": "anonymous_bopm8s.fix_args",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_bopm8s.fix_args",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627171598537,
-	"last_scraped": 1627171688383,
+	"last_scraped": 1629297414491,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627171598537
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627171748383,
+	"next_scrape": 1629343766477,
 	"category": "fishie_tank",
-	"last_update": 1627171688383,
+	"last_update": 1629297414491,
 	"output": [
 		{
 			"args": {},
-			"calls": 17014,
+			"calls": 24197,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"llist",
+				"ties c",
+				"iyawak",
+				"er imi",
 				"ss of a",
+				"r imiya",
+				"ister i",
 				"e: Prio",
+				" SUBJ r",
+				" | BODY",
 				"ODY stor",
 				"n time. ",
 				"n issue ",
+				"ki | SUB",
 				" is less"
 			],
 			"hits": [
@@ -51,17 +52,105 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5922,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"llist",
+				"ties c",
+				"s less",
+				"iyawak",
+				"er imi",
+				"r imiya",
+				"ister i",
+				" SUBJ r",
+				" | BODY",
+				"ki | SUB"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"llist",
+						"ties c",
+						"s less",
+						"iyawak",
+						"er imi",
+						"r imiya",
+						"ister i",
+						" SUBJ r",
+						" | BODY",
+						"ki | SUB"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13577,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"llist",
+				"ties c",
+				"s less",
+				"iyawak",
+				"er imi",
+				"r imiya",
+				"ister i",
+				" SUBJ r",
+				" | BODY",
+				"ki | SUB"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"llist",
+						"ties c",
+						"s less",
+						"iyawak",
+						"er imi",
+						"r imiya",
+						"ister i",
+						" SUBJ r",
+						" | BODY",
+						"ki | SUB"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1627171717500,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
+				"llist",
+				"ties c",
+				"iyawak",
+				"er imi",
 				"ss of a",
+				"r imiya",
+				"ister i",
 				"e: Prio",
+				" SUBJ r",
+				" | BODY",
 				"ODY stor",
 				"n time. ",
 				"n issue ",
+				"ki | SUB",
 				" is less"
 			]
 		}

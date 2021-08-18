@@ -1,39 +1,39 @@
 {
 	"_id": "uknown_gtu42n.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_gtu42n.blib",
 	"sector": "VNP_0710",
 	"sec_level": 4,
 	"date_added": 1626675151488,
-	"last_scraped": 1626675242382,
+	"last_scraped": 1629296079703,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626675151488
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626675302382,
+	"next_scrape": 1629339625898,
 	"category": "fishie_tank",
-	"last_update": 1627115581268,
+	"last_update": 1629296079703,
 	"output": [
 		{
 			"args": {},
-			"calls": 18704,
+			"calls": 27805,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ich d",
 				"d soc",
 				" logs,",
 				"ata) et",
+				"action ",
 				" transa",
 				"server l",
+				"o, which",
 				"l, game ",
+				"e the ot",
+				"chats an",
 				" If so, ",
 				" etc? If"
 			],
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4018,
+			"calls": 6427,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,32 +65,87 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ich d",
 				"d soc",
 				" logs,",
 				"ata) et",
+				"action ",
 				" transa",
 				"server l",
+				"o, which",
 				"l, game ",
+				"e the ot",
+				"chats an",
 				" If so, ",
 				" etc? If"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"d soc",
+						" logs,",
+						"ata) et",
+						" transa",
+						"server l",
+						"l, game ",
+						" If so, ",
+						" etc? If"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27966,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ich d",
+				"tc? If",
+				"If so,",
+				"action ",
+				"o, which",
+				"e the ot",
+				"chats an"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ich d",
+						"tc? If",
+						"If so,",
+						"action ",
+						"o, which",
+						"e the ot",
+						"chats an"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
+				"ich d",
 				"d soc",
 				" logs,",
 				"ata) et",
+				"action ",
 				" transa",
 				"server l",
+				"o, which",
 				"l, game ",
+				"e the ot",
+				"chats an",
 				" If so, ",
 				" etc? If"
 			]
 		}
-	],
-	"updt": 1626675291849,
-	"edit": 1
+	]
 }

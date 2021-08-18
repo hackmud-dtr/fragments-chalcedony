@@ -1,32 +1,24 @@
 {
 	"_id": "anonymous_1wg70v.request",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_1wg70v.request",
 	"sector": "HJG_2512",
 	"sec_level": 4,
 	"date_added": 1627326134275,
-	"last_scraped": 1627326224033,
+	"last_scraped": 1629287354724,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627326134275
 		}
 	],
-	"updt": 1627326137056,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1627326331144,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1627326284033,
+	"next_scrape": 1629379515154,
 	"category": "risk_factor",
-	"last_update": 1627326224033,
+	"last_update": 1629287354724,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +34,30 @@
 				"to the t",
 				"pt publi"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 463,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"s. It'",
+				"lic? #",
+				"l take",
+				"y perso",
+				"uture. ",
+				" public",
+				"to the t",
+				"pt publi"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -6,25 +6,17 @@
 	"sector": "NGC_7766",
 	"sec_level": 4,
 	"date_added": 1627430861784,
-	"last_scraped": 1627430972599,
+	"last_scraped": 1629256907824,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627430861784
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627431032599,
+	"next_scrape": 1629300809920,
 	"category": "fishie_tank",
-	"last_update": 1627430972599,
+	"last_update": 1629256907824,
 	"output": [
 		{
 			"args": {},
@@ -59,6 +51,49 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4131,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ve me",
+				"st wi",
+				"rone w",
+				"one wi",
+				"drone ",
+				" wish ",
+				"could p",
+				" could ",
+				"me a dro",
+				" play\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21395,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ve me",
+				"st wi",
+				"rone w",
+				"one wi",
+				"drone ",
+				" wish ",
+				"could p",
+				" could ",
+				"me a dro",
+				" play\\n2"
+			]
 		}
 	],
 	"identified": [
@@ -77,5 +112,7 @@
 				" play\\n2"
 			]
 		}
-	]
+	],
+	"updt": 1627431095918,
+	"edit": 1
 }

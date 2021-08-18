@@ -1,40 +1,42 @@
 {
 	"_id": "abandoned_6ptqnz.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_6ptqnz.db",
 	"sector": "HJG_6044",
 	"sec_level": 4,
 	"date_added": 1626311318618,
-	"last_scraped": 1626311410408,
+	"last_scraped": 1629295920470,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626311318618
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626311470408,
+	"next_scrape": 1629339017153,
 	"category": "fishie_tank",
-	"last_update": 1627112528156,
+	"last_update": 1629295920470,
 	"output": [
 		{
 			"args": {},
-			"calls": 12513,
+			"calls": 26266,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the e",
+				"ousto",
+				"I spe",
+				"Two ye",
+				"that I",
 				" Two y",
+				"years o",
+				"onal co",
 				"ndle th",
 				"wo years",
 				"st New H",
 				"on, howe",
-				"er, most"
+				"er, most",
+				"emotiona"
 			],
 			"hits": [
 				{
@@ -66,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3936,
+			"calls": 5514,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,25 +77,112 @@
 			],
 			"fragments": [
 				"the e",
+				"ousto",
+				"I spe",
+				"Two ye",
+				"that I",
 				" Two y",
+				"years o",
+				"onal co",
 				"ndle th",
 				"wo years",
 				"st New H",
 				"on, howe",
-				"er, most"
+				"er, most",
+				"emotiona"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Two y",
+						"ndle th",
+						"wo years",
+						"st New H",
+						"on, howe",
+						"er, most"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"the e"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"the e"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 32471,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ousto",
+				"I spe",
+				"Two ye",
+				"that I",
+				"years o",
+				"onal co",
+				"emotiona"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ousto",
+						"I spe",
+						"Two ye",
+						"years o",
+						"onal co",
+						"emotiona"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"that I"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"that I"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"that I"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
+				"ousto",
+				"I spe",
+				"Two ye",
 				" Two y",
+				"years o",
+				"onal co",
 				"ndle th",
 				"wo years",
 				"st New H",
 				"on, howe",
-				"er, most"
+				"er, most",
+				"emotiona"
 			]
 		},
 		{
@@ -107,8 +196,24 @@
 			"frags": [
 				"the e"
 			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"that I"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"that I"
+			]
+		},
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"that I"
+			]
 		}
-	],
-	"updt": 1626311504512,
-	"edit": 1
+	]
 }

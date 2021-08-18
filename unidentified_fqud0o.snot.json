@@ -1,33 +1,28 @@
 {
 	"_id": "unidentified_fqud0o.snot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_fqud0o.snot",
 	"sector": "NGC_3454",
 	"sec_level": 4,
 	"date_added": 1626199111846,
-	"last_scraped": 1626199203250,
+	"last_scraped": 1629295850083,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626199111846
 		}
 	],
-	"updt": 1626199317649,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1627140444029,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1626199263250,
+	"next_scrape": 1629340725334,
 	"category": "fishie_tank",
-	"last_update": 1627110781974,
+	"last_update": 1629295850083,
 	"output": [
 		{
 			"args": {},
-			"calls": 20192,
+			"calls": 29034,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"throu",
@@ -63,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3663,
+			"calls": 5125,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,6 +76,59 @@
 				"6 inter",
 				" too\\n1",
 				"o\\n1E27 W"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"throu",
+						"pers ",
+						"ough ",
+						"hisper",
+						"terface",
+						"ers thr",
+						"E27 Whi",
+						"6 inter",
+						" too\\n1",
+						"o\\n1E27 W"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27237,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"throu",
+				"pers ",
+				"ough ",
+				"hisper",
+				"terface",
+				"ers thr",
+				"E27 Whi",
+				"6 inter",
+				" too\\n1",
+				"o\\n1E27 W"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"throu",
+						"pers ",
+						"ough ",
+						"hisper",
+						"terface",
+						"ers thr",
+						"E27 Whi",
+						"6 inter",
+						" too\\n1",
+						"o\\n1E27 W"
+					]
+				}
 			]
 		}
 	],

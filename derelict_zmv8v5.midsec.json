@@ -1,37 +1,47 @@
 {
 	"_id": "derelict_zmv8v5.midsec",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_zmv8v5.midsec",
 	"sector": "K_1000",
 	"sec_level": 4,
 	"date_added": 1626467064921,
-	"last_scraped": 1627113779983,
+	"last_scraped": 1629289291004,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626467064921
+		},
+		{
+			"type": "died",
+			"when": 1629289291004
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627156478074,
+	"next_scrape": 1629368719175,
 	"category": "fishie_tank",
-	"last_update": 1627113779983,
+	"last_update": 1629276305237,
 	"output": [
 		{
 			"args": {},
-			"calls": 18828,
+			"calls": 21830,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ttack",
 				"th al",
+				"tacke",
 				"ards ",
 				" alon",
 				"rd pil",
+				"g with",
 				"2 in t",
+				" with ",
+				"long wi",
 				"acker's",
 				"3 disca",
 				"0F2 in ",
 				"in the a",
+				"d pile\\n2",
 				" them\\n20"
 			],
 			"hits": [
@@ -56,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3697,
+			"calls": 4608,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,38 +74,86 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ttack",
 				"th al",
+				"tacke",
 				"ards ",
 				" alon",
 				"rd pil",
+				"g with",
 				"2 in t",
+				" with ",
+				"long wi",
 				"acker's",
 				"3 disca",
 				"0F2 in ",
 				"in the a",
+				"d pile\\n2",
 				" them\\n20"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"th al",
+						"ards ",
+						" alon",
+						"rd pil",
+						"2 in t",
+						"acker's",
+						"3 disca",
+						"0F2 in ",
+						"in the a",
+						" them\\n20"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3090,
+			"calls": 6237,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ttack",
 				"th al",
+				"tacke",
 				"ards ",
 				" alon",
 				"rd pil",
+				"g with",
 				"2 in t",
+				" with ",
+				"long wi",
 				"acker's",
 				"3 disca",
 				"0F2 in ",
 				"in the a",
+				"d pile\\n2",
 				" them\\n20"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"th al",
+						"ards ",
+						" alon",
+						"rd pil",
+						"2 in t",
+						"acker's",
+						"3 disca",
+						"0F2 in ",
+						"in the a",
+						" them\\n20"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -113,6 +171,5 @@
 			]
 		}
 	],
-	"updt": 1626467290852,
-	"edit": 2
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_zmv8v5.midsec: script doesn't exist\"}"
 }

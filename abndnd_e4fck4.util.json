@@ -1,41 +1,43 @@
 {
 	"_id": "abndnd_e4fck4.util",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_e4fck4.util",
 	"sector": "K_1000",
 	"sec_level": 4,
 	"date_added": 1626541183271,
-	"last_scraped": 1626541274211,
+	"last_scraped": 1629296009252,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626541183271
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626541334211,
+	"next_scrape": 1629338836631,
 	"category": "fishie_tank",
-	"last_update": 1627114527191,
+	"last_update": 1629296009252,
 	"output": [
 		{
 			"args": {},
-			"calls": 18058,
+			"calls": 24164,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"n. Th",
+				" eraj",
+				"ri | S",
 				"ed sen",
 				"aviors",
+				" SUBJ ",
 				" behav",
 				"rs | BO",
+				"iors | ",
+				"ad the ",
 				" files ",
 				"vanced s",
 				"rajbhand",
 				"files yo",
+				"BODY I r",
 				" | BODY "
 			],
 			"hits": [
@@ -59,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3905,
+			"calls": 5801,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,34 +69,94 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"n. Th",
+				" eraj",
+				"ri | S",
 				"ed sen",
 				"aviors",
+				" SUBJ ",
 				" behav",
 				"rs | BO",
+				"iors | ",
+				"ad the ",
 				" files ",
 				"vanced s",
 				"rajbhand",
 				"files yo",
+				"BODY I r",
 				" | BODY "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ed sen",
+						"aviors",
+						" behav",
+						"rs | BO",
+						" files ",
+						"vanced s",
+						"rajbhand",
+						"files yo",
+						" | BODY "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22113,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"n. Th",
+				" eraj",
+				"ri | S",
+				" SUBJ ",
+				"iors | ",
+				"ad the ",
+				"BODY I r"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"n. Th",
+						" eraj",
+						"ri | S",
+						" SUBJ ",
+						"iors | ",
+						"ad the ",
+						"BODY I r"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140637987,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 			"frags": [
+				"n. Th",
+				" eraj",
+				"ri | S",
 				"ed sen",
 				"aviors",
+				" SUBJ ",
 				" behav",
 				"rs | BO",
+				"iors | ",
+				"ad the ",
 				" files ",
 				"vanced s",
 				"rajbhand",
 				"files yo",
+				"BODY I r",
 				" | BODY "
 			]
 		}
-	],
-	"updt": 1626541371514,
-	"edit": 1
+	]
 }

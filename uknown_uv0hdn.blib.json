@@ -1,44 +1,44 @@
 {
 	"_id": "uknown_uv0hdn.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_uv0hdn.blib",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627123072644,
-	"last_scraped": 1627123162119,
+	"last_scraped": 1629297103485,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627123072644
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627123222119,
+	"next_scrape": 1629342148699,
 	"category": "fishie_tank",
-	"last_update": 1627123162119,
+	"last_update": 1629297103485,
 	"output": [
 		{
 			"args": {},
-			"calls": 17097,
+			"calls": 22465,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"# Aha",
+				" wher",
+				" she ",
 				"proved",
-				"is whe",
+				"of tru",
+				"compre",
 				"te on t",
+				"itted t",
 				"ed? ## ",
 				"ecreate",
+				"s is whe",
 				"r 'hardc",
-				"mperfect"
+				"ons of t",
+				"mperfect",
+				"ly prove",
+				" operato"
 			],
 			"hits": [
 				{
@@ -55,20 +55,103 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3140,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" wher",
+				" she ",
+				"of tru",
+				"compre",
+				"itted t",
+				"s is whe",
+				"ons of t",
+				"ly prove",
+				" operato"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						" wher",
+						" she ",
+						"of tru",
+						"compre",
+						"itted t",
+						"s is whe",
+						"ons of t",
+						"ly prove",
+						" operato"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21063,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" wher",
+				" she ",
+				"of tru",
+				"compre",
+				"itted t",
+				"s is whe",
+				"ons of t",
+				"ly prove",
+				" operato"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						" wher",
+						" she ",
+						"of tru",
+						"compre",
+						"itted t",
+						"s is whe",
+						"ons of t",
+						"ly prove",
+						" operato"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1627140834675,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
 			"frags": [
 				"# Aha",
+				" wher",
+				" she ",
 				"proved",
-				"is whe",
+				"of tru",
+				"compre",
 				"te on t",
+				"itted t",
 				"ed? ## ",
 				"ecreate",
+				"s is whe",
 				"r 'hardc",
-				"mperfect"
+				"ons of t",
+				"mperfect",
+				"ly prove",
+				" operato"
 			]
 		}
 	]

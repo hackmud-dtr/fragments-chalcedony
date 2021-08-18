@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_ly7d19.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_ly7d19.db",
 	"sector": "K_7528",
 	"sec_level": 4,
 	"date_added": 1626971617923,
-	"last_scraped": 1627118236348,
+	"last_scraped": 1629289682072,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1627163048181,
+	"next_scrape": 1629329805638,
 	"category": "fishie_tank",
-	"last_update": 1627118236348,
+	"last_update": 1629289682072,
 	"output": [
 		{
 			"args": {},
-			"calls": 12865,
+			"calls": 18595,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"two p",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1441,
+			"calls": 3163,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,13 +62,26 @@
 				"E You ar",
 				"2119 Do ",
 				"e?\\n211E "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"two p",
+						" Do y",
+						"his\\n2",
+						"E You ar",
+						"2119 Do ",
+						"e?\\n211E "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 17354,
+			"calls": 25083,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"two p",
@@ -77,9 +90,24 @@
 				"E You ar",
 				"2119 Do ",
 				"e?\\n211E "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"two p",
+						" Do y",
+						"his\\n2",
+						"E You ar",
+						"2119 Do ",
+						"e?\\n211E "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140834675,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -92,7 +120,5 @@
 				"e?\\n211E "
 			]
 		}
-	],
-	"updt": 1626971977128,
-	"edit": 1
+	]
 }

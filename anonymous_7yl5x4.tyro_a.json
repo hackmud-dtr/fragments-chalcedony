@@ -1,40 +1,47 @@
 {
 	"_id": "anonymous_7yl5x4.tyro_a",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_7yl5x4.tyro_a",
 	"sector": "NGC_3454",
 	"sec_level": 4,
 	"date_added": 1626202853127,
-	"last_scraped": 1626203051398,
+	"last_scraped": 1629295638883,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626202853127
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1626203111398,
+	"next_scrape": 1629336207343,
 	"category": "fishie_tank",
-	"last_update": 1627111000970,
+	"last_update": 1629295638883,
 	"output": [
 		{
 			"args": {},
-			"calls": 21477,
+			"calls": 33655,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"this ",
+				"shed ",
+				"rking",
 				"king ",
+				"eters",
 				"e 2. ",
+				" are ",
+				"le: th",
 				"hed wo",
+				"edule:",
 				"ameter",
+				"2. we ",
+				" param",
+				"ng para",
 				". we ar",
+				" workin",
 				"r stage ",
-				"or stage"
+				"or stage",
+				"ed worki"
 			],
 			"hits": [
 				{
@@ -55,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3571,
+			"calls": 5702,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,26 +70,104 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"this ",
+				"shed ",
+				"rking",
 				"king ",
+				"eters",
 				"e 2. ",
+				" are ",
+				"le: th",
 				"hed wo",
+				"edule:",
 				"ameter",
+				"2. we ",
+				" param",
+				"ng para",
 				". we ar",
+				" workin",
 				"r stage ",
-				"or stage"
+				"or stage",
+				"ed worki"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"king ",
+						"e 2. ",
+						"hed wo",
+						"ameter",
+						". we ar",
+						"r stage ",
+						"or stage"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 25975,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"this ",
+				"stage",
+				"shed ",
+				"rking",
+				"ramet",
+				"king ",
+				"ished",
+				"eters",
+				"are o",
+				" are ",
+				"le: th",
+				"edule:",
+				"ameter",
+				"2. we ",
+				" we ar",
+				" param",
+				"ng para",
+				"n sched",
+				"his was",
+				"age 2. ",
+				" workin",
+				"ed worki"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"this ",
+						"ramet",
+						"king ",
+						"ished",
+						"are o",
+						"n sched",
+						"his was",
+						"age 2. "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1626203226978,
-	"edit": 2,
+	"updt": 1627140444029,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 			"frags": [
+				"this ",
+				"ramet",
 				"king ",
-				"e 2. ",
+				"ished",
+				"are o",
 				"hed wo",
 				"ameter",
+				"n sched",
+				"his was",
+				"age 2. ",
 				". we ar",
 				"r stage ",
 				"or stage"
