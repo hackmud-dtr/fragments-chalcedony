@@ -1,36 +1,129 @@
 {
 	"_id": "derelict_lfdwep.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_lfdwep.blib",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1629003878397,
-	"last_scraped": 1629003939422,
+	"last_scraped": 1629299000523,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1629003878397
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1629003999422,
+	"next_scrape": 1629341389224,
 	"category": "fishie_tank",
-	"last_update": 1629003939422,
+	"last_update": 1629299000523,
 	"output": [
 		{
 			"args": {},
-			"calls": 22322,
+			"calls": 31781,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"y_ico",
+				"n_png",
+				"[bunn",
+				"actica",
+				" ## Ta",
+				"ke this",
+				"_png] [",
+				"bat_icon"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"y_ico",
+						"n_png",
+						"[bunn",
+						"actica",
+						" ## Ta",
+						"ke this",
+						"_png] [",
+						"bat_icon"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5628,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y_ico",
+				"n_png",
+				"[bunn",
+				"actica",
+				" ## Ta",
+				"ke this",
+				"_png] [",
+				"bat_icon"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"y_ico",
+						"n_png",
+						"[bunn",
+						"actica",
+						" ## Ta",
+						"ke this",
+						"_png] [",
+						"bat_icon"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12855,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y_ico",
+				"n_png",
+				"[bunn",
+				"actica",
+				" ## Ta",
+				"ke this",
+				"_png] [",
+				"bat_icon"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"y_ico",
+						"n_png",
+						"[bunn",
+						"actica",
+						" ## Ta",
+						"ke this",
+						"_png] [",
+						"bat_icon"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1629004046988,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
 				"y_ico",
 				"n_png",
 				"[bunn",

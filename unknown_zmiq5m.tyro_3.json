@@ -1,37 +1,98 @@
 {
 	"_id": "unknown_zmiq5m.tyro_3",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_zmiq5m.tyro_3",
 	"sector": "VNP_4576",
 	"sec_level": 4,
 	"date_added": 1628735311305,
-	"last_scraped": 1628735361485,
+	"last_scraped": 1629298799487,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628735311305
 		}
 	],
-	"updt": 1628735317883,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1628735513913,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1628735421485,
+	"next_scrape": 1629339491512,
 	"category": "fishie_tank",
-	"last_update": 1628735361485,
+	"last_update": 1629298799487,
 	"output": [
 		{
 			"args": {},
-			"calls": 19536,
+			"calls": 26756,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"said ",
+				"as pr",
+				" as i",
+				"t pert",
+				"ned fo",
+				"re in v",
+				"or said",
+				" prohibi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"said ",
+						"as pr",
+						" as i",
+						"t pert",
+						"ned fo",
+						"re in v",
+						"or said",
+						" prohibi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3877,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"said ",
+				"as pr",
+				" as i",
+				"t pert",
+				"ned fo",
+				"re in v",
+				"or said",
+				" prohibi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"said ",
+						"as pr",
+						" as i",
+						"t pert",
+						"ned fo",
+						"re in v",
+						"or said",
+						" prohibi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19372,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"said ",
 				"as pr",

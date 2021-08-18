@@ -6,25 +6,17 @@
 	"sector": "NGC_8762",
 	"sec_level": 4,
 	"date_added": 1628303214256,
-	"last_scraped": 1628303262095,
+	"last_scraped": 1629257540360,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628303214256
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628303322095,
+	"next_scrape": 1629303366771,
 	"category": "fishie_tank",
-	"last_update": 1628303262095,
+	"last_update": 1629257540360,
 	"output": [
 		{
 			"args": {},
@@ -55,12 +47,36 @@
 					]
 				}
 			]
-		}
-	],
-	"identified": [
+		},
 		{
-			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
-			"frags": [
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3087,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"acces",
+				"with i",
+				"t pert",
+				"iolati",
+				"id abu",
+				" under",
+				" Frank",
+				"to comm"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21318,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
 				"acces",
 				"with i",
 				"t pert",
@@ -71,5 +87,7 @@
 				"to comm"
 			]
 		}
-	]
+	],
+	"updt": 1628303368383,
+	"edit": 1
 }

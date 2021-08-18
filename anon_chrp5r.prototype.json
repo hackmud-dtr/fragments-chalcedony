@@ -1,35 +1,92 @@
 {
 	"_id": "anon_chrp5r.prototype",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_chrp5r.prototype",
 	"sector": "SPC_8658",
 	"sec_level": 4,
 	"date_added": 1628185142810,
-	"last_scraped": 1628185233042,
+	"last_scraped": 1629298267480,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628185142810
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628185293042,
+	"next_scrape": 1629344776304,
 	"category": "fishie_tank",
-	"last_update": 1628185233042,
+	"last_update": 1629298267480,
 	"output": [
 		{
 			"args": {},
-			"calls": 15587,
+			"calls": 24503,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" life.",
+				"t that ",
+				"nd life",
+				"much. B",
+				"hem thi",
+				"en maki",
+				"could a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						" life.",
+						"t that ",
+						"nd life",
+						"much. B",
+						"hem thi",
+						"en maki",
+						"could a"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3278,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" life.",
+				"t that ",
+				"nd life",
+				"much. B",
+				"hem thi",
+				"en maki",
+				"could a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						" life.",
+						"t that ",
+						"nd life",
+						"much. B",
+						"hem thi",
+						"en maki",
+						"could a"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26631,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" life.",
 				"t that ",
@@ -55,6 +112,8 @@
 			]
 		}
 	],
+	"updt": 1628185306828,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",

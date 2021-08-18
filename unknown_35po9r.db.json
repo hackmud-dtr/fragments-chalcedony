@@ -6,25 +6,17 @@
 	"sector": "VNP_4576",
 	"sec_level": 4,
 	"date_added": 1628802388037,
-	"last_scraped": 1628802438900,
+	"last_scraped": 1629257599655,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628802388037
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628802498900,
+	"next_scrape": 1629298341677,
 	"category": "fishie_tank",
-	"last_update": 1628802438900,
+	"last_update": 1629257599655,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +30,60 @@
 				"00 0000 ",
 				"0 0000 0",
 				"0\\n0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0 010",
+						"00\\n00",
+						"100 0000",
+						"0000 000",
+						"00 0000 ",
+						"0 0000 0",
+						"0\\n0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4270,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0 010",
+				"00\\n00",
+				"100 0000",
+				"0000 000",
+				"00 0000 ",
+				"0 0000 0",
+				"0\\n0000 0"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19140,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0 010",
+				"00\\n00",
+				"100 0000",
+				"0000 000",
+				"00 0000 ",
+				"0 0000 0",
+				"0\\n0000 0"
 			]
 		}
-	]
+	],
+	"updt": 1628802545823,
+	"edit": 1
 }

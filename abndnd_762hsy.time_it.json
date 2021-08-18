@@ -1,35 +1,92 @@
 {
 	"_id": "abndnd_762hsy.time_it",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_762hsy.time_it",
 	"sector": "HJG_4376",
 	"sec_level": 4,
 	"date_added": 1627893362816,
-	"last_scraped": 1627893413746,
+	"last_scraped": 1629298097743,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627893362816
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627893473746,
+	"next_scrape": 1629341804779,
 	"category": "fishie_tank",
-	"last_update": 1627893413746,
+	"last_update": 1629298097743,
 	"output": [
 		{
 			"args": {},
-			"calls": 22610,
+			"calls": 31033,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" the d",
+				" deck.",
+				"o you s",
+				"d of th",
+				"ee this ",
+				"\\n20AE Of",
+				"\\n20AD Do"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" the d",
+						" deck.",
+						"o you s",
+						"d of th",
+						"ee this ",
+						"\\n20AE Of",
+						"\\n20AD Do"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4545,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" the d",
+				" deck.",
+				"o you s",
+				"d of th",
+				"ee this ",
+				"\\n20AE Of",
+				"\\n20AD Do"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" the d",
+						" deck.",
+						"o you s",
+						"d of th",
+						"ee this ",
+						"\\n20AE Of",
+						"\\n20AD Do"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12590,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" the d",
 				" deck.",
@@ -55,6 +112,8 @@
 			]
 		}
 	],
+	"updt": 1627893510106,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",

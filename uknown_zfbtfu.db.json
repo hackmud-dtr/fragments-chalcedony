@@ -1,30 +1,22 @@
 {
 	"_id": "uknown_zfbtfu.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_zfbtfu.db",
 	"sector": "NGC_5353",
 	"sec_level": 4,
 	"date_added": 1628634264620,
-	"last_scraped": 1628634315396,
+	"last_scraped": 1629259416199,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628634264620
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628634375396,
+	"next_scrape": 1629352933981,
 	"category": "risk_factor",
-	"last_update": 1628634315396,
+	"last_update": 1629253470939,
 	"output": [
 		{
 			"args": {},
@@ -38,6 +30,30 @@
 				"lders, H",
 				" foresee"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 128,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"lowin",
+				"rgeted",
+				"yperion ",
+				"statemen",
+				"lders, H",
+				" foresee"
+			]
 		}
-	]
+	],
+	"updt": 1628634476178,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

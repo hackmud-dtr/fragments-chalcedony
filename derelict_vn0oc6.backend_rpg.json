@@ -1,30 +1,21 @@
 {
 	"_id": "derelict_vn0oc6.backend_rpg",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_vn0oc6.backend_rpg",
 	"sector": "SPC_1347",
 	"sec_level": 4,
 	"date_added": 1628439202407,
-	"last_scraped": 1628439251886,
+	"last_scraped": 1629301879187,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628439202407
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 16,
-	"next_scrape": 1628439311886,
-	"category": "risk_factor",
-	"last_update": 1628439251886,
+	"next_scrape": 1629346420218,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1629301879187,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +30,40 @@
 				"9 We t",
 				"_SECT0XF"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 609,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"take ",
+				"D0320",
+				"XF227_",
+				"X2BC7D",
+				"BC7D17",
+				"9 We t",
+				"_SECT0XF"
+			]
+		},
+		{
+			"args": {},
+			"calls": 22209,
+			"base": "YOU COULD WIN 1M257K428GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"take ",
+				"D0320",
+				"XF227_",
+				"X2BC7D",
+				"BC7D17",
+				"9 We t",
+				"_SECT0XF"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1628439386479,
+	"edit": 1,
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

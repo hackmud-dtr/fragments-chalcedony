@@ -1,31 +1,26 @@
 {
 	"_id": "anon_semeak.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_semeak.blib",
 	"sector": "HJG_4376",
 	"sec_level": 4,
 	"date_added": 1627813430048,
-	"last_scraped": 1627813449450,
+	"last_scraped": 1629298007192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627813430048
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1627813509450,
+	"next_scrape": 1629340454406,
 	"category": "fishie_tank",
-	"last_update": 1627813478442,
+	"last_update": 1629298007192,
 	"output": [
 		{
 			"args": {},
-			"calls": 6005,
+			"calls": 16826,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ry has",
@@ -59,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3052,
+			"calls": 4829,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,9 +71,61 @@
 				"rical va",
 				"ical val",
 				" pretty "
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"ry has",
+						"etty e",
+						" Histo",
+						"value, ",
+						"ue. His",
+						"y has a ",
+						"rical va",
+						"ical val",
+						" pretty "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28214,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ry has",
+				"etty e",
+				" Histo",
+				"value, ",
+				"ue. His",
+				"y has a ",
+				"rical va",
+				"ical val",
+				" pretty "
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"ry has",
+						"etty e",
+						" Histo",
+						"value, ",
+						"ue. His",
+						"y has a ",
+						"rical va",
+						"ical val",
+						" pretty "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627813547421,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "Prisoners",

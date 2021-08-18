@@ -1,38 +1,123 @@
 {
 	"_id": "derelict_6wnlbg.user",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_6wnlbg.user",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1628992113467,
-	"last_scraped": 1628992163558,
+	"last_scraped": 1629298970202,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628992113467
 		}
 	],
-	"updt": 1628992121892,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1628992317222,
+	"edit": 2,
 	"scrape_ct": 17,
-	"next_scrape": 1628992223558,
+	"next_scrape": 1629339668800,
 	"category": "fishie_tank",
-	"last_update": 1628992163558,
+	"last_update": 1629298970202,
 	"output": [
 		{
 			"args": {},
-			"calls": 13037,
+			"calls": 19447,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"a sta",
+				"LD is *",
+				"layed t",
+				"e playe",
+				"\\n2151 ",
+				" the val",
+				"ses\\n2152"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"a sta",
+						"LD is *",
+						"layed t",
+						"e playe",
+						"\\n2151 ",
+						" the val",
+						"ses\\n2152"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4447,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"a sta",
+				"LD is *",
+				"layed t",
+				"e playe",
+				"\\n2151 ",
+				" the val",
+				"ses\\n2152"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"a sta",
+						"LD is *",
+						"layed t",
+						"e playe",
+						"\\n2151 ",
+						" the val",
+						"ses\\n2152"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19134,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"a sta",
+				"LD is *",
+				"layed t",
+				"e playe",
+				"\\n2151 ",
+				" the val",
+				"ses\\n2152"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"a sta",
+						"LD is *",
+						"layed t",
+						"e playe",
+						"\\n2151 ",
+						" the val",
+						"ses\\n2152"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"a sta",
 				"LD is *",
 				"layed t",

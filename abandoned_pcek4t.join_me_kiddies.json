@@ -1,38 +1,36 @@
 {
 	"_id": "abandoned_pcek4t.join_me_kiddies",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_pcek4t.join_me_kiddies",
 	"sector": "SPC_1347",
 	"sec_level": 4,
 	"date_added": 1628411555199,
-	"last_scraped": 1628411605055,
+	"last_scraped": 1629298468703,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628411555199
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1628411665055,
+	"next_scrape": 1629344133548,
 	"category": "fishie_tank",
-	"last_update": 1628411605055,
+	"last_update": 1629298468703,
 	"output": [
 		{
 			"args": {},
-			"calls": 14444,
+			"calls": 21335,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"comba",
 				"ce co",
+				"70 BO",
 				"ayed f",
+				"71 to ",
+				"be play",
+				"to force",
+				"ombat\\n2",
 				"o force ",
 				"CE may b",
 				"BOUNCE m"
@@ -49,14 +47,87 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3065,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"comba",
+				"70 BO",
+				"force ",
+				"71 to ",
+				"be play",
+				"to force",
+				"ombat\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"comba",
+						"70 BO",
+						"force ",
+						"71 to ",
+						"be play",
+						"to force",
+						"ombat\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21888,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"comba",
+				"70 BO",
+				"force ",
+				"71 to ",
+				"be play",
+				"to force",
+				"ombat\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"comba",
+						"70 BO",
+						"force ",
+						"71 to ",
+						"be play",
+						"to force",
+						"ombat\\n2"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1628411640275,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
+				"comba",
 				"ce co",
+				"70 BO",
 				"ayed f",
+				"71 to ",
+				"be play",
+				"to force",
+				"ombat\\n2",
 				"o force ",
 				"CE may b",
 				"BOUNCE m"

@@ -1,48 +1,53 @@
 {
 	"_id": "abandoned_k969nb.private",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_k969nb.private",
 	"sector": "HJG_9648",
 	"sec_level": 4,
 	"date_added": 1628077453613,
-	"last_scraped": 1628077505269,
+	"last_scraped": 1629298228567,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628077453613
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1628077565269,
+	"next_scrape": 1629343937869,
 	"category": "fishie_tank",
-	"last_update": 1628077505269,
+	"last_update": 1629298228567,
 	"output": [
 		{
 			"args": {},
-			"calls": 13559,
+			"calls": 18975,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ining",
+				"gy. #",
 				"esign",
 				"em. I",
+				"ainin",
+				"# It'",
 				"rain a",
+				"like a",
 				"It's h",
+				"I that",
 				"hat's ",
+				"aleem.",
 				"y. ## I",
+				"nks lik",
 				"hat thi",
 				"a party",
+				" thinks",
 				" AI tha",
 				"tautolog",
 				"s a taut",
-				"ard enou"
+				"r, Salee",
+				"ner, Sal",
+				"hinks li",
+				"ard enou",
+				". Imagin"
 			],
 			"hits": [
 				{
@@ -63,8 +68,91 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5396,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ining",
+				"gy. #",
+				"at's ",
+				"ainin",
+				"# It'",
+				"I that",
+				"aleem.",
+				"t think",
+				"nks lik",
+				" thinks",
+				"r, Salee",
+				"ner, Sal",
+				"ike a pa",
+				"hinks li",
+				"arty pla",
+				". Imagin",
+				" like a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"at's ",
+						"t think",
+						"ike a pa",
+						"arty pla",
+						" like a "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9795,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ining",
+				"gy. #",
+				"at's ",
+				"ainin",
+				"# It'",
+				"I that",
+				"aleem.",
+				"t think",
+				"nks lik",
+				" thinks",
+				"r, Salee",
+				"ner, Sal",
+				"ike a pa",
+				"hinks li",
+				"arty pla",
+				". Imagin",
+				" like a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"at's ",
+						"t think",
+						"ike a pa",
+						"arty pla",
+						" like a "
+					]
+				}
+			]
 		}
 	],
+	"updt": 1628077621285,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -75,12 +163,16 @@
 				"It's h",
 				"hat's ",
 				"y. ## I",
+				"t think",
 				"hat thi",
 				"a party",
 				" AI tha",
 				"tautolog",
 				"s a taut",
-				"ard enou"
+				"ike a pa",
+				"arty pla",
+				"ard enou",
+				" like a "
 			]
 		}
 	]

@@ -1,37 +1,94 @@
 {
 	"_id": "uknown_q4canb.antiope_b",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_q4canb.antiope_b",
 	"sector": "NGC_5353",
 	"sec_level": 4,
 	"date_added": 1628625089839,
-	"last_scraped": 1628625140580,
+	"last_scraped": 1629298708730,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628625089839
 		}
 	],
-	"updt": 1628625096458,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1628625294279,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1628625200580,
+	"next_scrape": 1629338660833,
 	"category": "fishie_tank",
-	"last_update": 1628625140580,
+	"last_update": 1629298708730,
 	"output": [
 		{
 			"args": {},
-			"calls": 17744,
+			"calls": 27385,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"he ma",
+				"So the",
+				"ope th",
+				"elf po",
+				"ortrait",
+				"like se",
+				"ial matt"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"he ma",
+						"So the",
+						"ope th",
+						"elf po",
+						"ortrait",
+						"like se",
+						"ial matt"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3678,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"he ma",
+				"So the",
+				"ope th",
+				"elf po",
+				"ortrait",
+				"like se",
+				"ial matt"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"he ma",
+						"So the",
+						"ope th",
+						"elf po",
+						"ortrait",
+						"like se",
+						"ial matt"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21927,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"he ma",
 				"So the",

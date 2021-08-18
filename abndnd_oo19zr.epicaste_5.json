@@ -1,31 +1,26 @@
 {
 	"_id": "abndnd_oo19zr.epicaste_5",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_oo19zr.epicaste_5",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1629031192025,
-	"last_scraped": 1629031231380,
+	"last_scraped": 1629299060816,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1629031192025
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1629031291380,
+	"next_scrape": 1629341032871,
 	"category": "fishie_tank",
-	"last_update": 1629031241607,
+	"last_update": 1629299060816,
 	"output": [
 		{
 			"args": {},
-			"calls": 16029,
+			"calls": 25441,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r? Sp",
@@ -51,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 681,
+			"calls": 2165,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,9 +59,49 @@
 				"rin R?",
 				"citing",
 				"er Erin "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r? Sp",
+						"CODE,",
+						"rin R?",
+						"citing",
+						"er Erin "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 30870,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"r? Sp",
+				"CODE,",
+				"rin R?",
+				"citing",
+				"er Erin "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r? Sp",
+						"CODE,",
+						"rin R?",
+						"citing",
+						"er Erin "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1629031416914,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -78,7 +113,5 @@
 				"er Erin "
 			]
 		}
-	],
-	"updt": 1629031221682,
-	"edit": 1
+	]
 }

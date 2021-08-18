@@ -1,34 +1,26 @@
 {
 	"_id": "unidentified_7o2t3p._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_7o2t3p._",
 	"sector": "NGC_5353",
 	"sec_level": 4,
 	"date_added": 1628721087021,
-	"last_scraped": 1628721137395,
+	"last_scraped": 1629298760316,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628721087021
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628721197395,
+	"next_scrape": 1629342110510,
 	"category": "fishie_tank",
-	"last_update": 1628721137395,
+	"last_update": 1629298760316,
 	"output": [
 		{
 			"args": {},
-			"calls": 16850,
+			"calls": 24336,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rdles",
@@ -38,6 +30,127 @@
 				" Two: ",
 				"nce? ##",
 				"getting ",
+				"Don Quix"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"rdles",
+						"lps. ",
+						"e-pat",
+						" Two: ",
+						"getting "
+					]
+				},
+				{
+					"document": "Cycle/Don Quixote",
+					"frags": [
+						"HOSE ",
+						"nce? ##",
+						"Don Quix"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4251,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rdles",
+				"lps. ",
+				"HOSE ",
+				"e-pat",
+				" Two: ",
+				"nce? ##",
+				"getting ",
+				"Don Quix"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"rdles",
+						"lps. ",
+						"e-pat",
+						" Two: ",
+						"getting "
+					]
+				},
+				{
+					"document": "Cycle/Don Quixote",
+					"frags": [
+						"HOSE ",
+						"nce? ##",
+						"Don Quix"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15917,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rdles",
+				"lps. ",
+				"HOSE ",
+				"e-pat",
+				" Two: ",
+				"nce? ##",
+				"getting ",
+				"Don Quix"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"rdles",
+						"lps. ",
+						"e-pat",
+						" Two: ",
+						"getting "
+					]
+				},
+				{
+					"document": "Cycle/Don Quixote",
+					"frags": [
+						"HOSE ",
+						"nce? ##",
+						"Don Quix"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1628721250598,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"rdles",
+				"lps. ",
+				"e-pat",
+				" Two: ",
+				"getting "
+			]
+		},
+		{
+			"document": "Cycle/Don Quixote",
+			"frags": [
+				"HOSE ",
+				"nce? ##",
 				"Don Quix"
 			]
 		}

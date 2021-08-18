@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_mwuxbe._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unknown_mwuxbe._",
 	"sector": "HJG_1950",
 	"sec_level": 4,
 	"date_added": 1628453287307,
-	"last_scraped": 1628453397809,
+	"last_scraped": 1629285820634,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628453287307
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1628453457809,
+	"next_scrape": 1629370040459,
 	"category": "risk_factor",
-	"last_update": 1628453397809,
+	"last_update": 1629285820634,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +30,30 @@
 				"heir TRA",
 				"g player"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 104,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"5 reso",
+				"iating ",
+				"ating p",
+				"irst.\\n2",
+				"heir TRA",
+				"g player"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1628453462906,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

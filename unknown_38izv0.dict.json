@@ -1,35 +1,88 @@
 {
 	"_id": "unknown_38izv0.dict",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_38izv0.dict",
 	"sector": "SPC_8658",
 	"sec_level": 4,
 	"date_added": 1628186816238,
-	"last_scraped": 1628186865780,
+	"last_scraped": 1629298307506,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628186816238
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628186925780,
+	"next_scrape": 1629342751465,
 	"category": "fishie_tank",
-	"last_update": 1628186865780,
+	"last_update": 1629298307506,
 	"output": [
 		{
 			"args": {},
-			"calls": 22861,
+			"calls": 28656,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"hem a",
+				" thinki",
+				"ogy? ## ",
+				"ld 'wave",
+				"'minds'.",
+				" be help"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"hem a",
+						" thinki",
+						"ogy? ## ",
+						"ld 'wave",
+						"'minds'.",
+						" be help"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2746,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"hem a",
+				" thinki",
+				"ogy? ## ",
+				"ld 'wave",
+				"'minds'.",
+				" be help"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"hem a",
+						" thinki",
+						"ogy? ## ",
+						"ld 'wave",
+						"'minds'.",
+						" be help"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21976,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"hem a",
 				" thinki",
@@ -53,6 +106,8 @@
 			]
 		}
 	],
+	"updt": 1628186872916,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",

@@ -1,46 +1,40 @@
 {
 	"_id": "uknown_l87p3l.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_l87p3l.db",
 	"sector": "HJG_1950",
 	"sec_level": 4,
 	"date_added": 1628506162879,
-	"last_scraped": 1628506212922,
+	"last_scraped": 1629298588453,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628506162879
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628506272922,
+	"next_scrape": 1629342629018,
 	"category": "fishie_tank",
-	"last_update": 1628506212922,
+	"last_update": 1629298588453,
 	"output": [
 		{
 			"args": {},
-			"calls": 19709,
+			"calls": 29009,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ow I'",
 				"now I",
+				" temp",
 				"st tem",
 				"\\n21EE",
 				"an.\\n21",
+				" But th",
 				" almost",
 				"ou know ",
 				"21F3 But",
-				"\\n21F3 B",
-				"mpted\\n21"
+				"mpted\\n21",
+				"d\\n21F3 B"
 			],
 			"hits": [
 				{
@@ -59,22 +53,83 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5098,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" temp",
+				"ted\\n21",
+				" But th",
+				"21F3 But",
+				"d\\n21F3 B"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" temp",
+						"ted\\n21",
+						" But th",
+						"21F3 But",
+						"d\\n21F3 B"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12631,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" temp",
+				"ted\\n21",
+				" But th",
+				"21F3 But",
+				"d\\n21F3 B"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" temp",
+						"ted\\n21",
+						" But th",
+						"21F3 But",
+						"d\\n21F3 B"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1628506229769,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
 				"ow I'",
 				"now I",
+				" temp",
 				"st tem",
 				"\\n21EE",
 				"an.\\n21",
+				" But th",
 				" almost",
 				"ou know ",
 				"21F3 But",
-				"\\n21F3 B",
-				"mpted\\n21"
+				"mpted\\n21",
+				"d\\n21F3 B"
 			]
 		}
 	]

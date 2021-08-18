@@ -1,46 +1,42 @@
 {
 	"_id": "anon_b718xe.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_b718xe.bot_brain",
 	"sector": "SPC_4989",
 	"sec_level": 4,
 	"date_added": 1627514499443,
-	"last_scraped": 1627514549367,
+	"last_scraped": 1629297836192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627514499443
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627514609367,
+	"next_scrape": 1629340522962,
 	"category": "fishie_tank",
-	"last_update": 1627514549367,
+	"last_update": 1629297836192,
 	"output": [
 		{
 			"args": {},
-			"calls": 20820,
+			"calls": 28758,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ythin",
-				"so mu",
+				"o muc",
 				"ERYTH",
 				" WHER",
+				"ng has",
 				"has ch",
 				"d, gan",
+				" so mu",
 				"ot so m",
 				"made? W",
-				" it hid",
-				"Y Che? W"
+				"Y Che? W",
+				"s it hid",
+				"o discus",
+				"HY now? "
 			],
 			"hits": [
 				{
@@ -93,20 +89,115 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4324,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o muc",
+				"ng has",
+				" so mu",
+				"s it hid",
+				"o discus",
+				"HY now? "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ng has",
+						"s it hid",
+						"o discus",
+						"HY now? "
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"o muc",
+						" so mu"
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"o muc"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16714,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o muc",
+				"ng has",
+				" so mu",
+				"s it hid",
+				"o discus",
+				"HY now? "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ng has",
+						"s it hid",
+						"o discus",
+						"HY now? "
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"o muc",
+						" so mu"
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"o muc"
+					]
+				}
+			]
 		}
 	],
+	"updt": 1627514745865,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"ERYTH",
 				" WHER",
+				"ng has",
 				"has ch",
 				"d, gan",
 				"ot so m",
 				"made? W",
-				" it hid",
-				"Y Che? W"
+				"Y Che? W",
+				"s it hid",
+				"o discus",
+				"HY now? "
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"o muc",
+				" so mu"
 			]
 		},
 		{
@@ -140,9 +231,9 @@
 			]
 		},
 		{
-			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
 			"frags": [
-				"so mu"
+				"o muc"
 			]
 		}
 	]

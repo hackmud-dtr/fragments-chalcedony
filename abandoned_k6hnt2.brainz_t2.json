@@ -1,31 +1,26 @@
 {
 	"_id": "abandoned_k6hnt2.brainz_t2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_k6hnt2.brainz_t2",
 	"sector": "SPC_1347",
 	"sec_level": 4,
 	"date_added": 1628401399673,
-	"last_scraped": 1628401429098,
+	"last_scraped": 1629298427905,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628401399673
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1628401489098,
+	"next_scrape": 1629339435999,
 	"category": "fishie_tank",
-	"last_update": 1628401448953,
+	"last_update": 1629298427905,
 	"output": [
 		{
 			"args": {},
-			"calls": 12576,
+			"calls": 17827,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ed, w",
@@ -57,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1730,
+			"calls": 3865,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,9 +68,58 @@
 				"they do:",
 				"problems",
 				"less abs"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"ed, w",
+						"deed,",
+						"e do no",
+						"do not ",
+						"y seem l",
+						"they do:",
+						"problems",
+						"less abs"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 32204,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ed, w",
+				"deed,",
+				"e do no",
+				"do not ",
+				"y seem l",
+				"they do:",
+				"problems",
+				"less abs"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"ed, w",
+						"deed,",
+						"e do no",
+						"do not ",
+						"y seem l",
+						"they do:",
+						"problems",
+						"less abs"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1628401482970,
+	"edit": 1,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",

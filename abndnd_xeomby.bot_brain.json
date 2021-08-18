@@ -1,36 +1,129 @@
 {
 	"_id": "abndnd_xeomby.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_xeomby.bot_brain",
 	"sector": "HJG_1950",
 	"sec_level": 4,
 	"date_added": 1628485203047,
-	"last_scraped": 1628485256027,
+	"last_scraped": 1629298547970,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628485203047
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1628485316027,
+	"next_scrape": 1629343366567,
 	"category": "fishie_tank",
-	"last_update": 1628485256027,
+	"last_update": 1629298547970,
 	"output": [
 		{
 			"args": {},
-			"calls": 19853,
+			"calls": 27464,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"I do?",
+				" Do y",
+				" of th",
+				"of the ",
+				"Do you ",
+				" Of cour",
+				" deck.\\n",
+				"o?\\n20AE "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I do?",
+						" Do y",
+						" of th",
+						"of the ",
+						"Do you ",
+						" Of cour",
+						" deck.\\n",
+						"o?\\n20AE "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3792,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"I do?",
+				" Do y",
+				" of th",
+				"of the ",
+				"Do you ",
+				" Of cour",
+				" deck.\\n",
+				"o?\\n20AE "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I do?",
+						" Do y",
+						" of th",
+						"of the ",
+						"Do you ",
+						" Of cour",
+						" deck.\\n",
+						"o?\\n20AE "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16429,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"I do?",
+				" Do y",
+				" of th",
+				"of the ",
+				"Do you ",
+				" Of cour",
+				" deck.\\n",
+				"o?\\n20AE "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I do?",
+						" Do y",
+						" of th",
+						"of the ",
+						"Do you ",
+						" Of cour",
+						" deck.\\n",
+						"o?\\n20AE "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1628485325604,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"I do?",
 				" Do y",
 				" of th",

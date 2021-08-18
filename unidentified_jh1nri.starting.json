@@ -1,30 +1,22 @@
 {
 	"_id": "unidentified_jh1nri.starting",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_jh1nri.starting",
 	"sector": "HJG_4305",
 	"sec_level": 4,
 	"date_added": 1627521107910,
-	"last_scraped": 1627521167741,
+	"last_scraped": 1629287545333,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627521107910
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1627521227741,
+	"next_scrape": 1629370580962,
 	"category": "risk_factor",
-	"last_update": 1627521167741,
+	"last_update": 1629287545333,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +32,32 @@
 				"_FILE0",
 				"2BC7D17C"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 216,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"LST0X",
+				"ILE0X",
+				"A_SEC",
+				"0X7A_",
+				"E0X2BC",
+				"227_FI",
+				"_FILE0",
+				"2BC7D17C"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1627521393837,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
