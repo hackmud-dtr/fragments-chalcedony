@@ -1,12 +1,12 @@
 {
 	"_id": "anon_t9gfck.big_red_button",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "timeout",
 	"script": "anon_t9gfck.big_red_button",
 	"sector": "HJG_8839",
 	"sec_level": 4,
 	"date_added": 1624002179758,
-	"last_scraped": 1627103376927,
+	"last_scraped": 1629283014507,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,23 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1627148636003,
+	"next_scrape": 1629324545316,
 	"category": "risk_factor",
-	"last_update": 1627103376927,
+	"last_update": 1629283014507,
 	"output": [
 		{
 			"args": {},
-			"calls": 3181,
+			"calls": 4161,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"0000 ",
 				"000 01",
 				"0 0101",
+				"0 0001",
+				" 0000 ",
 				"1 0100 ",
 				"000 000",
-				"0100 000"
+				"0100 000",
+				" 0100 00"
 			]
 		},
 		{
@@ -783,15 +785,28 @@
 				"0 0101 N 59GC with do:\"win\"\nÁOR\n\nªOU COULª `VLO¦E",
 				"0 0100 0N 465M913K307GC with do:\"win\"\n\nOR\n\nYOU COU"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"0 0001",
+				" 0000 ",
+				"100 000",
+				" 0100 00"
+			]
 		}
 	],
-	"updt": 1625515608226,
-	"edit": 4,
+	"updt": 1627139857432,
+	"edit": 5,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
-			"do": "win"
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,41 +1,48 @@
 {
 	"_id": "abndnd_e48bq3.unlock",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_e48bq3.unlock",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624283835244,
-	"last_scraped": 1627158871063,
+	"last_scraped": 1629297294121,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624283835244
 		}
 	],
-	"updt": 1625480623170,
-	"edit": 3,
+	"updt": 1627159014858,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1627202202647,
+	"next_scrape": 1629337634489,
 	"category": "fishie_tank",
-	"last_update": 1627158924733,
+	"last_update": 1629297294121,
 	"output": [
 		{
 			"args": {},
-			"calls": 25562,
+			"calls": 31361,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"servi",
 				"rmed ",
 				"in of",
 				"fflin",
 				"ce 'C",
 				" oper",
+				"RE. Hy",
+				"operat",
+				"Che' w",
+				" Hyper",
 				" as sha",
 				"utive co",
 				"s collap",
 				"n's exec",
 				"ive comm",
 				"e has co",
+				"e commit",
+				"ares col",
 				"APORE. H",
 				":\"SINGAP"
 			],
@@ -44,11 +51,23 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"in of",
+						"fflin",
+						"ce 'C",
 						" as sha",
 						"utive co",
+						"s collap",
+						"n's exec",
 						"ive comm",
 						"e has co",
-						"APORE. H"
+						"APORE. H",
+						":\"SINGAP"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"rmed ",
+						" oper"
 					]
 				},
 				{
@@ -58,9 +77,39 @@
 					]
 				},
 				{
-					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
-						"rmed "
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						" oper"
 					]
 				}
 			]
@@ -69,7 +118,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5685,
+			"calls": 7774,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,27 +126,168 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"servi",
 				"fflin",
 				"ce 'C",
 				" oper",
+				"RE. Hy",
+				"operat",
+				"Che' w",
+				" Hyper",
 				"s collap",
 				"n's exec",
+				"e commit",
+				"ares col",
 				":\"SINGAP"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"fflin",
+						"ce 'C",
+						"s collap",
+						"n's exec",
+						":\"SINGAP"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						" oper"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						" oper"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 6779,
+			"calls": 33347,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"servi",
 				"fflin",
 				"ce 'C",
 				" oper",
+				"RE. Hy",
+				"operat",
+				"Che' w",
+				" Hyper",
 				"s collap",
 				"n's exec",
+				"e commit",
+				"ares col",
 				":\"SINGAP"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"servi",
+						"fflin",
+						"ce 'C",
+						"RE. Hy",
+						"Che' w",
+						" Hyper",
+						"s collap",
+						"n's exec",
+						"e commit",
+						"ares col",
+						":\"SINGAP"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						" oper",
+						"operat"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"operat"
+					]
+				}
 			]
 		}
 	],
@@ -105,12 +295,73 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
+				"servi",
 				"in of",
+				"fflin",
+				"ce 'C",
+				"RE. Hy",
+				"Che' w",
+				" Hyper",
 				" as sha",
 				"utive co",
+				"s collap",
+				"n's exec",
 				"ive comm",
 				"e has co",
-				"APORE. H"
+				"e commit",
+				"ares col",
+				"APORE. H",
+				":\"SINGAP"
+			]
+		},
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"rmed ",
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				" oper",
+				"operat"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				" oper",
+				"operat"
 			]
 		},
 		{
@@ -120,15 +371,10 @@
 			]
 		},
 		{
-			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
-				"rmed "
+				"operat"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

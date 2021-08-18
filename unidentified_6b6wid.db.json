@@ -6,7 +6,7 @@
 	"sector": "HJG_0243",
 	"sec_level": 4,
 	"date_added": 1624363488742,
-	"last_scraped": 1627159034053,
+	"last_scraped": 1629256578309,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627201989994,
+	"next_scrape": 1629299565785,
 	"category": "fishie_tank",
-	"last_update": 1627159034053,
+	"last_update": 1629256578309,
 	"output": [
 		{
 			"args": {},
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2732,
+			"calls": 7058,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,25 +54,33 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ROR | ",
 				"ROG ERR",
-				"ERROR |",
+				"OR | PR",
+				"NETW ER",
 				"R | PROG",
+				"G ERROR ",
 				"ETW ERRO",
-				"| NETW E"
+				"| NETW E",
+				" ERROR |"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 8908,
+			"calls": 29035,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ROR | ",
 				"ROG ERR",
-				"ERROR |",
+				"OR | PR",
+				"NETW ER",
 				"R | PROG",
+				"G ERROR ",
 				"ETW ERRO",
-				"| NETW E"
+				"| NETW E",
+				" ERROR |"
 			]
 		}
 	],
@@ -88,14 +96,6 @@
 			]
 		}
 	],
-	"updt": 1627159014858,
-	"edit": 3,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1627159211122,
+	"edit": 4
 }

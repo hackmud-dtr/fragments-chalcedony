@@ -1,12 +1,12 @@
 {
 	"_id": "anon_hoxtwr.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_hoxtwr.db",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624141475882,
-	"last_scraped": 1627100447892,
+	"last_scraped": 1629288559722,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,18 +14,23 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627146097920,
+	"next_scrape": 1629328303773,
 	"category": "fishie_tank",
-	"last_update": 1627100447892,
+	"last_update": 1629288559722,
 	"output": [
 		{
 			"args": {},
-			"calls": 18839,
+			"calls": 23851,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"work ",
 				"st as",
+				" rela",
+				"ou to t",
+				"ll. I w",
 				"as well",
 				"applies",
+				" necess",
 				"we don't",
 				"r but ap",
 				" don't f"
@@ -48,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4460,
+			"calls": 6537,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,44 +61,92 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"work ",
 				"urage",
+				" rela",
 				"s to n",
 				"age yo",
 				"ut the ",
+				"ou to t",
+				"ll. I w",
+				"e don't",
 				" to nec",
 				" of Com",
+				" necess",
 				"ies just"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"urage",
+						"s to n",
+						"age yo",
+						"ut the ",
+						" to nec",
+						" of Com",
+						"ies just"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 20832,
+			"calls": 31281,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ll. I",
+				"work ",
 				"ies j",
+				" rela",
 				"essity",
-				"e don'",
 				" I wou",
-				" think "
+				"ou to t",
+				"ll. I w",
+				"e don't",
+				" think ",
+				" necess"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"ll. I",
+						"ies j",
+						"essity",
+						"e don'",
+						" I wou",
+						" think "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627140053620,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
 			"frags": [
+				"urage",
 				"st as",
+				"ll. I",
+				"s to n",
+				"essity",
+				"age yo",
+				" I wou",
+				"ut the ",
 				"as well",
 				"applies",
+				" to nec",
+				" think ",
+				" of Com",
 				"we don't",
 				"r but ap",
+				"ies just",
 				" don't f"
 			]
 		}
-	],
-	"updt": 1625480623170,
-	"edit": 2
+	]
 }

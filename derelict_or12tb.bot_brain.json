@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_or12tb.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_or12tb.bot_brain",
 	"sector": "K_0473",
 	"sec_level": 4,
 	"date_added": 1624992747447,
-	"last_scraped": 1627175715244,
+	"last_scraped": 1629290724648,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,16 +14,19 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627216762424,
+	"next_scrape": 1629334765746,
 	"category": "dice_roller",
-	"last_update": 1627175715244,
+	"last_update": 1629290724648,
 	"output": [
 		{
 			"args": {},
-			"calls": 62365,
+			"calls": 68463,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"0 0000 ",
+				"1 0100 0",
+				"0100 000",
+				"000 0000",
 				"00 0100 ",
 				" 0000\\n0",
 				" 0000 00"
@@ -41,6 +44,8 @@
 			]
 		}
 	],
+	"updt": 1627175821032,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -51,7 +56,5 @@
 				" 0000 00"
 			]
 		}
-	],
-	"updt": 1625506035064,
-	"edit": 2
+	]
 }

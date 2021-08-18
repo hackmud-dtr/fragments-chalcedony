@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_bdzv0l.newlime",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_bdzv0l.newlime",
 	"sector": "K_0494",
 	"sec_level": 4,
 	"date_added": 1625171204700,
-	"last_scraped": 1627159833999,
+	"last_scraped": 1629297354717,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627201490189,
+	"next_scrape": 1629344001291,
 	"category": "fishie_tank",
-	"last_update": 1627159852120,
+	"last_update": 1629297354717,
 	"output": [
 		{
 			"args": {},
-			"calls": 31269,
+			"calls": 42170,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"OUNCE",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2277,
+			"calls": 3658,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,13 +59,25 @@
 				"ent to t",
 				"\\n2176 a",
 				" discard"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"OUNCE",
+						"iscard p",
+						"ent to t",
+						"\\n2176 a",
+						" discard"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10766,
+			"calls": 39239,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"OUNCE",
@@ -73,9 +85,23 @@
 				"ent to t",
 				"\\n2176 a",
 				" discard"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"OUNCE",
+						"iscard p",
+						"ent to t",
+						"\\n2176 a",
+						" discard"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627159990636,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -86,13 +112,6 @@
 				"\\n2176 a",
 				" discard"
 			]
-		}
-	],
-	"updt": 1627159795280,
-	"edit": 3,
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

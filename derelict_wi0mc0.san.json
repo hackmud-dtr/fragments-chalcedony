@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wi0mc0.san",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_wi0mc0.san",
 	"sector": "VNP_2162",
 	"sec_level": 4,
 	"date_added": 1624576593165,
-	"last_scraped": 1627173914173,
+	"last_scraped": 1629290594917,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,15 +14,60 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627216060225,
+	"next_scrape": 1629337162023,
 	"category": "coin_flipper",
-	"last_update": 1627173914173,
+	"last_update": 1629290594917,
 	"output": [
 		{
 			"args": {},
-			"calls": 59300,
+			"calls": 66863,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				"XF3_S",
+				"NETW ",
+				"BBE27",
+				"R | PR",
+				"OR | N",
+				"0X756A",
+				"00_CLS",
+				"ROR | P",
+				"ETW ERR",
+				" ERROR ",
+				"F3_SECT0",
+				"A_FILE0X",
+				"0_CLST0X",
+				"_FILE0XB",
+				"0FC\\nSYST"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"NETW ",
+						"BBE27",
+						"R | PR",
+						"OR | N",
+						"0X756A",
+						"00_CLS",
+						"ROR | P",
+						"ETW ERR",
+						"C\\nSYST",
+						" ERROR ",
+						"F3_SECT0",
+						"A_FILE0X",
+						"0_CLST0X",
+						"_FILE0XB"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1627174064243,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
 				"NETW ",
 				"BBE27",
 				"R | PR",
@@ -37,33 +82,7 @@
 				"A_FILE0X",
 				"0_CLST0X",
 				"_FILE0XB"
-			],
-			"hits": [
-				{
-					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-					"frags": [
-						"NETW ",
-						"BBE27",
-						"OR | N",
-						"0X756A",
-						"_FILE0XB"
-					]
-				}
 			]
 		}
-	],
-	"identified": [
-		{
-			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-			"frags": [
-				"NETW ",
-				"BBE27",
-				"OR | N",
-				"0X756A",
-				"_FILE0XB"
-			]
-		}
-	],
-	"updt": 1627173869379,
-	"edit": 3
+	]
 }

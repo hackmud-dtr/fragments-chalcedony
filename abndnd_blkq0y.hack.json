@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_blkq0y.hack",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_blkq0y.hack",
 	"sector": "VNP_6803",
 	"sec_level": 4,
 	"date_added": 1624760849339,
-	"last_scraped": 1627159528007,
+	"last_scraped": 1629297323825,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,42 +14,57 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627199338271,
+	"next_scrape": 1629340672954,
 	"category": "fishie_tank",
-	"last_update": 1627159528007,
+	"last_update": 1629297323825,
 	"output": [
 		{
 			"args": {},
-			"calls": 36395,
+			"calls": 45691,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"XF227_",
+				"take t",
+				"T0XBF_",
 				"D175\\n",
 				"D03208",
-				"BC7D17",
+				"9 We t",
 				"89 We ",
+				"5\\nAD0",
+				"0X2BC7",
+				" take ",
 				"F227_FI",
 				"e turns",
 				"BF_CLST",
+				"BC7D175",
 				"ake tur",
 				"32089 W",
 				"227_FIL",
 				"0XBF_CL",
 				"X7A_SECT",
 				"s\\n208A ",
-				"ns\\n208A",
-				"_CLST0X7"
+				"_CLST0X7",
+				"rns\\n208A"
 			],
 			"hits": [
 				{
 					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
-						"F_CLS",
+						"D175\\n",
+						"D03208",
 						"BC7D17",
 						"89 We ",
 						"F227_FI",
+						"e turns",
+						"BF_CLST",
 						"ake tur",
 						"32089 W",
-						"ns\\n208A"
+						"227_FIL",
+						"0XBF_CL",
+						"X7A_SECT",
+						"s\\n208A ",
+						"ns\\n208A",
+						"_CLST0X7"
 					]
 				}
 			]
@@ -58,7 +73,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3461,
+			"calls": 6395,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,53 +82,124 @@
 			],
 			"fragments": [
 				"F_CLS",
-				"BC7D17",
+				"XF227_",
+				"X7A_SE",
+				"take t",
+				"T0XBF_",
+				"e turn",
+				"9 We t",
 				"89 We ",
+				"5\\nAD0",
+				"0X2BC7",
+				" take ",
 				"F227_FI",
+				"BC7D175",
 				"ake tur",
 				"32089 W",
-				"ns\\n208A"
+				"rns\\n208A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"F_CLS",
+						"XF227_",
+						"X7A_SE",
+						"take t",
+						"T0XBF_",
+						"e turn",
+						"9 We t",
+						"89 We ",
+						"5\\nAD0",
+						"0X2BC7",
+						" take ",
+						"F227_FI",
+						"BC7D175",
+						"ake tur",
+						"32089 W",
+						"rns\\n208A"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4044,
+			"calls": 29433,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"F_CLS",
-				"BC7D17",
+				"XF227_",
+				"X7A_SE",
+				"take t",
+				"T0XBF_",
+				"e turn",
+				"9 We t",
 				"89 We ",
+				"5\\nAD0",
+				"0X2BC7",
+				" take ",
 				"F227_FI",
+				"BC7D175",
 				"ake tur",
 				"32089 W",
-				"ns\\n208A"
+				"rns\\n208A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"F_CLS",
+						"XF227_",
+						"X7A_SE",
+						"take t",
+						"T0XBF_",
+						"e turn",
+						"9 We t",
+						"89 We ",
+						"5\\nAD0",
+						"0X2BC7",
+						" take ",
+						"F227_FI",
+						"BC7D175",
+						"ake tur",
+						"32089 W",
+						"rns\\n208A"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627159601638,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
-				"F_CLS",
-				"BC7D17",
+				"XF227_",
+				"take t",
+				"T0XBF_",
+				"D175\\n",
+				"D03208",
+				"9 We t",
 				"89 We ",
+				"5\\nAD0",
+				"0X2BC7",
+				" take ",
 				"F227_FI",
+				"e turns",
+				"BF_CLST",
+				"BC7D175",
 				"ake tur",
 				"32089 W",
-				"ns\\n208A"
+				"227_FIL",
+				"0XBF_CL",
+				"X7A_SECT",
+				"s\\n208A ",
+				"_CLST0X7",
+				"rns\\n208A"
 			]
-		}
-	],
-	"updt": 1625480819075,
-	"edit": 3,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
