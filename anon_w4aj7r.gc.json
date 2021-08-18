@@ -131,10 +131,30 @@
 		{
 			"type": "died",
 			"when": 1627098914976
+		},
+		{
+			"type": "died",
+			"when": 1629239163664
+		},
+		{
+			"type": "died",
+			"when": 1629239172401
+		},
+		{
+			"type": "died",
+			"when": 1629239189589
+		},
+		{
+			"type": "died",
+			"when": 1629239233827
+		},
+		{
+			"type": "died",
+			"when": 1629239243798
 		}
 	],
-	"updt": 1625447391126,
-	"edit": 1232,
+	"updt": 1627109753052,
+	"edit": 1233,
 	"pl_output": "dark.gc is a library for working with GC.\n\n  `Na`(`Vx`, `Vy`):    `Nadds` transaction of `Vx` GC with memo flag `Vy`\n  `Nb`():        `Nbalance` as a number\n  `Nc`():        amount `Ncached` in bank\n  `Nd`(`Vx`):       `Ndetermine` latest transaction from balance, with memo flag `Vx`\n  `Ne`:          (not yet used)\n  `Nf`:          (not yet used)\n  `Ng`(`Vx`):       `Ngets` all or just `Vx` GC from bank script\n  `Nh`(`Vx`):       `Nhides` all or just `Vx` GC in bank\n  `Ni`(`Vx`, [`Vy`]):  transaction `Nindices` near time `Vx`, or between `Vx` and `Vy`\n  `Nj`:          (not yet used)\n  `Nk`:          (not yet used)\n  `Nl`():        `Nledger` of latest 100 transactions, for ease of use\n  `Nm`(`Vx`):       converts string time `Vx` to integer `Nminutes`\n  `Nn`(`Vx`):       `Nnumeric` version of `Vx` GC\n  `No`:          (not yet used)\n  `Np`:          (not yet used)\n  `Nq`:          (not yet used)\n  `Nr`():        `Nreasonable` balance; rounds down to lowest power of 10\n  `Ns`:          (not yet used)\n  `Nt`(`Vx`):       `Ntext` version of `Vx` GC\n  `Nu`:          (not yet used)\n  `Nv`(`Vx`, `Vy`):    `Nviews` transaction `Vx`, or transactions `Vx` to `Vy`\n  `Nw`:          (not yet used)\n  `Vx`(`Vx`, `Vy`, `Vz`): `Ntransfers` all or just `Vy` GC to `Vx`, with memo `Vz`\n  `Ny`:          (not yet used)\n  `Nz`:          (not yet used)\n  `N$`:          (not yet used)\n  `N_`:          (not yet used)\n\nthis library tries really hard to cache its values, assuming that you only use\nthis library for managing GC within scripts where it's used. it also allows\noperating with a rudimentary `Nbank` script, which follows the below spec:\n\n`Nbank` accepts one argument, `Namount`, which can be assumed to be a\nnonzero integer. this \"amount\" represents the net change to the bank's balance;\nif given a negative number, it should transfer GC to the caller, and if given a\npositive number, it should transfer GC to the bank. this assumes that the\ntransfer happens immediately when the script exits, in one transaction, for\nexactly the given amount, without failure, without a memo. almost always, this\nis not actually a specialised \"bank\" but a secondary user which can temporarily\nhold GC, whose balance is not maxed out. as a good rule of thumb, do not\nrequest more money from the bank than you have offered to it in a single script\nrun.\n\nhere's a sample bank script, that meets these criteria:\n\n  function(`Nc`, `Na`) {\n      if (`Nc`.`Ncaller` != `V\"your_user\"` || !`Na`) return\n      `Na` = `Na`.`Namount`\n      `Na` > `V0`\n          ? #ms.`Faccts`.`Lxfer_gc_to`({ `Nto`: `V\"``Cbank_user``V\"`, `Namount`: `Na` })\n          : #fs.`Faccts`.`Lxfer_gc_to_caller`({ `Namount`: -`Na` })\n  }\n\n",
 	"next_scrape": 1576534102485,
 	"scrape_ct": 17,

@@ -131,12 +131,32 @@
 		{
 			"type": "died",
 			"when": 1627098914976
+		},
+		{
+			"type": "died",
+			"when": 1629239163664
+		},
+		{
+			"type": "died",
+			"when": 1629239172401
+		},
+		{
+			"type": "died",
+			"when": 1629239189589
+		},
+		{
+			"type": "died",
+			"when": 1629239233827
+		},
+		{
+			"type": "died",
+			"when": 1629239243798
 		}
 	],
 	"pl_output": "\ndark.arrays is a library for working with arrays.\n\n  `Na`(`Vx`):       `Nadds` values in `Vx`\n  `Nb`(`Vx`, `Vy`):    `Nbinary`-searches `Vx` for `Vy`, returning index of closest value\n  `Nc`(`Vx`, `Vy`):    makes array of `Nchunks` of `Vx` at most `Vy` long\n  `Nd`(`Vx`):       makes array of `Ndefined` values in `Vx`\n  `Ne`(`Vx`, `Vy`, `Vz`): maps `Vy` on `Neach` value of `Vx`, starting at index `Vz`\n  `Nf`(`Vx`, `Vy`, `Vz`): maps `Vy` `Nfor` each number between 0 and `Vx` - `Vz`\n  `Ng`(`Vx`, `Vy`, `Vz`): `Ngets` `Vx`[`Vy`], repeatedly pushing `Vz`() if necessary\n  `Nh`(`Vx`, `Vy`):    makes function to check if `Vx` `Nhas` values, optionally mapping `Vy`\n  `Ni`(`Vx`, `Vy`):    makes array of `Nindices` of `Vx`, excluding last `Vy` values\n  `Nj`(`Vx`, `Vy`):    `Njoins` two `Vx` and `Vy` into combinations where `Vz`(`Vx`, `Vy`)\n  `Nk`(`Vx`, `Vy`, `Vz`): makes `Ncut` of `Vx` starting at `Vy`, ending just after `Vz` or at end of `Vx`\n  `Nl`(`Vx`):       `Nlength` of `Vx`\n  `Nm`(`Vx`...):    `Nmakes` each `Vx` an array and concatenates them\n  `Nn`(`Vx`, `Vy`):    makes array of `Nnumbers` from 0 to `Vx` - `Vy`\n  `No`(`Vx`):       grabs `None` element of `Vx`, or returns false\n  `Np`(`Vx`, `Vy`):    makes array of values in `Vx` which match `Npredicate` `Vy`\n  `Nq`(`Vx`, `Vy`):    makes array of values in `Vx` which don't match `Npredicate` `Vy`\n  `Nr`(`Vx`, `Vy`):    makes `Nreversed` version of `Vx`, excluding first `Vy` values\n  `Nt`:          (not yet used)\n  `Ns`(`Vx`, `Vy`):    makes `Nshuffle` of `Vx`; if `Vy` given, only shuffles first `Vy` values\n  `Nu`(`Vx`):       makes array of `Nunique` values\n  `Nv`(`Vx`):       checks if `Vx` is array-`Nvalued`\n  `Nw`(`Vx`, `Vy`):    makes array of `Nwindows` of `Vx` exactly `Vy` long\n  `Nx`(`Vx`, `Vy`, `Vz`): `Nexchanges` values in `Vx` at indices `Vy` and `Vz`\n  `Ny`(`Vx`, `Vy`):    opposite of `Nh`; pretend that it's `Nh` rotated 180°\n  `Nz`(`Vx`, `Vy`):    reduces `Vx`, starting at `Nzero` by calling `Vy` on all its values\n  `N$`(`Vx`, `Vy`):    compares `Vx` and `Vy` for lexicographic `Nsorting`\n  `N_`(`Vx`, `Vy`...): puts the `Vy` in the `N_` at the end of `Vx`\n\nmost of these methods implicitly convert values into an array-- that is,\nnon-string iterables get converted into arrays, undefined gets converted into\nan empty array, and all other objects become an array with one element.\n",
 	"next_scrape": 1576475288763,
-	"updt": 1625447391126,
-	"edit": 1229,
+	"updt": 1627109753052,
+	"edit": 1230,
 	"scrape_ct": 3,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1576430070307,
