@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_x3w3dg.eyes",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_x3w3dg.eyes",
 	"sector": "NGC_8975",
 	"sec_level": 4,
 	"date_added": 1622462253306,
-	"last_scraped": 1627099693335,
+	"last_scraped": 1629288428683,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,34 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627143951950,
+	"next_scrape": 1629331719960,
 	"category": "fishie_tank",
-	"last_update": 1627099693335,
+	"last_update": 1629288428683,
 	"output": [
 		{
 			"args": {},
-			"calls": 40100,
+			"calls": 49469,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"shed ",
-				"ramet",
+				"ge 2.",
 				" sche",
-				" are ",
-				"schedu",
+				"tage 2",
+				"ramete",
+				"ers fo",
+				": this",
+				"schedul",
+				"ng para",
+				"le: thi",
+				"e on sc",
+				"2. we a",
 				" on sch",
-				" 2. we "
+				" 2. we ",
+				"we are o",
+				"meters f",
+				"ished wo",
+				"for stag",
+				"e are on",
+				"chedule:"
 			],
 			"hits": [
 				{
@@ -50,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7324,
+			"calls": 8825,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,54 +70,116 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"shed ",
-				" are ",
-				"ters f",
-				"schedu",
+				"ge 2.",
+				"tage 2",
+				"ramete",
+				"ers fo",
 				"d work",
 				"aramet",
+				": this",
+				"schedul",
+				"ng para",
+				"le: thi",
+				"e on sc",
 				" on sch",
+				"we are o",
 				"on sched",
+				"meters f",
+				"ished wo",
+				"for stag",
+				"e are on",
+				"chedule:",
 				" 2. we a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"shed ",
+						" are ",
+						"ters f",
+						"schedu",
+						"d work",
+						"aramet",
+						" on sch",
+						"on sched",
+						" 2. we a"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 25284,
+			"calls": 38082,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"this ",
-				"shed ",
+				"ge 2.",
 				" sche",
-				" are ",
-				"schedu",
-				"hed wo",
-				"g para",
-				"chedul",
-				"eters f",
+				"tage 2",
+				"ers fo",
+				": this",
+				"schedul",
+				"ng para",
+				"le: thi",
+				"e on sc",
+				"2. we a",
 				" on sch",
 				" 2. we ",
+				"we are o",
 				"rking pa",
-				"paramete"
+				"paramete",
+				"meters f",
+				"ished wo",
+				"for stag",
+				"e are on",
+				"chedule:"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"this ",
+						"shed ",
+						" sche",
+						" are ",
+						"schedu",
+						"hed wo",
+						"g para",
+						"chedul",
+						"eters f",
+						" on sch",
+						" 2. we ",
+						"rking pa",
+						"paramete"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627139467247,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 			"frags": [
+				"this ",
 				"shed ",
-				"ramet",
-				" sche",
 				" are ",
 				"schedu",
+				"hed wo",
+				"g para",
+				"d work",
+				"chedul",
+				"eters f",
 				" on sch",
-				" 2. we "
+				"rking pa",
+				"paramete",
+				"on sched",
+				" 2. we a"
 			]
 		}
-	],
-	"updt": 1625479841333,
-	"edit": 5
+	]
 }

@@ -15,6 +15,46 @@
 		{
 			"type": "died",
 			"when": 1628652464887
+		},
+		{
+			"type": "died",
+			"when": 1629239163664
+		},
+		{
+			"type": "died",
+			"when": 1629239172401
+		},
+		{
+			"type": "died",
+			"when": 1629239189589
+		},
+		{
+			"type": "died",
+			"when": 1629239233827
+		},
+		{
+			"type": "died",
+			"when": 1629239243798
+		},
+		{
+			"type": "died",
+			"when": 1629255737889
+		},
+		{
+			"type": "died",
+			"when": 1629255751398
+		},
+		{
+			"type": "died",
+			"when": 1629255762814
+		},
+		{
+			"type": "died",
+			"when": 1629255824248
+		},
+		{
+			"type": "died",
+			"when": 1629255833911
 		}
 	],
 	"scrape_ct": 16,
@@ -50,11 +90,20 @@
 					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 					"frags": [
 						"T0X88",
+						"ROR |",
 						"ETW E",
 						"T ERRO",
+						"MFT0X8",
 						"9_SECT",
+						"69_SEC",
+						"2_CLST",
+						"_FILE0",
+						"YST ERR",
 						"X8C8517",
 						"SYST ER",
+						"OR | NE",
+						"LE0X8C8",
+						"FILE0X8",
 						"885F_FI",
 						"0X82_CL"
 					]
@@ -86,6 +135,26 @@
 				"T ERROR ",
 				"MFT0X82_",
 				"0X69_SEC"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"T0X88",
+						"ETW E",
+						"CT0X8",
+						"9_SECT",
+						"8517B2",
+						"X8C8517",
+						"SYST ER",
+						"885F_FI",
+						"0X82_CL",
+						"T0X69_SE",
+						"T ERROR ",
+						"MFT0X82_",
+						"0X69_SEC"
+					]
+				}
 			]
 		},
 		{
@@ -103,7 +172,29 @@
 				"SYST ER",
 				"885F_FI",
 				"0X82_CL"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"T0X88",
+						"ETW E",
+						"T ERRO",
+						"9_SECT",
+						"X8C8517",
+						"SYST ER",
+						"885F_FI",
+						"0X82_CL"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1628652655349,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	],
 	"identified": [
@@ -111,21 +202,26 @@
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 			"frags": [
 				"T0X88",
+				"ROR |",
 				"ETW E",
-				"T ERRO",
+				"CT0X8",
 				"9_SECT",
+				"8517B2",
+				"2_CLST",
+				"_FILE0",
+				"YST ERR",
 				"X8C8517",
 				"SYST ER",
+				"OR | NE",
+				"LE0X8C8",
+				"FILE0X8",
 				"885F_FI",
-				"0X82_CL"
+				"0X82_CL",
+				"T0X69_SE",
+				"T ERROR ",
+				"MFT0X82_",
+				"0X69_SEC"
 			]
-		}
-	],
-	"updt": 1627139467247,
-	"edit": 4,
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

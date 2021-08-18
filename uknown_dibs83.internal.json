@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_dibs83.internal",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_dibs83.internal",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622145630508,
-	"last_scraped": 1625516102150,
+	"last_scraped": 1629295548779,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,32 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625560249556,
+	"next_scrape": 1629341141408,
 	"category": "fishie_tank",
-	"last_update": 1627107929547,
+	"last_update": 1629295548779,
 	"output": [
 		{
 			"args": {},
-			"calls": 53522,
+			"calls": 59405,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"t | B",
 				"right",
-				"its s",
 				"em <d",
-				" BODY",
+				"Y its ",
+				"l to h",
+				" cool ",
 				"ou were",
 				"ndari |",
-				" the sy"
+				"its so ",
+				"il_horn",
+				"ari | S",
+				"| BODY ",
+				" the sy",
+				"erajbhan",
+				"ajbhanda",
+				" were ri",
+				" so cool"
 			],
 			"hits": [
 				{
@@ -50,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6979,
+			"calls": 9410,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,58 +68,133 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"t | B",
 				"right",
 				"ODY i",
-				"its s",
-				"erajb",
 				"em <d",
-				" BODY",
+				"Y its ",
+				"l to h",
 				"ki era",
 				"ght | ",
 				"awaki ",
+				" cool ",
 				"ou were",
 				"ndari |",
 				"n the s",
+				"its so ",
+				"il_horn",
+				"ari | S",
+				"| BODY ",
 				" the sy",
+				"erajbhan",
+				"ajbhanda",
+				" were ri",
+				" so cool",
 				" in the "
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"right",
+						"ODY i",
+						"its s",
+						"erajb",
+						"em <d",
+						" BODY",
+						"ki era",
+						"ght | ",
+						"awaki ",
+						"ou were",
+						"ndari |",
+						"n the s",
+						" the sy",
+						" in the "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 23706,
+			"calls": 52072,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"t | B",
 				"right",
-				"its s",
 				"em <d",
-				" BODY",
+				"Y its ",
+				"l to h",
+				" cool ",
 				"ou were",
 				"ndari |",
-				" the sy"
+				"its so ",
+				"il_horn",
+				"ari | S",
+				"| BODY ",
+				" the sy",
+				"erajbhan",
+				"ajbhanda",
+				" were ri",
+				" so cool"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"t | B",
+						"right",
+						"em <d",
+						"Y its ",
+						"l to h",
+						" cool ",
+						"ou were",
+						"ndari |",
+						"its so ",
+						"il_horn",
+						"ari | S",
+						"| BODY ",
+						" the sy",
+						"erajbhan",
+						"ajbhanda",
+						" were ri",
+						" so cool"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627139467247,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "Prisoners",
 			"frags": [
+				"t | B",
 				"right",
-				"its s",
+				"ODY i",
 				"em <d",
-				" BODY",
+				"Y its ",
+				"l to h",
+				"ki era",
+				"ght | ",
+				"awaki ",
+				" cool ",
 				"ou were",
 				"ndari |",
-				" the sy"
+				"n the s",
+				"its so ",
+				"il_horn",
+				"ari | S",
+				"| BODY ",
+				" the sy",
+				"erajbhan",
+				"ajbhanda",
+				" were ri",
+				" so cool",
+				" in the "
 			]
-		}
-	],
-	"updt": 1625516195278,
-	"edit": 4,
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

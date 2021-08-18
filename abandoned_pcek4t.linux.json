@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_pcek4t.linux",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_pcek4t.linux",
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1623028938233,
-	"last_scraped": 1627194124694,
+	"last_scraped": 1629297474728,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,36 +14,48 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627235353690,
+	"next_scrape": 1629343125402,
 	"category": "fishie_tank",
-	"last_update": 1627194237009,
+	"last_update": 1629297474728,
 	"output": [
 		{
 			"args": {},
-			"calls": 24851,
+			"calls": 35481,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"f any",
+				" has ",
+				"ybe ##",
 				"was pr",
 				"t was ",
 				"s a lo",
 				"one da",
-				"Histor",
+				"as a l",
+				"orical ",
+				"llory h",
 				"ay, may",
 				"al valu",
+				", one d",
+				", it wa",
+				"ything, ",
 				"ltural v",
+				"Historic",
 				" pretty "
 			],
 			"hits": [
 				{
 					"document": "Prisoners",
 					"frags": [
-						"retty",
+						"f any",
 						"was pr",
 						"t was ",
+						"s a lo",
+						"one da",
+						"Histor",
 						"ay, may",
 						"al valu",
-						"ltural v"
+						"ltural v",
+						" pretty "
 					]
 				}
 			]
@@ -52,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7379,
+			"calls": 8871,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,51 +73,112 @@
 			],
 			"fragments": [
 				"f any",
+				" has ",
+				"ybe ##",
 				"was pr",
 				"t was ",
 				"s a lo",
 				"one da",
-				"Histor",
+				"as a l",
+				"orical ",
+				"llory h",
 				"ay, may",
 				"al valu",
+				", one d",
+				", it wa",
+				"ything, ",
 				"ltural v",
+				"Historic",
 				" pretty "
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"f any",
+						"was pr",
+						"t was ",
+						"s a lo",
+						"one da",
+						"Histor",
+						"ay, may",
+						"al valu",
+						"ltural v",
+						" pretty "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2852,
+			"calls": 34089,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ural ",
 				"f any",
+				" has ",
+				"ybe ##",
 				"s a lo",
 				"one da",
-				"Histor",
+				"as a l",
+				"orical ",
+				"llory h",
+				", one d",
+				", it wa",
+				"ything, ",
+				"Historic",
 				" pretty "
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"ural ",
+						"f any",
+						" has ",
+						"ybe ##",
+						"s a lo",
+						"one da",
+						"as a l",
+						"orical ",
+						"llory h",
+						", one d",
+						", it wa",
+						"ything, ",
+						"Historic",
+						" pretty "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627194380219,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "Prisoners",
 			"frags": [
-				"retty",
+				"f any",
+				" has ",
+				"ybe ##",
 				"was pr",
 				"t was ",
+				"s a lo",
+				"one da",
+				"as a l",
+				"orical ",
+				"llory h",
 				"ay, may",
 				"al valu",
-				"ltural v"
+				", one d",
+				", it wa",
+				"ything, ",
+				"ltural v",
+				"Historic",
+				" pretty "
 			]
-		}
-	],
-	"updt": 1627139661927,
-	"edit": 4,
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

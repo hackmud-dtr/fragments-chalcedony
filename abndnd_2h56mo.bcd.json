@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_2h56mo.bcd",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_2h56mo.bcd",
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1622944481868,
-	"last_scraped": 1627157888965,
+	"last_scraped": 1629297164261,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627204089166,
+	"next_scrape": 1629340170481,
 	"category": "fishie_tank",
-	"last_update": 1627157888965,
+	"last_update": 1629297164261,
 	"output": [
 		{
 			"args": {},
-			"calls": 46872,
+			"calls": 57409,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"he de",
 				"ter th",
+				"e defe",
+				"2101 t",
+				"101 th",
+				"\\n20F6",
+				" the d",
 				" And a",
-				"d in\\n2",
 				"d after",
-				"age to\\n"
+				"stack.\\n",
+				"age to\\n",
+				"0FD And ",
+				"yed in\\n2",
+				"hat we\\n2"
 			],
 			"hits": [
 				{
@@ -48,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 828,
+			"calls": 3936,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,49 +66,107 @@
 			"fragments": [
 				"he de",
 				"ter th",
+				"e defe",
+				"2101 t",
+				"101 th",
+				"\\n20F6",
+				" the d",
 				" And a",
-				"d in\\n2",
 				"d after",
-				"age to\\n"
+				"stack.\\n",
+				"age to\\n",
+				"0FD And ",
+				"yed in\\n2",
+				"hat we\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"he de",
+						"ter th",
+						"e defe",
+						"2101 t",
+						"101 th",
+						"\\n20F6",
+						" the d",
+						" And a",
+						"d after",
+						"stack.\\n",
+						"age to\\n",
+						"0FD And ",
+						"yed in\\n2",
+						"hat we\\n2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 13777,
+			"calls": 32910,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"he de",
 				"ter th",
+				"e defe",
+				"2101 t",
+				"101 th",
+				"\\n20F6",
+				" the d",
 				" And a",
-				"d in\\n2",
 				"d after",
-				"age to\\n"
+				"stack.\\n",
+				"age to\\n",
+				"0FD And ",
+				"yed in\\n2",
+				"hat we\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"he de",
+						"ter th",
+						"e defe",
+						"2101 t",
+						"101 th",
+						"\\n20F6",
+						" the d",
+						" And a",
+						"d after",
+						"stack.\\n",
+						"age to\\n",
+						"0FD And ",
+						"yed in\\n2",
+						"hat we\\n2"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1627158040065,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
 				"he de",
 				"ter th",
+				"e defe",
+				"2101 t",
+				"101 th",
+				"\\n20F6",
+				" the d",
 				" And a",
-				"d in\\n2",
 				"d after",
-				"age to\\n"
+				"stack.\\n",
+				"age to\\n",
+				"0FD And ",
+				"yed in\\n2",
+				"hat we\\n2"
 			]
-		}
-	],
-	"updt": 1627157843754,
-	"edit": 4,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

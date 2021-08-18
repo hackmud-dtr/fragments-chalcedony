@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_t31bm9.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_t31bm9.db",
 	"sector": "K_3049",
 	"sec_level": 4,
 	"date_added": 1622509563106,
-	"last_scraped": 1627157709869,
+	"last_scraped": 1629297134251,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,37 +14,45 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1627201420670,
+	"next_scrape": 1629336987212,
 	"category": "fishie_tank",
-	"last_update": 1627157780765,
+	"last_update": 1629297134251,
 	"output": [
 		{
 			"args": {},
-			"calls": 50160,
+			"calls": 59685,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ative",
-				" SUBJ",
 				"SUBJ r",
 				"ested ",
 				" | BOD",
 				"Creativ",
 				" in how",
+				" | SUBJ",
 				"Y I'm in",
 				"terested",
 				"re: Crea",
-				"BJ re: C"
+				"I'm inte",
+				"BJ re: C",
+				"'m inter",
+				" I'm int"
 			],
 			"hits": [
 				{
 					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 					"frags": [
 						"ative",
+						" SUBJ",
+						"SUBJ r",
 						"ested ",
-						"J re: C",
+						" | BOD",
+						"Creativ",
+						" in how",
 						"Y I'm in",
 						"terested",
-						"re: Crea"
+						"re: Crea",
+						"BJ re: C"
 					]
 				}
 			]
@@ -53,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8094,
+			"calls": 9858,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,52 +70,103 @@
 			],
 			"fragments": [
 				"ative",
-				" SUBJ",
 				"SUBJ r",
 				"ested ",
 				" | BOD",
 				"Creativ",
 				" in how",
+				" | SUBJ",
 				"Y I'm in",
 				"terested",
 				"re: Crea",
-				"BJ re: C"
+				"I'm inte",
+				"BJ re: C",
+				"'m inter",
+				" I'm int"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ative",
+						" SUBJ",
+						"SUBJ r",
+						"ested ",
+						" | BOD",
+						"Creativ",
+						" in how",
+						"Y I'm in",
+						"terested",
+						"re: Crea",
+						"BJ re: C"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 17092,
+			"calls": 47097,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ative",
+				" in h",
+				"SUBJ r",
 				"ested ",
+				"Creati",
 				"J re: C",
+				" | SUBJ",
 				"Y I'm in",
 				"terested",
-				"re: Crea"
+				"re: Crea",
+				"I'm inte",
+				"'m inter",
+				" I'm int"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ative",
+						" in h",
+						"SUBJ r",
+						"ested ",
+						"Creati",
+						"J re: C",
+						" | SUBJ",
+						"Y I'm in",
+						"terested",
+						"re: Crea",
+						"I'm inte",
+						"'m inter",
+						" I'm int"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1625479841333,
-	"edit": 4,
+	"updt": 1627157843754,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 			"frags": [
 				"ative",
+				"SUBJ r",
 				"ested ",
-				"J re: C",
+				" | BOD",
+				"Creativ",
+				" in how",
+				" | SUBJ",
 				"Y I'm in",
 				"terested",
-				"re: Crea"
+				"re: Crea",
+				"I'm inte",
+				"BJ re: C",
+				"'m inter",
+				" I'm int"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
