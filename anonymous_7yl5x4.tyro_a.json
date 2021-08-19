@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_7yl5x4.tyro_a",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_7yl5x4.tyro_a",
 	"sector": "NGC_3454",
 	"sec_level": 4,
 	"date_added": 1626202853127,
-	"last_scraped": 1629342280338,
+	"last_scraped": 1629354145599,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626202853127
+		},
+		{
+			"type": "died",
+			"when": 1629354145599
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629384621868,
+	"next_scrape": 1629438078248,
 	"category": "fishie_tank",
 	"last_update": 1629342280338,
 	"output": [
@@ -191,8 +195,8 @@
 			]
 		}
 	],
-	"updt": 1629330244792,
-	"edit": 7,
+	"updt": 1629342370951,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -212,5 +216,6 @@
 				"or stage"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_7yl5x4.tyro_a: script doesn't exist\"}"
 }
