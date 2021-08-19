@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_pq9um5.sanctum",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_pq9um5.sanctum",
 	"sector": "SPC_1126",
 	"sec_level": 4,
 	"date_added": 1626387722087,
-	"last_scraped": 1629383334602,
+	"last_scraped": 1629394985293,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626387722087
+		},
+		{
+			"type": "died",
+			"when": 1629394985293
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1629424233742,
+	"next_scrape": 1629477628037,
 	"category": "fishie_tank",
 	"last_update": 1629383334602,
 	"output": [
@@ -187,8 +191,8 @@
 			]
 		}
 	],
-	"updt": 1629372479175,
-	"edit": 11,
+	"updt": 1629383426021,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -200,5 +204,6 @@
 				"ate comb"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_pq9um5.sanctum: script doesn't exist\"}"
 }
