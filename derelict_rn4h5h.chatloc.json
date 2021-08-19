@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_rn4h5h.chatloc",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_rn4h5h.chatloc",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1629132380238,
-	"last_scraped": 1629389369136,
+	"last_scraped": 1629399638878,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1629132380238
+		},
+		{
+			"type": "died",
+			"when": 1629399638878
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629429600843,
+	"next_scrape": 1629482862030,
 	"category": "plant_sim",
 	"last_update": 1629389369136,
 	"output": [
@@ -124,8 +128,8 @@
 			]
 		}
 	],
-	"updt": 1629377369837,
-	"edit": 9,
+	"updt": 1629389487116,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -147,5 +151,6 @@
 				" is stil"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_rn4h5h.chatloc: script doesn't exist\"}"
 }
