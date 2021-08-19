@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_cih5ug.defaults",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_cih5ug.defaults",
 	"sector": "HJG_3704",
 	"sec_level": 4,
 	"date_added": 1620693240882,
-	"last_scraped": 1629348719236,
+	"last_scraped": 1629361822805,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620693240882
+		},
+		{
+			"type": "died",
+			"when": 1629361822805
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629393663444,
+	"next_scrape": 1629448784693,
 	"category": "coin_flipper",
 	"last_update": 1629348719236,
 	"output": [
@@ -178,8 +182,8 @@
 			]
 		}
 	],
-	"updt": 1629337873366,
-	"edit": 14,
+	"updt": 1629348821219,
+	"edit": 15,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -281,5 +285,6 @@
 				" consid"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_cih5ug.defaults: script doesn't exist\"}"
 }
