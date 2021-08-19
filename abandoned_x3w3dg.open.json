@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_x3w3dg.open",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_x3w3dg.open",
 	"sector": "HJG_8100",
 	"sec_level": 4,
 	"date_added": 1629182062374,
-	"last_scraped": 1629389460150,
+	"last_scraped": 1629399739688,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1629182062374
+		},
+		{
+			"type": "died",
+			"when": 1629399739688
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1629429855624,
+	"next_scrape": 1629484977641,
 	"category": "coin_flipper",
 	"last_update": 1629389460150,
 	"output": [
@@ -76,8 +80,8 @@
 			]
 		}
 	],
-	"updt": 1629377564573,
-	"edit": 10,
+	"updt": 1629389487116,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -93,5 +97,6 @@
 				" thread "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_x3w3dg.open: script doesn't exist\"}"
 }
