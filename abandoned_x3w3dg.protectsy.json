@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_x3w3dg.protectsy",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_x3w3dg.protectsy",
 	"sector": "K_7442",
 	"sec_level": 4,
 	"date_added": 1625903084910,
-	"last_scraped": 1629385122143,
+	"last_scraped": 1629396701179,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625903084910
+		},
+		{
+			"type": "died",
+			"when": 1629396701179
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629427301261,
+	"next_scrape": 1629486510119,
 	"category": "coin_flipper",
 	"last_update": 1629385122143,
 	"output": [
@@ -76,8 +80,8 @@
 			]
 		}
 	],
-	"updt": 1629374432468,
-	"edit": 10,
+	"updt": 1629385186066,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -89,5 +93,6 @@
 				"utions t"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_x3w3dg.protectsy: script doesn't exist\"}"
 }
