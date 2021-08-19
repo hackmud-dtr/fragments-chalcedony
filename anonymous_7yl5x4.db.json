@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_7yl5x4.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_7yl5x4.db",
 	"sector": "HJG_9691",
 	"sec_level": 4,
 	"date_added": 1621339657663,
-	"last_scraped": 1629348588976,
+	"last_scraped": 1629361701924,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621339657663
+		},
+		{
+			"type": "died",
+			"when": 1629361701924
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629392565925,
+	"next_scrape": 1629447950137,
 	"category": "plant_sim",
 	"last_update": 1629348588976,
 	"output": [
@@ -246,8 +250,8 @@
 			]
 		}
 	],
-	"updt": 1629337873366,
-	"edit": 10,
+	"updt": 1629348626148,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -383,5 +387,6 @@
 				" that"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_7yl5x4.db: script doesn't exist\"}"
 }
