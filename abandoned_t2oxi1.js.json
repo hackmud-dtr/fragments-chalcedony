@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_t2oxi1.js",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_t2oxi1.js",
 	"sector": "K_7630",
 	"sec_level": 4,
 	"date_added": 1621417139983,
-	"last_scraped": 1629546109049,
+	"last_scraped": 1629559181451,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621417139983
+		},
+		{
+			"type": "died",
+			"when": 1629559181451
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629591894836,
+	"next_scrape": 1629639300007,
 	"category": "dice_roller",
 	"last_update": 1629546109049,
 	"output": [
@@ -95,8 +99,8 @@
 			]
 		}
 	],
-	"updt": 1629536249881,
-	"edit": 28,
+	"updt": 1629546217221,
+	"edit": 29,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -114,5 +118,6 @@
 				"0D96F593"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_t2oxi1.js: script doesn't exist\"}"
 }

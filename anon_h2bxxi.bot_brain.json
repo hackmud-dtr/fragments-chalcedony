@@ -1,20 +1,24 @@
 {
 	"_id": "anon_h2bxxi.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_h2bxxi.bot_brain",
 	"sector": "NGC_7889",
 	"sec_level": 4,
 	"date_added": 1623333432613,
-	"last_scraped": 1629546440222,
+	"last_scraped": 1629559483123,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623333432613
+		},
+		{
+			"type": "died",
+			"when": 1629559483123
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629592710371,
+	"next_scrape": 1629651803060,
 	"category": "coin_flipper",
 	"last_update": 1629546440222,
 	"output": [
@@ -109,8 +113,8 @@
 			]
 		}
 	],
-	"updt": 1629536446590,
-	"edit": 29,
+	"updt": 1629546804317,
+	"edit": 30,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -139,5 +143,6 @@
 				" a tauto"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_h2bxxi.bot_brain: script doesn't exist\"}"
 }
