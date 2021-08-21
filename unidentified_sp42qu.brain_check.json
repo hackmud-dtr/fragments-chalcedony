@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_sp42qu.brain_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_sp42qu.brain_check",
 	"sector": "VNP_2457",
 	"sec_level": 4,
 	"date_added": 1626015639873,
-	"last_scraped": 1629548391993,
+	"last_scraped": 1629560426594,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626015639873
+		},
+		{
+			"type": "died",
+			"when": 1629560426594
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629594792307,
+	"next_scrape": 1629651064154,
 	"category": "plant_sim",
 	"last_update": 1629548391993,
 	"output": [
@@ -98,8 +102,8 @@
 			]
 		}
 	],
-	"updt": 1629537422865,
-	"edit": 25,
+	"updt": 1629548563182,
+	"edit": 26,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -112,5 +116,6 @@
 				"lways in"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_sp42qu.brain_check: script doesn't exist\"}"
 }
