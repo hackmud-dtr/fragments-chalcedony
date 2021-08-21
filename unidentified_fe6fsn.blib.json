@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_fe6fsn.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_fe6fsn.blib",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627178695526,
-	"last_scraped": 1629553158990,
+	"last_scraped": 1629565280593,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627178695526
+		},
+		{
+			"type": "died",
+			"when": 1629565280593
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629596357551,
+	"next_scrape": 1629650370180,
 	"category": "fishie_tank",
 	"last_update": 1629553158990,
 	"output": [
@@ -191,8 +195,8 @@
 			]
 		}
 	],
-	"updt": 1629542311455,
-	"edit": 25,
+	"updt": 1629553251435,
+	"edit": 26,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -213,5 +217,6 @@
 				" | TIME "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_fe6fsn.blib: script doesn't exist\"}"
 }
