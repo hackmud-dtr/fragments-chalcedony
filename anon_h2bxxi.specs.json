@@ -1,20 +1,24 @@
 {
 	"_id": "anon_h2bxxi.specs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_h2bxxi.specs",
 	"sector": "VNP_9167",
 	"sec_level": 4,
 	"date_added": 1629235729370,
-	"last_scraped": 1629543481937,
+	"last_scraped": 1629554484722,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1629235729370
+		},
+		{
+			"type": "died",
+			"when": 1629554484722
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629585747049,
+	"next_scrape": 1629639887425,
 	"category": "fishie_tank",
 	"last_update": 1629543481937,
 	"output": [
@@ -220,8 +224,8 @@
 			]
 		}
 	],
-	"updt": 1629533516275,
-	"edit": 25,
+	"updt": 1629543680258,
+	"edit": 26,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -239,5 +243,6 @@
 				" possibl"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_h2bxxi.specs: script doesn't exist\"}"
 }
