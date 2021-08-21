@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_n3b8ef.island",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_n3b8ef.island",
 	"sector": "K_3386",
 	"sec_level": 4,
 	"date_added": 1626278406995,
-	"last_scraped": 1629551493325,
+	"last_scraped": 1629563596376,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626278406995
+		},
+		{
+			"type": "died",
+			"when": 1629563596376
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629597936071,
+	"next_scrape": 1629646828060,
 	"category": "fishie_tank",
 	"last_update": 1629551493325,
 	"output": [
@@ -293,8 +297,8 @@
 			]
 		}
 	],
-	"updt": 1629540549819,
-	"edit": 27,
+	"updt": 1629551688734,
+	"edit": 28,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -318,5 +322,6 @@
 				" mark on"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_n3b8ef.island: script doesn't exist\"}"
 }
