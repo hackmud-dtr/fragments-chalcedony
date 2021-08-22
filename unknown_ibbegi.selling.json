@@ -1,22 +1,26 @@
 {
 	"_id": "unknown_ibbegi.selling",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_ibbegi.selling",
 	"sector": "VNP_8614",
 	"sec_level": 4,
 	"date_added": 1622749822289,
-	"last_scraped": 1629609317304,
+	"last_scraped": 1629620130016,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622749822289
+		},
+		{
+			"type": "died",
+			"when": 1629620130016
 		}
 	],
-	"updt": 1629599766023,
-	"edit": 33,
+	"updt": 1629609346759,
+	"edit": 34,
 	"scrape_ct": 16,
-	"next_scrape": 1629654567205,
+	"next_scrape": 1629704744153,
 	"category": "dice_roller",
 	"last_update": 1629609317304,
 	"output": [
@@ -104,5 +108,6 @@
 				"! ## rig"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_ibbegi.selling: script doesn't exist\"}"
 }
