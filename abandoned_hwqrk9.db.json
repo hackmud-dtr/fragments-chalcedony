@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_hwqrk9.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_hwqrk9.db",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627194924920,
-	"last_scraped": 1629686589542,
+	"last_scraped": 1629696269869,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627194924920
+		},
+		{
+			"type": "died",
+			"when": 1629696269869
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629726728262,
+	"next_scrape": 1629784612917,
 	"category": "clicker",
 	"last_update": 1629686589542,
 	"output": [
@@ -226,8 +230,8 @@
 			]
 		}
 	],
-	"updt": 1629677161279,
-	"edit": 40,
+	"updt": 1629686733646,
+	"edit": 41,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -253,5 +257,6 @@
 				" e <fist"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_hwqrk9.db: script doesn't exist\"}"
 }
