@@ -1,20 +1,24 @@
 {
 	"_id": "anon_nuvdtl.corpt1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_nuvdtl.corpt1",
 	"sector": "K_7528",
 	"sec_level": 4,
 	"date_added": 1626900176221,
-	"last_scraped": 1629891423993,
+	"last_scraped": 1629901538759,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626900176221
+		},
+		{
+			"type": "died",
+			"when": 1629901538759
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629935668827,
+	"next_scrape": 1629983095843,
 	"category": "clicker",
 	"last_update": 1629891423993,
 	"output": [
@@ -161,8 +165,8 @@
 			]
 		}
 	],
-	"updt": 1629882356404,
-	"edit": 63,
+	"updt": 1629891548753,
+	"edit": 64,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -178,5 +182,6 @@
 				"e remind"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_nuvdtl.corpt1: script doesn't exist\"}"
 }
