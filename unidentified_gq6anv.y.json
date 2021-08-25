@@ -6,7 +6,7 @@
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1628919617250,
-	"last_scraped": 1629893950392,
+	"last_scraped": 1629904231870,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,33 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629937543645,
+	"next_scrape": 1629947069313,
 	"category": "fishie_tank",
-	"last_update": 1629893950392,
+	"last_update": 1629904243014,
 	"output": [
 		{
 			"args": {},
-			"calls": 274049,
+			"calls": 277855,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"till ",
 				"s bec",
-				"elp m",
+				"racti",
+				"ecome",
 				"D Wil",
 				" has ",
 				"le ther",
 				"his hel",
+				"EA4 Pra",
 				"ame has",
 				"A4 Prac",
 				"\\n1E9C ",
+				" help m",
 				"l this h",
 				"hile the",
 				"ome\\n1E9C",
 				"e\\n1E9D W",
+				"\\n1EA4 Pr",
 				"?\\n1EA4 P"
 			],
 			"hits": [
@@ -64,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 59910,
+			"calls": 60654,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,12 +77,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"till ",
 				"s bec",
-				"elp m",
-				"me\\n1E",
+				"racti",
+				"ecome",
+				"me\\n1E9",
+				"EA4 Pra",
 				"ame has",
 				"A4 Prac",
-				"e\\n1E9D W"
+				" help m",
+				"e\\n1E9D W",
+				"\\n1EA4 Pr"
 			],
 			"hits": [
 				{
@@ -122,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1629884898661,
-	"edit": 61,
+	"updt": 1629894088206,
+	"edit": 62,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -143,6 +153,11 @@
 				"e\\n1E9D W",
 				"?\\n1EA4 P"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
