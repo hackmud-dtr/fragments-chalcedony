@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_km41iw.id",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_km41iw.id",
 	"sector": "K_1203",
 	"sec_level": 4,
 	"date_added": 1623749185247,
-	"last_scraped": 1629858638977,
+	"last_scraped": 1629867980128,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623749185247
+		},
+		{
+			"type": "died",
+			"when": 1629867980128
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629905426464,
+	"next_scrape": 1629947287035,
 	"category": "coin_flipper",
 	"last_update": 1629858638977,
 	"output": [
@@ -109,8 +113,8 @@
 			]
 		}
 	],
-	"updt": 1629849535876,
-	"edit": 58,
+	"updt": 1629858716553,
+	"edit": 59,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -132,5 +136,6 @@
 				"And why "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_km41iw.id: script doesn't exist\"}"
 }
