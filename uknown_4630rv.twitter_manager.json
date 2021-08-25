@@ -1,20 +1,24 @@
 {
 	"_id": "uknown_4630rv.twitter_manager",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_4630rv.twitter_manager",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627257418847,
-	"last_scraped": 1629869924428,
+	"last_scraped": 1629879149944,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627257418847
+		},
+		{
+			"type": "died",
+			"when": 1629879149944
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629910505601,
+	"next_scrape": 1629958714436,
 	"category": "dice_roller",
 	"last_update": 1629869924428,
 	"output": [
@@ -84,8 +88,8 @@
 			]
 		}
 	],
-	"updt": 1629860669139,
-	"edit": 56,
+	"updt": 1629870050574,
+	"edit": 57,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -103,5 +107,6 @@
 				" do I pl"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_4630rv.twitter_manager: script doesn't exist\"}"
 }
