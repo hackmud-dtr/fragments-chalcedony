@@ -1,22 +1,26 @@
 {
 	"_id": "unknown_jrmzyo.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_jrmzyo.dist",
 	"sector": "NGC_7889",
 	"sec_level": 4,
 	"date_added": 1623331240652,
-	"last_scraped": 1629849362695,
+	"last_scraped": 1629858539618,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623331240652
+		},
+		{
+			"type": "died",
+			"when": 1629858539618
 		}
 	],
-	"updt": 1629838592150,
-	"edit": 57,
+	"updt": 1629849535876,
+	"edit": 58,
 	"scrape_ct": 16,
-	"next_scrape": 1629889244042,
+	"next_scrape": 1629949506052,
 	"category": "dice_roller",
 	"last_update": 1629849362695,
 	"output": [
@@ -554,5 +558,6 @@
 				"handar"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_jrmzyo.dist: script doesn't exist\"}"
 }
