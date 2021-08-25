@@ -1,20 +1,24 @@
 {
 	"_id": "uknown_4630rv.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_4630rv.blib",
 	"sector": "K_0087",
 	"sec_level": 4,
 	"date_added": 1621187850313,
-	"last_scraped": 1629874838365,
+	"last_scraped": 1629884124342,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621187850313
+		},
+		{
+			"type": "died",
+			"when": 1629884124342
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1629918133834,
+	"next_scrape": 1629966679097,
 	"category": "clicker",
 	"last_update": 1629874838365,
 	"output": [
@@ -469,8 +473,8 @@
 			]
 		}
 	],
-	"updt": 1629865749541,
-	"edit": 67,
+	"updt": 1629874934419,
+	"edit": 68,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -516,5 +520,6 @@
 				"K ERROR |"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_4630rv.blib: script doesn't exist\"}"
 }
