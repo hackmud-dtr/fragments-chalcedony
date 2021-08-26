@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_3q9zps.pilfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_3q9zps.pilfer",
 	"sector": "HJG_6148",
 	"sec_level": 4,
 	"date_added": 1622205645651,
-	"last_scraped": 1629979549210,
+	"last_scraped": 1629988468521,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622205645651
+		},
+		{
+			"type": "died",
+			"when": 1629988468521
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630020749502,
+	"next_scrape": 1630078701534,
 	"category": "coin_flipper",
 	"last_update": 1629979549210,
 	"output": [
@@ -107,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1629970698863,
-	"edit": 72,
+	"updt": 1629979695592,
+	"edit": 73,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -127,5 +131,6 @@
 				" used to"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_3q9zps.pilfer: script doesn't exist\"}"
 }
