@@ -1,22 +1,26 @@
 {
 	"_id": "unknown_p838ow.defaults",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_p838ow.defaults",
 	"sector": "SPC_8012",
 	"sec_level": 4,
 	"date_added": 1622651804634,
-	"last_scraped": 1629997605650,
+	"last_scraped": 1630006468218,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622651804634
+		},
+		{
+			"type": "died",
+			"when": 1630006468218
 		}
 	],
-	"updt": 1629988680038,
-	"edit": 73,
+	"updt": 1629997668191,
+	"edit": 74,
 	"scrape_ct": 16,
-	"next_scrape": 1630040247365,
+	"next_scrape": 1630095991393,
 	"category": "dice_roller",
 	"last_update": 1629997605650,
 	"output": [
@@ -131,5 +135,6 @@
 				"r becaus"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_p838ow.defaults: script doesn't exist\"}"
 }
