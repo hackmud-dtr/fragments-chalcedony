@@ -1,20 +1,24 @@
 {
 	"_id": "abndnd_yaap9n.mat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_yaap9n.mat",
 	"sector": "NGC_7889",
 	"sec_level": 4,
 	"date_added": 1623407842547,
-	"last_scraped": 1629960491568,
+	"last_scraped": 1629969456935,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623407842547
+		},
+		{
+			"type": "died",
+			"when": 1629969456935
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630006410116,
+	"next_scrape": 1630057322732,
 	"category": "fishie_tank",
 	"last_update": 1629960491568,
 	"output": [
@@ -357,8 +361,8 @@
 			]
 		}
 	],
-	"updt": 1629951541950,
-	"edit": 71,
+	"updt": 1629960533764,
+	"edit": 72,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -432,5 +436,6 @@
 				"anding"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_yaap9n.mat: script doesn't exist\"}"
 }
