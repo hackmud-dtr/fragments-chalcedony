@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_v206z4.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_v206z4.bot_brain",
 	"sector": "SPC_8012",
 	"sec_level": 4,
 	"date_added": 1622619338467,
-	"last_scraped": 1630024259080,
+	"last_scraped": 1630033144414,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622619338467
+		},
+		{
+			"type": "died",
+			"when": 1630033144414
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630069156174,
+	"next_scrape": 1630116760694,
 	"category": "dice_roller",
 	"last_update": 1630024259080,
 	"output": [
@@ -77,8 +81,8 @@
 			]
 		}
 	],
-	"updt": 1630015456872,
-	"edit": 76,
+	"updt": 1630024446249,
+	"edit": 77,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -97,5 +101,6 @@
 				" my enti"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_v206z4.bot_brain: script doesn't exist\"}"
 }
