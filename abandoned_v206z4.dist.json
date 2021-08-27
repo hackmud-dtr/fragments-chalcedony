@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_v206z4.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_v206z4.dist",
 	"sector": "NGC_7486",
 	"sec_level": 4,
 	"date_added": 1627760850199,
-	"last_scraped": 1630026894557,
+	"last_scraped": 1630035769355,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627760850199
+		},
+		{
+			"type": "died",
+			"when": 1630035769355
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630068630231,
+	"next_scrape": 1630119522847,
 	"category": "dice_roller",
 	"last_update": 1630026894557,
 	"output": [
@@ -80,8 +84,8 @@
 			]
 		}
 	],
-	"updt": 1630017996670,
-	"edit": 73,
+	"updt": 1630026986690,
+	"edit": 74,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -94,5 +98,6 @@
 				"T0X7A_SE"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_v206z4.dist: script doesn't exist\"}"
 }
