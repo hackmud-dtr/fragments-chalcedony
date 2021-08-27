@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_gyxt2a.scripts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_gyxt2a.scripts",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627232234326,
-	"last_scraped": 1630091274636,
+	"last_scraped": 1630100435209,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627232234326
+		},
+		{
+			"type": "died",
+			"when": 1630100435209
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630135687131,
+	"next_scrape": 1630179794859,
 	"category": "coin_flipper",
 	"last_update": 1630091274636,
 	"output": [
@@ -99,8 +103,8 @@
 			]
 		}
 	],
-	"updt": 1630080923249,
-	"edit": 79,
+	"updt": 1630091279603,
+	"edit": 80,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -114,5 +118,6 @@
 				"ETA for "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_gyxt2a.scripts: script doesn't exist\"}"
 }
