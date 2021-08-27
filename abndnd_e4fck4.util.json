@@ -1,20 +1,24 @@
 {
 	"_id": "abndnd_e4fck4.util",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_e4fck4.util",
 	"sector": "K_1000",
 	"sec_level": 4,
 	"date_added": 1626541183271,
-	"last_scraped": 1630028639340,
+	"last_scraped": 1630037433559,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626541183271
+		},
+		{
+			"type": "died",
+			"when": 1630037433559
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630069037078,
+	"next_scrape": 1630125815388,
 	"category": "fishie_tank",
 	"last_update": 1630028639340,
 	"output": [
@@ -262,8 +266,8 @@
 			]
 		}
 	],
-	"updt": 1630019755154,
-	"edit": 79,
+	"updt": 1630028748802,
+	"edit": 80,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -286,5 +290,6 @@
 				" | BODY "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_e4fck4.util: script doesn't exist\"}"
 }
