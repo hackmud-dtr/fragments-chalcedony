@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_5wmqbn.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_5wmqbn.db",
 	"sector": "NGC_2461",
 	"sec_level": 4,
 	"date_added": 1623703037108,
-	"last_scraped": 1630123414508,
+	"last_scraped": 1630132474252,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623703037108
+		},
+		{
+			"type": "died",
+			"when": 1630132474252
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630163355328,
+	"next_scrape": 1630215231443,
 	"category": "clicker",
 	"last_update": 1630123414508,
 	"output": [
@@ -381,8 +385,8 @@
 			]
 		}
 	],
-	"updt": 1630114352526,
-	"edit": 85,
+	"updt": 1630123539258,
+	"edit": 86,
 	"identified": [
 		{
 			"document": "Unsanctioned",
@@ -446,5 +450,6 @@
 				"re it"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_5wmqbn.db: script doesn't exist\"}"
 }
