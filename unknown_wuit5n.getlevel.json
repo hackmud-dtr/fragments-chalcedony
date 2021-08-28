@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_wuit5n.getlevel",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_wuit5n.getlevel",
 	"sector": "NGC_8739",
 	"sec_level": 4,
 	"date_added": 1626824692306,
-	"last_scraped": 1630150360938,
+	"last_scraped": 1630159487946,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626824692306
+		},
+		{
+			"type": "died",
+			"when": 1630159487946
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630192989052,
+	"next_scrape": 1630238739581,
 	"category": "clicker",
 	"last_update": 1630150360938,
 	"output": [
@@ -209,8 +213,8 @@
 			]
 		}
 	],
-	"updt": 1630141514496,
-	"edit": 91,
+	"updt": 1630150505302,
+	"edit": 92,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -233,5 +237,6 @@
 				"?. BOUNC"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_wuit5n.getlevel: script doesn't exist\"}"
 }
