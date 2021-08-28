@@ -1,22 +1,26 @@
 {
 	"_id": "derelict_evcwnf.keys",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_evcwnf.keys",
 	"sector": "HJG_0316",
 	"sec_level": 4,
 	"date_added": 1620954848732,
-	"last_scraped": 1630155442043,
+	"last_scraped": 1630164648816,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620954848732
+		},
+		{
+			"type": "died",
+			"when": 1630164648816
 		}
 	],
-	"updt": 1630146599438,
-	"edit": 92,
+	"updt": 1630155590541,
+	"edit": 93,
 	"scrape_ct": 16,
-	"next_scrape": 1630196761279,
+	"next_scrape": 1630256201096,
 	"category": "plant_sim",
 	"last_update": 1630155442043,
 	"output": [
@@ -168,5 +172,6 @@
 				"and 3\\n20"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_evcwnf.keys: script doesn't exist\"}"
 }
