@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_yb86vm.puppies_n_kittens",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_yb86vm.puppies_n_kittens",
 	"sector": "HJG_9563",
 	"sec_level": 2,
 	"date_added": 1618370431058,
-	"last_scraped": 1630153987223,
+	"last_scraped": 1630163072460,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,12 +23,16 @@
 				"from": "HJG_9563",
 				"to": "K_9007"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1630163072460
+		}
 	],
-	"pl_output": "OOPS! Don't do that again ;)",
-	"next_scrape": 1630194775672,
-	"updt": 1630145033150,
-	"edit": 2093,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_yb86vm.puppies_n_kittens: script doesn't exist\"}",
+	"next_scrape": 1630256289703,
+	"updt": 1630154027969,
+	"edit": 2094,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1630153987223,
