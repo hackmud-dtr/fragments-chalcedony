@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_t91p9s.magnara",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_t91p9s.magnara",
 	"sector": "K_8246",
 	"sec_level": 4,
 	"date_added": 1627253672384,
-	"last_scraped": 1630248465837,
+	"last_scraped": 1630261112418,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627253672384
+		},
+		{
+			"type": "died",
+			"when": 1630261112418
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630291100032,
+	"next_scrape": 1630348258330,
 	"category": "coin_flipper",
 	"last_update": 1630248465837,
 	"output": [
@@ -65,8 +69,8 @@
 			]
 		}
 	],
-	"updt": 1630239829921,
-	"edit": 95,
+	"updt": 1630248628517,
+	"edit": 96,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -79,5 +83,6 @@
 				" going "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_t91p9s.magnara: script doesn't exist\"}"
 }
