@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_nl2uwu.do_not_call",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_nl2uwu.do_not_call",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624306459867,
-	"last_scraped": 1630209098083,
+	"last_scraped": 1630218028995,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624306459867
+		},
+		{
+			"type": "died",
+			"when": 1630218028995
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630253107110,
+	"next_scrape": 1630303853986,
 	"category": "clicker",
 	"last_update": 1630209098083,
 	"output": [
@@ -209,8 +213,8 @@
 			]
 		}
 	],
-	"updt": 1630199570444,
-	"edit": 101,
+	"updt": 1630209144373,
+	"edit": 102,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -232,5 +236,6 @@
 				" hit the"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_nl2uwu.do_not_call: script doesn't exist\"}"
 }
