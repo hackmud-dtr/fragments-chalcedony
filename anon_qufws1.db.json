@@ -6,7 +6,7 @@
 	"sector": "NGC_8762",
 	"sec_level": 4,
 	"date_added": 1628375034122,
-	"last_scraped": 1630300962266,
+	"last_scraped": 1630310484677,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630343825892,
+	"next_scrape": 1630355770764,
 	"category": "fishie_tank",
-	"last_update": 1630300962266,
+	"last_update": 1630310484677,
 	"output": [
 		{
 			"args": {},
-			"calls": 458912,
+			"calls": 461649,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | P",
@@ -30,6 +30,9 @@
 				"TW ERRO",
 				"T ERROR",
 				"R | TIME",
+				"R | NETW",
+				"NETW ERR",
+				" TIME ER",
 				" ERROR |",
 				" | NETW "
 			],
@@ -51,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 98197,
+			"calls": 99004,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,6 +69,9 @@
 				"TW ERRO",
 				"T ERROR",
 				"R | TIME",
+				"R | NETW",
+				"NETW ERR",
+				" TIME ER",
 				" ERROR |",
 				" | NETW "
 			],
@@ -87,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 448445,
+			"calls": 453184,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R | P",
@@ -97,6 +103,9 @@
 				"TW ERRO",
 				"T ERROR",
 				"R | TIME",
+				"R | NETW",
+				"NETW ERR",
+				" TIME ER",
 				" ERROR |",
 				" | NETW "
 			],
@@ -115,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1630292411572,
-	"edit": 104,
+	"updt": 1630301014273,
+	"edit": 105,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",

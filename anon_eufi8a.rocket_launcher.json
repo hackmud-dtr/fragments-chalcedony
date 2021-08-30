@@ -1,20 +1,24 @@
 {
 	"_id": "anon_eufi8a.rocket_launcher",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_eufi8a.rocket_launcher",
 	"sector": "NGC_6679",
 	"sec_level": 4,
 	"date_added": 1623662232203,
-	"last_scraped": 1630301998952,
+	"last_scraped": 1630311327005,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623662232203
+		},
+		{
+			"type": "died",
+			"when": 1630311327005
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630347832633,
+	"next_scrape": 1630404563463,
 	"category": "clicker",
 	"last_update": 1630301998952,
 	"output": [
@@ -399,8 +403,8 @@
 			]
 		}
 	],
-	"updt": 1630293193528,
-	"edit": 109,
+	"updt": 1630302184761,
+	"edit": 110,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -490,5 +494,6 @@
 				" years"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_eufi8a.rocket_launcher: script doesn't exist\"}"
 }
