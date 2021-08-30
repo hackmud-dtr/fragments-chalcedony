@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_a3oeop.t2_scrape",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_a3oeop.t2_scrape",
 	"sector": "HJG_0243",
 	"sec_level": 4,
 	"date_added": 1624375481056,
-	"last_scraped": 1630339963998,
+	"last_scraped": 1630349276468,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624375481056
+		},
+		{
+			"type": "died",
+			"when": 1630349276468
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630379804091,
+	"next_scrape": 1630439105754,
 	"category": "dice_roller",
 	"last_update": 1630339963998,
 	"output": [
@@ -61,8 +65,8 @@
 			]
 		}
 	],
-	"updt": 1630331110891,
-	"edit": 108,
+	"updt": 1630340099033,
+	"edit": 109,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
@@ -79,5 +83,6 @@
 				"| TIME E"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_a3oeop.t2_scrape: script doesn't exist\"}"
 }
