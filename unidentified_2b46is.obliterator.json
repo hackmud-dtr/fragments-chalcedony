@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_2b46is.obliterator",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_2b46is.obliterator",
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1623041230819,
-	"last_scraped": 1630286081274,
+	"last_scraped": 1630295088506,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623041230819
+		},
+		{
+			"type": "died",
+			"when": 1630295088506
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630332565424,
+	"next_scrape": 1630380372437,
 	"category": "coin_flipper",
 	"last_update": 1630286081274,
 	"output": [
@@ -147,8 +151,8 @@
 			]
 		}
 	],
-	"updt": 1630277160409,
-	"edit": 103,
+	"updt": 1630286348174,
+	"edit": 104,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -212,5 +216,6 @@
 				"re gonn"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_2b46is.obliterator: script doesn't exist\"}"
 }
