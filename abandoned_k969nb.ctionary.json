@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_k969nb.ctionary",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_k969nb.ctionary",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622062766900,
-	"last_scraped": 1630462643934,
+	"last_scraped": 1630471245284,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622062766900
+		},
+		{
+			"type": "died",
+			"when": 1630471245284
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630508336730,
+	"next_scrape": 1630551704432,
 	"category": "coin_flipper",
 	"last_update": 1630462643934,
 	"output": [
@@ -100,8 +104,8 @@
 			]
 		}
 	],
-	"updt": 1630453652750,
-	"edit": 124,
+	"updt": 1630462649631,
+	"edit": 125,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -119,5 +123,6 @@
 				"ay well "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_k969nb.ctionary: script doesn't exist\"}"
 }
