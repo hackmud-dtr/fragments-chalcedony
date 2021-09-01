@@ -6,7 +6,7 @@
 	"sector": "HJG_8839",
 	"sec_level": 4,
 	"date_added": 1623984573358,
-	"last_scraped": 1630486793101,
+	"last_scraped": 1630494415360,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630528461617,
+	"next_scrape": 1630536272465,
 	"category": "fishie_tank",
-	"last_update": 1630486793101,
+	"last_update": 1630494415360,
 	"output": [
 		{
 			"args": {},
-			"calls": 547891,
+			"calls": 551539,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"F902D",
-				"ROR | ",
+				"YST ERR",
 				"SYST ER",
 				"ST ERRO",
 				"FILE0XE",
 				"6_FILE0",
 				"_FILE0X",
 				"ILE0XEEF",
+				"ERROR | ",
 				"0XEEF902",
-				"\\nSYST E",
 				" ERROR |",
 				"D6\\nSYST ",
-				"902D6\\nSY"
+				"902D6\\nSY",
+				"6\\nSYST E",
+				"02D6\\nSYS"
 			],
 			"hits": [
 				{
@@ -67,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 120355,
+			"calls": 121148,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,18 +78,20 @@
 			],
 			"fragments": [
 				"F902D",
-				"ROR | ",
+				"YST ERR",
 				"SYST ER",
 				"ST ERRO",
 				"FILE0XE",
 				"6_FILE0",
 				"_FILE0X",
 				"ILE0XEEF",
+				"ERROR | ",
 				"0XEEF902",
-				"\\nSYST E",
 				" ERROR |",
 				"D6\\nSYST ",
-				"902D6\\nSY"
+				"902D6\\nSY",
+				"6\\nSYST E",
+				"02D6\\nSYS"
 			],
 			"hits": [
 				{
@@ -119,10 +123,10 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 571697,
+			"calls": 575020,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ROR | ",
+				"EEF902",
 				"YST ERR",
 				"SYST ER",
 				"ST ERRO",
@@ -132,11 +136,13 @@
 				"_FILE0X",
 				"ILE0XEEF",
 				"FILE0XEE",
-				"\\nSYST E",
+				"ERROR | ",
 				" ERROR |",
 				"D6\\nSYST ",
 				"902D6\\nSY",
-				"2D6\\nSYST"
+				"6\\nSYST E",
+				"2D6\\nSYST",
+				"02D6\\nSYS"
 			],
 			"hits": [
 				{
@@ -297,8 +303,8 @@
 			]
 		}
 	],
-	"updt": 1630479076680,
-	"edit": 136,
+	"updt": 1630486896302,
+	"edit": 137,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
