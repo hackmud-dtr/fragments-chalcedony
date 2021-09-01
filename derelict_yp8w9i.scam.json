@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_yp8w9i.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_yp8w9i.scam",
 	"sector": "SPC_9915",
 	"sec_level": 4,
 	"date_added": 1623528755826,
-	"last_scraped": 1630510697831,
+	"last_scraped": 1630518624221,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623528755826
+		},
+		{
+			"type": "died",
+			"when": 1630518624221
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630550315418,
+	"next_scrape": 1630609891724,
 	"category": "clicker",
 	"last_update": 1630510697831,
 	"output": [
@@ -186,8 +190,8 @@
 			]
 		}
 	],
-	"updt": 1630502921893,
-	"edit": 137,
+	"updt": 1630510743888,
+	"edit": 138,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -204,5 +208,6 @@
 				"e-room t"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_yp8w9i.scam: script doesn't exist\"}"
 }
