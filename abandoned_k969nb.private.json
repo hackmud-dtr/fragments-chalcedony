@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_k969nb.private",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_k969nb.private",
 	"sector": "HJG_9648",
 	"sec_level": 4,
 	"date_added": 1628077453613,
-	"last_scraped": 1630460021315,
+	"last_scraped": 1630468853325,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628077453613
+		},
+		{
+			"type": "died",
+			"when": 1630468853325
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1630504110149,
+	"next_scrape": 1630548243542,
 	"category": "fishie_tank",
 	"last_update": 1630460021315,
 	"output": [
@@ -249,8 +253,8 @@
 			]
 		}
 	],
-	"updt": 1630450131439,
-	"edit": 126,
+	"updt": 1630460104769,
+	"edit": 127,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -273,5 +277,6 @@
 				" like a "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_k969nb.private: script doesn't exist\"}"
 }
