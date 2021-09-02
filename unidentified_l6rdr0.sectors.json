@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_l6rdr0.sectors",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_l6rdr0.sectors",
 	"sector": "VNP_6803",
 	"sec_level": 4,
 	"date_added": 1624801564398,
-	"last_scraped": 1630535250840,
+	"last_scraped": 1630543105398,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624801564398
+		},
+		{
+			"type": "died",
+			"when": 1630543105398
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630581540373,
+	"next_scrape": 1630624899206,
 	"category": "plant_sim",
 	"last_update": 1630535250840,
 	"output": [
@@ -114,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1630527364052,
-	"edit": 133,
+	"updt": 1630535374518,
+	"edit": 134,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -135,5 +139,6 @@
 				"\\n20F2 in"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_l6rdr0.sectors: script doesn't exist\"}"
 }
