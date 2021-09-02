@@ -1,20 +1,24 @@
 {
 	"_id": "abndnd_ijmqqg.license",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_ijmqqg.license",
 	"sector": "HJG_8839",
 	"sec_level": 4,
 	"date_added": 1623914050589,
-	"last_scraped": 1630539889806,
+	"last_scraped": 1630547694370,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623914050589
+		},
+		{
+			"type": "died",
+			"when": 1630547694370
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630584767711,
+	"next_scrape": 1630632072558,
 	"category": "fishie_tank",
 	"last_update": 1630539889806,
 	"output": [
@@ -342,8 +346,8 @@
 			]
 		}
 	],
-	"updt": 1630532050940,
-	"edit": 141,
+	"updt": 1630540067085,
+	"edit": 142,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -371,5 +375,6 @@
 				". Summar"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_ijmqqg.license: script doesn't exist\"}"
 }
