@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_izhmev.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_izhmev.db",
 	"sector": "HJG_1574",
 	"sec_level": 4,
 	"date_added": 1622391008118,
-	"last_scraped": 1630549350186,
+	"last_scraped": 1630557177032,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622391008118
+		},
+		{
+			"type": "died",
+			"when": 1630557177032
 		}
 	],
-	"updt": 1630541632617,
-	"edit": 145,
-	"next_scrape": 1630590152119,
+	"updt": 1630549651798,
+	"edit": 146,
+	"next_scrape": 1630650069914,
 	"category": "fishie_tank",
 	"last_update": 1630549350186,
 	"output": [
@@ -289,5 +293,6 @@
 				" copy. I"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_izhmev.db: script doesn't exist\"}"
 }
