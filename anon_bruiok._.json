@@ -1,20 +1,24 @@
 {
 	"_id": "anon_bruiok._",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_bruiok._",
 	"sector": "HJG_3125",
 	"sec_level": 4,
 	"date_added": 1627672747249,
-	"last_scraped": 1630675932844,
+	"last_scraped": 1630683572008,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627672747249
+		},
+		{
+			"type": "died",
+			"when": 1630683572008
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630722059854,
+	"next_scrape": 1630765518605,
 	"category": "dice_roller",
 	"last_update": 1630675932844,
 	"output": [
@@ -59,8 +63,8 @@
 			]
 		}
 	],
-	"updt": 1630668680376,
-	"edit": 146,
+	"updt": 1630676103159,
+	"edit": 147,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -73,5 +77,6 @@
 				"passphra"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_bruiok._: script doesn't exist\"}"
 }
