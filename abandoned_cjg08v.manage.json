@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_cjg08v.manage",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_cjg08v.manage",
 	"sector": "NGC_8975",
 	"sec_level": 4,
 	"date_added": 1622480843596,
-	"last_scraped": 1630747195796,
+	"last_scraped": 1630754686253,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622480843596
+		},
+		{
+			"type": "died",
+			"when": 1630754686253
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630793712992,
+	"next_scrape": 1630845599626,
 	"category": "dice_roller",
 	"last_update": 1630747195796,
 	"output": [
@@ -81,8 +85,8 @@
 			]
 		}
 	],
-	"updt": 1630739818628,
-	"edit": 161,
+	"updt": 1630747242558,
+	"edit": 162,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -103,5 +107,6 @@
 				" I have\\n"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_cjg08v.manage: script doesn't exist\"}"
 }
