@@ -1,20 +1,24 @@
 {
 	"_id": "anon_7fwut0.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_7fwut0.db",
 	"sector": "SPC_4989",
 	"sec_level": 4,
 	"date_added": 1627486727539,
-	"last_scraped": 1630719958925,
+	"last_scraped": 1630727424248,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627486727539
+		},
+		{
+			"type": "died",
+			"when": 1630727424248
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630765620852,
+	"next_scrape": 1630817089120,
 	"category": "plant_sim",
 	"last_update": 1630719958925,
 	"output": [
@@ -158,8 +162,8 @@
 			]
 		}
 	],
-	"updt": 1630712651210,
-	"edit": 152,
+	"updt": 1630720077124,
+	"edit": 153,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -177,5 +181,6 @@
 				" extnl-"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_7fwut0.db: script doesn't exist\"}"
 }
