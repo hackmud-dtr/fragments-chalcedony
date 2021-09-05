@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_mvyvri.access_4l3oeh",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_mvyvri.access_4l3oeh",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624109825874,
-	"last_scraped": 1630820993720,
+	"last_scraped": 1630828169618,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624109825874
+		},
+		{
+			"type": "died",
+			"when": 1630828169618
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630864693832,
+	"next_scrape": 1630910830878,
 	"category": "dice_roller",
 	"last_update": 1630820993720,
 	"output": [
@@ -76,8 +80,8 @@
 			]
 		}
 	],
-	"updt": 1630814072429,
-	"edit": 169,
+	"updt": 1630821103930,
+	"edit": 170,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -95,5 +99,6 @@
 				"going to"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_mvyvri.access_4l3oeh: script doesn't exist\"}"
 }
