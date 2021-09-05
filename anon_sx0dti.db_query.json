@@ -1,20 +1,24 @@
 {
 	"_id": "anon_sx0dti.db_query",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_sx0dti.db_query",
 	"sector": "HJG_3125",
 	"sec_level": 4,
 	"date_added": 1627732815507,
-	"last_scraped": 1630801498766,
+	"last_scraped": 1630808896098,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627732815507
+		},
+		{
+			"type": "died",
+			"when": 1630808896098
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1630847955369,
+	"next_scrape": 1630896342002,
 	"category": "coin_flipper",
 	"last_update": 1630801498766,
 	"output": [
@@ -120,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1630794337256,
-	"edit": 163,
+	"updt": 1630801567052,
+	"edit": 164,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -159,5 +163,6 @@
 				" serv"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_sx0dti.db_query: script doesn't exist\"}"
 }
