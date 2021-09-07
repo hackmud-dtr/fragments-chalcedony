@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_hcj4q4.twister",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_hcj4q4.twister",
 	"sector": "VNP_1714",
 	"sec_level": 4,
 	"date_added": 1622825556252,
-	"last_scraped": 1631016161507,
+	"last_scraped": 1631023691916,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622825556252
+		},
+		{
+			"type": "died",
+			"when": 1631023691916
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631061209845,
+	"next_scrape": 1631113873899,
 	"category": "coin_flipper",
 	"last_update": 1631016161507,
 	"output": [
@@ -114,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1631008864548,
-	"edit": 196,
+	"updt": 1631016292079,
+	"edit": 197,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -135,5 +139,6 @@
 				" economi"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_hcj4q4.twister: script doesn't exist\"}"
 }
