@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_pbsm4v.zez",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_pbsm4v.zez",
 	"sector": "K_1203",
 	"sec_level": 4,
 	"date_added": 1623840407713,
-	"last_scraped": 1631062007834,
+	"last_scraped": 1631070666285,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623840407713
+		},
+		{
+			"type": "died",
+			"when": 1631070666285
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1631105823905,
+	"next_scrape": 1631155482708,
 	"category": "dice_roller",
 	"last_update": 1631062007834,
 	"output": [
@@ -128,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1631054799882,
-	"edit": 202,
+	"updt": 1631062024224,
+	"edit": 203,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -178,5 +182,6 @@
 				" suppor"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_pbsm4v.zez: script doesn't exist\"}"
 }
