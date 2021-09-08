@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_pbsm4v.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_pbsm4v.db",
 	"sector": "SPC_8197",
 	"sec_level": 4,
 	"date_added": 1628210356182,
-	"last_scraped": 1631066098586,
+	"last_scraped": 1631073327734,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628210356182
+		},
+		{
+			"type": "died",
+			"when": 1631073327734
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631112000044,
+	"next_scrape": 1631164068131,
 	"category": "coin_flipper",
 	"last_update": 1631066098586,
 	"output": [
@@ -104,8 +108,8 @@
 			]
 		}
 	],
-	"updt": 1631057530884,
-	"edit": 199,
+	"updt": 1631066128229,
+	"edit": 200,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -123,5 +127,6 @@
 				" aria mu"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_pbsm4v.db: script doesn't exist\"}"
 }
