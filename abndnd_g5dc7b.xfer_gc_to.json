@@ -1,20 +1,24 @@
 {
 	"_id": "abndnd_g5dc7b.xfer_gc_to",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_g5dc7b.xfer_gc_to",
 	"sector": "NGC_7889",
 	"sec_level": 4,
 	"date_added": 1623356543311,
-	"last_scraped": 1631160433357,
+	"last_scraped": 1631167698858,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623356543311
+		},
+		{
+			"type": "died",
+			"when": 1631167698858
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631206705484,
+	"next_scrape": 1631258221690,
 	"category": "dice_roller",
 	"last_update": 1631160433357,
 	"output": [
@@ -82,8 +86,8 @@
 			]
 		}
 	],
-	"updt": 1631152507406,
-	"edit": 217,
+	"updt": 1631160718391,
+	"edit": 218,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -104,5 +108,6 @@
 				"ime | BO"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_g5dc7b.xfer_gc_to: script doesn't exist\"}"
 }
