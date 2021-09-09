@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_p8fn8m._",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_p8fn8m._",
 	"sector": "SPC_8658",
 	"sec_level": 4,
 	"date_added": 1628147270219,
-	"last_scraped": 1631155088774,
+	"last_scraped": 1631162611490,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628147270219
+		},
+		{
+			"type": "died",
+			"when": 1631162611490
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631201315228,
+	"next_scrape": 1631251397584,
 	"category": "dice_roller",
 	"last_update": 1631155088774,
 	"output": [
@@ -79,8 +83,8 @@
 			]
 		}
 	],
-	"updt": 1631147230723,
-	"edit": 212,
+	"updt": 1631155243529,
+	"edit": 213,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -97,5 +101,6 @@
 				" line.\\n2"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_p8fn8m._: script doesn't exist\"}"
 }
