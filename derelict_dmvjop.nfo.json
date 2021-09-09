@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_dmvjop.nfo",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_dmvjop.nfo",
 	"sector": "SPC_3360",
 	"sec_level": 4,
 	"date_added": 1622582362693,
-	"last_scraped": 1631158344889,
+	"last_scraped": 1631165621626,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622582362693
+		},
+		{
+			"type": "died",
+			"when": 1631165621626
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631203448004,
+	"next_scrape": 1631246923269,
 	"category": "clicker",
 	"last_update": 1631158344889,
 	"output": [
@@ -365,8 +369,8 @@
 			]
 		}
 	],
-	"updt": 1631150356333,
-	"edit": 229,
+	"updt": 1631158371537,
+	"edit": 230,
 	"identified": [
 		{
 			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -392,5 +396,6 @@
 				"## Quite"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_dmvjop.nfo: script doesn't exist\"}"
 }
