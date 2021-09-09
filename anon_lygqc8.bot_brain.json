@@ -1,20 +1,24 @@
 {
 	"_id": "anon_lygqc8.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_lygqc8.bot_brain",
 	"sector": "HJG_8839",
 	"sec_level": 4,
 	"date_added": 1623984573358,
-	"last_scraped": 1631158917091,
+	"last_scraped": 1631166213892,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623984573358
+		},
+		{
+			"type": "died",
+			"when": 1631166213892
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631200494263,
+	"next_scrape": 1631258154796,
 	"category": "fishie_tank",
 	"last_update": 1631158917091,
 	"output": [
@@ -314,8 +318,8 @@
 			]
 		}
 	],
-	"updt": 1631150941899,
-	"edit": 235,
+	"updt": 1631158958746,
+	"edit": 236,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -479,5 +483,6 @@
 				"_FILE0X"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_lygqc8.bot_brain: script doesn't exist\"}"
 }
