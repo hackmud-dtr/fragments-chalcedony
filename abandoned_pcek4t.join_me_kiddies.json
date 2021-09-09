@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_pcek4t.join_me_kiddies",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_pcek4t.join_me_kiddies",
 	"sector": "SPC_1347",
 	"sec_level": 4,
 	"date_added": 1628411555199,
-	"last_scraped": 1631157822327,
+	"last_scraped": 1631165120222,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628411555199
+		},
+		{
+			"type": "died",
+			"when": 1631165120222
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1631199681294,
+	"next_scrape": 1631251929495,
 	"category": "fishie_tank",
 	"last_update": 1631157822327,
 	"output": [
@@ -197,8 +201,8 @@
 			]
 		}
 	],
-	"updt": 1631149966359,
-	"edit": 221,
+	"updt": 1631157982588,
+	"edit": 222,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -216,5 +220,6 @@
 				"BOUNCE m"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_pcek4t.join_me_kiddies: script doesn't exist\"}"
 }

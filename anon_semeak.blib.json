@@ -1,20 +1,24 @@
 {
 	"_id": "anon_semeak.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_semeak.blib",
 	"sector": "HJG_4376",
 	"sec_level": 4,
 	"date_added": 1627813430048,
-	"last_scraped": 1631157651446,
+	"last_scraped": 1631164989999,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1627813430048
+		},
+		{
+			"type": "died",
+			"when": 1631164989999
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1631200414624,
+	"next_scrape": 1631248358567,
 	"category": "fishie_tank",
 	"last_update": 1631157651446,
 	"output": [
@@ -244,8 +248,8 @@
 			]
 		}
 	],
-	"updt": 1631149577767,
-	"edit": 230,
+	"updt": 1631157786997,
+	"edit": 231,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -261,5 +265,6 @@
 				" pretty "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_semeak.blib: script doesn't exist\"}"
 }
