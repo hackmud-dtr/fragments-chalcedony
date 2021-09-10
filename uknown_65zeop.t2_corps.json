@@ -6,7 +6,7 @@
 	"sector": "K_3386",
 	"sec_level": 4,
 	"date_added": 1626269926735,
-	"last_scraped": 1631300210034,
+	"last_scraped": 1631306493392,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631343373724,
+	"next_scrape": 1631350273464,
 	"category": "fishie_tank",
-	"last_update": 1631300210034,
+	"last_update": 1631306493392,
 	"output": [
 		{
 			"args": {},
-			"calls": 1002974,
+			"calls": 1006297,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ust w",
@@ -145,8 +145,8 @@
 			]
 		}
 	],
-	"updt": 1631294192676,
-	"edit": 248,
+	"updt": 1631300250905,
+	"edit": 249,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -161,6 +161,11 @@
 				"d a few ",
 				" | Anywa"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
