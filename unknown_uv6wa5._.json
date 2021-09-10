@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_uv6wa5._",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_uv6wa5._",
 	"sector": "NGC_4807",
 	"sec_level": 4,
 	"date_added": 1623205413241,
-	"last_scraped": 1631272061439,
+	"last_scraped": 1631278149182,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623205413241
+		},
+		{
+			"type": "died",
+			"when": 1631278149182
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631311663983,
+	"next_scrape": 1631362737998,
 	"category": "coin_flipper",
 	"last_update": 1631272061439,
 	"output": [
@@ -78,8 +82,8 @@
 			]
 		}
 	],
-	"updt": 1631266055031,
-	"edit": 232,
+	"updt": 1631272107910,
+	"edit": 233,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -99,5 +103,6 @@
 				"ER mholl"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_uv6wa5._: script doesn't exist\"}"
 }
