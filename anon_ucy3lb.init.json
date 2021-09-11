@@ -1,20 +1,24 @@
 {
 	"_id": "anon_ucy3lb.init",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_ucy3lb.init",
 	"sector": "SPC_8197",
 	"sec_level": 4,
 	"date_added": 1628258976981,
-	"last_scraped": 1631342210959,
+	"last_scraped": 1631348270203,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628258976981
+		},
+		{
+			"type": "died",
+			"when": 1631348270203
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631384162075,
+	"next_scrape": 1631428152679,
 	"category": "dice_roller",
 	"last_update": 1631342210959,
 	"output": [
@@ -77,8 +81,8 @@
 			]
 		}
 	],
-	"updt": 1631336209746,
-	"edit": 238,
+	"updt": 1631342267977,
+	"edit": 239,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -93,5 +97,6 @@
 				"tion.\\n20"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_ucy3lb.init: script doesn't exist\"}"
 }
