@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_l1yxa7.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_l1yxa7.dist",
 	"sector": "NGC_6679",
 	"sec_level": 4,
 	"date_added": 1623653984276,
-	"last_scraped": 1631369880255,
+	"last_scraped": 1631376190077,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623653984276
+		},
+		{
+			"type": "died",
+			"when": 1631376190077
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631410071337,
+	"next_scrape": 1631461292699,
 	"category": "coin_flipper",
 	"last_update": 1631369880255,
 	"output": [
@@ -79,8 +83,8 @@
 			]
 		}
 	],
-	"updt": 1631363763851,
-	"edit": 247,
+	"updt": 1631370011112,
+	"edit": 248,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -97,5 +101,6 @@
 				"7D17D\\nAD"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_l1yxa7.dist: script doesn't exist\"}"
 }
