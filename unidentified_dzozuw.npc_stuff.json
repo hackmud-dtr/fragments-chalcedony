@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_dzozuw.npc_stuff",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_dzozuw.npc_stuff",
 	"sector": "VNP_2162",
 	"sec_level": 4,
 	"date_added": 1624488949358,
-	"last_scraped": 1631450865714,
+	"last_scraped": 1631457127469,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624488949358
+		},
+		{
+			"type": "died",
+			"when": 1631457127469
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631494238287,
+	"next_scrape": 1631549534487,
 	"category": "coin_flipper",
 	"last_update": 1631450865714,
 	"output": [
@@ -108,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1631445064874,
-	"edit": 261,
+	"updt": 1631450929616,
+	"edit": 262,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -133,5 +137,6 @@
 				" If so, "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_dzozuw.npc_stuff: script doesn't exist\"}"
 }
