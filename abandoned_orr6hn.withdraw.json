@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_orr6hn.withdraw",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_orr6hn.withdraw",
 	"sector": "K_0478",
 	"sec_level": 4,
 	"date_added": 1625402756734,
-	"last_scraped": 1631527365158,
+	"last_scraped": 1631533445865,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625402756734
+		},
+		{
+			"type": "died",
+			"when": 1631533445865
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631571663921,
+	"next_scrape": 1631616113620,
 	"category": "plant_sim",
 	"last_update": 1631527365158,
 	"output": [
@@ -254,8 +258,8 @@
 			]
 		}
 	],
-	"updt": 1631521495689,
-	"edit": 276,
+	"updt": 1631527559804,
+	"edit": 277,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -274,5 +278,6 @@
 				"e.\\n216B "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_orr6hn.withdraw: script doesn't exist\"}"
 }
