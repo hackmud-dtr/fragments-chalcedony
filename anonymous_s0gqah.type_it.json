@@ -1,20 +1,24 @@
 {
 	"_id": "anonymous_s0gqah.type_it",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_s0gqah.type_it",
 	"sector": "SPC_9508",
 	"sec_level": 4,
 	"date_added": 1623545697559,
-	"last_scraped": 1631551586664,
+	"last_scraped": 1631557404479,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623545697559
+		},
+		{
+			"type": "died",
+			"when": 1631557404479
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631594372225,
+	"next_scrape": 1631637493670,
 	"category": "plant_sim",
 	"last_update": 1631551586664,
 	"output": [
@@ -110,8 +114,8 @@
 			]
 		}
 	],
-	"updt": 1631545540637,
-	"edit": 277,
+	"updt": 1631551595876,
+	"edit": 278,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -129,5 +133,6 @@
 				"g is: we"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_s0gqah.type_it: script doesn't exist\"}"
 }
