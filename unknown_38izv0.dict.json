@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_38izv0.dict",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_38izv0.dict",
 	"sector": "SPC_8658",
 	"sec_level": 4,
 	"date_added": 1628186816238,
-	"last_scraped": 1631487757343,
+	"last_scraped": 1631494182331,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628186816238
+		},
+		{
+			"type": "died",
+			"when": 1631494182331
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631534299351,
+	"next_scrape": 1631577509806,
 	"category": "fishie_tank",
 	"last_update": 1631487757343,
 	"output": [
@@ -295,8 +299,8 @@
 			]
 		}
 	],
-	"updt": 1631481037296,
-	"edit": 268,
+	"updt": 1631487879432,
+	"edit": 269,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -309,5 +313,6 @@
 				" be help"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_38izv0.dict: script doesn't exist\"}"
 }
