@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_sgc0o9.scripts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_sgc0o9.scripts",
 	"sector": "SPC_9508",
 	"sec_level": 4,
 	"date_added": 1623610862779,
-	"last_scraped": 1631525730762,
+	"last_scraped": 1631531790627,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623610862779
+		},
+		{
+			"type": "died",
+			"when": 1631531790627
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631570480996,
+	"next_scrape": 1631616885365,
 	"category": "plant_sim",
 	"last_update": 1631525730762,
 	"output": [
@@ -173,8 +177,8 @@
 			]
 		}
 	],
-	"updt": 1631519930008,
-	"edit": 271,
+	"updt": 1631525798290,
+	"edit": 272,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -219,5 +223,6 @@
 				"sional "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_sgc0o9.scripts: script doesn't exist\"}"
 }
