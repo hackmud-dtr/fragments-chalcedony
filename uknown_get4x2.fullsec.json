@@ -1,20 +1,24 @@
 {
 	"_id": "uknown_get4x2.fullsec",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_get4x2.fullsec",
 	"sector": "NGC_8975",
 	"sec_level": 4,
 	"date_added": 1622439901702,
-	"last_scraped": 1631591968992,
+	"last_scraped": 1631599811848,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622439901702
+		},
+		{
+			"type": "died",
+			"when": 1631599811848
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631631915932,
+	"next_scrape": 1631689362804,
 	"category": "coin_flipper",
 	"last_update": 1631591968992,
 	"output": [
@@ -98,8 +102,8 @@
 			]
 		}
 	],
-	"updt": 1631586206307,
-	"edit": 284,
+	"updt": 1631592071756,
+	"edit": 285,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -115,5 +119,6 @@
 				"tablish "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_get4x2.fullsec: script doesn't exist\"}"
 }
