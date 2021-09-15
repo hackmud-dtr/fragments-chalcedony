@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_nmbag5.loud",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_nmbag5.loud",
 	"sector": "SPC_1198",
 	"sec_level": 4,
 	"date_added": 1625699055538,
-	"last_scraped": 1631736671435,
+	"last_scraped": 1631742487049,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625699055538
+		},
+		{
+			"type": "died",
+			"when": 1631742487049
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631782945604,
+	"next_scrape": 1631824388664,
 	"category": "plant_sim",
 	"last_update": 1631736671435,
 	"output": [
@@ -228,8 +232,8 @@
 			]
 		}
 	],
-	"updt": 1631731034816,
-	"edit": 306,
+	"updt": 1631736703103,
+	"edit": 307,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -243,5 +247,6 @@
 				" attack "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_nmbag5.loud: script doesn't exist\"}"
 }
