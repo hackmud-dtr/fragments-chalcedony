@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_gordm4.t3_locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_gordm4.t3_locs",
 	"sector": "K_1203",
 	"sec_level": 4,
 	"date_added": 1623795160152,
-	"last_scraped": 1631793082968,
+	"last_scraped": 1631798609313,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623795160152
+		},
+		{
+			"type": "died",
+			"when": 1631798609313
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631833626309,
+	"next_scrape": 1631888789540,
 	"category": "dice_roller",
 	"last_update": 1631793082968,
 	"output": [
@@ -121,8 +125,8 @@
 			]
 		}
 	],
-	"updt": 1631787718130,
-	"edit": 316,
+	"updt": 1631793192541,
+	"edit": 317,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -135,5 +139,6 @@
 				"Any recr"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_gordm4.t3_locs: script doesn't exist\"}"
 }
