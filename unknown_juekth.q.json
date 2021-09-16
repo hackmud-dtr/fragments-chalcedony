@@ -1,22 +1,26 @@
 {
 	"_id": "unknown_juekth.q",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_juekth.q",
 	"sector": "NGC_6679",
 	"sec_level": 4,
 	"date_added": 1623701760160,
-	"last_scraped": 1631794487342,
+	"last_scraped": 1631800023230,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623701760160
+		},
+		{
+			"type": "died",
+			"when": 1631800023230
 		}
 	],
-	"updt": 1631789085999,
-	"edit": 318,
+	"updt": 1631794566260,
+	"edit": 319,
 	"scrape_ct": 16,
-	"next_scrape": 1631838906180,
+	"next_scrape": 1631884103450,
 	"category": "plant_sim",
 	"last_update": 1631794487342,
 	"output": [
@@ -158,5 +162,6 @@
 				"dered to"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_juekth.q: script doesn't exist\"}"
 }
