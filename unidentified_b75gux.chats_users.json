@@ -1,20 +1,24 @@
 {
 	"_id": "unidentified_b75gux.chats_users",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_b75gux.chats_users",
 	"sector": "K_7442",
 	"sec_level": 4,
 	"date_added": 1625878060350,
-	"last_scraped": 1631870185615,
+	"last_scraped": 1631875718153,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625878060350
+		},
+		{
+			"type": "died",
+			"when": 1631875718153
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631915624382,
+	"next_scrape": 1631964984273,
 	"category": "fishie_tank",
 	"last_update": 1631870185615,
 	"output": [
@@ -317,8 +321,8 @@
 			]
 		}
 	],
-	"updt": 1631864743675,
-	"edit": 353,
+	"updt": 1631870411296,
+	"edit": 354,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -372,5 +376,6 @@
 				"e con"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_b75gux.chats_users: script doesn't exist\"}"
 }
