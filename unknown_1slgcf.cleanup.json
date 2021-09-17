@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_1slgcf.cleanup",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_1slgcf.cleanup",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624220966099,
-	"last_scraped": 1631866765836,
+	"last_scraped": 1631872261463,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624220966099
+		},
+		{
+			"type": "died",
+			"when": 1631872261463
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1631908412602,
+	"next_scrape": 1631956260916,
 	"category": "dice_roller",
 	"last_update": 1631866765836,
 	"output": [
@@ -121,8 +125,8 @@
 			]
 		}
 	],
-	"updt": 1631861418859,
-	"edit": 329,
+	"updt": 1631867089867,
+	"edit": 330,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -148,5 +152,6 @@
 				" rather "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_1slgcf.cleanup: script doesn't exist\"}"
 }
