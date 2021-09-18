@@ -1,16 +1,81 @@
 {
 	"_id": "anonymous_pq6k3o.t3s",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_pq6k3o.t3s",
 	"sector": "NGC_7626",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631989426481,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984352217,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631989486481,
+	"category": "fishie_tank",
+	"last_update": 1631989426481,
+	"output": [
+		{
+			"args": {},
+			"calls": 4845,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" the ",
+				"tects ",
+				"nother",
+				"n salv",
+				"icient ",
+				" fracti",
+				"nd ineff",
+				"architec",
+				" them, s"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 689,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" the ",
+				"tects ",
+				"nother",
+				"n salv",
+				"icient ",
+				" fracti",
+				"nd ineff",
+				"architec",
+				" them, s"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5994,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" the ",
+				"tects ",
+				"nother",
+				"n salv",
+				"icient ",
+				" fracti",
+				"nd ineff",
+				"architec",
+				" them, s"
+			]
 		}
 	]
 }

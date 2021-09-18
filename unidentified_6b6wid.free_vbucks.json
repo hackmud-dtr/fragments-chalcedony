@@ -1,16 +1,98 @@
 {
 	"_id": "unidentified_6b6wid.free_vbucks",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_6b6wid.free_vbucks",
 	"sector": "VNP_6179",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631989166324,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984352217,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631989226324,
+	"category": "fishie_tank",
+	"last_update": 1631989166324,
+	"output": [
+		{
+			"args": {},
+			"calls": 5798,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rly-m",
+				"proper",
+				"ntury ",
+				"es have",
+				"20th ce",
+				"nd their"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"rly-m",
+						"proper",
+						"ntury ",
+						"es have",
+						"20th ce",
+						"nd their"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 742,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rly-m",
+				"proper",
+				"ntury ",
+				"es have",
+				"20th ce",
+				"nd their"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4269,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rly-m",
+				"proper",
+				"ntury ",
+				"es have",
+				"20th ce",
+				"nd their"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"rly-m",
+				"proper",
+				"ntury ",
+				"es have",
+				"20th ce",
+				"nd their"
+			]
 		}
 	]
 }
