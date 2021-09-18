@@ -1,16 +1,78 @@
 {
 	"_id": "unidentified_l8jc4w.t3scrape",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_l8jc4w.t3scrape",
 	"sector": "VNP_0719",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631990018851,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631990018085,
+	"edit": 2,
+	"scrape_ct": 19,
+	"next_scrape": 1631990078851,
+	"category": "fishie_tank",
+	"last_update": 1631990018851,
+	"output": [
+		{
+			"args": {},
+			"calls": 3937,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"E so ",
+				"D Of ",
+				"could",
+				"se I c",
+				"it, yo",
+				" you.\\n2",
+				" course ",
+				"ould,\\n21"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 945,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"E so ",
+				"D Of ",
+				"could",
+				"se I c",
+				"it, yo",
+				" you.\\n2",
+				" course ",
+				"ould,\\n21"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4307,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"E so ",
+				"D Of ",
+				"could",
+				"se I c",
+				"it, yo",
+				" you.\\n2",
+				" course ",
+				"ould,\\n21"
+			]
 		}
 	]
 }
