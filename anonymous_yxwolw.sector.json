@@ -1,16 +1,84 @@
 {
 	"_id": "anonymous_yxwolw.sector",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_yxwolw.sector",
 	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631991201563,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631991188955,
+	"edit": 2,
+	"scrape_ct": 19,
+	"next_scrape": 1631991261563,
+	"category": "fishie_tank",
+	"last_update": 1631991201563,
+	"output": [
+		{
+			"args": {},
+			"calls": 4230,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ift i",
+				"I-dri",
+				"e dis",
+				"d sug",
+				"ks a si",
+				"iven so",
+				"iscours",
+				" signif",
+				" social ",
+				" change."
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 559,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ift i",
+				"I-dri",
+				"e dis",
+				"d sug",
+				"ks a si",
+				"iven so",
+				"iscours",
+				" signif",
+				" social ",
+				" change."
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5552,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ift i",
+				"I-dri",
+				"e dis",
+				"d sug",
+				"ks a si",
+				"iven so",
+				"iscours",
+				" signif",
+				" social ",
+				" change."
+			]
 		}
 	]
 }

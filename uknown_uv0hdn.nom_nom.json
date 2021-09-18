@@ -1,16 +1,72 @@
 {
 	"_id": "uknown_uv0hdn.nom_nom",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_uv0hdn.nom_nom",
 	"sector": "K_8691",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631990620526,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984546484,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631990680526,
+	"category": "fishie_tank",
+	"last_update": 1631990620526,
+	"output": [
+		{
+			"args": {},
+			"calls": 2142,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"her. ",
+				"a les",
+				"mes it",
+				"factor",
+				"metimes",
+				"conversa"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 928,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"her. ",
+				"a les",
+				"mes it",
+				"factor",
+				"metimes",
+				"conversa"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3540,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"her. ",
+				"a les",
+				"mes it",
+				"factor",
+				"metimes",
+				"conversa"
+			]
 		}
 	]
 }

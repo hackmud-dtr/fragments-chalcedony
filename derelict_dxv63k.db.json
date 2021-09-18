@@ -1,16 +1,78 @@
 {
 	"_id": "derelict_dxv63k.db",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_dxv63k.db",
 	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631991261984,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984546484,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631991321984,
+	"category": "fishie_tank",
+	"last_update": 1631991261984,
+	"output": [
+		{
+			"args": {},
+			"calls": 2597,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ve ti",
+				"e do ",
+				"t their",
+				" do not",
+				"ITING' S",
+				"gy in en",
+				"energy i",
+				"ave AN A"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 911,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ve ti",
+				"e do ",
+				"t their",
+				" do not",
+				"ITING' S",
+				"gy in en",
+				"energy i",
+				"ave AN A"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6174,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ve ti",
+				"e do ",
+				"t their",
+				" do not",
+				"ITING' S",
+				"gy in en",
+				"energy i",
+				"ave AN A"
+			]
 		}
 	]
 }

@@ -1,32 +1,24 @@
 {
 	"_id": "anonymous_bufrfn._",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "anonymous_bufrfn._",
 	"sector": "K_8691",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1631990401855,
+	"last_scraped": 1631990419966,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1631984546484,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1631990461855,
+	"updt": 1631990408140,
+	"edit": 2,
+	"scrape_ct": 19,
+	"next_scrape": 1632082739846,
 	"category": "risk_factor",
-	"last_update": 1631990401855,
+	"last_update": 1631990409795,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,29 @@
 				"waki | S",
 				" Creativ"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"I'm i",
+				" re: Cr",
+				" intere",
+				"waki | S",
+				" Creativ"
+			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
