@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_t2oxi1.bot_brain",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_t2oxi1.bot_brain",
 	"sector": "HJG_2512",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1627361921620
+		},
+		{
+			"type": "died",
+			"when": 1631983536307
 		}
 	],
 	"scrape_ct": 16,
@@ -324,8 +328,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627362101738,
-	"edit": 1,
+	"updt": 1629302099523,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"

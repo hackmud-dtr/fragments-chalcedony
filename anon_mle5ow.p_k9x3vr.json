@@ -1,28 +1,36 @@
 {
 	"_id": "anon_mle5ow.p_k9x3vr",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_mle5ow.p_k9x3vr",
-	"sector": "K_0473",
+	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1625061469929,
-	"last_scraped": 1631981445565,
+	"last_scraped": 1631983611379,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625061469929
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1631983536181,
+				"from": "K_3341",
+				"to": "K_0473"
+			}
+		]
 	],
-	"updt": 1631975753844,
-	"edit": 5199,
+	"updt": 1631981614951,
+	"edit": 5200,
 	"pl_output": "`UACCESS DENIED.`",
-	"next_scrape": 1632026873741,
+	"next_scrape": 1631983671379,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1631981445565,
+	"last_update": 1631983611379,
 	"output": [
 		{
 			"args": {},
-			"calls": 412000,
+			"calls": 414551,
 			"base": "`UACCESS DENIED.`",
 			"fragments": [
 				"TE TH",
@@ -60,5 +68,6 @@
 				"| bmaki"
 			]
 		}
-	]
+	],
+	"scrape_ct": 20
 }

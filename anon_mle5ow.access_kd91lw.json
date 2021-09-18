@@ -1,28 +1,36 @@
 {
 	"_id": "anon_mle5ow.access_kd91lw",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_mle5ow.access_kd91lw",
-	"sector": "K_0494",
+	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1625061741662,
-	"last_scraped": 1631982096550,
+	"last_scraped": 1631983721982,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625061741662
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1631983536181,
+				"from": "K_3341",
+				"to": "K_0494"
+			}
+		]
 	],
-	"updt": 1631976536358,
-	"edit": 7037,
+	"updt": 1631982202994,
+	"edit": 7038,
 	"pl_output": "`UACCESS DENIED.`",
-	"next_scrape": 1632021731609,
+	"next_scrape": 1631983781982,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1631982096550,
+	"last_update": 1631983721982,
 	"output": [
 		{
 			"args": {},
-			"calls": 422906,
+			"calls": 425504,
 			"base": "`UACCESS DENIED.`",
 			"fragments": [
 				"I'm j",
@@ -66,5 +74,6 @@
 				"ey think"
 			]
 		}
-	]
+	],
+	"scrape_ct": 20
 }

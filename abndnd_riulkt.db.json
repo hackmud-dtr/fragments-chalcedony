@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_riulkt.db",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_riulkt.db",
 	"sector": "SPC_9508",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1623614230353
+		},
+		{
+			"type": "died",
+			"when": 1631983536307
 		}
 	],
 	"scrape_ct": 16,
@@ -1283,8 +1287,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627139857432,
-	"edit": 3,
+	"updt": 1629300538119,
+	"edit": 4,
 	"retry_args": [
 		{
 			"do": "LOSE"

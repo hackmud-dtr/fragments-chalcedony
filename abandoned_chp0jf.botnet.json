@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_chp0jf.botnet",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_chp0jf.botnet",
 	"sector": "SPC_3776",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1621909508565
+		},
+		{
+			"type": "died",
+			"when": 1631983536307
 		}
 	],
 	"scrape_ct": 18,
@@ -456,8 +460,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627156088246,
-	"edit": 6,
+	"updt": 1629299951176,
+	"edit": 7,
 	"retry_args": [
 		{
 			"do": "LOSE"

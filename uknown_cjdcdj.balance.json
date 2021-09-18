@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_cjdcdj.balance",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_cjdcdj.balance",
 	"sector": "NGC_7889",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1623323750434
+		},
+		{
+			"type": "died",
+			"when": 1631983536307
 		}
 	],
 	"scrape_ct": 16,
@@ -560,8 +564,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627139857432,
-	"edit": 4,
+	"updt": 1629300341903,
+	"edit": 5,
 	"retry_args": [
 		{
 			"do": "LOSE"

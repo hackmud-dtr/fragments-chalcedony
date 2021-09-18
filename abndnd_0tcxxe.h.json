@@ -1,20 +1,28 @@
 {
 	"_id": "abndnd_0tcxxe.h",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_0tcxxe.h",
-	"sector": "VNP_0244",
+	"sector": "NGC_4450",
 	"sec_level": 0,
 	"date_added": 1625061544250,
-	"last_scraped": 1629317608555,
+	"last_scraped": 1631983642917,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625061544250
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1631983536181,
+				"from": "NGC_4450",
+				"to": "VNP_0244"
+			}
+		]
 	],
-	"updt": 1629317733881,
-	"edit": 251,
+	"updt": 1629328290280,
+	"edit": 252,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR j.k: script doesn't exist\"}",
-	"next_scrape": 1629409701874
+	"next_scrape": 1632072475522
 }
