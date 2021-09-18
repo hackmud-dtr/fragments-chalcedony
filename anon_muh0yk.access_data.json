@@ -1,16 +1,78 @@
 {
 	"_id": "anon_muh0yk.access_data",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_muh0yk.access_data",
 	"sector": "K_1726",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631992222701,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984743056,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631992282701,
+	"category": "fishie_tank",
+	"last_update": 1631992222701,
+	"output": [
+		{
+			"args": {},
+			"calls": 4654,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"road ",
+				" want",
+				"high-c",
+				"ant to",
+				"ad aga",
+				"nt to g",
+				"e/high-",
+				"-cultur"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 685,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"road ",
+				" want",
+				"high-c",
+				"ant to",
+				"ad aga",
+				"nt to g",
+				"e/high-",
+				"-cultur"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 1942,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"road ",
+				" want",
+				"high-c",
+				"ant to",
+				"ad aga",
+				"nt to g",
+				"e/high-",
+				"-cultur"
+			]
 		}
 	]
 }

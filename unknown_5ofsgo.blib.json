@@ -1,16 +1,84 @@
 {
 	"_id": "unknown_5ofsgo.blib",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unknown_5ofsgo.blib",
 	"sector": "NGC_9757",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 0,
+	"last_scraped": 1631992904600,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		}
+	],
+	"updt": 1631984743056,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1631992964600,
+	"category": "fishie_tank",
+	"last_update": 1631992904600,
+	"output": [
+		{
+			"args": {},
+			"calls": 4504,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y. It",
+				"ut I ",
+				"don't",
+				"s outs",
+				"e my w",
+				"llion l",
+				"ss that ",
+				"ess that",
+				"de but I",
+				" It's li"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 974,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y. It",
+				"ut I ",
+				"don't",
+				"s outs",
+				"e my w",
+				"llion l",
+				"ss that ",
+				"ess that",
+				"de but I",
+				" It's li"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 2211,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y. It",
+				"ut I ",
+				"don't",
+				"s outs",
+				"e my w",
+				"llion l",
+				"ss that ",
+				"ess that",
+				"de but I",
+				" It's li"
+			]
 		}
 	]
 }
