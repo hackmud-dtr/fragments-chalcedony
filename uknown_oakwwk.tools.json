@@ -1,20 +1,24 @@
 {
 	"_id": "uknown_oakwwk.tools",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_oakwwk.tools",
 	"sector": "VNP_6803",
 	"sec_level": 4,
 	"date_added": 1624865354449,
-	"last_scraped": 1631962120607,
+	"last_scraped": 1631967596080,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624865354449
+		},
+		{
+			"type": "died",
+			"when": 1631967596080
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1632008841207,
+	"next_scrape": 1632057968757,
 	"category": "coin_flipper",
 	"last_update": 1631962120607,
 	"output": [
@@ -140,8 +144,8 @@
 			]
 		}
 	],
-	"updt": 1631956600922,
-	"edit": 347,
+	"updt": 1631962269394,
+	"edit": 348,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -197,5 +201,6 @@
 				"nding "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_oakwwk.tools: script doesn't exist\"}"
 }
