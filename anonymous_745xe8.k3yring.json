@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_745xe8.k3yring",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_745xe8.k3yring",
 	"sector": "NGC_6597",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1632063873503,
+	"last_scraped": 1632071858950,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1632071858950
 		}
 	],
-	"updt": 1632055883373,
-	"edit": 24,
-	"next_scrape": 1632103912804,
+	"updt": 1632063897843,
+	"edit": 25,
+	"next_scrape": 1632161029213,
 	"category": "dice_roller",
 	"last_update": 1632063873503,
 	"output": [
@@ -101,5 +105,6 @@
 				" discard"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_745xe8.k3yring: script doesn't exist\"}"
 }
