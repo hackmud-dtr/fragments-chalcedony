@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_bufrfn._",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anonymous_bufrfn._",
 	"sector": "K_8691",
 	"sec_level": 4,
@@ -13,8 +13,8 @@
 			"when": 1631983536181
 		}
 	],
-	"updt": 1631990408140,
-	"edit": 2,
+	"updt": 1631990603979,
+	"edit": 3,
 	"scrape_ct": 19,
 	"next_scrape": 1632082739846,
 	"category": "risk_factor",
@@ -49,11 +49,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true
 }
