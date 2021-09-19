@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_tcqoif.atria_delta",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_tcqoif.atria_delta",
 	"sector": "SPC_6120",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1632030551953,
+	"last_scraped": 1632033456205,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1632027151194,
-	"edit": 11,
-	"scrape_ct": 0,
-	"next_scrape": 1632030611953,
+	"updt": 1632030671353,
+	"edit": 12,
+	"next_scrape": 1632079438801,
 	"category": "fishie_tank",
-	"last_update": 1632030551953,
+	"last_update": 1632033456205,
 	"output": [
 		{
 			"args": {},
-			"calls": 38503,
+			"calls": 41839,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"# oka",
@@ -58,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8408,
+			"calls": 9279,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -99,7 +98,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 43095,
+			"calls": 45643,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"# oka",
