@@ -6,23 +6,23 @@
 	"sector": "K_0494",
 	"sec_level": 4,
 	"date_added": 1625177222359,
-	"last_scraped": 1632148096466,
+	"last_scraped": 1632156146594,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625177222359
 		}
 	],
-	"updt": 1632140126848,
-	"edit": 386,
+	"updt": 1632148142444,
+	"edit": 387,
 	"scrape_ct": 16,
-	"next_scrape": 1632189511138,
+	"next_scrape": 1632202076286,
 	"category": "fishie_tank",
-	"last_update": 1632148096466,
+	"last_update": 1632156146594,
 	"output": [
 		{
 			"args": {},
-			"calls": 1533416,
+			"calls": 1538083,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ve tha",
@@ -200,6 +200,14 @@
 				"lory is ",
 				" what? #"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
