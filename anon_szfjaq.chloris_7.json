@@ -1,20 +1,24 @@
 {
 	"_id": "anon_szfjaq.chloris_7",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_szfjaq.chloris_7",
 	"sector": "HJG_6044",
 	"sec_level": 4,
 	"date_added": 1626328632191,
-	"last_scraped": 1632088635582,
+	"last_scraped": 1632096890864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626328632191
+		},
+		{
+			"type": "died",
+			"when": 1632096890864
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1632129145967,
+	"next_scrape": 1632179870884,
 	"category": "fishie_tank",
 	"last_update": 1632088635582,
 	"output": [
@@ -247,8 +251,8 @@
 			]
 		}
 	],
-	"updt": 1632080908760,
-	"edit": 383,
+	"updt": 1632088717286,
+	"edit": 384,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -268,5 +272,6 @@
 				"ILE0X52"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_szfjaq.chloris_7: script doesn't exist\"}"
 }
