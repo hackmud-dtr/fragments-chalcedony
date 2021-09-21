@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_8atma6.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_8atma6.db",
 	"sector": "K_1012",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1632258214185,
+	"last_scraped": 1632265977362,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1632265977362
 		}
 	],
-	"updt": 1632250549559,
-	"edit": 47,
-	"next_scrape": 1632300179601,
+	"updt": 1632258369402,
+	"edit": 48,
+	"next_scrape": 1632359337152,
 	"category": "dice_roller",
 	"last_update": 1632258214185,
 	"output": [
@@ -183,5 +187,6 @@
 				"ically,"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_8atma6.db: script doesn't exist\"}"
 }
