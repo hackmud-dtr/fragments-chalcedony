@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_fbew9u.load_best_cron",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_fbew9u.load_best_cron",
 	"sector": "HJG_5359",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1632326788533
 		}
 	],
-	"updt": 1631984743056,
-	"edit": 1,
+	"updt": 1631993537878,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,5 +42,6 @@
 				" 3.\\n20C"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
