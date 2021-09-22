@@ -1,16 +1,100 @@
 {
 	"_id": "derelict_2xhct9.premium_help",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "derelict_2xhct9.premium_help",
 	"sector": "NGC_2554",
 	"sec_level": 4,
 	"date_added": 1632326788473,
-	"last_scraped": 0,
+	"last_scraped": 1632329970733,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632326788473
+		}
+	],
+	"updt": 1632326942935,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1632330030733,
+	"category": "fishie_tank",
+	"last_update": 1632330000678,
+	"output": [
+		{
+			"args": {},
+			"calls": 8363,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"decks",
+				"p.\\n20",
+				" face ",
+				" 3 deck",
+				"of 13, f",
+				"ks of 13",
+				"face up.",
+				"face dow",
+				"e down.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"decks",
+						"p.\\n20",
+						" face ",
+						" 3 deck",
+						"of 13, f",
+						"ks of 13",
+						"face up.",
+						"face dow",
+						"e down.\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2740,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"decks",
+				"p.\\n20",
+				" face ",
+				" 3 deck",
+				"of 13, f",
+				"ks of 13",
+				"face up.",
+				"face dow",
+				"e down.\\n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"decks",
+				"p.\\n20",
+				" face ",
+				" 3 deck",
+				"of 13, f",
+				"ks of 13",
+				"face up.",
+				"face dow",
+				"e down.\\n"
+			]
 		}
 	]
 }
