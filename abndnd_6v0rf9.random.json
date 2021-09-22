@@ -6,23 +6,23 @@
 	"sector": "K_6076",
 	"sec_level": 4,
 	"date_added": 1632326788473,
-	"last_scraped": 1632331124332,
+	"last_scraped": 1632332287099,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632326788473
 		}
 	],
-	"updt": 1632327136534,
-	"edit": 1,
-	"scrape_ct": 19,
-	"next_scrape": 1632331184332,
+	"updt": 1632332024096,
+	"edit": 3,
+	"scrape_ct": 15,
+	"next_scrape": 1632332347099,
 	"category": "fishie_tank",
-	"last_update": 1632331124332,
+	"last_update": 1632332287099,
 	"output": [
 		{
 			"args": {},
-			"calls": 5018,
+			"calls": 15020,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r own ",
@@ -30,13 +30,30 @@
 				" salvat",
 				"rchitect",
 				" the arc"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"r own ",
+						" salvat",
+						"rchitect",
+						" the arc"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"effici"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 734,
+			"calls": 2140,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,13 +66,30 @@
 				" salvat",
 				"rchitect",
 				" the arc"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"r own ",
+						" salvat",
+						"rchitect",
+						" the arc"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"effici"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4195,
+			"calls": 13978,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"r own ",
@@ -63,6 +97,40 @@
 				" salvat",
 				"rchitect",
 				" the arc"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"r own ",
+						" salvat",
+						"rchitect",
+						" the arc"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"effici"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"r own ",
+				" salvat",
+				"rchitect",
+				" the arc"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"effici"
 			]
 		}
 	]

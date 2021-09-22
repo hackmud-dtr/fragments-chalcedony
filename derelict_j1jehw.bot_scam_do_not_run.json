@@ -6,23 +6,23 @@
 	"sector": "K_6076",
 	"sec_level": 4,
 	"date_added": 1632326788473,
-	"last_scraped": 1632331204378,
+	"last_scraped": 1632332327286,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632326788473
 		}
 	],
-	"updt": 1632327136534,
-	"edit": 1,
-	"scrape_ct": 19,
-	"next_scrape": 1632331264378,
+	"updt": 1632332024096,
+	"edit": 3,
+	"scrape_ct": 14,
+	"next_scrape": 1632332387286,
 	"category": "fishie_tank",
-	"last_update": 1632331204378,
+	"last_update": 1632332327286,
 	"output": [
 		{
 			"args": {},
-			"calls": 3638,
+			"calls": 11463,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"TW ER",
@@ -32,13 +32,27 @@
 				"RROR | P",
 				"| PROG E",
 				" USER mh"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"TW ER",
+						"R | PRO",
+						"hollist",
+						" TIME E",
+						"RROR | P",
+						"| PROG E",
+						" USER mh"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1035,
+			"calls": 2789,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +67,57 @@
 				"RROR | P",
 				"| PROG E",
 				" USER mh"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"TW ER",
+						"R | PRO",
+						"hollist",
+						" TIME E",
+						"RROR | P",
+						"| PROG E",
+						" USER mh"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4563,
+			"calls": 11649,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"TW ER",
+				"R | PRO",
+				"hollist",
+				" TIME E",
+				"RROR | P",
+				"| PROG E",
+				" USER mh"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"TW ER",
+						"R | PRO",
+						"hollist",
+						" TIME E",
+						"RROR | P",
+						"| PROG E",
+						" USER mh"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
 				"TW ER",
 				"R | PRO",
 				"hollist",
