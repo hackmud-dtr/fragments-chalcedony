@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_5ofsgo.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unknown_5ofsgo.blib",
 	"sector": "NGC_9757",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1632471640334,
+	"last_scraped": 1632480215060,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1632462578183,
-	"edit": 66,
-	"next_scrape": 1632516078735,
+	"updt": 1632471760600,
+	"edit": 67,
+	"next_scrape": 1632567354193,
 	"category": "fishie_tank",
-	"last_update": 1632471640334,
+	"last_update": 1632480215060,
 	"output": [
 		{
 			"args": {},
-			"calls": 246063,
+			"calls": 250595,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y. It",
@@ -146,6 +146,14 @@
 				"de but I",
 				" It's li"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
