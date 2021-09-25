@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_pq6k3o.plantshit",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_pq6k3o.plantshit",
 	"sector": "K_6076",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1632326788473
+		},
+		{
+			"type": "died",
+			"when": 1632567796879
 		}
 	],
-	"updt": 1632327136534,
-	"edit": 1,
+	"updt": 1632331240626,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				"n, every"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
