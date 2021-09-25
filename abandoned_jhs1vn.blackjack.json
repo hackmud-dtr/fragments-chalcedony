@@ -1,0 +1,58 @@
+{
+	"_id": "abandoned_jhs1vn.blackjack",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_jhs1vn.blackjack",
+	"sector": "NGC_1112",
+	"sec_level": 4,
+	"date_added": 1632530948046,
+	"last_scraped": 1632530971878,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1632530948046
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1632531031878,
+	"category": "fishie_tank",
+	"last_update": 1632530981953,
+	"output": [
+		{
+			"args": {},
+			"calls": 4542,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"win t",
+				"and 3",
+				", or ",
+				"\\n20BA fo",
+				" 3\\n20BA "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 699,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"win t",
+				"and 3",
+				", or ",
+				"\\n20BA fo",
+				" 3\\n20BA "
+			]
+		}
+	]
+}
