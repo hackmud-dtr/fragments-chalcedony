@@ -6,26 +6,21 @@
 	"sector": "NGC_1112",
 	"sec_level": 4,
 	"date_added": 1632530948046,
-	"last_scraped": 1632530971878,
+	"last_scraped": 1632531923812,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632530948046
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1632531031878,
+	"scrape_ct": 1,
+	"next_scrape": 1632531983812,
 	"category": "fishie_tank",
-	"last_update": 1632530981953,
+	"last_update": 1632531923812,
 	"output": [
 		{
 			"args": {},
-			"calls": 4542,
+			"calls": 39633,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"win t",
@@ -33,13 +28,25 @@
 				", or ",
 				"\\n20BA fo",
 				" 3\\n20BA "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"win t",
+						"and 3",
+						", or ",
+						"\\n20BA fo",
+						" 3\\n20BA "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 699,
+			"calls": 9369,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,6 +54,58 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"win t",
+				"and 3",
+				", or ",
+				"\\n20BA fo",
+				" 3\\n20BA "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"win t",
+						"and 3",
+						", or ",
+						"\\n20BA fo",
+						" 3\\n20BA "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 39046,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"win t",
+				"and 3",
+				", or ",
+				"\\n20BA fo",
+				" 3\\n20BA "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"win t",
+						"and 3",
+						", or ",
+						"\\n20BA fo",
+						" 3\\n20BA "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1632531771407,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"win t",
 				"and 3",
 				", or ",
