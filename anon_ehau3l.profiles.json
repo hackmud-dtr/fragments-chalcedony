@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ehau3l.profiles",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_ehau3l.profiles",
 	"sector": "K_6076",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1632326788473
+		},
+		{
+			"type": "died",
+			"when": 1632619419848
 		}
 	],
-	"updt": 1632327136534,
-	"edit": 1,
+	"updt": 1632331240626,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -37,5 +41,6 @@
 				"a lane.\\n"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
