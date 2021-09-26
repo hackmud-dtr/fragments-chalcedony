@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_50ieaf.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_50ieaf.bot_scam_do_not_run",
 	"sector": "SPC_9342",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1632676849432
 		}
 	],
-	"updt": 1631984352217,
-	"edit": 1,
+	"updt": 1631989040792,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				"_CLST0XC"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
