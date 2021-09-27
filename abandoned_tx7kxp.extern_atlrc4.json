@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_tx7kxp.extern_atlrc4",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_tx7kxp.extern_atlrc4",
 	"sector": "HJG_3407",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1632550131910
+		},
+		{
+			"type": "died",
+			"when": 1632759996309
 		}
 	],
-	"updt": 1632550148961,
-	"edit": 1,
+	"updt": 1632550344856,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"

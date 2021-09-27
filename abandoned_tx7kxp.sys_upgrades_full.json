@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_tx7kxp.sys_upgrades_full",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_tx7kxp.sys_upgrades_full",
 	"sector": "NGC_4204",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1632741675743
+		},
+		{
+			"type": "died",
+			"when": 1632760206224
 		}
 	],
 	"scrape_ct": 18,
@@ -362,5 +366,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1632741854462,
+	"edit": 1
 }

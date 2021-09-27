@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_or12tb.dist",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_or12tb.dist",
 	"sector": "NGC_4204",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1632757375755
+		},
+		{
+			"type": "died",
+			"when": 1632760206224
 		}
 	],
 	"retry_args": [
@@ -47,5 +51,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1632757490020,
+	"edit": 1
 }
