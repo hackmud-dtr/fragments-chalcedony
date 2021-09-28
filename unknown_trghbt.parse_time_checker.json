@@ -1,16 +1,108 @@
 {
 	"_id": "unknown_trghbt.parse_time_checker",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unknown_trghbt.parse_time_checker",
 	"sector": "NGC_4204",
 	"sec_level": 4,
 	"date_added": 1632790050488,
-	"last_scraped": 0,
+	"last_scraped": 1632791057567,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632790050488
+		}
+	],
+	"updt": 1632790907312,
+	"edit": 3,
+	"scrape_ct": 5,
+	"next_scrape": 1632791117567,
+	"category": "fishie_tank",
+	"last_update": 1632791057567,
+	"output": [
+		{
+			"args": {},
+			"calls": 32073,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ST0X7",
+				"7_FIL",
+				"SECT0X",
+				"0X2BC7",
+				"ILE0X2B",
+				"FILE0X2",
+				"F_CLST0",
+				"BC7D172\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ST0X7",
+						"7_FIL",
+						"SECT0X",
+						"0X2BC7",
+						"ILE0X2B",
+						"FILE0X2",
+						"F_CLST0",
+						"BC7D172\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7222,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ST0X7",
+				"7_FIL",
+				"SECT0X",
+				"0X2BC7",
+				"ILE0X2B",
+				"FILE0X2",
+				"F_CLST0",
+				"BC7D172\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29805,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ST0X7",
+				"7_FIL",
+				"SECT0X",
+				"0X2BC7",
+				"ILE0X2B",
+				"FILE0X2",
+				"F_CLST0",
+				"BC7D172\\n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ST0X7",
+				"7_FIL",
+				"SECT0X",
+				"0X2BC7",
+				"ILE0X2B",
+				"FILE0X2",
+				"F_CLST0",
+				"BC7D172\\n"
+			]
 		}
 	]
 }

@@ -1,16 +1,57 @@
 {
 	"_id": "derelict_5goo3k.scan1",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "timeout",
 	"script": "derelict_5goo3k.scan1",
 	"sector": "K_6592",
 	"sec_level": 4,
 	"date_added": 1632790140003,
-	"last_scraped": 0,
+	"last_scraped": 1632790375259,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632790140003
+		}
+	],
+	"updt": 1632790321507,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1632878748283,
+	"category": "risk_factor",
+	"last_update": 1632790375259,
+	"output": [
+		{
+			"args": {},
+			"calls": 1310,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"ST0X7",
+				"T ERRO",
+				"ETW ER",
+				"7B_SECT0",
+				"769\\nSYS",
+				"79769\\nSY"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 127,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ST0X7",
+				"T ERRO",
+				"ETW ER",
+				"7B_SECT0",
+				"769\\nSYS",
+				"79769\\nSY"
+			]
 		}
 	]
 }
