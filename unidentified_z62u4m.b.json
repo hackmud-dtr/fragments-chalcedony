@@ -1,20 +1,28 @@
 {
 	"_id": "unidentified_z62u4m.b",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_z62u4m.b",
 	"sector": "HJG_2870",
 	"sec_level": 4,
 	"date_added": 1632989632760,
-	"last_scraped": 1632990594552,
+	"last_scraped": 1632990676521,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632989632760
+		},
+		{
+			"type": "died",
+			"when": 1632990676521
+		},
+		{
+			"type": "died",
+			"when": 1632990958069
 		}
 	],
 	"scrape_ct": 5,
-	"next_scrape": 1632990654552,
+	"next_scrape": 1633072473906,
 	"category": "fishie_tank",
 	"last_update": 1632990594552,
 	"output": [
@@ -286,6 +294,7 @@
 			]
 		}
 	],
-	"updt": 1632990277118,
-	"edit": 3
+	"updt": 1632990863300,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_z62u4m.b: script doesn't exist\"}"
 }
