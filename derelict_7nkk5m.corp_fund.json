@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_7nkk5m.corp_fund",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_7nkk5m.corp_fund",
 	"sector": "K_1726",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1633197855919,
+	"last_scraped": 1633206149345,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1633197840558,
-	"edit": 144,
-	"next_scrape": 1633238029244,
+	"updt": 1633198036219,
+	"edit": 145,
+	"next_scrape": 1633287005583,
 	"category": "clicker",
-	"last_update": 1633197855919,
+	"last_update": 1633206149345,
 	"output": [
 		{
 			"args": {},
-			"calls": 546796,
+			"calls": 550324,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"-driv",
@@ -108,7 +108,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 519449,
+			"calls": 523955,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"-driv",
@@ -456,6 +456,11 @@
 			"frags": [
 				"This is "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
