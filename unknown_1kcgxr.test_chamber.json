@@ -1,19 +1,23 @@
 {
 	"_id": "unknown_1kcgxr.test_chamber",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_1kcgxr.test_chamber",
 	"sector": "HJG_2870",
 	"sec_level": 4,
 	"date_added": 1633005618721,
-	"last_scraped": 1633297867212,
+	"last_scraped": 1633305620119,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633005618721
+		},
+		{
+			"type": "died",
+			"when": 1633305620119
 		}
 	],
-	"next_scrape": 1633338324688,
+	"next_scrape": 1633389793754,
 	"category": "dice_roller",
 	"last_update": 1633297867212,
 	"output": [
@@ -162,6 +166,7 @@
 			]
 		}
 	],
-	"updt": 1633290094030,
-	"edit": 42
+	"updt": 1633297918374,
+	"edit": 43,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_1kcgxr.test_chamber: script doesn't exist\"}"
 }
