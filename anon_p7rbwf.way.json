@@ -1,7 +1,7 @@
 {
 	"_id": "anon_p7rbwf.way",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_p7rbwf.way",
 	"sector": "SPC_9342",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1633328517861
 		}
 	],
-	"updt": 1631984352217,
-	"edit": 1,
+	"updt": 1631989040792,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -59,5 +63,6 @@
 				"ed when "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
