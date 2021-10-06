@@ -1,21 +1,29 @@
 {
 	"_id": "anonymous_b8cpqn.scam_watch",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_b8cpqn.scam_watch",
 	"sector": "K_2287",
 	"sec_level": 4,
 	"date_added": 1633328513402,
-	"last_scraped": 1633526679768,
+	"last_scraped": 1633535197353,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633328513402
+		},
+		{
+			"type": "died",
+			"when": 1633535197353
+		},
+		{
+			"type": "died",
+			"when": 1633535221284
 		}
 	],
-	"updt": 1633518729915,
-	"edit": 36,
-	"next_scrape": 1633566294337,
+	"updt": 1633526741589,
+	"edit": 37,
+	"next_scrape": 1633622494220,
 	"category": "plant_sim",
 	"last_update": 1633526679768,
 	"output": [
@@ -123,5 +131,6 @@
 				" fails.\\n"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_b8cpqn.scam_watch: script doesn't exist\"}"
 }

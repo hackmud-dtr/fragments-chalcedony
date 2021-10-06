@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_bopm8s.brain_check",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_bopm8s.brain_check",
 	"sector": "HJG_2850",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1633534568084
 		}
 	],
-	"updt": 1631984546484,
-	"edit": 1,
+	"updt": 1631990994402,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				"o - what"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
