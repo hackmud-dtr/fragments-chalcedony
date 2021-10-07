@@ -1,22 +1,30 @@
 {
 	"_id": "abandoned_ddlclr.hades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_ddlclr.hades",
 	"sector": "NGC_3454",
 	"sec_level": 4,
 	"date_added": 1626245039218,
-	"last_scraped": 1633618855548,
+	"last_scraped": 1633627582406,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626245039218
+		},
+		{
+			"type": "died",
+			"when": 1633627582406
+		},
+		{
+			"type": "died",
+			"when": 1633627760630
 		}
 	],
-	"updt": 1633611161625,
-	"edit": 525,
+	"updt": 1633627585399,
+	"edit": 527,
 	"scrape_ct": 16,
-	"next_scrape": 1633659399772,
+	"next_scrape": 1633711315460,
 	"category": "coin_flipper",
 	"last_update": 1633618855548,
 	"output": [
@@ -89,5 +97,6 @@
 				"177 of t"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_ddlclr.hades: script doesn't exist\"}"
 }
