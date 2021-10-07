@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_64meg0.iphemedia_3",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_64meg0.iphemedia_3",
 	"sector": "NGC_5092",
 	"sec_level": 4,
 	"date_added": 1633602877381,
-	"last_scraped": 1633620010324,
+	"last_scraped": 1633628817093,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633602877381
+		},
+		{
+			"type": "died",
+			"when": 1633628817093
 		}
 	],
-	"next_scrape": 1633659701063,
+	"next_scrape": 1633721521110,
 	"category": "dice_roller",
 	"last_update": 1633620010324,
 	"output": [
@@ -68,6 +72,7 @@
 			]
 		}
 	],
-	"updt": 1633612336218,
-	"edit": 8
+	"updt": 1633620160024,
+	"edit": 9,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_64meg0.iphemedia_3: script doesn't exist\"}"
 }
