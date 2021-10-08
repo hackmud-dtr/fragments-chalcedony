@@ -1,0 +1,118 @@
+{
+	"_id": "unknown_bp1wcg.tiresias_5",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_bp1wcg.tiresias_5",
+	"sector": "NGC_5092",
+	"sec_level": 4,
+	"date_added": 1633655411915,
+	"last_scraped": 1633655897593,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1633655411915
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1633655957593,
+	"category": "fishie_tank",
+	"last_update": 1633655917709,
+	"output": [
+		{
+			"args": {},
+			"calls": 18147,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"send ",
+				" to r",
+				" reso",
+				"s in o",
+				"lve.\\n2",
+				"d cards",
+				"ards\\n2",
+				"cker TRA",
+				".\\n2169 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"send ",
+						" to r",
+						" reso",
+						"s in o",
+						"lve.\\n2",
+						"d cards",
+						"ards\\n2",
+						"cker TRA",
+						".\\n2169 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6607,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"send ",
+				" to r",
+				" reso",
+				"s in o",
+				"lve.\\n2",
+				"d cards",
+				"ards\\n2",
+				"cker TRA",
+				".\\n2169 "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14830,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"send ",
+				" to r",
+				" reso",
+				"s in o",
+				"lve.\\n2",
+				"d cards",
+				"ards\\n2",
+				"cker TRA",
+				".\\n2169 "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"send ",
+				" to r",
+				" reso",
+				"s in o",
+				"lve.\\n2",
+				"d cards",
+				"ards\\n2",
+				"cker TRA",
+				".\\n2169 "
+			]
+		}
+	],
+	"updt": 1633655732937,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
