@@ -6,29 +6,32 @@
 	"sector": "NGC_5092",
 	"sec_level": 4,
 	"date_added": 1633655411915,
-	"last_scraped": 1633749605841,
+	"last_scraped": 1633758312739,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633655411915
 		}
 	],
-	"next_scrape": 1633795720287,
+	"next_scrape": 1633799793791,
 	"category": "fishie_tank",
-	"last_update": 1633749605841,
+	"last_update": 1633758312739,
 	"output": [
 		{
 			"args": {},
-			"calls": 85997,
+			"calls": 88617,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"send ",
 				"APS s",
+				" TRAP",
+				"solve.",
 				"s in o",
 				"end ca",
 				"lve.\\n2",
 				"d cards",
 				"ards\\n2",
+				" order ",
 				"r to res",
 				"o resolv",
 				"cker TRA",
@@ -55,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 23162,
+			"calls": 24068,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,11 +68,14 @@
 			"fragments": [
 				"send ",
 				"APS s",
+				" TRAP",
+				"solve.",
 				"s in o",
 				"end ca",
 				"lve.\\n2",
 				"d cards",
 				"ards\\n2",
+				" order ",
 				"r to res",
 				"o resolv",
 				"cker TRA",
@@ -80,16 +86,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 85318,
+			"calls": 92926,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"send ",
 				"APS s",
+				" TRAP",
+				"solve.",
 				"s in o",
 				"end ca",
 				"lve.\\n2",
 				"d cards",
 				"ards\\n2",
+				" order ",
 				"r to res",
 				"o resolv",
 				"cker TRA",
@@ -113,6 +122,6 @@
 			]
 		}
 	],
-	"updt": 1633742113612,
-	"edit": 18
+	"updt": 1633749737987,
+	"edit": 19
 }
