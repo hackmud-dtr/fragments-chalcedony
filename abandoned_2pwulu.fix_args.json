@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_2pwulu.fix_args",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_2pwulu.fix_args",
 	"sector": "NGC_5092",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1633597302840
+		},
+		{
+			"type": "died",
+			"when": 1633838163195
 		}
 	],
 	"retry_args": [
@@ -41,5 +45,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1633597486858,
+	"edit": 1
 }
