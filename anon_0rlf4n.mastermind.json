@@ -1,7 +1,7 @@
 {
 	"_id": "anon_0rlf4n.mastermind",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_0rlf4n.mastermind",
 	"sector": "NGC_5564",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "NGC_5564",
 				"to": "VNP_1655"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1633853537947
+		}
 	],
-	"updt": 1627139272839,
-	"edit": 7,
+	"updt": 1629299951176,
+	"edit": 8,
 	"pl_output": "`c1380`| good morning\n`c1380`| Parse access_log\n`c1148`| `YSystem has been breached!`\n`c1148`| sys.breach protocol. System access granted.\n`c1148`| `YSystem has been breached!`\nTypeError: Cannot read property 'forEach' of null\nTypeError: Cannot read property 'forEach' of null\n    at Object.loc (<anonymous>:23123:6)\n    at access_parse (<anonymous>:22842:26)\n    at mm (<anonymous>:22851:5)\n    at SC$anon_0rlf4n$mastermind (<anonymous>:22988:16)\n    at call (<anonymous>:23405:73)\n    at Object.SC$lore$scrape_fragments.args.t.call (<anonymous>:11309:12)\n    at extractBase (<anonymous>:11333:17)\n    at SC$lore$scrape_fragments (<anonymous>:11424:12)\n    at <anonymous>:454:9\n    at SC$farmer_john$idle (<anonymous>:465:2)",
 	"next_scrape": 1622635384449
 }
