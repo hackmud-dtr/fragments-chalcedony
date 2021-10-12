@@ -1,0 +1,108 @@
+{
+	"_id": "derelict_9mjbbz.botnet",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_9mjbbz.botnet",
+	"sector": "K_4429",
+	"sec_level": 4,
+	"date_added": 1634060756559,
+	"last_scraped": 1634060988319,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1634060756559
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1634061048319,
+	"category": "fishie_tank",
+	"last_update": 1634060988319,
+	"output": [
+		{
+			"args": {},
+			"calls": 16205,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s_awk",
+				"iousl",
+				" seri",
+				"this ex",
+				"ING ser",
+				" <well_",
+				"ted you ",
+				"kward_gi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"s_awk",
+						"iousl",
+						" seri",
+						"this ex",
+						"ING ser",
+						" <well_",
+						"ted you ",
+						"kward_gi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2151,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s_awk",
+				"iousl",
+				" seri",
+				"this ex",
+				"ING ser",
+				" <well_",
+				"ted you ",
+				"kward_gi"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11917,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s_awk",
+				"iousl",
+				" seri",
+				"this ex",
+				"ING ser",
+				" <well_",
+				"ted you ",
+				"kward_gi"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"s_awk",
+				"iousl",
+				" seri",
+				"this ex",
+				"ING ser",
+				" <well_",
+				"ted you ",
+				"kward_gi"
+			]
+		}
+	],
+	"updt": 1634060815839,
+	"edit": 1
+}
