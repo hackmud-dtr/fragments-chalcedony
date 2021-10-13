@@ -6,7 +6,7 @@
 	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1634145824204,
+	"last_scraped": 1634145844195,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,19 +15,17 @@
 	],
 	"updt": 1634138399788,
 	"edit": 270,
-	"next_scrape": 1634186434326,
+	"next_scrape": 1634189868070,
 	"category": "fishie_tank",
-	"last_update": 1634138202962,
+	"last_update": 1634145844195,
 	"output": [
 		{
 			"args": {},
-			"calls": 1084801,
+			"calls": 1089621,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tacker",
 				"scard ",
-				" pile ",
-				"s\\n217A",
 				"re sent",
 				"pile af",
 				"fter co",
@@ -40,6 +38,8 @@
 				" combat",
 				"the atta",
 				"t to the",
+				"s\\n217A ",
+				"rd pile ",
 				"o the at",
 				"le after",
 				"ker's\\n2",
@@ -71,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 247487,
+			"calls": 248336,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,8 +81,6 @@
 			"fragments": [
 				"tacker",
 				"scard ",
-				" pile ",
-				"s\\n217A",
 				"re sent",
 				"pile af",
 				"fter co",
@@ -95,6 +93,8 @@
 				" combat",
 				"the atta",
 				"t to the",
+				"s\\n217A ",
+				"rd pile ",
 				"o the at",
 				"le after",
 				"ker's\\n2",
@@ -126,13 +126,11 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1094785,
+			"calls": 1097737,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tacker",
 				"scard ",
-				" pile ",
-				"s\\n217A",
 				"re sent",
 				"pile af",
 				"fter co",
@@ -145,6 +143,8 @@
 				" combat",
 				"the atta",
 				"t to the",
+				"s\\n217A ",
+				"rd pile ",
 				"o the at",
 				"le after",
 				"ker's\\n2",
@@ -185,14 +185,6 @@
 				"fter co",
 				"ent to t"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
