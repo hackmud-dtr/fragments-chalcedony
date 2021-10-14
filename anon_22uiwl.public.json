@@ -1,27 +1,27 @@
 {
 	"_id": "anon_22uiwl.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anon_22uiwl.public",
 	"sector": "VNP_6179",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1634168052296,
+	"last_scraped": 1634175623140,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1634160489358,
-	"edit": 272,
-	"next_scrape": 1634208079657,
+	"updt": 1634168112103,
+	"edit": 273,
+	"next_scrape": 1634258351276,
 	"category": "fishie_tank",
-	"last_update": 1634168052296,
+	"last_update": 1634175623140,
 	"output": [
 		{
 			"args": {},
-			"calls": 1057718,
+			"calls": 1062166,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"CODE.",
@@ -143,6 +143,14 @@
 				"t; unau",
 				"E. Empl"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
