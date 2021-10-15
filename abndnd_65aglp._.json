@@ -1,0 +1,111 @@
+{
+	"_id": "abndnd_65aglp._",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_65aglp._",
+	"sector": "K_5296",
+	"sec_level": 4,
+	"date_added": 1634332228180,
+	"last_scraped": 1634332456195,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1634332228180
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1634332516195,
+	"category": "fishie_tank",
+	"last_update": 1634332456195,
+	"output": [
+		{
+			"args": {},
+			"calls": 11765,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"t not",
+				"ys be ",
+				"ation ",
+				"ambigu",
+				"us comm",
+				"ion has",
+				" might n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"t not",
+						"ys be ",
+						"ation ",
+						"ambigu",
+						"us comm",
+						"ion has",
+						" might n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2079,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t not",
+				"ys be ",
+				"ation ",
+				"ambigu",
+				"us comm",
+				"ion has",
+				" might n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10383,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"t not",
+				"ys be ",
+				"ation ",
+				"ambigu",
+				"us comm",
+				"ion has",
+				" might n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"t not",
+				"ys be ",
+				"ation ",
+				"ambigu",
+				"us comm",
+				"ion has",
+				" might n"
+			]
+		}
+	],
+	"updt": 1634332267609,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
