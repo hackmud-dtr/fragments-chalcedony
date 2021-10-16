@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_dl0mit.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_dl0mit.db",
 	"sector": "K_4429",
 	"sec_level": 4,
 	"date_added": 1634063263018,
-	"last_scraped": 1634355273328,
+	"last_scraped": 1634363132723,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634063263018
+		},
+		{
+			"type": "died",
+			"when": 1634363132723
 		}
 	],
-	"next_scrape": 1634401664838,
+	"next_scrape": 1634445398771,
 	"category": "fishie_tank",
 	"last_update": 1634355273328,
 	"output": [
@@ -218,6 +222,7 @@
 			]
 		}
 	],
-	"updt": 1634347517868,
-	"edit": 44
+	"updt": 1634355341136,
+	"edit": 45,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_dl0mit.db: script doesn't exist\"}"
 }
