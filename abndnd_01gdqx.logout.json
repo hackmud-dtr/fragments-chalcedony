@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_01gdqx.logout",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_01gdqx.logout",
 	"sector": "K_1012",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1634572898658
 		}
 	],
-	"updt": 1631984743056,
-	"edit": 1,
+	"updt": 1631994123217,
+	"edit": 2,
 	"scrape_ct": 18,
 	"next_scrape": 1631994056919,
 	"category": "risk_factor",
@@ -388,5 +392,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
