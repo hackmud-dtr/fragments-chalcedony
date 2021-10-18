@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_yagb8r._",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_yagb8r._",
 	"sector": "K_7528",
 	"sec_level": 4,
 	"date_added": 1626929730259,
-	"last_scraped": 1634509558363,
+	"last_scraped": 1634517370203,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1634552783548,
+	"next_scrape": 1634564012648,
 	"category": "fishie_tank",
-	"last_update": 1634509558363,
+	"last_update": 1634517370203,
 	"output": [
 		{
 			"args": {},
-			"calls": 2648008,
+			"calls": 2663481,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"owher",
@@ -214,8 +214,8 @@
 			]
 		}
 	],
-	"updt": 1634501559970,
-	"edit": 679,
+	"updt": 1634509577449,
+	"edit": 680,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -234,6 +234,14 @@
 			"frags": [
 				" not li"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
