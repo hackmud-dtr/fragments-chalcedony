@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_2dxoyr.silver_mark",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_2dxoyr.silver_mark",
 	"sector": "VNP_0710",
 	"sec_level": 4,
 	"date_added": 1626679621327,
-	"last_scraped": 1634633533036,
+	"last_scraped": 1634641143427,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626679621327
+		},
+		{
+			"type": "died",
+			"when": 1634641143427
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1634677102027,
+	"next_scrape": 1634720537343,
 	"category": "plant_sim",
 	"last_update": 1634633533036,
 	"output": [
@@ -106,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1634626288625,
-	"edit": 655,
+	"updt": 1634633718579,
+	"edit": 656,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
@@ -121,5 +125,6 @@
 				"| NETW E"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_2dxoyr.silver_mark: script doesn't exist\"}"
 }
