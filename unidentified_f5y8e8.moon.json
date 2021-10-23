@@ -1,0 +1,93 @@
+{
+	"_id": "unidentified_f5y8e8.moon",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_f5y8e8.moon",
+	"sector": "K_4714",
+	"sec_level": 4,
+	"date_added": 1635024349418,
+	"last_scraped": 1635024516981,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1635024349418
+		}
+	],
+	"updt": 1635024362289,
+	"edit": 1,
+	"scrape_ct": 16,
+	"next_scrape": 1635024576981,
+	"category": "fishie_tank",
+	"last_update": 1635024516981,
+	"output": [
+		{
+			"args": {},
+			"calls": 9361,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"R | U",
+				"PROG ",
+				"G ERR",
+				"| USER ",
+				"T ERROR "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | U",
+						"PROG ",
+						"G ERR",
+						"| USER ",
+						"T ERROR "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2210,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"R | U",
+				"PROG ",
+				"G ERR",
+				"| USER ",
+				"T ERROR "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11264,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"R | U",
+				"PROG ",
+				"G ERR",
+				"| USER ",
+				"T ERROR "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"R | U",
+				"PROG ",
+				"G ERR",
+				"| USER ",
+				"T ERROR "
+			]
+		}
+	]
+}
