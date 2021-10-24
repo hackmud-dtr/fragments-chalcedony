@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_3nhz3c.cypher",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_3nhz3c.cypher",
 	"sector": "K_1726",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1635044611294,
+	"last_scraped": 1635052360627,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1635036279900,
-	"edit": 400,
-	"next_scrape": 1635086441250,
+	"updt": 1635044680475,
+	"edit": 401,
+	"next_scrape": 1635133176868,
 	"category": "fishie_tank",
-	"last_update": 1635044611294,
+	"last_update": 1635052360627,
 	"output": [
 		{
 			"args": {},
-			"calls": 1555137,
+			"calls": 1559874,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s ele",
@@ -71,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 345739,
+			"calls": 346752,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,7 +126,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1588547,
+			"calls": 1589795,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s ele",
