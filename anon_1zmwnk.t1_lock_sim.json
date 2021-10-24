@@ -1,28 +1,27 @@
 {
 	"_id": "anon_1zmwnk.t1_lock_sim",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_1zmwnk.t1_lock_sim",
 	"sector": "K_6138",
 	"sec_level": 4,
 	"date_added": 1635069666258,
-	"last_scraped": 1635070238244,
+	"last_scraped": 1635070658367,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635069666258
 		}
 	],
-	"updt": 1635070070755,
-	"edit": 3,
-	"scrape_ct": 7,
-	"next_scrape": 1635070298244,
+	"updt": 1635070266012,
+	"edit": 4,
+	"next_scrape": 1635110270619,
 	"category": "fishie_tank",
-	"last_update": 1635070238244,
+	"last_update": 1635070658367,
 	"output": [
 		{
 			"args": {},
-			"calls": 30894,
+			"calls": 45561,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"to be",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5527,
+			"calls": 9209,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,7 +78,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 26197,
+			"calls": 41274,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"to be",
