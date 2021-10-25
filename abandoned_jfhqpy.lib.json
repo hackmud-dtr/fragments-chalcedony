@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jfhqpy.lib",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_jfhqpy.lib",
 	"sector": "VNP_0932",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1635194657015
 		}
 	],
-	"updt": 1631984743056,
-	"edit": 1,
+	"updt": 1631992953180,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -57,5 +61,6 @@
 				"e follow"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
