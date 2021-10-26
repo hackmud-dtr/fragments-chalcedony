@@ -6,30 +6,32 @@
 	"sector": "K_4714",
 	"sec_level": 4,
 	"date_added": 1635024349418,
-	"last_scraped": 1635236145659,
+	"last_scraped": 1635244098183,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635024349418
 		}
 	],
-	"updt": 1635226808998,
-	"edit": 34,
-	"next_scrape": 1635282197305,
+	"updt": 1635236189687,
+	"edit": 35,
+	"next_scrape": 1635287214109,
 	"category": "fishie_tank",
-	"last_update": 1635236145659,
+	"last_update": 1635244098183,
 	"output": [
 		{
 			"args": {},
-			"calls": 166776,
+			"calls": 170068,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"TIME ",
 				"R | U",
 				"R | N",
+				"CLST0",
 				"USER m",
 				"YST ERR",
 				"X14AFF9",
+				"SYST ER",
 				"SECT0X7",
 				"RROR | ",
 				"OG ERRO",
@@ -37,6 +39,9 @@
 				"| USER ",
 				"T0X71_CL",
 				"T ERROR ",
+				"R mholli",
+				"R | TIME",
+				"NETW ERR",
 				"F93F\\nSY",
 				"ETW ERRO",
 				"| PROG E"
@@ -58,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 32731,
+			"calls": 33935,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,9 +74,11 @@
 				"TIME ",
 				"R | U",
 				"R | N",
+				"CLST0",
 				"USER m",
 				"YST ERR",
 				"X14AFF9",
+				"SYST ER",
 				"SECT0X7",
 				"RROR | ",
 				"OG ERRO",
@@ -79,6 +86,9 @@
 				"| USER ",
 				"T0X71_CL",
 				"T ERROR ",
+				"R mholli",
+				"R | TIME",
+				"NETW ERR",
 				"F93F\\nSY",
 				"ETW ERRO",
 				"| PROG E"
@@ -88,15 +98,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 165439,
+			"calls": 169164,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"TIME ",
 				"R | U",
 				"R | N",
+				"CLST0",
 				"USER m",
 				"YST ERR",
 				"X14AFF9",
+				"SYST ER",
 				"SECT0X7",
 				"RROR | ",
 				"OG ERRO",
@@ -104,6 +116,9 @@
 				"| USER ",
 				"T0X71_CL",
 				"T ERROR ",
+				"R mholli",
+				"R | TIME",
+				"NETW ERR",
 				"F93F\\nSY",
 				"ETW ERRO",
 				"| PROG E"
