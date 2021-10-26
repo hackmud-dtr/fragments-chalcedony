@@ -1,21 +1,25 @@
 {
 	"_id": "uknown_pckwqa.weather",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_pckwqa.weather",
 	"sector": "NGC_1112",
 	"sec_level": 4,
 	"date_added": 1632529617380,
-	"last_scraped": 1635264260363,
+	"last_scraped": 1635279760007,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632529617380
+		},
+		{
+			"type": "died",
+			"when": 1635279760007
 		}
 	],
-	"updt": 1635253782388,
-	"edit": 362,
-	"next_scrape": 1635304308916,
+	"updt": 1635264526921,
+	"edit": 363,
+	"next_scrape": 1635361255395,
 	"category": "clicker",
 	"last_update": 1635264260363,
 	"output": [
@@ -385,5 +389,6 @@
 				"very qua"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_pckwqa.weather: script doesn't exist\"}"
 }
