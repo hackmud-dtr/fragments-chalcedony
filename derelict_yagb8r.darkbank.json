@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_yagb8r.darkbank",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_yagb8r.darkbank",
 	"sector": "SPC_3687",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1635265238182
+		},
+		{
+			"type": "died",
+			"when": 1635291377310
 		}
 	],
-	"updt": 1635265311299,
-	"edit": 1,
+	"updt": 1635265506007,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -49,5 +53,6 @@
 				" EVERYTH"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
