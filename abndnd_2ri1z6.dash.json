@@ -6,20 +6,20 @@
 	"sector": "NGC_9799",
 	"sec_level": 4,
 	"date_added": 1632525356425,
-	"last_scraped": 1635199104941,
+	"last_scraped": 1635207842508,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632525356425
 		}
 	],
-	"next_scrape": 1635239865663,
+	"next_scrape": 1635253335547,
 	"category": "fishie_tank",
-	"last_update": 1635199104941,
+	"last_update": 1635207851910,
 	"output": [
 		{
 			"args": {},
-			"calls": 1443835,
+			"calls": 1448379,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"u the r",
@@ -43,6 +43,7 @@
 				" I have ",
 				"ules.\\n21",
 				"s.\\n219D ",
+				"rules.\\n2",
 				"les.\\n219",
 				"\\n219D Th",
 				".\\n219D T",
@@ -69,7 +70,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 314872,
+			"calls": 315905,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -98,6 +99,7 @@
 				" I have ",
 				"ules.\\n21",
 				"s.\\n219D ",
+				"rules.\\n2",
 				"les.\\n219",
 				"\\n219D Th",
 				".\\n219D T",
@@ -155,6 +157,11 @@
 			]
 		}
 	],
-	"updt": 1635189679092,
-	"edit": 347
+	"updt": 1635199258902,
+	"edit": 348,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
