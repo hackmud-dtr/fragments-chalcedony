@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_2b9vp3.request",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_2b9vp3.request",
 	"sector": "SPC_5327",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1635237053379
+		},
+		{
+			"type": "died",
+			"when": 1635238918994
 		}
 	],
 	"retry_args": [
@@ -76,5 +80,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1635237165548,
+	"edit": 1
 }
