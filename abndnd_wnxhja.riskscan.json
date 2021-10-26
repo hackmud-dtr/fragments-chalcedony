@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_wnxhja.riskscan",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_wnxhja.riskscan",
 	"sector": "NGC_8739",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "NGC_8739",
 				"to": "K_3831"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1635223561144
+		}
 	],
 	"pl_output": "Usage:\n\nlavorther.riskscan { t:#s.user.script }",
 	"next_scrape": 1635256747351,
-	"updt": 1635207661233,
-	"edit": 3243,
+	"updt": 1635216066177,
+	"edit": 3244,
 	"scrape_ct": 13,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1635215922375,
