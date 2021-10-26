@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_jbwjkc.gibson",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_jbwjkc.gibson",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1628913707326,
-	"last_scraped": 1635259806849,
+	"last_scraped": 1635277364764,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628913707326
+		},
+		{
+			"type": "died",
+			"when": 1635277364764
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1635306062868,
+	"next_scrape": 1635365271928,
 	"category": "plant_sim",
 	"last_update": 1635259806849,
 	"output": [
@@ -104,8 +108,8 @@
 			]
 		}
 	],
-	"updt": 1635251436522,
-	"edit": 734,
+	"updt": 1635259839050,
+	"edit": 735,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -118,5 +122,6 @@
 				" ## Alri"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_jbwjkc.gibson: script doesn't exist\"}"
 }
