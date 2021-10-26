@@ -1,20 +1,24 @@
 {
 	"_id": "anon_ynsfcq.transactions",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_ynsfcq.transactions",
 	"sector": "SPC_1126",
 	"sec_level": 4,
 	"date_added": 1626403262557,
-	"last_scraped": 1635275900609,
+	"last_scraped": 1635284328991,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626403262557
+		},
+		{
+			"type": "died",
+			"when": 1635284328991
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1635321018349,
+	"next_scrape": 1635369738313,
 	"category": "coin_flipper",
 	"last_update": 1635275900609,
 	"output": [
@@ -91,8 +95,8 @@
 			]
 		}
 	],
-	"updt": 1635258081128,
-	"edit": 735,
+	"updt": 1635276062581,
+	"edit": 736,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -106,5 +110,6 @@
 				"lobal | "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_ynsfcq.transactions: script doesn't exist\"}"
 }

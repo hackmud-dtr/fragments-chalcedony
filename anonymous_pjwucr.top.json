@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_pjwucr.top",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_pjwucr.top",
 	"sector": "SPC_1126",
 	"sec_level": 4,
 	"date_added": 1623499210120,
-	"last_scraped": 1635275909464,
+	"last_scraped": 1635284338002,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,12 +23,16 @@
 				"from": "SPC_1126",
 				"to": "K_3831"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1635284338002
+		}
 	],
-	"pl_output": "@jin is at the top, always has been, always will be",
-	"next_scrape": 1635319478229,
-	"updt": 1635258081128,
-	"edit": 3259,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_pjwucr.top: script doesn't exist\"}",
+	"next_scrape": 1635374713363,
+	"updt": 1635276062581,
+	"edit": 3260,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1635275909464,

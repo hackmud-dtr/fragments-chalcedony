@@ -1,19 +1,23 @@
 {
 	"_id": "unknown_pb7mkt.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_pb7mkt.blib",
 	"sector": "K_4714",
 	"sec_level": 4,
 	"date_added": 1635004656047,
-	"last_scraped": 1635275839571,
+	"last_scraped": 1635284277733,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635004656047
+		},
+		{
+			"type": "died",
+			"when": 1635284277733
 		}
 	],
-	"next_scrape": 1635316972371,
+	"next_scrape": 1635374946966,
 	"category": "fishie_tank",
 	"last_update": 1635275839571,
 	"output": [
@@ -160,6 +164,7 @@
 			]
 		}
 	],
-	"updt": 1635258081128,
-	"edit": 38
+	"updt": 1635276062581,
+	"edit": 39,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_pb7mkt.blib: script doesn't exist\"}"
 }
