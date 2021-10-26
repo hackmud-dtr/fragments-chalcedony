@@ -1,19 +1,23 @@
 {
 	"_id": "unidentified_2tx11u.t3_clean",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_2tx11u.t3_clean",
 	"sector": "K_6138",
 	"sec_level": 4,
 	"date_added": 1635079521651,
-	"last_scraped": 1635276892685,
+	"last_scraped": 1635285280443,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635079521651
+		},
+		{
+			"type": "died",
+			"when": 1635285280443
 		}
 	],
-	"next_scrape": 1635319763968,
+	"next_scrape": 1635371715193,
 	"category": "coin_flipper",
 	"last_update": 1635276892685,
 	"output": [
@@ -93,6 +97,7 @@
 			]
 		}
 	],
-	"updt": 1635259448323,
-	"edit": 31
+	"updt": 1635277038817,
+	"edit": 32,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_2tx11u.t3_clean: script doesn't exist\"}"
 }
