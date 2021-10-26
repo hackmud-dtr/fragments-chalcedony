@@ -6,16 +6,16 @@
 	"sector": "K_6076",
 	"sec_level": 4,
 	"date_added": 1632326788473,
-	"last_scraped": 1635232537632,
+	"last_scraped": 1635241070440,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632326788473
 		}
 	],
-	"updt": 1635223682633,
-	"edit": 377,
-	"next_scrape": 1635278384634,
+	"updt": 1635232670475,
+	"edit": 378,
+	"next_scrape": 1635284662376,
 	"category": "fishie_tank",
 	"last_update": 1635232537632,
 	"output": [
@@ -137,6 +137,14 @@
 				"| PROG E",
 				" USER mh"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
