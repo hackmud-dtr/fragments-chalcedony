@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_3h44tv.multi_t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_3h44tv.multi_t1",
 	"sector": "NGC_6357",
 	"sec_level": 4,
 	"date_added": 1626159849990,
-	"last_scraped": 1635258573535,
+	"last_scraped": 1635276331735,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1626159849990
+		},
+		{
+			"type": "died",
+			"when": 1635276331735
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1635303496473,
+	"next_scrape": 1635363811008,
 	"category": "plant_sim",
 	"last_update": 1635258573535,
 	"output": [
@@ -336,8 +340,8 @@
 			]
 		}
 	],
-	"updt": 1635250261592,
-	"edit": 737,
+	"updt": 1635258668339,
+	"edit": 738,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -350,5 +354,6 @@
 				"he 2046 "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_3h44tv.multi_t1: script doesn't exist\"}"
 }
