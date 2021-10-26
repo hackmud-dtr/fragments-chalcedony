@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_bgc4ol.brain_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_bgc4ol.brain_check",
 	"sector": "K_6592",
 	"sec_level": 4,
 	"date_added": 1632960624938,
-	"last_scraped": 1635280202034,
+	"last_scraped": 1635288759216,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632960624938
+		},
+		{
+			"type": "died",
+			"when": 1635288759216
 		}
 	],
-	"next_scrape": 1635324208846,
+	"next_scrape": 1635378939549,
 	"category": "plant_sim",
 	"last_update": 1635280202034,
 	"output": [
@@ -149,6 +153,7 @@
 			]
 		}
 	],
-	"updt": 1635264722090,
-	"edit": 298
+	"updt": 1635280364155,
+	"edit": 299,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_bgc4ol.brain_check: script doesn't exist\"}"
 }

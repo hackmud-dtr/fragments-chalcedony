@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_2tx11u.two_thirds",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_2tx11u.two_thirds",
 	"sector": "HJG_8743",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1627945538931
+		},
+		{
+			"type": "died",
+			"when": 1635288942546
 		}
 	],
 	"scrape_ct": 19,
@@ -46,8 +50,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1627945688402,
-	"edit": 1,
+	"updt": 1629302490446,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"

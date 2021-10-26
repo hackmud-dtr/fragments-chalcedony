@@ -1,7 +1,7 @@
 {
 	"_id": "anon_hblx2a.db",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_hblx2a.db",
 	"sector": "K_1726",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1635288942546
 		}
 	],
-	"updt": 1631992170360,
-	"edit": 2,
+	"updt": 1631992364375,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -39,5 +43,6 @@
 				"\\n1EC9 Al"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
