@@ -6,34 +6,38 @@
 	"sector": "SPC_9052",
 	"sec_level": 4,
 	"date_added": 1635268588869,
-	"last_scraped": 1635269091166,
+	"last_scraped": 1635269985546,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635268588869
 		}
 	],
-	"updt": 1635269025517,
-	"edit": 3,
-	"scrape_ct": 14,
-	"next_scrape": 1635269151166,
+	"updt": 1635269807116,
+	"edit": 6,
+	"scrape_ct": 2,
+	"next_scrape": 1635270045546,
 	"category": "fishie_tank",
-	"last_update": 1635269091166,
+	"last_update": 1635269985546,
 	"output": [
 		{
 			"args": {},
-			"calls": 14800,
+			"calls": 33964,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"rs | ",
 				"Erin.",
 				"hanks.",
 				"e beha",
 				"anced ",
 				" Thank",
 				"les you",
+				"jbhanda",
+				"J Advan",
 				"ead the",
 				" | BODY",
+				"Y I read",
+				"ors | BO",
+				"files yo",
 				" | SUBJ "
 			],
 			"hits": [
@@ -58,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2171,
+			"calls": 6110,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,15 +70,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"rs | ",
 				"Erin.",
 				"hanks.",
 				"e beha",
 				"anced ",
 				" Thank",
 				"les you",
+				"jbhanda",
+				"J Advan",
 				"ead the",
 				" | BODY",
+				"Y I read",
+				"ors | BO",
+				"files yo",
 				" | SUBJ "
 			]
 		},
@@ -82,18 +90,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 12619,
+			"calls": 37110,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"rs | ",
 				"Erin.",
 				"hanks.",
 				"e beha",
 				"anced ",
 				" Thank",
 				"les you",
+				"jbhanda",
+				"J Advan",
 				"ead the",
 				" | BODY",
+				"Y I read",
+				"ors | BO",
+				"files yo",
 				" | SUBJ "
 			]
 		}
@@ -113,6 +125,14 @@
 				" | BODY",
 				" | SUBJ "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
