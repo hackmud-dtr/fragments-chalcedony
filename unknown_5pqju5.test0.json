@@ -1,20 +1,24 @@
 {
 	"_id": "unknown_5pqju5.test0",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_5pqju5.test0",
 	"sector": "NGC_5353",
 	"sec_level": 4,
 	"date_added": 1628688123928,
-	"last_scraped": 1635277103522,
+	"last_scraped": 1635285481386,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628688123928
+		},
+		{
+			"type": "died",
+			"when": 1635285481386
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1635320823017,
+	"next_scrape": 1635373361544,
 	"category": "plant_sim",
 	"last_update": 1635277103522,
 	"output": [
@@ -145,8 +149,8 @@
 			]
 		}
 	],
-	"updt": 1635259644585,
-	"edit": 734,
+	"updt": 1635277235116,
+	"edit": 735,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -188,5 +192,6 @@
 				"omethi"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_5pqju5.test0: script doesn't exist\"}"
 }

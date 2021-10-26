@@ -1,22 +1,26 @@
 {
 	"_id": "unknown_t7dhtx.interface",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_t7dhtx.interface",
 	"sector": "K_1413",
 	"sec_level": 4,
 	"date_added": 1628955525116,
-	"last_scraped": 1635277854870,
+	"last_scraped": 1635286192919,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628955525116
+		},
+		{
+			"type": "died",
+			"when": 1635286192919
 		}
 	],
-	"updt": 1635260620302,
-	"edit": 780,
+	"updt": 1635278015612,
+	"edit": 781,
 	"scrape_ct": 16,
-	"next_scrape": 1635323124265,
+	"next_scrape": 1635379511327,
 	"category": "clicker",
 	"last_update": 1635277854870,
 	"output": [
@@ -271,5 +275,6 @@
 				"e road a"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_t7dhtx.interface: script doesn't exist\"}"
 }
