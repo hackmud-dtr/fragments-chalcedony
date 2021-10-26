@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_ps4nmt.chomp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_ps4nmt.chomp",
 	"sector": "K_4714",
 	"sec_level": 4,
 	"date_added": 1635031832061,
-	"last_scraped": 1635278226889,
+	"last_scraped": 1635286861518,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635031832061
+		},
+		{
+			"type": "died",
+			"when": 1635286861518
 		}
 	],
-	"next_scrape": 1635318498805,
+	"next_scrape": 1635366457485,
 	"category": "dice_roller",
 	"last_update": 1635278226889,
 	"output": [
@@ -89,6 +93,7 @@
 			]
 		}
 	],
-	"updt": 1635261402140,
-	"edit": 36
+	"updt": 1635278408705,
+	"edit": 37,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_ps4nmt.chomp: script doesn't exist\"}"
 }

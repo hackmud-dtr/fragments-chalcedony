@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_6sjbuy.robot_party",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_6sjbuy.robot_party",
 	"sector": "K_6138",
 	"sec_level": 4,
 	"date_added": 1635064343215,
-	"last_scraped": 1635277935182,
+	"last_scraped": 1635286254808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635064343215
+		},
+		{
+			"type": "died",
+			"when": 1635286254808
 		}
 	],
-	"next_scrape": 1635321084243,
+	"next_scrape": 1635372577421,
 	"category": "clicker",
 	"last_update": 1635277935182,
 	"output": [
@@ -186,6 +190,7 @@
 			]
 		}
 	],
-	"updt": 1635260816125,
-	"edit": 27
+	"updt": 1635278015612,
+	"edit": 28,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_6sjbuy.robot_party: script doesn't exist\"}"
 }

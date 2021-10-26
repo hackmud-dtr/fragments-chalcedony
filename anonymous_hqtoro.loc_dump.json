@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_hqtoro.loc_dump",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_hqtoro.loc_dump",
 	"sector": "K_4714",
 	"sec_level": 4,
 	"date_added": 1635014791684,
-	"last_scraped": 1635278146133,
+	"last_scraped": 1635286433337,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635014791684
+		},
+		{
+			"type": "died",
+			"when": 1635286433337
 		}
 	],
-	"updt": 1635261402140,
-	"edit": 40,
-	"next_scrape": 1635322611794,
+	"updt": 1635278408705,
+	"edit": 41,
+	"next_scrape": 1635366215246,
 	"category": "coin_flipper",
 	"last_update": 1635278146133,
 	"output": [
@@ -200,5 +204,6 @@
 				" acces"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_hqtoro.loc_dump: script doesn't exist\"}"
 }

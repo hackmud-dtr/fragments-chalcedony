@@ -1,19 +1,23 @@
 {
 	"_id": "anon_8kw8hu.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_8kw8hu.db",
 	"sector": "K_6138",
 	"sec_level": 4,
 	"date_added": 1635056617465,
-	"last_scraped": 1635278106004,
+	"last_scraped": 1635286395198,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635056617465
+		},
+		{
+			"type": "died",
+			"when": 1635286395198
 		}
 	],
-	"next_scrape": 1635323614441,
+	"next_scrape": 1635370012951,
 	"category": "fishie_tank",
 	"last_update": 1635278106004,
 	"output": [
@@ -165,6 +169,7 @@
 			]
 		}
 	],
-	"updt": 1635261205830,
-	"edit": 31
+	"updt": 1635278408705,
+	"edit": 32,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_8kw8hu.db: script doesn't exist\"}"
 }

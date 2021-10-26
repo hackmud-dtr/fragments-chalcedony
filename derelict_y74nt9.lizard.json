@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_y74nt9.lizard",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_y74nt9.lizard",
 	"sector": "SPC_5327",
 	"sec_level": 4,
 	"date_added": 1635259935438,
-	"last_scraped": 1635278367542,
+	"last_scraped": 1635286963911,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635259935438
+		},
+		{
+			"type": "died",
+			"when": 1635286963911
 		}
 	],
-	"next_scrape": 1635323666917,
+	"next_scrape": 1635374885761,
 	"category": "dice_roller",
 	"last_update": 1635278367542,
 	"output": [
@@ -143,6 +147,7 @@
 			]
 		}
 	],
-	"updt": 1635262182661,
-	"edit": 12
+	"updt": 1635278408705,
+	"edit": 13,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_y74nt9.lizard: script doesn't exist\"}"
 }
