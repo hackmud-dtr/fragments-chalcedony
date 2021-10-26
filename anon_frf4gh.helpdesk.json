@@ -1,49 +1,74 @@
 {
 	"_id": "anon_frf4gh.helpdesk",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "anon_frf4gh.helpdesk",
 	"sector": "K_1235",
 	"sec_level": 4,
 	"date_added": 1635272450918,
-	"last_scraped": 1635272679765,
+	"last_scraped": 1635273523483,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635272450918
+		},
+		{
+			"type": "died",
+			"when": 1635273523483
 		}
 	],
-	"updt": 1635272546138,
-	"edit": 1,
-	"scrape_ct": 19,
-	"next_scrape": 1635272739765,
+	"updt": 1635273522006,
+	"edit": 4,
+	"scrape_ct": 12,
+	"next_scrape": 1635360590936,
 	"category": "coin_flipper",
-	"last_update": 1635272679765,
+	"last_update": 1635273422330,
 	"output": [
 		{
 			"args": {},
-			"calls": 7169,
+			"calls": 31573,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"r off",
-				"n the",
+				"take ",
 				"ming ",
 				"iming",
-				"ction",
-				"actio",
+				" mult",
+				"ke mul",
+				"ake mu",
 				"ultiple",
-				"offensi",
+				"sive ac",
 				"nsive\\n",
-				"fensive",
+				"hin the",
+				"he timi",
+				"efensiv",
 				"e timin",
+				"defensi",
+				"213A or",
+				" offens",
+				"offensiv",
+				"n the ti",
 				"ltiple d",
-				"ive\\n213",
 				"ive acti",
 				"ithin th",
-				"ions\\n21",
+				"iple def",
+				"ffensive",
+				"fensive ",
 				"ensive a",
+				"e\\n213A ",
+				"e defens",
+				"e action",
+				"C within",
+				"A or off",
+				"3C withi",
+				"3A or of",
 				"213C wit",
-				"ons\\n213C"
+				"13A or o",
+				" within ",
+				"s\\n213C w",
+				"ons\\n213C",
+				"ive\\n213A",
+				"ions\\n213",
+				"actions\\n"
 			],
 			"hits": [
 				{
@@ -86,5 +111,6 @@
 				"ons\\n213C"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_frf4gh.helpdesk: script doesn't exist\"}"
 }
