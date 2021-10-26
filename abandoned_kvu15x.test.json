@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_kvu15x.test",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_kvu15x.test",
 	"sector": "K_6138",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1635036181969
+		},
+		{
+			"type": "died",
+			"when": 1635290554716
 		}
 	],
 	"retry_args": [
@@ -41,5 +45,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1635036279900,
+	"edit": 1
 }
