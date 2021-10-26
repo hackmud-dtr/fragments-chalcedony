@@ -1,19 +1,23 @@
 {
 	"_id": "unknown_enguzj.defender",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_enguzj.defender",
 	"sector": "K_4714",
 	"sec_level": 4,
 	"date_added": 1634998918038,
-	"last_scraped": 1635279328555,
+	"last_scraped": 1635287976613,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634998918038
+		},
+		{
+			"type": "died",
+			"when": 1635287976613
 		}
 	],
-	"next_scrape": 1635324460907,
+	"next_scrape": 1635380224164,
 	"category": "dice_roller",
 	"last_update": 1635279328555,
 	"output": [
@@ -108,6 +112,7 @@
 			]
 		}
 	],
-	"updt": 1635263745174,
-	"edit": 40
+	"updt": 1635279583184,
+	"edit": 41,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_enguzj.defender: script doesn't exist\"}"
 }

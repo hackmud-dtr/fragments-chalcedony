@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_2jvhi7.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_2jvhi7.db",
 	"sector": "K_6592",
 	"sec_level": 4,
 	"date_added": 1632846891332,
-	"last_scraped": 1635279318488,
+	"last_scraped": 1635287965070,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632846891332
+		},
+		{
+			"type": "died",
+			"when": 1635287965070
 		}
 	],
-	"next_scrape": 1635324314991,
+	"next_scrape": 1635378952150,
 	"category": "dice_roller",
 	"last_update": 1635279318488,
 	"output": [
@@ -116,6 +120,7 @@
 			]
 		}
 	],
-	"updt": 1635263745174,
-	"edit": 308
+	"updt": 1635279583184,
+	"edit": 309,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_2jvhi7.db: script doesn't exist\"}"
 }
