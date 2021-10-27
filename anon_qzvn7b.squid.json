@@ -1,7 +1,7 @@
 {
 	"_id": "anon_qzvn7b.squid",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_qzvn7b.squid",
 	"sector": "NGC_3435",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1635265265162
+		},
+		{
+			"type": "died",
+			"when": 1635292357477
 		}
 	],
-	"updt": 1635265311299,
-	"edit": 1,
+	"updt": 1635265702078,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
