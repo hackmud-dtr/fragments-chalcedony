@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_7d7d5v.eval",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_7d7d5v.eval",
 	"sector": "HJG_4376",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "HJG_4376",
 				"to": "SPC_9508"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1635332378425
+		}
 	],
-	"updt": 1627916568284,
-	"edit": 89,
+	"updt": 1629300538119,
+	"edit": 90,
 	"pl_output": "{\"ok\":false,\"msg\":\"params are\\n{\\n  s:\\\"script\\\", \\n  c: {context: \\\"object\\\"},\\n  a: {args: \\\"object\\\"},\\n  b: [\\n    (...a) => #fs.some.script(...a),\\n    (...a) => #fs.another.script(...a)\\n  ]\\n}\"}",
 	"next_scrape": 1629374985565
 }
