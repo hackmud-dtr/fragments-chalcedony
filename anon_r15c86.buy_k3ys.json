@@ -1,0 +1,54 @@
+{
+	"_id": "anon_r15c86.buy_k3ys",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "anon_r15c86.buy_k3ys",
+	"sector": "K_1235",
+	"sec_level": 4,
+	"date_added": 1635371292947,
+	"last_scraped": 1635371400155,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1635371292947
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1635451564769,
+	"category": "risk_factor",
+	"last_update": 1635371400155,
+	"output": [
+		{
+			"args": {},
+			"calls": 1047,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"R | T",
+				"USER era",
+				"ROR | US",
+				"ERROR | ",
+				" | USER "
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 101,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"R | T",
+				"USER era",
+				"ROR | US",
+				"ERROR | ",
+				" | USER "
+			]
+		}
+	],
+	"cannot_identify": true
+}
