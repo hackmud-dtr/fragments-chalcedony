@@ -1,0 +1,118 @@
+{
+	"_id": "unidentified_n9ue0o.hackmud_pico",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_n9ue0o.hackmud_pico",
+	"sector": "K_1235",
+	"sec_level": 4,
+	"date_added": 1635404322707,
+	"last_scraped": 1635405061507,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1635404322707
+		}
+	],
+	"scrape_ct": 5,
+	"next_scrape": 1635405121507,
+	"category": "fishie_tank",
+	"last_update": 1635405061507,
+	"output": [
+		{
+			"args": {},
+			"calls": 36502,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s exp",
+				"SOMETH",
+				"OMETHI",
+				"e gran",
+				" to ta",
+				" the c",
+				"his_is_",
+				"ence wou",
+				"<well_th"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"s exp",
+						"SOMETH",
+						"OMETHI",
+						"e gran",
+						" to ta",
+						" the c",
+						"his_is_",
+						"ence wou",
+						"<well_th"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5932,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s exp",
+				"SOMETH",
+				"OMETHI",
+				"e gran",
+				" to ta",
+				" the c",
+				"his_is_",
+				"ence wou",
+				"<well_th"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29487,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s exp",
+				"SOMETH",
+				"OMETHI",
+				"e gran",
+				" to ta",
+				" the c",
+				"his_is_",
+				"ence wou",
+				"<well_th"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"s exp",
+				"SOMETH",
+				"OMETHI",
+				"e gran",
+				" to ta",
+				" the c",
+				"his_is_",
+				"ence wou",
+				"<well_th"
+			]
+		}
+	],
+	"updt": 1635404876787,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
