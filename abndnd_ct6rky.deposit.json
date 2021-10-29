@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_ct6rky.deposit",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_ct6rky.deposit",
 	"sector": "SPC_8907",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1632428238539
+		},
+		{
+			"type": "died",
+			"when": 1635477697625
 		}
 	],
 	"scrape_ct": 18,
@@ -556,5 +560,8 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1632428374967,
+	"edit": 1,
+	"cannot_identify": true
 }
