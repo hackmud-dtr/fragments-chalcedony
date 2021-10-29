@@ -1,21 +1,29 @@
 {
 	"_id": "abandoned_ieq08p.get",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_ieq08p.get",
 	"sector": "VNP_0932",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1635461384058,
+	"last_scraped": 1635471420005,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1635471420005
+		},
+		{
+			"type": "died",
+			"when": 1635471659439
 		}
 	],
-	"updt": 1635455103760,
-	"edit": 438,
-	"next_scrape": 1635503502365,
+	"updt": 1635471523570,
+	"edit": 440,
+	"next_scrape": 1635554965569,
 	"category": "plant_sim",
 	"last_update": 1635461384058,
 	"output": [
@@ -129,5 +137,6 @@
 				"etc) and"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_ieq08p.get: script doesn't exist\"}"
 }
