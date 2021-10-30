@@ -1,0 +1,106 @@
+{
+	"_id": "anon_mztsbd.entry",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_mztsbd.entry",
+	"sector": "K_9541",
+	"sec_level": 4,
+	"date_added": 1635588733467,
+	"last_scraped": 1635588775491,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1635588733467
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1635588835491,
+	"category": "fishie_tank",
+	"last_update": 1635588775491,
+	"output": [
+		{
+			"args": {},
+			"calls": 6362,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"UBJ: ",
+				"0XF62",
+				"rget t",
+				" forge",
+				"SER ext",
+				"R | NET",
+				"xtnl-add",
+				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"UBJ: ",
+						"0XF62",
+						"rget t",
+						" forge",
+						"SER ext",
+						"R | NET",
+						"xtnl-add",
+						"ERROR | "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 814,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"UBJ: ",
+				"0XF62",
+				"rget t",
+				" forge",
+				"SER ext",
+				"R | NET",
+				"xtnl-add",
+				"ERROR | "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6254,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"UBJ: ",
+				"0XF62",
+				"rget t",
+				" forge",
+				"SER ext",
+				"R | NET",
+				"xtnl-add",
+				"ERROR | "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"UBJ: ",
+				"0XF62",
+				"rget t",
+				" forge",
+				"SER ext",
+				"R | NET",
+				"xtnl-add",
+				"ERROR | "
+			]
+		}
+	]
+}
