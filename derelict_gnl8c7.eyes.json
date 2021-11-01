@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_gnl8c7.eyes",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_gnl8c7.eyes",
 	"sector": "HJG_9348",
 	"sec_level": 4,
 	"date_added": 1635805275094,
-	"last_scraped": 1635805494921,
+	"last_scraped": 1635806368338,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635805275094
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1635805554921,
+	"next_scrape": 1635849872361,
 	"category": "fishie_tank",
-	"last_update": 1635805494921,
+	"last_update": 1635806368338,
 	"output": [
 		{
 			"args": {},
-			"calls": 12943,
+			"calls": 41942,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"l ## ",
@@ -28,13 +27,25 @@
 				"HIS | bm",
 				"ETE THIS",
 				"| bmakil"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"l ## ",
+						"laaalil ",
+						"HIS | bm",
+						"ETE THIS",
+						"| bmakil"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1967,
+			"calls": 9578,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,13 +58,25 @@
 				"HIS | bm",
 				"ETE THIS",
 				"| bmakil"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"l ## ",
+						"laaalil ",
+						"HIS | bm",
+						"ETE THIS",
+						"| bmakil"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 12897,
+			"calls": 49914,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"l ## ",
@@ -61,9 +84,33 @@
 				"HIS | bm",
 				"ETE THIS",
 				"| bmakil"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"l ## ",
+						"laaalil ",
+						"HIS | bm",
+						"ETE THIS",
+						"| bmakil"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1635805310850,
-	"edit": 1
+	"updt": 1635806285164,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"l ## ",
+				"laaalil ",
+				"HIS | bm",
+				"ETE THIS",
+				"| bmakil"
+			]
+		}
+	]
 }

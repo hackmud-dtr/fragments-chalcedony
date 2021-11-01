@@ -1,28 +1,27 @@
 {
 	"_id": "unidentified_9twjot.action",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_9twjot.action",
 	"sector": "HJG_9348",
 	"sec_level": 4,
 	"date_added": 1635805275094,
-	"last_scraped": 1635805455264,
+	"last_scraped": 1635806398034,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635805275094
 		}
 	],
-	"updt": 1635805310850,
-	"edit": 1,
-	"scrape_ct": 17,
-	"next_scrape": 1635805515264,
+	"updt": 1635806285164,
+	"edit": 4,
+	"next_scrape": 1635849775132,
 	"category": "fishie_tank",
-	"last_update": 1635805455264,
+	"last_update": 1635806398034,
 	"output": [
 		{
 			"args": {},
-			"calls": 7730,
+			"calls": 41401,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ocatio",
@@ -32,13 +31,27 @@
 				"esident",
 				"sidentia",
 				" relatio"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ocatio",
+						"immedi",
+						"from c",
+						"e term",
+						"esident",
+						"sidentia",
+						" relatio"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2748,
+			"calls": 10770,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +66,57 @@
 				"esident",
 				"sidentia",
 				" relatio"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ocatio",
+						"immedi",
+						"from c",
+						"e term",
+						"esident",
+						"sidentia",
+						" relatio"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10571,
+			"calls": 43645,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ocatio",
+				"immedi",
+				"from c",
+				"e term",
+				"esident",
+				"sidentia",
+				" relatio"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ocatio",
+						"immedi",
+						"from c",
+						"e term",
+						"esident",
+						"sidentia",
+						" relatio"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
 				"ocatio",
 				"immedi",
 				"from c",
