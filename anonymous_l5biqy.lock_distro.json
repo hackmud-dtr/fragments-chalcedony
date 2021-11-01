@@ -1,21 +1,29 @@
 {
 	"_id": "anonymous_l5biqy.lock_distro",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_l5biqy.lock_distro",
 	"sector": "VNP_3816",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1635786982537,
+	"last_scraped": 1635793628648,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1635793628648
+		},
+		{
+			"type": "died",
+			"when": 1635793753718
 		}
 	],
-	"updt": 1635781286643,
-	"edit": 492,
-	"next_scrape": 1635830260069,
+	"updt": 1635787142357,
+	"edit": 493,
+	"next_scrape": 1635875810297,
 	"category": "dice_roller",
 	"last_update": 1635786982537,
 	"output": [
@@ -104,5 +112,6 @@
 				"A8BDD4\\nS"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_l5biqy.lock_distro: script doesn't exist\"}"
 }
