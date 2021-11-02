@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_osdi7g.pmi",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_osdi7g.pmi",
 	"sector": "HJG_9348",
 	"sec_level": 4,
 	"date_added": 1635792089714,
-	"last_scraped": 1635806419479,
+	"last_scraped": 1635812355127,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635792089714
+		},
+		{
+			"type": "died",
+			"when": 1635812355127
 		}
 	],
-	"next_scrape": 1635852326641,
+	"next_scrape": 1635903089958,
 	"category": "coin_flipper",
 	"last_update": 1635806419479,
 	"output": [
@@ -121,6 +125,7 @@
 			]
 		}
 	],
-	"updt": 1635800032948,
-	"edit": 11
+	"updt": 1635806480465,
+	"edit": 12,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_osdi7g.pmi: script doesn't exist\"}"
 }
