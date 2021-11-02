@@ -1,0 +1,106 @@
+{
+	"_id": "uknown_nalxwa.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_nalxwa.db",
+	"sector": "HJG_9348",
+	"sec_level": 4,
+	"date_added": 1635828503914,
+	"last_scraped": 1635829131697,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1635828503914
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1635829191697,
+	"category": "fishie_tank",
+	"last_update": 1635829131697,
+	"output": [
+		{
+			"args": {},
+			"calls": 33272,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"Diagn",
+				"J re: ",
+				"gnosti",
+				": re: ",
+				"| BODY T",
+				" if you "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"Diagn",
+						"J re: ",
+						"gnosti",
+						": re: ",
+						"| BODY T",
+						" if you "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6082,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"Diagn",
+				"J re: ",
+				"gnosti",
+				": re: ",
+				"| BODY T",
+				" if you "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 25838,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"Diagn",
+				"J re: ",
+				"gnosti",
+				": re: ",
+				"| BODY T",
+				" if you "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"Diagn",
+				"J re: ",
+				"gnosti",
+				": re: ",
+				"| BODY T",
+				" if you "
+			]
+		}
+	],
+	"updt": 1635828750925,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
