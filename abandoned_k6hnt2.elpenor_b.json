@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_k6hnt2.elpenor_b",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_k6hnt2.elpenor_b",
 	"sector": "K_9541",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1635589799921
+		},
+		{
+			"type": "died",
+			"when": 1635898723119
 		}
 	],
 	"retry_args": [
@@ -54,5 +58,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1635589966271,
+	"edit": 1
 }
