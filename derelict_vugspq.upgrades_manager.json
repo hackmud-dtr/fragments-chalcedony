@@ -6,37 +6,37 @@
 	"sector": "K_5296",
 	"sec_level": 4,
 	"date_added": 1634348480935,
-	"last_scraped": 1636206253282,
+	"last_scraped": 1636211671468,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634348480935
 		}
 	],
-	"next_scrape": 1636251063612,
+	"next_scrape": 1636253963838,
 	"category": "fishie_tank",
-	"last_update": 1636206253282,
+	"last_update": 1636211671468,
 	"output": [
 		{
 			"args": {},
-			"calls": 1185374,
+			"calls": 1191724,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"0 011",
 				"1 0100",
 				"0100 0",
-				"0000 0",
-				"000 01",
 				" 0100 ",
 				"ULLFILE",
 				"E\\n0000",
+				"0000 00",
+				"000 011",
 				"000 000",
 				"00 0000",
+				"0 0110 ",
 				"0 0000 ",
-				"FILE\\n00",
 				"0110 000",
 				"0001 010",
-				"0 0001 0"
+				"0 0001 0",
+				"LFILE\\n00"
 			],
 			"hits": [
 				{
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 266429,
+			"calls": 267401,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,45 +66,45 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0 011",
 				"1 0100",
 				"0100 0",
-				"0000 0",
-				"000 01",
 				" 0100 ",
 				"ULLFILE",
 				"E\\n0000",
+				"0000 00",
+				"000 011",
 				"000 000",
 				"00 0000",
+				"0 0110 ",
 				"0 0000 ",
-				"FILE\\n00",
 				"0110 000",
 				"0001 010",
-				"0 0001 0"
+				"0 0001 0",
+				"LFILE\\n00"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1253419,
+			"calls": 1257799,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"0 011",
 				"1 0100",
 				"0100 0",
-				"0000 0",
-				"000 01",
 				" 0100 ",
 				"ULLFILE",
 				"E\\n0000",
+				"0000 00",
+				"000 011",
 				"000 000",
 				"00 0000",
+				"0 0110 ",
 				"0 0000 ",
-				"FILE\\n00",
 				"0110 000",
 				"0001 010",
-				"0 0001 0"
+				"0 0001 0",
+				"LFILE\\n00"
 			]
 		}
 	],
@@ -123,6 +123,6 @@
 			]
 		}
 	],
-	"updt": 1636200646319,
-	"edit": 298
+	"updt": 1636206317347,
+	"edit": 299
 }
