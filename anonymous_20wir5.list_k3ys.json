@@ -1,0 +1,111 @@
+{
+	"_id": "anonymous_20wir5.list_k3ys",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_20wir5.list_k3ys",
+	"sector": "SPC_3987",
+	"sec_level": 4,
+	"date_added": 1636274888024,
+	"last_scraped": 1636275498632,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1636274888024
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1636275558632,
+	"category": "fishie_tank",
+	"last_update": 1636275498632,
+	"output": [
+		{
+			"args": {},
+			"calls": 29749,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ive m",
+				"user Er",
+				"C You w",
+				"ou will ",
+				"1EBB Oka",
+				" me five",
+				"inter.\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ive m",
+						"user Er",
+						"C You w",
+						"ou will ",
+						"1EBB Oka",
+						" me five",
+						"inter.\\n1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5637,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ive m",
+				"user Er",
+				"C You w",
+				"ou will ",
+				"1EBB Oka",
+				" me five",
+				"inter.\\n1"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28923,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ive m",
+				"user Er",
+				"C You w",
+				"ou will ",
+				"1EBB Oka",
+				" me five",
+				"inter.\\n1"
+			]
+		}
+	],
+	"updt": 1636275313606,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ive m",
+				"user Er",
+				"C You w",
+				"ou will ",
+				"1EBB Oka",
+				" me five",
+				"inter.\\n1"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
