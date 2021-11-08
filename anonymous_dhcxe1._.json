@@ -1,0 +1,113 @@
+{
+	"_id": "anonymous_dhcxe1._",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_dhcxe1._",
+	"sector": "K_4299",
+	"sec_level": 4,
+	"date_added": 1636380534289,
+	"last_scraped": 1636381406751,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1636380534289
+		}
+	],
+	"scrape_ct": 3,
+	"next_scrape": 1636381466751,
+	"category": "fishie_tank",
+	"last_update": 1636381406751,
+	"output": [
+		{
+			"args": {},
+			"calls": 33812,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"MFT0X1",
+				"5282A9",
+				" | PRO",
+				"W ERROR ",
+				"RROR | P",
+				" PROG ER",
+				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" | PRO",
+						"W ERROR ",
+						"RROR | P",
+						" PROG ER"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"MFT0X1",
+						"5282A9",
+						"2A91C\\nSY"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8321,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"MFT0X1",
+				"5282A9",
+				" | PRO",
+				"W ERROR ",
+				"RROR | P",
+				" PROG ER",
+				"2A91C\\nSY"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 38204,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"MFT0X1",
+				"5282A9",
+				" | PRO",
+				"W ERROR ",
+				"RROR | P",
+				" PROG ER",
+				"2A91C\\nSY"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				" | PRO",
+				"W ERROR ",
+				"RROR | P",
+				" PROG ER"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"MFT0X1",
+				"5282A9",
+				"2A91C\\nSY"
+			]
+		}
+	],
+	"updt": 1636381235800,
+	"edit": 4
+}
