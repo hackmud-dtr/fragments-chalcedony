@@ -1,20 +1,24 @@
 {
 	"_id": "derelict_cxw3as.castle",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_cxw3as.castle",
 	"sector": "NGC_5353",
 	"sec_level": 4,
 	"date_added": 1628722495316,
-	"last_scraped": 1636415594058,
+	"last_scraped": 1636421495744,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1628722495316
+		},
+		{
+			"type": "died",
+			"when": 1636421495744
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1636459814283,
+	"next_scrape": 1636504166027,
 	"category": "plant_sim",
 	"last_update": 1636415594058,
 	"output": [
@@ -276,8 +280,8 @@
 			]
 		}
 	],
-	"updt": 1636409967570,
-	"edit": 928,
+	"updt": 1636415634718,
+	"edit": 929,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -297,5 +301,6 @@
 				" are m"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_cxw3as.castle: script doesn't exist\"}"
 }
