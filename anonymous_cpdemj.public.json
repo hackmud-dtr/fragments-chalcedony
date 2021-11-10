@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_cpdemj.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_cpdemj.public",
 	"sector": "NGC_6597",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1636557834176,
+	"last_scraped": 1636564217596,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1636551847490,
-	"edit": 662,
-	"next_scrape": 1636597934482,
+	"updt": 1636557902988,
+	"edit": 663,
+	"next_scrape": 1636607198805,
 	"category": "fishie_tank",
-	"last_update": 1636557834176,
+	"last_update": 1636564254411,
 	"output": [
 		{
 			"args": {},
-			"calls": 2593961,
+			"calls": 2597915,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"you a",
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 582468,
+			"calls": 583815,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -136,6 +136,11 @@
 				"1E47 P",
 				"? It's "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
