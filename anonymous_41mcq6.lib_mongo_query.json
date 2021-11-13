@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_41mcq6.lib_mongo_query",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_41mcq6.lib_mongo_query",
 	"sector": "VNP_0719",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1636779259069
 		}
 	],
-	"updt": 1631984546484,
-	"edit": 1,
+	"updt": 1631990018085,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -41,5 +45,6 @@
 				"# It's e"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
