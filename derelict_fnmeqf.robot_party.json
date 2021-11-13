@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_fnmeqf.robot_party",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_fnmeqf.robot_party",
 	"sector": "SPC_8658",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_8658",
 				"to": "K_0494"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1636846377580
+		}
 	],
-	"updt": 1628104586604,
-	"edit": 15,
+	"updt": 1629301126034,
+	"edit": 16,
 	"pl_output": "A *true* disciple of the Nep sisters would join 0000 before running this!",
 	"next_scrape": 1629325495202,
 	"category": "UNKNOWN CATEGORY",

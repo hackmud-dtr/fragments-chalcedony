@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_0tcxxe.h",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_0tcxxe.h",
 	"sector": "NGC_4450",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "NGC_4450",
 				"to": "VNP_0244"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1636846540029
+		}
 	],
-	"updt": 1632124872657,
-	"edit": 263,
+	"updt": 1632132696898,
+	"edit": 264,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR j.k: script doesn't exist\"}",
 	"next_scrape": 1632208372435
 }
