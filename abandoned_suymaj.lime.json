@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_suymaj.lime",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_suymaj.lime",
 	"sector": "NGC_3281",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1636815633710
+		},
+		{
+			"type": "died",
+			"when": 1636817789624
 		}
 	],
 	"scrape_ct": 18,
@@ -485,5 +489,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1636815820827,
+	"edit": 1
 }
