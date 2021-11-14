@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_wikhtb._",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_wikhtb._",
 	"sector": "NGC_3281",
 	"sec_level": 4,
 	"date_added": 1636926965892,
-	"last_scraped": 1636926997863,
+	"last_scraped": 1636927870646,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636926965892
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1636927057863,
+	"next_scrape": 1636973122648,
 	"category": "fishie_tank",
-	"last_update": 1636926986828,
+	"last_update": 1636927870646,
 	"output": [
 		{
 			"args": {},
-			"calls": 3041,
+			"calls": 43108,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" corr",
@@ -50,13 +49,29 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1267,
+			"calls": 9844,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				" corr",
+				"pictur",
+				"ing fa",
+				"faces ",
+				"s the co",
+				"as ever ",
+				"'play me"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 51630,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" corr",
 				"pictur",
@@ -81,5 +96,7 @@
 				"'play me"
 			]
 		}
-	]
+	],
+	"updt": 1636927780599,
+	"edit": 3
 }
