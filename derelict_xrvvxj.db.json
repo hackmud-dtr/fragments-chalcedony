@@ -1,21 +1,29 @@
 {
 	"_id": "derelict_xrvvxj.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_xrvvxj.db",
 	"sector": "K_2287",
 	"sec_level": 4,
 	"date_added": 1633330931943,
-	"last_scraped": 1636847068096,
+	"last_scraped": 1636852934353,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633330931943
+		},
+		{
+			"type": "died",
+			"when": 1636852934353
+		},
+		{
+			"type": "died",
+			"when": 1636853030667
 		}
 	],
-	"updt": 1636841218396,
-	"edit": 519,
-	"next_scrape": 1636893323711,
+	"updt": 1636852941810,
+	"edit": 521,
+	"next_scrape": 1636932603059,
 	"category": "dice_roller",
 	"last_update": 1636847068096,
 	"output": [
@@ -106,5 +114,6 @@
 				" 3\\n20BA"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_xrvvxj.db: script doesn't exist\"}"
 }

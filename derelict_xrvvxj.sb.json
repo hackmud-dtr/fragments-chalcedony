@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_xrvvxj.sb",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_xrvvxj.sb",
 	"sector": "SPC_9342",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1636853083415
 		}
 	],
-	"updt": 1631984352217,
-	"edit": 1,
+	"updt": 1631989040792,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,5 +42,6 @@
 				"7B\\nAD032"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
