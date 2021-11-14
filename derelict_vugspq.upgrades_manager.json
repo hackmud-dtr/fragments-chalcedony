@@ -6,37 +6,40 @@
 	"sector": "K_5296",
 	"sec_level": 4,
 	"date_added": 1634348480935,
-	"last_scraped": 1636900514231,
+	"last_scraped": 1636906173678,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634348480935
 		}
 	],
-	"next_scrape": 1636945980868,
+	"next_scrape": 1636946831331,
 	"category": "fishie_tank",
-	"last_update": 1636900514231,
+	"last_update": 1636906173678,
 	"output": [
 		{
 			"args": {},
-			"calls": 1694357,
+			"calls": 1698744,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"E\\n0000",
+				"0100 00",
 				"0000 00",
 				"000 011",
 				"000 000",
-				"00 0000",
-				"0 0000 ",
 				" 0000 0",
 				"NULLFILE",
+				"100 0001",
 				"1 0100 0",
 				"0110 000",
 				"0001 010",
 				"00 0110 ",
+				"00 0000 ",
+				"0 0110 0",
 				"0 0001 0",
+				"\\n0000 0",
 				" 0001 01",
-				"LFILE\\n00"
+				"LFILE\\n00",
+				"LE\\n0000 "
 			],
 			"hits": [
 				{
@@ -58,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 377683,
+			"calls": 378710,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,45 +69,51 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"E\\n0000",
+				"0100 00",
 				"0000 00",
 				"000 011",
 				"000 000",
-				"00 0000",
-				"0 0000 ",
 				" 0000 0",
 				"NULLFILE",
+				"100 0001",
 				"1 0100 0",
 				"0110 000",
 				"0001 010",
 				"00 0110 ",
+				"00 0000 ",
+				"0 0110 0",
 				"0 0001 0",
+				"\\n0000 0",
 				" 0001 01",
-				"LFILE\\n00"
+				"LFILE\\n00",
+				"LE\\n0000 "
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1764866,
+			"calls": 1769374,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"E\\n0000",
+				"0100 00",
 				"0000 00",
 				"000 011",
 				"000 000",
-				"00 0000",
-				"0 0000 ",
 				" 0000 0",
 				"NULLFILE",
+				"100 0001",
 				"1 0100 0",
 				"0110 000",
 				"0001 010",
 				"00 0110 ",
+				"00 0000 ",
+				"0 0110 0",
 				"0 0001 0",
+				"\\n0000 0",
 				" 0001 01",
-				"LFILE\\n00"
+				"LFILE\\n00",
+				"LE\\n0000 "
 			]
 		}
 	],
@@ -123,6 +132,6 @@
 			]
 		}
 	],
-	"updt": 1636894759838,
-	"edit": 417
+	"updt": 1636900624635,
+	"edit": 418
 }
