@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_mapigq.mausoleum",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_mapigq.mausoleum",
 	"sector": "VNP_6179",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1636946541496
 		}
 	],
-	"updt": 1631989040792,
-	"edit": 2,
+	"updt": 1631989236736,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,5 +42,6 @@
 				"iscussio"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
