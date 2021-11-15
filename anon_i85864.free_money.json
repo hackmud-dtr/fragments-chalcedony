@@ -1,16 +1,28 @@
 {
 	"_id": "anon_i85864.free_money",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_i85864.free_money",
-	"sector": "SPC_0162",
+	"sector": "NGC_0950",
 	"sec_level": 2,
 	"date_added": 1632465218830,
-	"last_scraped": 0,
+	"last_scraped": 1636985199959,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1632465218830
-		}
-	]
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1636985189602,
+				"from": "NGC_0950",
+				"to": "SPC_0162"
+			}
+		]
+	],
+	"updt": 1632465314890,
+	"edit": 1,
+	"pl_output": "welp",
+	"next_scrape": 1637077273872
 }
