@@ -6,22 +6,22 @@
 	"sector": "K_2287",
 	"sec_level": 4,
 	"date_added": 1633328513402,
-	"last_scraped": 1637043805371,
+	"last_scraped": 1637049318765,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633328513402
 		}
 	],
-	"updt": 1637037805017,
-	"edit": 581,
-	"next_scrape": 1637086841119,
+	"updt": 1637043863553,
+	"edit": 582,
+	"next_scrape": 1637095663392,
 	"category": "fishie_tank",
-	"last_update": 1637043805371,
+	"last_update": 1637049318765,
 	"output": [
 		{
 			"args": {},
-			"calls": 2378635,
+			"calls": 2384772,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r log",
@@ -135,6 +135,11 @@
 				" which ",
 				"lue abov"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
