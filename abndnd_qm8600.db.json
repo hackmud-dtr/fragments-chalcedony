@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_qm8600.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_qm8600.db",
 	"sector": "K_3341",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1637118728318,
+	"last_scraped": 1637123940648,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1637113247508,
-	"edit": 753,
-	"next_scrape": 1637165315467,
+	"updt": 1637118914847,
+	"edit": 754,
+	"next_scrape": 1637211242715,
 	"category": "fishie_tank",
-	"last_update": 1637118728318,
+	"last_update": 1637123940648,
 	"output": [
 		{
 			"args": {},
-			"calls": 3054600,
+			"calls": 3057411,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ystem",
@@ -176,6 +176,14 @@
 				"s/error ",
 				"ajbhanda"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
