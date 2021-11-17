@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_sji1wl.graph",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_sji1wl.graph",
 	"sector": "K_8691",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1637126632082
 		}
 	],
-	"updt": 1631984546484,
-	"edit": 1,
+	"updt": 1631990408140,
+	"edit": 2,
 	"scrape_ct": 18,
 	"next_scrape": 1631990370651,
 	"category": "risk_factor",
@@ -367,5 +371,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
