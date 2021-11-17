@@ -6,22 +6,22 @@
 	"sector": "SPC_3987",
 	"sec_level": 4,
 	"date_added": 1636309511648,
-	"last_scraped": 1637186873537,
+	"last_scraped": 1637192390211,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636309511648
 		}
 	],
-	"updt": 1637181452608,
-	"edit": 162,
-	"next_scrape": 1637229914355,
+	"updt": 1637186928914,
+	"edit": 163,
+	"next_scrape": 1637238439087,
 	"category": "fishie_tank",
-	"last_update": 1637186873537,
+	"last_update": 1637192390211,
 	"output": [
 		{
 			"args": {},
-			"calls": 691908,
+			"calls": 693956,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"or ke",
@@ -102,6 +102,14 @@
 				"s, but o",
 				"ce I'm n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
