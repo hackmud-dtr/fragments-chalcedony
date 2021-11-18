@@ -6,30 +6,30 @@
 	"sector": "K_5296",
 	"sec_level": 4,
 	"date_added": 1634348480935,
-	"last_scraped": 1637224972573,
+	"last_scraped": 1637230529861,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634348480935
 		}
 	],
-	"next_scrape": 1637267697525,
+	"next_scrape": 1637274753068,
 	"category": "fishie_tank",
-	"last_update": 1637224972573,
+	"last_update": 1637230529861,
 	"output": [
 		{
 			"args": {},
-			"calls": 1938491,
+			"calls": 1941754,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"0000 00",
 				"000 011",
 				"000 000",
-				" 0000 0",
 				"NULLFILE",
+				"LLFILE\\n",
 				"100 0001",
 				"1 0100 0",
 				"0110 000",
+				"01 0100 ",
 				"0001 010",
 				"00 0110 ",
 				"00 0000 ",
@@ -38,6 +38,7 @@
 				"\\n0000 0",
 				" 0100 00",
 				" 0001 01",
+				" 0000 00",
 				"LFILE\\n00",
 				"LE\\n0000 "
 			],
@@ -61,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 433209,
+			"calls": 434062,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,14 +70,14 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0000 00",
 				"000 011",
 				"000 000",
-				" 0000 0",
 				"NULLFILE",
+				"LLFILE\\n",
 				"100 0001",
 				"1 0100 0",
 				"0110 000",
+				"01 0100 ",
 				"0001 010",
 				"00 0110 ",
 				"00 0000 ",
@@ -85,6 +86,7 @@
 				"\\n0000 0",
 				" 0100 00",
 				" 0001 01",
+				" 0000 00",
 				"LFILE\\n00",
 				"LE\\n0000 "
 			]
@@ -93,17 +95,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2009011,
+			"calls": 2011906,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"0000 00",
 				"000 011",
 				"000 000",
-				" 0000 0",
 				"NULLFILE",
+				"LLFILE\\n",
 				"100 0001",
 				"1 0100 0",
 				"0110 000",
+				"01 0100 ",
 				"0001 010",
 				"00 0110 ",
 				"00 0000 ",
@@ -112,6 +114,7 @@
 				"\\n0000 0",
 				" 0100 00",
 				" 0001 01",
+				" 0000 00",
 				"LFILE\\n00",
 				"LE\\n0000 "
 			]
@@ -132,6 +135,6 @@
 			]
 		}
 	],
-	"updt": 1637219560742,
-	"edit": 477
+	"updt": 1637230514492,
+	"edit": 479
 }
