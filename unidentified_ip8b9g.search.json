@@ -1,19 +1,27 @@
 {
 	"_id": "unidentified_ip8b9g.search",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_ip8b9g.search",
 	"sector": "K_1235",
 	"sec_level": 4,
 	"date_added": 1635303349926,
-	"last_scraped": 1637493006038,
+	"last_scraped": 1637498235879,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635303349926
+		},
+		{
+			"type": "died",
+			"when": 1637498235879
+		},
+		{
+			"type": "died",
+			"when": 1637498264827
 		}
 	],
-	"next_scrape": 1637538987942,
+	"next_scrape": 1637586652239,
 	"category": "plant_sim",
 	"last_update": 1637493006038,
 	"output": [
@@ -137,6 +145,7 @@
 			]
 		}
 	],
-	"updt": 1637487694355,
-	"edit": 384
+	"updt": 1637498248951,
+	"edit": 386,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_ip8b9g.search: script doesn't exist\"}"
 }
