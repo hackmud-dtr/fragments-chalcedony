@@ -6,24 +6,25 @@
 	"sector": "K_6138",
 	"sec_level": 4,
 	"date_added": 1635123097283,
-	"last_scraped": 1637551007718,
+	"last_scraped": 1637551038492,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635123097283
 		}
 	],
-	"next_scrape": 1637594285689,
+	"next_scrape": 1637597372881,
 	"category": "fishie_tank",
-	"last_update": 1637545361574,
+	"last_update": 1637551038492,
 	"output": [
 		{
 			"args": {},
-			"calls": 1772933,
+			"calls": 1777110,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"W ERR",
 				"E ERR",
+				"D2F_F",
 				"7_CLS",
 				"USER m",
 				"T0XF7_",
@@ -54,9 +55,11 @@
 				"F_FILE0X",
 				"ERROR | ",
 				"D07\\nSYS",
+				"7\\nSYST ",
 				"0XF7_SEC",
 				" | PROG ",
-				"848D07\\nS"
+				"848D07\\nS",
+				"48D07\\nSY"
 			],
 			"hits": [
 				{
@@ -80,7 +83,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 391825,
+			"calls": 393707,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -90,6 +93,7 @@
 			"fragments": [
 				"W ERR",
 				"E ERR",
+				"D2F_F",
 				"7_CLS",
 				"USER m",
 				"T0XF7_",
@@ -120,20 +124,23 @@
 				"F_FILE0X",
 				"ERROR | ",
 				"D07\\nSYS",
+				"7\\nSYST ",
 				"0XF7_SEC",
 				" | PROG ",
-				"848D07\\nS"
+				"848D07\\nS",
+				"48D07\\nSY"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1780848,
+			"calls": 1782947,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"W ERR",
 				"E ERR",
+				"D2F_F",
 				"7_CLS",
 				"USER m",
 				"T0XF7_",
@@ -164,9 +171,11 @@
 				"F_FILE0X",
 				"ERROR | ",
 				"D07\\nSYS",
+				"7\\nSYST ",
 				"0XF7_SEC",
 				" | PROG ",
-				"848D07\\nS"
+				"848D07\\nS",
+				"48D07\\nSY"
 			]
 		}
 	],
@@ -188,13 +197,5 @@
 		}
 	],
 	"updt": 1637545538349,
-	"edit": 432,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"edit": 432
 }
