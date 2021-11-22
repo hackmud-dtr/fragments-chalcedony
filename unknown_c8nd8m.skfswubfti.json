@@ -6,7 +6,7 @@
 	"sector": "K_2287",
 	"sec_level": 4,
 	"date_added": 1633328513402,
-	"last_scraped": 1637596928093,
+	"last_scraped": 1637596947618,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,13 +15,13 @@
 	],
 	"updt": 1637591456746,
 	"edit": 684,
-	"next_scrape": 1637640813905,
+	"next_scrape": 1637640417544,
 	"category": "fishie_tank",
-	"last_update": 1637591398136,
+	"last_update": 1637596947618,
 	"output": [
 		{
 			"args": {},
-			"calls": 2795286,
+			"calls": 2798717,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r log",
@@ -64,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 623082,
+			"calls": 623766,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,7 +97,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2818559,
+			"calls": 2823461,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"r log",
@@ -135,14 +135,6 @@
 				" which ",
 				"lue abov"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
