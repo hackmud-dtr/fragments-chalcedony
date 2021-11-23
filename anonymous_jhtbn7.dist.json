@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_jhtbn7.dist",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_jhtbn7.dist",
 	"sector": "VNP_9460",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1637315518239
+		},
+		{
+			"type": "died",
+			"when": 1637615311764
 		}
 	],
-	"updt": 1637315522854,
-	"edit": 1,
+	"updt": 1637315718750,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -43,5 +47,6 @@
 				"ystem wa"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
