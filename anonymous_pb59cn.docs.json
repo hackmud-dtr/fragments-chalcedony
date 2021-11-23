@@ -167,8 +167,8 @@
 	],
 	"pl_output": "\n    \nfunction(c,a)\n{\n\nlet U = {};\n\n// /**\n// * Documentation Starter\n// *\n// * @function         printDocs()\n// * @description      This function scrubs a file for *all*\n                       docstrings prefixed with a double forward \n                       slash and prints them. Does not take char\n                       count.\n// * @param\n// * @example\n// *\n// *     print_docs() \n// */\n\nU.printDocs = () =>\n{\n    let s = `C#fs`.scripts.quine(),o = ``,m,r = /\\/\\*\\*\\s*\\n([^\\*]|(\\*(?!\\/)))*\\*(?:\\/)/gim;\n    while ((m = r.exec(s))) o += `\\n\\n${m[0]}`;\n    return o.replace(/\\/(?:\\/)/g, '')\n}\n\nreturn {ok: true, msg: U.printDocs()}\n\n}\n",
 	"next_scrape": 1588146962210,
-	"updt": 1627118355440,
-	"edit": 1199,
+	"updt": 1629278644978,
+	"edit": 1200,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1588104188094,
 	"output": [
