@@ -6,20 +6,20 @@
 	"sector": "K_9541",
 	"sec_level": 4,
 	"date_added": 1635588733467,
-	"last_scraped": 1637613464715,
+	"last_scraped": 1637682026635,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635588733467
 		}
 	],
-	"next_scrape": 1637654399566,
+	"next_scrape": 1637726320088,
 	"category": "fishie_tank",
-	"last_update": 1637613464715,
+	"last_update": 1637682026635,
 	"output": [
 		{
 			"args": {},
-			"calls": 1587567,
+			"calls": 1642984,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"UBJ: ",
@@ -44,13 +44,21 @@
 					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
 					"frags": [
 						"UBJ: ",
+						"E0XCC",
 						"0XF62",
+						"XCC328",
 						"rget t",
 						" forge",
+						" ERROR",
+						"SYST ER",
 						"SER ext",
 						"R | NET",
+						" PROG E",
 						"xtnl-add",
-						"ERROR | "
+						"ERROR | ",
+						"CC32859D",
+						" extnl-a",
+						"D\\nSYST E"
 					]
 				}
 			]
@@ -59,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 350421,
+			"calls": 361562,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,13 +91,36 @@
 				"CC32859D",
 				" extnl-a",
 				"D\\nSYST E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"UBJ: ",
+						"E0XCC",
+						"0XF62",
+						"XCC328",
+						"rget t",
+						" forge",
+						" ERROR",
+						"SYST ER",
+						"SER ext",
+						"R | NET",
+						" PROG E",
+						"xtnl-add",
+						"ERROR | ",
+						"CC32859D",
+						" extnl-a",
+						"D\\nSYST E"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1595519,
+			"calls": 1652699,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"UBJ: ",
@@ -108,24 +139,55 @@
 				"CC32859D",
 				" extnl-a",
 				"D\\nSYST E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"UBJ: ",
+						"E0XCC",
+						"0XF62",
+						"XCC328",
+						"rget t",
+						" forge",
+						" ERROR",
+						"SYST ER",
+						"SER ext",
+						"R | NET",
+						" PROG E",
+						"xtnl-add",
+						"ERROR | ",
+						"CC32859D",
+						" extnl-a",
+						"D\\nSYST E"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1637613554863,
+	"edit": 377,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
 			"frags": [
 				"UBJ: ",
+				"E0XCC",
 				"0XF62",
+				"XCC328",
 				"rget t",
 				" forge",
+				" ERROR",
+				"SYST ER",
 				"SER ext",
 				"R | NET",
+				" PROG E",
 				"xtnl-add",
-				"ERROR | "
+				"ERROR | ",
+				"CC32859D",
+				" extnl-a",
+				"D\\nSYST E"
 			]
 		}
-	],
-	"updt": 1637608277024,
-	"edit": 376
+	]
 }

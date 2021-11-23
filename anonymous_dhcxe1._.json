@@ -6,20 +6,20 @@
 	"sector": "K_4299",
 	"sec_level": 4,
 	"date_added": 1636380534289,
-	"last_scraped": 1637613654316,
+	"last_scraped": 1637682217062,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636380534289
 		}
 	],
-	"next_scrape": 1637654348798,
+	"next_scrape": 1637724624212,
 	"category": "fishie_tank",
-	"last_update": 1637613654316,
+	"last_update": 1637682217062,
 	"output": [
 		{
 			"args": {},
-			"calls": 1006055,
+			"calls": 1058911,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X1",
@@ -43,9 +43,20 @@
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"MFT0X1",
 						"5282A9",
 						"2A91C\\nSY"
+					]
+				},
+				{
+					"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+					"frags": [
+						"MFT0X1"
+					]
+				},
+				{
+					"document": "MFT0X12_CLST0X40_SECT0XB536_FILE0X15EC6495",
+					"frags": [
+						"MFT0X1"
 					]
 				}
 			]
@@ -54,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 215995,
+			"calls": 227136,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,13 +80,43 @@
 				"RROR | P",
 				" PROG ER",
 				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" | PRO",
+						"W ERROR ",
+						"RROR | P",
+						" PROG ER"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"5282A9",
+						"2A91C\\nSY"
+					]
+				},
+				{
+					"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+					"frags": [
+						"MFT0X1"
+					]
+				},
+				{
+					"document": "MFT0X12_CLST0X40_SECT0XB536_FILE0X15EC6495",
+					"frags": [
+						"MFT0X1"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 949604,
+			"calls": 995893,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"MFT0X1",
@@ -85,9 +126,69 @@
 				"RROR | P",
 				" PROG ER",
 				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" | PRO",
+						"W ERROR ",
+						"RROR | P",
+						" PROG ER"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"5282A9",
+						"2A91C\\nSY"
+					]
+				},
+				{
+					"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+					"frags": [
+						"MFT0X1"
+					]
+				},
+				{
+					"document": "MFT0X12_CLST0X40_SECT0XB536_FILE0X15EC6495",
+					"frags": [
+						"MFT0X1"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1637608666229,
-	"edit": 229
+	"updt": 1637613750543,
+	"edit": 230,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				" | PRO",
+				"W ERROR ",
+				"RROR | P",
+				" PROG ER"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"5282A9",
+				"2A91C\\nSY"
+			]
+		},
+		{
+			"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+			"frags": [
+				"MFT0X1"
+			]
+		},
+		{
+			"document": "MFT0X12_CLST0X40_SECT0XB536_FILE0X15EC6495",
+			"frags": [
+				"MFT0X1"
+			]
+		}
+	]
 }

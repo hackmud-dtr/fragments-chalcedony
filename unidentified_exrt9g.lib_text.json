@@ -6,20 +6,20 @@
 	"sector": "NGC_4248",
 	"sec_level": 4,
 	"date_added": 1634939939339,
-	"last_scraped": 1637609223598,
+	"last_scraped": 1637683118912,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634939939339
 		}
 	],
-	"next_scrape": 1637652524976,
+	"next_scrape": 1637723689307,
 	"category": "fishie_tank",
-	"last_update": 1637609223598,
+	"last_update": 1637683118912,
 	"output": [
 		{
 			"args": {},
-			"calls": 1957408,
+			"calls": 2009627,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SER f",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 435331,
+			"calls": 446559,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,13 +67,28 @@
 				"'Mallor",
 				"ROR | US",
 				" | BODY "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"SER f",
+						"RROR ",
+						"i | S",
+						"ari | ",
+						"R | TIM",
+						"'Mallor",
+						"ROR | US",
+						" | BODY "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2011828,
+			"calls": 2057478,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"SER f",
@@ -84,9 +99,26 @@
 				"'Mallor",
 				"ROR | US",
 				" | BODY "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"SER f",
+						"RROR ",
+						"i | S",
+						"ari | ",
+						"R | TIM",
+						"'Mallor",
+						"ROR | US",
+						" | BODY "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1637609255076,
+	"edit": 475,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -101,7 +133,5 @@
 				" | BODY "
 			]
 		}
-	],
-	"updt": 1637603973823,
-	"edit": 474
+	]
 }

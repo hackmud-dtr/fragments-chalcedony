@@ -6,26 +6,31 @@
 	"sector": "K_2925",
 	"sec_level": 4,
 	"date_added": 1636724668372,
-	"last_scraped": 1637609103517,
+	"last_scraped": 1637682998942,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636724668372
 		}
 	],
-	"next_scrape": 1637654446950,
+	"next_scrape": 1637726967901,
 	"category": "coin_flipper",
-	"last_update": 1637609103517,
+	"last_update": 1637682998942,
 	"output": [
 		{
 			"args": {},
-			"calls": 809366,
+			"calls": 872910,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"01 01",
-				" 0110 0",
+				"10 0001",
+				"0100 00",
+				"00 0000",
+				"0 0000 ",
 				" 0000 0",
 				"1 0100 0",
+				"\\n0000 0",
+				" 0110 00",
 				"ULLFILE\\n"
 			],
 			"hits": [
@@ -33,27 +38,37 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"01 01",
-						" 0110 0",
+						"10 0001",
+						"0100 00",
+						"00 0000",
+						"0 0000 ",
 						" 0000 0",
 						"1 0100 0",
+						"\\n0000 0",
+						" 0110 00",
 						"ULLFILE\\n"
 					]
 				}
 			]
 		}
 	],
+	"updt": 1637609255076,
+	"edit": 166,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"01 01",
-				" 0110 0",
+				"10 0001",
+				"0100 00",
+				"00 0000",
+				"0 0000 ",
 				" 0000 0",
 				"1 0100 0",
+				"\\n0000 0",
+				" 0110 00",
 				"ULLFILE\\n"
 			]
 		}
-	],
-	"updt": 1637603777961,
-	"edit": 165
+	]
 }

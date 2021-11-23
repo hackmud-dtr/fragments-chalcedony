@@ -6,22 +6,22 @@
 	"sector": "K_7639",
 	"sec_level": 4,
 	"date_added": 1634599093034,
-	"last_scraped": 1637610136886,
+	"last_scraped": 1637683899704,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634599093034
 		}
 	],
-	"updt": 1637604950086,
-	"edit": 521,
-	"next_scrape": 1637653492446,
+	"updt": 1637610229449,
+	"edit": 522,
+	"next_scrape": 1637727575831,
 	"category": "fishie_tank",
-	"last_update": 1637610136886,
+	"last_update": 1637683899704,
 	"output": [
 		{
 			"args": {},
-			"calls": 2123227,
+			"calls": 2188777,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ye, u",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 472726,
+			"calls": 483539,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,13 +66,27 @@
 				"\\n2205 ",
 				" don't,",
 				"see. Goo"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ye, u",
+						"?\\n220",
+						" It's ",
+						"ter if ",
+						"\\n2205 ",
+						" don't,",
+						"see. Goo"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2181217,
+			"calls": 2236159,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ye, u",
@@ -82,6 +96,20 @@
 				"\\n2205 ",
 				" don't,",
 				"see. Goo"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ye, u",
+						"?\\n220",
+						" It's ",
+						"ter if ",
+						"\\n2205 ",
+						" don't,",
+						"see. Goo"
+					]
+				}
 			]
 		}
 	],
