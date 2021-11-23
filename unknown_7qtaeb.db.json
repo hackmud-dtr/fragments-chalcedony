@@ -6,22 +6,22 @@
 	"sector": "K_7510",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1637609354902,
+	"last_scraped": 1637683238617,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1631983536181
 		}
 	],
-	"updt": 1637604168391,
-	"edit": 842,
-	"next_scrape": 1637656140623,
+	"updt": 1637609449128,
+	"edit": 843,
+	"next_scrape": 1637726324748,
 	"category": "fishie_tank",
-	"last_update": 1637609354902,
+	"last_update": 1637683238617,
 	"output": [
 		{
 			"args": {},
-			"calls": 3378347,
+			"calls": 3431464,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"101 010",
@@ -37,11 +37,14 @@
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
-						"0 0100",
 						"101 010",
 						"000 000",
-						"0100 000"
+						"00 0000",
+						"100 0101",
+						"1 0100 0",
+						"0100 000",
+						"000 0100",
+						"0 0000 0"
 					]
 				}
 			]
@@ -50,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 760025,
+			"calls": 774104,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,11 +74,14 @@
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
-						"0 0100",
 						"101 010",
 						"000 000",
-						"0100 000"
+						"00 0000",
+						"100 0101",
+						"1 0100 0",
+						"0100 000",
+						"000 0100",
+						"0 0000 0"
 					]
 				}
 			]
@@ -84,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3450694,
+			"calls": 3510653,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"101 010",
@@ -100,11 +106,14 @@
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
-						"0 0100",
 						"101 010",
 						"000 000",
-						"0100 000"
+						"00 0000",
+						"100 0101",
+						"1 0100 0",
+						"0100 000",
+						"000 0100",
+						"0 0000 0"
 					]
 				}
 			]
@@ -114,11 +123,14 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
-				"000 01",
-				"0 0100",
 				"101 010",
 				"000 000",
-				"0100 000"
+				"00 0000",
+				"100 0101",
+				"1 0100 0",
+				"0100 000",
+				"000 0100",
+				"0 0000 0"
 			]
 		}
 	]
