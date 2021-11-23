@@ -173,8 +173,8 @@
 			"when": 1629255833911
 		}
 	],
-	"updt": 1629249718330,
-	"edit": 1340,
+	"updt": 1629269848909,
+	"edit": 1341,
 	"pl_output": "\ndark.wrapper is used to create libraries. its arguments are:\n\n  `Na`: arguments from the calling script\n  `Nc`: context from the calling script\n  `Nd`: documentation to return when called via the CLI\n  `Nf`: array of functions to create the library\n\nthe library starts as the empty object. for each function, the function is\ncalled on the library alongside the passed arguments, then the return value's\nenumerable properties are added to the object. if a library ends up being\nloaded multiple times, the arguments get merged into a single object. this is\nonly useful if the arguments are accessed when methods are called, as the\nlibrary is initialised eagerly\n\nfor convenience, the \"scripts\" argument to libraries accepts an array of\nscriptors which expands out to properties for each script name, with the period\nremoved. there are a few known scripts which get expanded to shorter aliases,\nnamely:\n\n  accts.balance -> ab\n  accts.transactions -> at\n  accts.xfer_gc_to -> ax\n  chats.tell -> ct\n  market.browse -> mbr\n  market.buy -> mby\n  market.sell -> ms\n  owo.notices_ur_loc -> owo\n  sys.access_log -> sa\n  sys.manage -> sm\n  sys.upgrades -> su\n  your.bank -> bank\n\nif any of the known scriptors is accessed but not provided via the CLI, a\nfriendly error will be returned so that the user knows what's wrong.\n",
 	"next_scrape": 1577278560885,
 	"scrape_ct": 17,
