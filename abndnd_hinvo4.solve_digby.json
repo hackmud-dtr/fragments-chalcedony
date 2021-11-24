@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_hinvo4.solve_digby",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_hinvo4.solve_digby",
 	"sector": "K_7639",
 	"sec_level": 4,
 	"date_added": 1634388439945,
-	"last_scraped": 1637743799301,
+	"last_scraped": 1637749292416,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634388439945
+		},
+		{
+			"type": "died",
+			"when": 1637749292416
+		},
+		{
+			"type": "died",
+			"when": 1637749529068
 		}
 	],
-	"next_scrape": 1637787136913,
+	"next_scrape": 1637841650664,
 	"category": "plant_sim",
 	"last_update": 1637743799301,
 	"output": [
@@ -266,8 +274,8 @@
 			]
 		}
 	],
-	"updt": 1637738421320,
-	"edit": 532,
+	"updt": 1637749373332,
+	"edit": 534,
 	"identified": [
 		{
 			"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
@@ -341,5 +349,6 @@
 				" and use"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_hinvo4.solve_digby: script doesn't exist\"}"
 }
