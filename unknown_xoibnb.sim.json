@@ -1,34 +1,25 @@
 {
 	"_id": "unknown_xoibnb.sim",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_xoibnb.sim",
 	"sector": "HJG_7464",
 	"sec_level": 4,
 	"date_added": 1638139404987,
-	"last_scraped": 1638139435955,
+	"last_scraped": 1638140397691,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638139404987
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1638139495955,
+	"next_scrape": 1638182331322,
 	"category": "fishie_tank",
-	"last_update": 1638139435955,
+	"last_update": 1638140397691,
 	"output": [
 		{
 			"args": {},
-			"calls": 5333,
+			"calls": 43307,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" only",
@@ -49,6 +40,39 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8318,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" only",
+				"that w",
+				" that ",
+				"eration",
+				"at march"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 44635,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" only",
+				"that w",
+				" that ",
+				"eration",
+				"at march"
+			]
 		}
 	],
 	"identified": [
@@ -62,5 +86,7 @@
 				"at march"
 			]
 		}
-	]
+	],
+	"updt": 1638140226463,
+	"edit": 3
 }
