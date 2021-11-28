@@ -1,0 +1,98 @@
+{
+	"_id": "abandoned_n5po82.locdb",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_n5po82.locdb",
+	"sector": "HJG_8250",
+	"sec_level": 4,
+	"date_added": 1638123498068,
+	"last_scraped": 1638124186677,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1638123498068
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1638124246677,
+	"category": "fishie_tank",
+	"last_update": 1638124195950,
+	"output": [
+		{
+			"args": {},
+			"calls": 30868,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				".. I ",
+				" Actu",
+				"arly if",
+				"l. Feel ",
+				"hink I'l"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						".. I ",
+						" Actu",
+						"arly if",
+						"l. Feel ",
+						"hink I'l"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7541,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				".. I ",
+				" Actu",
+				"arly if",
+				"l. Feel ",
+				"hink I'l"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 33026,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				".. I ",
+				" Actu",
+				"arly if",
+				"l. Feel ",
+				"hink I'l"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				".. I ",
+				" Actu",
+				"arly if",
+				"l. Feel ",
+				"hink I'l"
+			]
+		}
+	],
+	"updt": 1638124009394,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
