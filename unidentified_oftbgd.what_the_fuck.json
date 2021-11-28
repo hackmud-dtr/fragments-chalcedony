@@ -6,20 +6,20 @@
 	"sector": "K_1573",
 	"sec_level": 4,
 	"date_added": 1636104172578,
-	"last_scraped": 1638089001536,
+	"last_scraped": 1638094482961,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636104172578
 		}
 	],
-	"next_scrape": 1638135064194,
+	"next_scrape": 1638140244187,
 	"category": "fishie_tank",
-	"last_update": 1638089001536,
+	"last_update": 1638094493167,
 	"output": [
 		{
 			"args": {},
-			"calls": 1505441,
+			"calls": 1509992,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ttle ",
@@ -80,7 +80,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 337796,
+			"calls": 338575,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -204,8 +204,8 @@
 			]
 		}
 	],
-	"updt": 1638083364940,
-	"edit": 360,
+	"updt": 1638089032329,
+	"edit": 361,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -231,6 +231,11 @@
 				". Neglig",
 				". I don'"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
