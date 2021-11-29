@@ -1,20 +1,28 @@
 {
 	"_id": "uknown_rapyts.test0",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_rapyts.test0",
 	"sector": "HJG_7464",
 	"sec_level": 4,
 	"date_added": 1638216834691,
-	"last_scraped": 1638216846909,
+	"last_scraped": 1638216925986,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638216834691
+		},
+		{
+			"type": "died",
+			"when": 1638216925986
+		},
+		{
+			"type": "died",
+			"when": 1638217106763
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1638216906909,
+	"next_scrape": 1638301866507,
 	"category": "coin_flipper",
 	"last_update": 1638216846909,
 	"output": [
@@ -111,5 +119,8 @@
 				" get in "
 			]
 		}
-	]
+	],
+	"updt": 1638217056305,
+	"edit": 2,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_rapyts.test0: script doesn't exist\"}"
 }
