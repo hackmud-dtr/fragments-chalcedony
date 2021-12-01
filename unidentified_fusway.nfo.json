@@ -1,0 +1,103 @@
+{
+	"_id": "unidentified_fusway.nfo",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_fusway.nfo",
+	"sector": "K_3741",
+	"sec_level": 4,
+	"date_added": 1638319063968,
+	"last_scraped": 1638319278587,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1638319063968
+		}
+	],
+	"updt": 1638319109970,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1638319338587,
+	"category": "fishie_tank",
+	"last_update": 1638319278587,
+	"output": [
+		{
+			"args": {},
+			"calls": 7744,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"T ERR",
+				"f term",
+				"| SUBJ",
+				"SUBJ: C",
+				"E0X64C1",
+				"ERROR | ",
+				"BODY MOS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"T ERR",
+						"f term",
+						"| SUBJ",
+						"SUBJ: C",
+						"E0X64C1",
+						"ERROR | ",
+						"BODY MOS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1541,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"T ERR",
+				"f term",
+				"| SUBJ",
+				"SUBJ: C",
+				"E0X64C1",
+				"ERROR | ",
+				"BODY MOS"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7737,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"T ERR",
+				"f term",
+				"| SUBJ",
+				"SUBJ: C",
+				"E0X64C1",
+				"ERROR | ",
+				"BODY MOS"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"T ERR",
+				"f term",
+				"| SUBJ",
+				"SUBJ: C",
+				"E0X64C1",
+				"ERROR | ",
+				"BODY MOS"
+			]
+		}
+	]
+}
