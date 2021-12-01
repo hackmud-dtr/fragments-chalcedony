@@ -1,7 +1,7 @@
 {
 	"_id": "anon_prvba0.hypercluster_a",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_prvba0.hypercluster_a",
 	"sector": "K_3741",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1638357110858
+		},
+		{
+			"type": "died",
+			"when": 1638358490133
 		}
 	],
 	"retry_args": [
@@ -44,5 +48,8 @@
 				"\\n2042 6 "
 			]
 		}
-	]
+	],
+	"updt": 1638357233569,
+	"edit": 1,
+	"cannot_identify": true
 }
