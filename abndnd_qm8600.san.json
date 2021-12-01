@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_qm8600.san",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_qm8600.san",
 	"sector": "HJG_9348",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1635890464825
+		},
+		{
+			"type": "died",
+			"when": 1638371030086
 		}
 	],
 	"retry_args": [
@@ -54,5 +58,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1635890520080,
+	"edit": 1
 }
