@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_1sl5fo.solve_digby",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_1sl5fo.solve_digby",
 	"sector": "VNP_5061",
 	"sec_level": 4,
 	"date_added": 1638413995954,
-	"last_scraped": 1638414057257,
+	"last_scraped": 1638415060608,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638413995954
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1638414117257,
+	"next_scrape": 1638459986737,
 	"category": "fishie_tank",
-	"last_update": 1638414057257,
+	"last_update": 1638415060608,
 	"output": [
 		{
 			"args": {},
-			"calls": 2822,
+			"calls": 37494,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" | TI",
@@ -44,7 +43,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 871,
+			"calls": 10231,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,7 +61,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 6150,
+			"calls": 42647,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" | TI",
@@ -82,5 +81,7 @@
 				"erajbhan"
 			]
 		}
-	]
+	],
+	"updt": 1638414894167,
+	"edit": 3
 }
