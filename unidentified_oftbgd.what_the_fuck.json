@@ -1,19 +1,31 @@
 {
 	"_id": "unidentified_oftbgd.what_the_fuck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_oftbgd.what_the_fuck",
 	"sector": "K_1573",
 	"sec_level": 4,
 	"date_added": 1636104172578,
-	"last_scraped": 1638515058861,
+	"last_scraped": 1638524661759,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636104172578
+		},
+		{
+			"type": "died",
+			"when": 1638524660122
+		},
+		{
+			"type": "died",
+			"when": 1638524661759
+		},
+		{
+			"type": "died",
+			"when": 1638524664180
 		}
 	],
-	"next_scrape": 1638561154726,
+	"next_scrape": 1638608810567,
 	"category": "fishie_tank",
 	"last_update": 1638515058861,
 	"output": [
@@ -276,8 +288,8 @@
 			]
 		}
 	],
-	"updt": 1638505588220,
-	"edit": 432,
+	"updt": 1638515164535,
+	"edit": 433,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -304,5 +316,6 @@
 				". I don'"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_oftbgd.what_the_fuck: script doesn't exist\"}"
 }

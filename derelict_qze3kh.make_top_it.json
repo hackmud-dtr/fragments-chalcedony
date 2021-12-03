@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_qze3kh.make_top_it",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_qze3kh.make_top_it",
 	"sector": "K_1012",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1638524760597
 		}
 	],
-	"updt": 1631984938688,
-	"edit": 1,
+	"updt": 1631994123217,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,5 +42,6 @@
 				" 0000 00"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
