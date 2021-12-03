@@ -6,14 +6,14 @@
 	"sector": "NGC_4248",
 	"sec_level": 4,
 	"date_added": 1634939939339,
-	"last_scraped": 1638564924104,
+	"last_scraped": 1638573982229,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634939939339
 		}
 	],
-	"next_scrape": 1638608647094,
+	"next_scrape": 1638617100921,
 	"category": "fishie_tank",
 	"last_update": 1638564924104,
 	"output": [
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1638556012203,
-	"edit": 634,
+	"updt": 1638564994682,
+	"edit": 635,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -132,6 +132,14 @@
 				"ROR | US",
 				" | BODY "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
