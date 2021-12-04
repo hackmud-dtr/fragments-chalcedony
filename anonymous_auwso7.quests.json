@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_auwso7.quests",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_auwso7.quests",
 	"sector": "VNP_5061",
 	"sec_level": 4,
 	"date_added": 1638601444604,
-	"last_scraped": 1638602680455,
+	"last_scraped": 1638602807701,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638601444604
 		}
 	],
-	"scrape_ct": 1,
-	"next_scrape": 1638602740455,
+	"next_scrape": 1638647138087,
 	"category": "fishie_tank",
-	"last_update": 1638602680455,
+	"last_update": 1638602807701,
 	"output": [
 		{
 			"args": {},
-			"calls": 44448,
+			"calls": 49315,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s the",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9601,
+			"calls": 10480,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,7 +70,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 54897,
+			"calls": 57848,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s the",
@@ -98,6 +97,6 @@
 			]
 		}
 	],
-	"updt": 1638602524323,
-	"edit": 5
+	"updt": 1638602718536,
+	"edit": 6
 }
