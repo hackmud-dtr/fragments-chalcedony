@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_fbg1o5.osiris",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_fbg1o5.osiris",
 	"sector": "K_0863",
 	"sec_level": 4,
 	"date_added": 1638715372950,
-	"last_scraped": 1638716252142,
+	"last_scraped": 1638716831108,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638715372950
 		}
 	],
-	"scrape_ct": 7,
-	"next_scrape": 1638716312142,
+	"next_scrape": 1638760487277,
 	"category": "fishie_tank",
-	"last_update": 1638716252142,
+	"last_update": 1638716831108,
 	"output": [
 		{
 			"args": {},
-			"calls": 22118,
+			"calls": 37898,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ki sm",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6877,
+			"calls": 10761,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,7 +73,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 24568,
+			"calls": 38205,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ki sm",
@@ -103,6 +102,6 @@
 			]
 		}
 	],
-	"updt": 1638716079151,
-	"edit": 4
+	"updt": 1638716662896,
+	"edit": 7
 }
