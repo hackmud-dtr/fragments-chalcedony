@@ -1,30 +1,22 @@
 {
 	"_id": "uknown_9uyfl8.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_9uyfl8.db",
 	"sector": "HJG_5442",
 	"sec_level": 4,
 	"date_added": 1638840361100,
-	"last_scraped": 1638840384285,
+	"last_scraped": 1638840419695,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638840361100
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1638840444285,
+	"scrape_ct": 19,
+	"next_scrape": 1638932281743,
 	"category": "risk_factor",
-	"last_update": 1638840384285,
+	"last_update": 1638840401703,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +31,34 @@
 				"OR | TIM",
 				"A6B85\\nSY"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 123,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"R fbre",
+				"OR | U",
+				"NETW E",
+				"| USER",
+				"0X35_SE",
+				"OR | TIM",
+				"A6B85\\nSY"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1638840391503,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
