@@ -6,30 +6,35 @@
 	"sector": "NGC_4248",
 	"sec_level": 4,
 	"date_added": 1634945793174,
-	"last_scraped": 1638827094881,
+	"last_scraped": 1638836804250,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634945793174
 		}
 	],
-	"updt": 1638816935337,
-	"edit": 664,
-	"next_scrape": 1638873131055,
+	"updt": 1638827291748,
+	"edit": 665,
+	"next_scrape": 1638877264293,
 	"category": "fishie_tank",
-	"last_update": 1638827094881,
+	"last_update": 1638836862182,
 	"output": [
 		{
 			"args": {},
-			"calls": 2673622,
+			"calls": 2676705,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y bui",
 				"ould.",
+				"ey bu",
+				" They",
 				"with a",
 				"vailabl",
+				"t they ",
+				"able ma",
 				"ld with ",
 				"ial, it'",
+				"erial, i",
 				"'s what ",
 				", it's w"
 			],
@@ -53,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 608008,
+			"calls": 609333,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,10 +68,15 @@
 			"fragments": [
 				"y bui",
 				"ould.",
+				"ey bu",
+				" They",
 				"with a",
 				"vailabl",
+				"t they ",
+				"able ma",
 				"ld with ",
 				"ial, it'",
+				"erial, i",
 				"'s what ",
 				", it's w"
 			],
@@ -132,6 +142,11 @@
 				"'s what ",
 				", it's w"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
