@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_fbg1o5.osiris",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_fbg1o5.osiris",
 	"sector": "K_0863",
 	"sec_level": 4,
 	"date_added": 1638715372950,
-	"last_scraped": 1638989743202,
+	"last_scraped": 1638999399273,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638715372950
 		}
 	],
-	"next_scrape": 1639035924204,
+	"next_scrape": 1639082178740,
 	"category": "fishie_tank",
-	"last_update": 1638989743202,
+	"last_update": 1638999399273,
 	"output": [
 		{
 			"args": {},
-			"calls": 161056,
+			"calls": 165048,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ster ",
@@ -132,6 +132,14 @@
 			]
 		}
 	],
-	"updt": 1638980461758,
-	"edit": 40
+	"updt": 1638989835671,
+	"edit": 41,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
