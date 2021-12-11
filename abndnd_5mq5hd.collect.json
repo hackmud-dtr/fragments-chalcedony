@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_5mq5hd.collect",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_5mq5hd.collect",
 	"sector": "K_6076",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1632326788473
+		},
+		{
+			"type": "died",
+			"when": 1639217421400
 		}
 	],
-	"updt": 1632327136534,
-	"edit": 1,
+	"updt": 1632331240626,
+	"edit": 2,
 	"scrape_ct": 18,
 	"next_scrape": 1632331133746,
 	"category": "risk_factor",
@@ -474,5 +478,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
