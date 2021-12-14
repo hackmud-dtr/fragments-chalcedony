@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_li99dw.help",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_li99dw.help",
 	"sector": "K_7510",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1639457448047
 		}
 	],
-	"updt": 1631984546484,
-	"edit": 1,
+	"updt": 1631991778339,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -39,5 +43,6 @@
 				"ns\\n208C "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
