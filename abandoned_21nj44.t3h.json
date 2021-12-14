@@ -1,35 +1,39 @@
 {
 	"_id": "abandoned_21nj44.t3h",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_21nj44.t3h",
 	"sector": "K_2925",
 	"sec_level": 4,
 	"date_added": 1636724668372,
-	"last_scraped": 1639479992600,
+	"last_scraped": 1639490124295,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636724668372
+		},
+		{
+			"type": "died",
+			"when": 1639491177051
 		}
 	],
-	"next_scrape": 1639522231724,
+	"next_scrape": 1639531224570,
 	"category": "coin_flipper",
-	"last_update": 1639479992600,
+	"last_update": 1639490124295,
 	"output": [
 		{
 			"args": {},
-			"calls": 1870498,
+			"calls": 1875820,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"00 011",
 				"NULLFIL",
 				"10 0001",
-				"001 010",
 				"1 0100 0",
 				"0110 000",
 				"0100 000",
 				"01 0100 ",
+				"001 0100",
 				"0000 000",
 				"000 0000",
 				"00 0000 ",
@@ -40,6 +44,7 @@
 				" 0001 01",
 				"ULLFILE\\n",
 				"LFILE\\n00",
+				"LE\\n0000 ",
 				"FILE\\n000",
 				"E\\n0000 0"
 			],
@@ -62,8 +67,8 @@
 			]
 		}
 	],
-	"updt": 1639469701589,
-	"edit": 402,
+	"updt": 1639490221182,
+	"edit": 404,
 	"identified": [
 		{
 			"document": "NOT FOUND",
