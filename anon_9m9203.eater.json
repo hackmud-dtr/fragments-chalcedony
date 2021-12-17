@@ -1,20 +1,32 @@
 {
 	"_id": "anon_9m9203.eater",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_9m9203.eater",
-	"sector": "K_7252",
+	"sector": "HJG_1977",
 	"sec_level": 2,
 	"date_added": 1634360199349,
-	"last_scraped": 1634390586661,
+	"last_scraped": 1639711255964,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634360199349
-		}
+		},
+		{
+			"type": "died",
+			"when": 1639711183500
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1639711225088,
+				"from": "HJG_1977",
+				"to": "K_7252"
+			}
+		]
 	],
 	"pl_output": "{\"crackerpayment\":{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}}",
-	"next_scrape": 1634482177790,
-	"updt": 1634390726937,
-	"edit": 5
+	"next_scrape": 1639790605684,
+	"updt": 1639711190197,
+	"edit": 7
 }
