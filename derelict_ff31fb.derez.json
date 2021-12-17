@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ff31fb.derez",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "derelict_ff31fb.derez",
 	"sector": "NGC_5999",
 	"sec_level": 4,
 	"date_added": 1639752552382,
-	"last_scraped": 1639752606016,
+	"last_scraped": 1639752697427,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,12 +15,44 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1639752666016
+	"next_scrape": 1639844683552,
+	"category": "risk_factor",
+	"last_update": 1639752697427,
+	"output": [
+		{
+			"args": {},
+			"calls": 1060,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"22E\\nS",
+				"T0X0A_S",
+				"T ERROR",
+				"SYST ER",
+				"E\\nSYST",
+				"0XBD881",
+				"MFT0X3F_"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 123,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"22E\\nS",
+				"T0X0A_S",
+				"T ERROR",
+				"SYST ER",
+				"E\\nSYST",
+				"0XBD881",
+				"MFT0X3F_"
+			]
+		}
+	],
+	"cannot_identify": true
 }
