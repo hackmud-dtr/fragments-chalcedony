@@ -1,28 +1,33 @@
 {
 	"_id": "derelict_1sgxyc.dist",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_1sgxyc.dist",
 	"sector": "VNP_3971",
 	"sec_level": 4,
 	"date_added": 1639845590597,
-	"last_scraped": 1639845603801,
+	"last_scraped": 1639845623950,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639845590597
+		},
+		{
+			"type": "died",
+			"when": 1639845623950
+		},
+		{
+			"type": "died",
+			"when": 1639845807403
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1639845663801,
+	"next_scrape": 1639926231298,
 	"category": "risk_factor",
 	"last_update": 1639845603801,
 	"output": [
@@ -42,5 +47,8 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1639845620908,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_1sgxyc.dist: script doesn't exist\"}"
 }
