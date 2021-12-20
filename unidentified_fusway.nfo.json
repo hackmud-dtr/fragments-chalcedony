@@ -6,16 +6,16 @@
 	"sector": "K_3741",
 	"sec_level": 4,
 	"date_added": 1638319063968,
-	"last_scraped": 1639954570656,
+	"last_scraped": 1639965610391,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638319063968
 		}
 	],
-	"updt": 1639944108135,
-	"edit": 191,
-	"next_scrape": 1640000103228,
+	"updt": 1639954661498,
+	"edit": 192,
+	"next_scrape": 1640006702393,
 	"category": "fishie_tank",
 	"last_update": 1639954570656,
 	"output": [
@@ -97,6 +97,14 @@
 				"ERROR | ",
 				"BODY MOS"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
