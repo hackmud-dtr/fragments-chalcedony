@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_bwupkh.xfer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_bwupkh.xfer",
 	"sector": "K_2287",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1633244369179
+		},
+		{
+			"type": "died",
+			"when": 1640089453319
 		}
 	],
 	"retry_args": [
@@ -50,5 +54,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1633244556395,
+	"edit": 1
 }
