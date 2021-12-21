@@ -1,21 +1,29 @@
 {
 	"_id": "anonymous_iqu2iq.login",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_iqu2iq.login",
 	"sector": "VNP_3971",
 	"sec_level": 4,
 	"date_added": 1639839742493,
-	"last_scraped": 1640073253526,
+	"last_scraped": 1640084336955,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639839742493
+		},
+		{
+			"type": "died",
+			"when": 1640084336955
+		},
+		{
+			"type": "died",
+			"when": 1640084339356
 		}
 	],
-	"updt": 1640062363061,
-	"edit": 30,
-	"next_scrape": 1640114864515,
+	"updt": 1640073306159,
+	"edit": 31,
+	"next_scrape": 1640165000726,
 	"category": "fishie_tank",
 	"last_update": 1640073253526,
 	"output": [
@@ -168,5 +176,6 @@
 				"176\\nAD03"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_iqu2iq.login: script doesn't exist\"}"
 }

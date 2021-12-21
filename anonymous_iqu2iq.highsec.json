@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_iqu2iq.highsec",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_iqu2iq.highsec",
 	"sector": "NGC_6597",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1631983536181
+		},
+		{
+			"type": "died",
+			"when": 1640084057056
 		}
 	],
-	"updt": 1631984743056,
-	"edit": 1,
+	"updt": 1631993341284,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				"s\\n217A d"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
