@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_xn305r.bank",
-	"sector": "K_7252",
+	"sector": "HJG_1977",
 	"sec_level": 2,
 	"date_added": 1635341571468,
-	"last_scraped": 1640376097345,
+	"last_scraped": 1640378556026,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635341571468
-		}
+		},
+		{
+			"type": "died",
+			"when": 1640378429050
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1640378533137,
+				"from": "HJG_1977",
+				"to": "K_7252"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":{\"usage\":\"unknown_xn305r.bank {action: \\\"\\\", amount: 0}\",\"actions\":[\"withdraw\",\"deposit\"],\"users\":[\"deadbeef\",\"deadcafe\"]}}",
-	"next_scrape": 1640462606986,
-	"updt": 1640364526408,
-	"edit": 708
+	"next_scrape": 1640464284516,
+	"updt": 1640376250974,
+	"edit": 709
 }
