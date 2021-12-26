@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_rs06kl.new_t1_scraper",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_rs06kl.new_t1_scraper",
 	"sector": "VNP_9460",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1637405305848
+		},
+		{
+			"type": "died",
+			"when": 1640517007762
 		}
 	],
 	"retry_args": [
@@ -39,5 +43,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1637405433615,
+	"edit": 1
 }
