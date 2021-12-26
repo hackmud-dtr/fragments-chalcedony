@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_hruzzo.node",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_hruzzo.node",
 	"sector": "HJG_2870",
 	"sec_level": 4,
 	"date_added": 1633009348220,
-	"last_scraped": 1640486026898,
+	"last_scraped": 1640498125786,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1633009348220
+		},
+		{
+			"type": "died",
+			"when": 1640498125786
 		}
 	],
-	"next_scrape": 1640526922500,
+	"next_scrape": 1640581347052,
 	"category": "coin_flipper",
 	"last_update": 1640486026898,
 	"output": [
@@ -119,8 +123,8 @@
 			]
 		}
 	],
-	"updt": 1640473947808,
-	"edit": 1019,
+	"updt": 1640486062656,
+	"edit": 1020,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -149,5 +153,6 @@
 				" future."
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_hruzzo.node: script doesn't exist\"}"
 }
