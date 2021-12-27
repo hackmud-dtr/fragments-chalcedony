@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_7jem81.quests",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_7jem81.quests",
 	"sector": "K_7639",
 	"sec_level": 4,
 	"date_added": 1634599093034,
-	"last_scraped": 1640627397867,
+	"last_scraped": 1640642120353,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634599093034
 		}
 	],
-	"updt": 1640616775909,
-	"edit": 897,
-	"next_scrape": 1640671105538,
+	"updt": 1640627526463,
+	"edit": 898,
+	"next_scrape": 1640684376829,
 	"category": "fishie_tank",
-	"last_update": 1640627397867,
+	"last_update": 1640642192538,
 	"output": [
 		{
 			"args": {},
-			"calls": 3541325,
+			"calls": 3544634,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ye, u",
@@ -61,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 790055,
+			"calls": 792558,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -155,6 +155,11 @@
 				" don't,",
 				"see. Goo"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
