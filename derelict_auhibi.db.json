@@ -1,0 +1,111 @@
+{
+	"_id": "derelict_auhibi.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_auhibi.db",
+	"sector": "K_2696",
+	"sec_level": 4,
+	"date_added": 1640707721316,
+	"last_scraped": 1640708229719,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1640707721316
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1640708289719,
+	"category": "fishie_tank",
+	"last_update": 1640708229719,
+	"output": [
+		{
+			"args": {},
+			"calls": 13930,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"trans",
+				"anscr",
+				"lory'\"",
+				"EWS to",
+				"ry'\",\"m",
+				"LE0X3FC7",
+				"EC6\\n{\"d"
+			],
+			"hits": [
+				{
+					"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+					"frags": [
+						"trans",
+						"anscr",
+						"lory'\"",
+						"EWS to",
+						"ry'\",\"m",
+						"LE0X3FC7",
+						"EC6\\n{\"d"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3000,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"trans",
+				"anscr",
+				"lory'\"",
+				"EWS to",
+				"ry'\",\"m",
+				"LE0X3FC7",
+				"EC6\\n{\"d"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9076,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"trans",
+				"anscr",
+				"lory'\"",
+				"EWS to",
+				"ry'\",\"m",
+				"LE0X3FC7",
+				"EC6\\n{\"d"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+			"frags": [
+				"trans",
+				"anscr",
+				"lory'\"",
+				"EWS to",
+				"ry'\",\"m",
+				"LE0X3FC7",
+				"EC6\\n{\"d"
+			]
+		}
+	],
+	"updt": 1640708054200,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
