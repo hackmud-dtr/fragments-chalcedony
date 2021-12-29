@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_l6ses7.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_l6ses7.bot_scam_do_not_run",
 	"sector": "K_9541",
 	"sec_level": 4,
 	"date_added": 1635614307693,
-	"last_scraped": 1640765140864,
+	"last_scraped": 1640789619628,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1635614307693
 		}
 	],
-	"next_scrape": 1640808950403,
+	"next_scrape": 1640835701181,
 	"category": "fishie_tank",
-	"last_update": 1640765140864,
+	"last_update": 1640789619628,
 	"output": [
 		{
 			"args": {},
-			"calls": 3059927,
+			"calls": 3071403,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"take ",
@@ -171,8 +171,8 @@
 			]
 		}
 	],
-	"updt": 1640765113162,
-	"edit": 785,
+	"updt": 1640765307676,
+	"edit": 786,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -188,6 +188,14 @@
 				"peration",
 				" Binary "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
