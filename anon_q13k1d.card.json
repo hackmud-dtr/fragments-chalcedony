@@ -1,21 +1,21 @@
 {
 	"_id": "anon_q13k1d.card",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_q13k1d.card",
 	"sector": "NGC_6713",
 	"sec_level": 4,
 	"date_added": 1637835845347,
-	"last_scraped": 1640759568998,
+	"last_scraped": 1640770721571,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1637835845347
 		}
 	],
-	"next_scrape": 1640800127470,
+	"next_scrape": 1640813646314,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1640759568998,
+	"last_update": 1640770721571,
 	"output": [
 		{
 			"args": {
@@ -3064,7 +3064,7 @@
 				"number": "2",
 				"axiom": "`F#`"
 			},
-			"calls": 3103,
+			"calls": 6085,
 			"base": "/----\\\n|2  `q+`|\n|    |\n|    |\n|`q+`  2|\n\\----/",
 			"fragments": [
 				"N%",
@@ -3199,7 +3199,7 @@
 				"number": "*",
 				"axiom": "`D!`"
 			},
-			"calls": 3477,
+			"calls": 5853,
 			"base": "/----\\\n|*  `q+`|\n|    |\n|    |\n|`q+`  *|\n\\----/",
 			"fragments": [
 				"N%",
@@ -3718,6 +3718,51 @@
 				"F#",
 				"D!"
 			]
+		},
+		{
+			"args": {
+				"number": "2",
+				"axiom": "`D!`"
+			},
+			"calls": 2395,
+			"base": "/----\\\n|2  `l&`|\n|    |\n|    |\n|`l&`  2|\n\\----/",
+			"fragments": [
+				"q+",
+				"N%",
+				"I^",
+				"F#",
+				"D!"
+			]
+		},
+		{
+			"args": {
+				"number": "*",
+				"axiom": "`I^`"
+			},
+			"calls": 3488,
+			"base": "/----\\\n|*  `q+`|\n|    |\n|    |\n|`q+`  *|\n\\----/",
+			"fragments": [
+				"N%",
+				"l&",
+				"I^",
+				"F#",
+				"D!"
+			]
+		},
+		{
+			"args": {
+				"number": "<",
+				"axiom": "`l&`"
+			},
+			"calls": 4345,
+			"base": "/----\\\n|<  `N%`|\n|    |\n|    |\n|`N%`  <|\n\\----/",
+			"fragments": [
+				"q+",
+				"l&",
+				"I^",
+				"F#",
+				"D!"
+			]
 		}
 	],
 	"identified": [
@@ -3732,6 +3777,6 @@
 			]
 		}
 	],
-	"updt": 1640748501074,
-	"edit": 335
+	"updt": 1640759645477,
+	"edit": 336
 }

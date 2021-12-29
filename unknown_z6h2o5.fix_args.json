@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_z6h2o5.fix_args",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_z6h2o5.fix_args",
 	"sector": "K_7639",
 	"sec_level": 4,
 	"date_added": 1634501825669,
-	"last_scraped": 1640759676901,
+	"last_scraped": 1640771084621,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1634501825669
 		}
 	],
-	"next_scrape": 1640805597322,
+	"next_scrape": 1640815694286,
 	"category": "fishie_tank",
-	"last_update": 1640759676901,
+	"last_update": 1640771084621,
 	"output": [
 		{
 			"args": {},
-			"calls": 3653484,
+			"calls": 3663623,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"reloc",
@@ -132,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1640748501074,
-	"edit": 922,
+	"updt": 1640760036594,
+	"edit": 923,
 	"identified": [
 		{
 			"document": "MFT0X3E_CLST0X4A_SECT0X7052_FILE0X42B80721",
@@ -146,6 +146,14 @@
 				"ion. Tw",
 				"tonites "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
