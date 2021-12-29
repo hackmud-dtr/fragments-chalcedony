@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_gu3rtb.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_gu3rtb.scam",
 	"sector": "NGC_5999",
 	"sec_level": 4,
 	"date_added": 1639717060189,
-	"last_scraped": 1640762718700,
+	"last_scraped": 1640781561952,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639717060189
 		}
 	],
-	"next_scrape": 1640808255229,
+	"next_scrape": 1640823677412,
 	"category": "fishie_tank",
-	"last_update": 1640762718700,
+	"last_update": 1640781561952,
 	"output": [
 		{
 			"args": {},
-			"calls": 392938,
+			"calls": 405761,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"\\n203E",
@@ -82,6 +82,14 @@
 			]
 		}
 	],
-	"updt": 1640753391924,
-	"edit": 111
+	"updt": 1640781525607,
+	"edit": 113,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
