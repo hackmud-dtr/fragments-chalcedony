@@ -1,25 +1,25 @@
 {
 	"_id": "anon_4jywz0.j",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_4jywz0.j",
 	"sector": "HJG_5442",
 	"sec_level": 4,
 	"date_added": 1638876064037,
-	"last_scraped": 1640761581254,
+	"last_scraped": 1640777662670,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638876064037
 		}
 	],
-	"next_scrape": 1640807908923,
+	"next_scrape": 1640823555542,
 	"category": "fishie_tank",
-	"last_update": 1640761581254,
+	"last_update": 1640777662670,
 	"output": [
 		{
 			"args": {},
-			"calls": 736810,
+			"calls": 753051,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | NE",
@@ -111,6 +111,14 @@
 			]
 		}
 	],
-	"updt": 1640752217972,
-	"edit": 207
+	"updt": 1640777615542,
+	"edit": 209,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
