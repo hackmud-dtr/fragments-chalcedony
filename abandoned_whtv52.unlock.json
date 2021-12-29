@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_whtv52.unlock",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_whtv52.unlock",
 	"sector": "NGC_5999",
 	"sec_level": 4,
 	"date_added": 1639700023780,
-	"last_scraped": 1640768525278,
+	"last_scraped": 1640797320436,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639700023780
 		}
 	],
-	"next_scrape": 1640813326720,
+	"next_scrape": 1640841171909,
 	"category": "fishie_tank",
-	"last_update": 1640768525278,
+	"last_update": 1640797320436,
 	"output": [
 		{
 			"args": {},
-			"calls": 427101,
+			"calls": 441960,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e con",
@@ -92,6 +92,14 @@
 			]
 		}
 	],
-	"updt": 1640758670122,
-	"edit": 118
+	"updt": 1640768628766,
+	"edit": 119,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
