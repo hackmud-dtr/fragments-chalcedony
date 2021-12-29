@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_c4riyr.chat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_c4riyr.chat",
 	"sector": "VNP_4688",
 	"sec_level": 4,
 	"date_added": 1636227983021,
-	"last_scraped": 1640765466856,
+	"last_scraped": 1640790908334,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1636227983021
 		}
 	],
-	"next_scrape": 1640809984697,
+	"next_scrape": 1640834111108,
 	"category": "fishie_tank",
-	"last_update": 1640765466856,
+	"last_update": 1640790908334,
 	"output": [
 		{
 			"args": {},
-			"calls": 2546123,
+			"calls": 2561164,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"heir s",
@@ -123,8 +123,8 @@
 			]
 		}
 	],
-	"updt": 1640756519476,
-	"edit": 646,
+	"updt": 1640790909252,
+	"edit": 648,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -136,6 +136,14 @@
 				"eir sta",
 				"\\n2175 A"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
