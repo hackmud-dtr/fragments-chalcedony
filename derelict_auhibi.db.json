@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_auhibi.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_auhibi.db",
 	"sector": "K_2696",
 	"sec_level": 4,
 	"date_added": 1640707721316,
-	"last_scraped": 1640768652973,
+	"last_scraped": 1640797808507,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1640707721316
 		}
 	],
-	"next_scrape": 1640815035156,
+	"next_scrape": 1640840359022,
 	"category": "fishie_tank",
-	"last_update": 1640768652973,
+	"last_update": 1640797808507,
 	"output": [
 		{
 			"args": {},
-			"calls": 61501,
+			"calls": 72848,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"trans",
@@ -97,6 +97,14 @@
 			]
 		}
 	],
-	"updt": 1640768628766,
-	"edit": 15
+	"updt": 1640768824758,
+	"edit": 16,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

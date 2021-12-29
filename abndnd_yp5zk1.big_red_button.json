@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_yp5zk1.big_red_button",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_yp5zk1.big_red_button",
 	"sector": "K_0534",
 	"sec_level": 4,
 	"date_added": 1640365693406,
-	"last_scraped": 1640768764825,
+	"last_scraped": 1640797955438,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1640365693406
 		}
 	],
-	"updt": 1640758864962,
-	"edit": 48,
-	"next_scrape": 1640815079509,
+	"updt": 1640797942196,
+	"edit": 50,
+	"next_scrape": 1640837718732,
 	"category": "fishie_tank",
-	"last_update": 1640768764825,
+	"last_update": 1640797955438,
 	"output": [
 		{
 			"args": {},
-			"calls": 207544,
+			"calls": 220057,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t the ",
@@ -82,6 +82,14 @@
 				"the chan",
 				"take it."
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
