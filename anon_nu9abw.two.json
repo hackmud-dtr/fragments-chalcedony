@@ -1,25 +1,25 @@
 {
 	"_id": "anon_nu9abw.two",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_nu9abw.two",
 	"sector": "K_0534",
 	"sec_level": 4,
 	"date_added": 1640673844889,
-	"last_scraped": 1640763803749,
+	"last_scraped": 1640785177072,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1640673844889
 		}
 	],
-	"next_scrape": 1640805609683,
+	"next_scrape": 1640825978882,
 	"category": "fishie_tank",
-	"last_update": 1640763803749,
+	"last_update": 1640785177072,
 	"output": [
 		{
 			"args": {},
-			"calls": 82710,
+			"calls": 95111,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ROG E",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1640754369619,
-	"edit": 17,
+	"updt": 1640763940237,
+	"edit": 18,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -125,6 +125,14 @@
 				"OR | PRO",
 				"NETW ERR"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
