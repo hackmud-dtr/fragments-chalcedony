@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_auwso7.quests",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_auwso7.quests",
 	"sector": "VNP_5061",
 	"sec_level": 4,
 	"date_added": 1638601444604,
-	"last_scraped": 1640762194925,
+	"last_scraped": 1640780059062,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638601444604
 		}
 	],
-	"next_scrape": 1640806906880,
+	"next_scrape": 1640820984602,
 	"category": "fishie_tank",
-	"last_update": 1640762194925,
+	"last_update": 1640780059062,
 	"output": [
 		{
 			"args": {},
-			"calls": 892366,
+			"calls": 907213,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s the",
@@ -97,6 +97,14 @@
 			]
 		}
 	],
-	"updt": 1640762183584,
-	"edit": 238
+	"updt": 1640762378284,
+	"edit": 239,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
