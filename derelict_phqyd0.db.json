@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_phqyd0.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_phqyd0.db",
 	"sector": "NGC_5999",
 	"sec_level": 4,
 	"date_added": 1639696631512,
-	"last_scraped": 1640764274173,
+	"last_scraped": 1640786514173,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639696631512
 		}
 	],
-	"next_scrape": 1640807247217,
+	"next_scrape": 1640827218032,
 	"category": "fishie_tank",
-	"last_update": 1640764274173,
+	"last_update": 1640786514173,
 	"output": [
 		{
 			"args": {},
-			"calls": 428550,
+			"calls": 443913,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hat's",
@@ -115,6 +115,14 @@
 			]
 		}
 	],
-	"updt": 1640754956773,
-	"edit": 112
+	"updt": 1640764332276,
+	"edit": 113,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
