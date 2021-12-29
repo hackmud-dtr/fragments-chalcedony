@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_wqpwpz.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_wqpwpz.scam",
 	"sector": "VNP_7129",
 	"sec_level": 4,
 	"date_added": 1639135492882,
-	"last_scraped": 1640766207817,
+	"last_scraped": 1640793404685,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639135492882
 		}
 	],
-	"next_scrape": 1640806903166,
+	"next_scrape": 1640833924494,
 	"category": "fishie_tank",
-	"last_update": 1640766207817,
+	"last_update": 1640793404685,
 	"output": [
 		{
 			"args": {},
-			"calls": 658787,
+			"calls": 667510,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y as ",
@@ -138,8 +138,8 @@
 			]
 		}
 	],
-	"updt": 1640757303544,
-	"edit": 177,
+	"updt": 1640766283226,
+	"edit": 178,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -152,6 +152,14 @@
 				"s to ne",
 				" necess"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
