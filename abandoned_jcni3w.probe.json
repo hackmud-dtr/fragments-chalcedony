@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_jcni3w.probe",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_jcni3w.probe",
 	"sector": "VNP_5061",
 	"sec_level": 4,
 	"date_added": 1638469258369,
-	"last_scraped": 1640763280202,
+	"last_scraped": 1640783494837,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1638469258369
 		}
 	],
-	"next_scrape": 1640803272048,
+	"next_scrape": 1640829478680,
 	"category": "fishie_tank",
-	"last_update": 1640763280202,
+	"last_update": 1640783494837,
 	"output": [
 		{
 			"args": {},
-			"calls": 928977,
+			"calls": 945868,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"sary ",
@@ -92,6 +92,14 @@
 			]
 		}
 	],
-	"updt": 1640753978794,
-	"edit": 248
+	"updt": 1640763353381,
+	"edit": 249,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
