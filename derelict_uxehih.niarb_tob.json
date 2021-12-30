@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_uxehih.niarb_tob",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_uxehih.niarb_tob",
-	"sector": "K_1573",
+	"sector": "NGC_1829",
 	"sec_level": 4,
 	"date_added": 1635996786594,
-	"last_scraped": 0,
+	"last_scraped": 1640849142975,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1640848728708
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1640849104202,
+				"from": "NGC_1829",
+				"to": "K_1573"
+			}
+		]
 	],
-	"updt": 1635996805576,
-	"edit": 1
+	"updt": 1640848764842,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1640929351396
 }
