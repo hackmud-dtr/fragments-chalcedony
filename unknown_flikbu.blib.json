@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_flikbu.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_flikbu.blib",
 	"sector": "NGC_1829",
 	"sec_level": 4,
 	"date_added": 1640859642432,
-	"last_scraped": 1640859670911,
+	"last_scraped": 1640859760495,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1640859642432
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1640859730911,
+	"scrape_ct": 17,
+	"next_scrape": 1640859820495,
 	"category": "fishie_tank",
-	"last_update": 1640859670911,
+	"last_update": 1640859760495,
 	"output": [
 		{
 			"args": {},
@@ -49,6 +44,43 @@
 						"t say.\\n"
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 743,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"k so.",
+				"icall",
+				"EB3 H",
+				"ppreci",
+				"preciat",
+				"cannot ",
+				"t say.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12405,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"k so.",
+				"icall",
+				"EB3 H",
+				"ppreci",
+				"preciat",
+				"cannot ",
+				"t say.\\n"
 			]
 		}
 	],
