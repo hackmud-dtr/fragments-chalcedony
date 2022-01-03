@@ -1,0 +1,98 @@
+{
+	"_id": "anon_r15c86.apache",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_r15c86.apache",
+	"sector": "VNP_5814",
+	"sec_level": 4,
+	"date_added": 1641214873772,
+	"last_scraped": 1641215156987,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1641214873772
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1641215216987,
+	"category": "fishie_tank",
+	"last_update": 1641215156987,
+	"output": [
+		{
+			"args": {},
+			"calls": 6688,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"stem.",
+				"ts ver",
+				"s very",
+				"le pow",
+				"e powe",
+				" on the "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"stem.",
+						"ts ver",
+						"s very",
+						"le pow",
+						"e powe",
+						" on the "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2545,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"stem.",
+				"ts ver",
+				"s very",
+				"le pow",
+				"e powe",
+				" on the "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 25775,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"stem.",
+				"ts ver",
+				"s very",
+				"le pow",
+				"e powe",
+				" on the "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"stem.",
+				"ts ver",
+				"s very",
+				"le pow",
+				"e powe",
+				" on the "
+			]
+		}
+	],
+	"updt": 1641215065767,
+	"edit": 1
+}
