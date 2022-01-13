@@ -1,7 +1,7 @@
 {
 	"_id": "anon_0bvz0f.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_0bvz0f.bot_scam_do_not_run",
 	"sector": "VNP_2856",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1641861974428
+		},
+		{
+			"type": "died",
+			"when": 1642068309584
 		}
 	],
 	"scrape_ct": 16,
@@ -35,9 +39,47 @@
 				"ROR | N",
 				"7_SECT0",
 				"SYST ERR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"RROR ",
+						"F_FIL",
+						"CLST0",
+						"2F_FI",
+						"XF7_SE",
+						"T0XD7_",
+						"ST0XF7",
+						"NETW E",
+						"0X3A84",
+						"ROR | N",
+						"7_SECT0",
+						"SYST ERR"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1641862005133,
-	"edit": 1
+	"updt": 1641862199165,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"RROR ",
+				"F_FIL",
+				"CLST0",
+				"2F_FI",
+				"XF7_SE",
+				"T0XD7_",
+				"ST0XF7",
+				"NETW E",
+				"0X3A84",
+				"ROR | N",
+				"7_SECT0",
+				"SYST ERR"
+			]
+		}
+	]
 }

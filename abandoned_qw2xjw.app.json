@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qw2xjw.app",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_qw2xjw.app",
 	"sector": "K_2287",
 	"sec_level": 4,
 	"date_added": 1631983536181,
-	"last_scraped": 1642067192810,
+	"last_scraped": 1642068297437,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_2287",
 				"to": "VNP_7618"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1642068297437
+		},
+		{
+			"type": "died",
+			"when": 1642068309584
+		}
 	],
-	"updt": 1642066394562,
-	"edit": 2449,
-	"pl_output": "lib.db.find(...).array is not a function",
-	"next_scrape": 1642157263745
+	"updt": 1642067370089,
+	"edit": 2450,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_qw2xjw.app: script doesn't exist\"}",
+	"next_scrape": 1642156481469
 }
