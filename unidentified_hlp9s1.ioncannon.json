@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_hlp9s1.ioncannon",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unidentified_hlp9s1.ioncannon",
-	"sector": "SPC_8686",
+	"sector": "K_0489",
 	"sec_level": 0,
 	"date_added": 1637352233066,
-	"last_scraped": 1642142599603,
+	"last_scraped": 1642144121534,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,71 @@
 		{
 			"type": "died",
 			"when": 1642143452575
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1642143583908,
+				"from": "K_0489",
+				"to": "SPC_8686"
+			}
+		]
+	],
+	"updt": 1642143748370,
+	"edit": 1785,
+	"pl_output": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.ioncannon: script doesn't exist",
+	"next_scrape": 1642144181534,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1642144121534,
+	"output": [
+		{
+			"args": {},
+			"calls": 86266,
+			"base": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.ioncannon: script doesn't exist",
+			"fragments": [
+				" begi",
+				"s must",
+				"n comb",
+				"67 fac",
+				" TRAP ",
+				"be\\n216",
+				"\\n2168 ",
+				"2168 beg",
+				" down wh"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" begi",
+						"s must",
+						"n comb",
+						"67 fac",
+						" TRAP ",
+						"be\\n216",
+						"\\n2168 ",
+						"2168 beg",
+						" down wh"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1642142770875,
-	"edit": 1783,
-	"pl_output": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.ioncannon: script doesn't exist",
-	"next_scrape": 1642231578258
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" begi",
+				"s must",
+				"n comb",
+				"67 fac",
+				" TRAP ",
+				"be\\n216",
+				"\\n2168 ",
+				"2168 beg",
+				" down wh"
+			]
+		}
+	]
 }

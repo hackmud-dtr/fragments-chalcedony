@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_hlp9s1.hypercracker",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unidentified_hlp9s1.hypercracker",
-	"sector": "SPC_8686",
+	"sector": "K_0489",
 	"sec_level": 0,
 	"date_added": 1637352233066,
-	"last_scraped": 1642142580680,
+	"last_scraped": 1642144102964,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,68 @@
 		{
 			"type": "died",
 			"when": 1642143452575
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1642143583908,
+				"from": "K_0489",
+				"to": "SPC_8686"
+			}
+		]
+	],
+	"updt": 1642143748370,
+	"edit": 1785,
+	"pl_output": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.hypercracker: script doesn't exist",
+	"next_scrape": 1642144162964,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1642144102964,
+	"output": [
+		{
+			"args": {},
+			"calls": 203655,
+			"base": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.hypercracker: script doesn't exist",
+			"fragments": [
+				"2167 ",
+				"when c",
+				"t be\\n",
+				"must b",
+				"be\\n21",
+				"own whe",
+				"ds must ",
+				"68 begin"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"2167 ",
+						"when c",
+						"t be\\n",
+						"must b",
+						"be\\n21",
+						"own whe",
+						"ds must ",
+						"68 begin"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1642142770875,
-	"edit": 1783,
-	"pl_output": "`D:::TRUST COMMUNICATION:::` PARSE ERROR foxtellsnolies.hypercracker: script doesn't exist",
-	"next_scrape": 1642234265105
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"2167 ",
+				"when c",
+				"t be\\n",
+				"must b",
+				"be\\n21",
+				"own whe",
+				"ds must ",
+				"68 begin"
+			]
+		}
+	]
 }
