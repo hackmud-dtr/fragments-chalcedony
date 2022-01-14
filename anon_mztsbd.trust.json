@@ -1,7 +1,7 @@
 {
 	"_id": "anon_mztsbd.trust",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_mztsbd.trust",
 	"sector": "K_3966",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1639294054830
+		},
+		{
+			"type": "died",
+			"when": 1642175949704
 		}
 	],
 	"retry_args": [
@@ -39,5 +43,8 @@
 				"Clear un"
 			]
 		}
-	]
+	],
+	"updt": 1639294175291,
+	"edit": 1,
+	"cannot_identify": true
 }
