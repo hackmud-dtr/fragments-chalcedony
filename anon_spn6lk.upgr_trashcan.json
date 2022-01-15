@@ -1,20 +1,75 @@
 {
 	"_id": "anon_spn6lk.upgr_trashcan",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "anon_spn6lk.upgr_trashcan",
-	"sector": "HJG_7029",
+	"sector": "NGC_6770",
 	"sec_level": 1,
 	"date_added": 1639653343740,
-	"last_scraped": 1640084012406,
+	"last_scraped": 1642204080133,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1639653343740
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1642203854182,
+				"from": "NGC_6770",
+				"to": "HJG_7029"
+			}
+		]
+	],
+	"updt": 1642203929559,
+	"edit": 42,
+	"pl_output": "Done taking out the Trash and xfer upgrs to undefined",
+	"next_scrape": 1642204140133,
+	"scrape_ct": 14,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1642204080133,
+	"output": [
+		{
+			"args": {},
+			"calls": 1207,
+			"base": "Done taking out the Trash and xfer upgrs to undefined",
+			"fragments": [
+				"re do",
+				"we are ",
+				"7B Ther",
+				"217B Th",
+				"e: we ar",
+				"7C\\nAD032",
+				"17C\\nAD03"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"re do",
+						"we are ",
+						"7B Ther",
+						"217B Th",
+						"e: we ar",
+						"7C\\nAD032",
+						"17C\\nAD03"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1640084051414,
-	"edit": 40,
-	"pl_output": "Done taking out the Trash and xfer upgrs to undefined",
-	"next_scrape": 1640175424440
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"re do",
+				"we are ",
+				"7B Ther",
+				"217B Th",
+				"e: we ar",
+				"7C\\nAD032",
+				"17C\\nAD03"
+			]
+		}
+	]
 }
