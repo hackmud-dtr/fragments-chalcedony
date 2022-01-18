@@ -1,0 +1,138 @@
+{
+	"_id": "unknown_2a4ccn.corps_top_oog_bridged",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_2a4ccn.corps_top_oog_bridged",
+	"sector": "NGC_9676",
+	"sec_level": 4,
+	"date_added": 1642514315841,
+	"last_scraped": 1642514497748,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1642514315841
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1642514557748,
+	"category": "fishie_tank",
+	"last_update": 1642514552132,
+	"output": [
+		{
+			"args": {},
+			"calls": 9774,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0XBF_",
+				"1E16 O",
+				"_CLST0",
+				"X7A_SEC",
+				"D031E16",
+				"AD031E1",
+				"2BC7D17",
+				"1\\nAD03",
+				"\\nAD031",
+				"6 Okay, "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"0XBF_",
+						"1E16 O",
+						"_CLST0",
+						"X7A_SEC",
+						"D031E16",
+						"AD031E1",
+						"2BC7D17",
+						"1\\nAD03",
+						"\\nAD031",
+						"6 Okay, "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4090,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0XBF_",
+				"1E16 O",
+				"_CLST0",
+				"X7A_SEC",
+				"D031E16",
+				"AD031E1",
+				"2BC7D17",
+				"1\\nAD03",
+				"\\nAD031",
+				"6 Okay, "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"0XBF_",
+						"1E16 O",
+						"_CLST0",
+						"X7A_SEC",
+						"D031E16",
+						"AD031E1",
+						"2BC7D17",
+						"1\\nAD03",
+						"\\nAD031",
+						"6 Okay, "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3412,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0XBF_",
+				"1E16 O",
+				"_CLST0",
+				"X7A_SEC",
+				"D031E16",
+				"AD031E1",
+				"2BC7D17",
+				"1\\nAD03",
+				"\\nAD031",
+				"6 Okay, "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"0XBF_",
+				"1E16 O",
+				"_CLST0",
+				"X7A_SEC",
+				"D031E16",
+				"AD031E1",
+				"2BC7D17",
+				"1\\nAD03",
+				"\\nAD031",
+				"6 Okay, "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
