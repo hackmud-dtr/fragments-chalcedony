@@ -1,30 +1,22 @@
 {
 	"_id": "anon_1xuuaf.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_1xuuaf.bot_scam_do_not_run",
 	"sector": "NGC_9676",
 	"sec_level": 4,
 	"date_added": 1642577492460,
-	"last_scraped": 1642577511594,
+	"last_scraped": 1642577583149,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1642577492460
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1642577571594,
+	"scrape_ct": 17,
+	"next_scrape": 1642577643149,
 	"category": "fishie_tank",
-	"last_update": 1642577511594,
+	"last_update": 1642577583149,
 	"output": [
 		{
 			"args": {},
@@ -53,6 +45,43 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 761,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"hen d",
+				"will g",
+				"inder ",
+				"establ",
+				"er whe",
+				"en dat",
+				"e estab"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12161,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"hen d",
+				"will g",
+				"inder ",
+				"establ",
+				"er whe",
+				"en dat",
+				"e estab"
+			]
 		}
 	],
 	"identified": [
@@ -68,5 +97,7 @@
 				"e estab"
 			]
 		}
-	]
+	],
+	"updt": 1642577528407,
+	"edit": 1
 }
