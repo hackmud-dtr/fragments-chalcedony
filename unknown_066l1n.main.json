@@ -1,0 +1,94 @@
+{
+	"_id": "unknown_066l1n.main",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_066l1n.main",
+	"sector": "K_2160",
+	"sec_level": 4,
+	"date_added": 1643439230327,
+	"last_scraped": 1643439274803,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1643439230327
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1643439334803,
+	"category": "fishie_tank",
+	"last_update": 1643439327807,
+	"output": [
+		{
+			"args": {},
+			"calls": 5644,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"resol",
+				"l and ",
+				" the s",
+				"inst yo",
+				"determin"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"resol",
+						"l and ",
+						" the s",
+						"inst yo",
+						"determin"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1873,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"resol",
+				"l and ",
+				" the s",
+				"inst yo",
+				"determin"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"resol",
+						"l and ",
+						" the s",
+						"inst yo",
+						"determin"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"resol",
+				"l and ",
+				" the s",
+				"inst yo",
+				"determin"
+			]
+		}
+	]
+}
