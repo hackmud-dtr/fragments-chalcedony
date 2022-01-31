@@ -1,0 +1,79 @@
+{
+	"_id": "abandoned_uaj83c.bank",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_uaj83c.bank",
+	"sector": "K_6929",
+	"sec_level": 4,
+	"date_added": 1643645449461,
+	"last_scraped": 1643645567524,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1643645449461
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1643645627524,
+	"category": "fishie_tank",
+	"last_update": 1643645567524,
+	"output": [
+		{
+			"args": {},
+			"calls": 6218,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"your ",
+				"ou ha",
+				"I kno",
+				" be l",
+				"be lik",
+				"like th",
+				"equest!\\n",
+				"!\\n1E1D D",
+				" that.\\n1"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 646,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"your ",
+				"ou ha",
+				"I kno",
+				" be l",
+				"be lik",
+				"like th",
+				"equest!\\n",
+				"!\\n1E1D D",
+				" that.\\n1"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4436,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"your ",
+				"ou ha",
+				"I kno",
+				" be l",
+				"be lik",
+				"like th",
+				"equest!\\n",
+				"!\\n1E1D D",
+				" that.\\n1"
+			]
+		}
+	]
+}
