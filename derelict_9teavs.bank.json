@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_9teavs.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_9teavs.bank",
 	"sector": "SPC_7167",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "SPC_7167",
 				"to": "SPC_0540"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1643876629642
+		}
 	],
-	"updt": 1643332936070,
-	"edit": 3134,
+	"updt": 1643333914283,
+	"edit": 3135,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1643413114096
 }
