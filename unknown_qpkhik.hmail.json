@@ -1,0 +1,73 @@
+{
+	"_id": "unknown_qpkhik.hmail",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_qpkhik.hmail",
+	"sector": "K_7077",
+	"sec_level": 4,
+	"date_added": 1643939344874,
+	"last_scraped": 1643939519393,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1643939344874
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1643939579393,
+	"category": "fishie_tank",
+	"last_update": 1643939519393,
+	"output": [
+		{
+			"args": {},
+			"calls": 3131,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"plays",
+				" the ",
+				"sentie",
+				"g proc",
+				"might b",
+				"vanced s",
+				"nt that "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 717,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"plays",
+				" the ",
+				"sentie",
+				"g proc",
+				"might b",
+				"vanced s",
+				"nt that "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12080,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"plays",
+				" the ",
+				"sentie",
+				"g proc",
+				"might b",
+				"vanced s",
+				"nt that "
+			]
+		}
+	]
+}
