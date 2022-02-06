@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_9xfd5r.bigpop",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_9xfd5r.bigpop",
 	"sector": "SPC_8664",
 	"sec_level": 0,
 	"date_added": 1632349429009,
-	"last_scraped": 1644132763290,
+	"last_scraped": 1644134696612,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "SPC_8664",
 				"to": "HJG_1242"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1644134696612
+		},
+		{
+			"type": "died",
+			"when": 1644134709435
+		}
 	],
-	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1644212332069,
-	"updt": 1644131775043,
-	"edit": 4590
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_9xfd5r.bigpop: script doesn't exist\"}",
+	"next_scrape": 1644216957533,
+	"updt": 1644134707099,
+	"edit": 4592
 }

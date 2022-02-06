@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_yw4ycx.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_yw4ycx.bot_scam_do_not_run",
 	"sector": "HJG_9900",
 	"sec_level": 0,
 	"date_added": 1632349905916,
-	"last_scraped": 1644132854693,
+	"last_scraped": 1644134789180,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "HJG_9900",
 				"to": "HJG_1242"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1644134789180
+		},
+		{
+			"type": "died",
+			"when": 1644134829199
+		}
 	],
-	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1644225305212,
-	"updt": 1644131775043,
-	"edit": 4590
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_yw4ycx.bot_scam_do_not_run: script doesn't exist\"}",
+	"next_scrape": 1644228203859,
+	"updt": 1644132948005,
+	"edit": 4591
 }
