@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_0jxoz0._",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_0jxoz0._",
 	"sector": "VNP_1200",
 	"sec_level": 4,
@@ -18,7 +18,7 @@
 	"scrape_ct": 17,
 	"next_scrape": 1644133202902,
 	"category": "fishie_tank",
-	"last_update": 1644133125394,
+	"last_update": 1644133142902,
 	"output": [
 		{
 			"args": {},
@@ -75,6 +75,30 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"meter",
+				"ge 2.",
+				"le: thi",
+				"g param",
+				"for sta",
+				"aramete",
+				" this w",
+				" 2. we ",
+				"ters for",
+				"king par",
+				"ished wo",
+				"hedule: ",
+				" working",
+				" on sche",
+				" are on "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3967,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"meter",
 				"ge 2.",
