@@ -1,0 +1,69 @@
+{
+	"_id": "anonymous_0ln42s.hackmud_planck",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_0ln42s.hackmud_planck",
+	"sector": "VNP_9985",
+	"sec_level": 4,
+	"date_added": 1644274003920,
+	"last_scraped": 1644274119561,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1644274003920
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1644274179561,
+	"category": "fishie_tank",
+	"last_update": 1644274119561,
+	"output": [
+		{
+			"args": {},
+			"calls": 5471,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ck.\\n20",
+				"I do?\\n2",
+				"Ahead of",
+				" the dec",
+				" Ahead o"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2216,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ck.\\n20",
+				"I do?\\n2",
+				"Ahead of",
+				" the dec",
+				" Ahead o"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 2526,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ck.\\n20",
+				"I do?\\n2",
+				"Ahead of",
+				" the dec",
+				" Ahead o"
+			]
+		}
+	],
+	"updt": 1644274038331,
+	"edit": 1
+}
