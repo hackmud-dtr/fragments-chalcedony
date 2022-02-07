@@ -1,7 +1,7 @@
 {
 	"_id": "anon_i85864.free_money",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_i85864.free_money",
 	"sector": "NGC_0950",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "NGC_0950",
 				"to": "SPC_0162"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1644249852609
+		}
 	],
-	"updt": 1636990708908,
-	"edit": 3,
+	"updt": 1636996177671,
+	"edit": 4,
 	"pl_output": "welp",
 	"next_scrape": 1637079234799
 }
