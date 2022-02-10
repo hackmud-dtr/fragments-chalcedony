@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_2l120v.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "abandoned_2l120v.blib",
 	"sector": "K_0443",
 	"sec_level": 4,
 	"date_added": 1644530150218,
-	"last_scraped": 1644530205250,
+	"last_scraped": 1644530225334,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644530150218
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1644530265250,
+	"next_scrape": 1644621966289,
 	"category": "risk_factor",
 	"last_update": 1644530205250,
 	"output": [
@@ -54,5 +49,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1644530223940,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
