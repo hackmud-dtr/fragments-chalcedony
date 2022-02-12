@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_s7xbjh.play",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_s7xbjh.play",
 	"sector": "K_0443",
 	"sec_level": 4,
 	"date_added": 1644627613696,
-	"last_scraped": 1644654482373,
+	"last_scraped": 1644655898775,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644627613696
+		},
+		{
+			"type": "died",
+			"when": 1644655898775
 		}
 	],
-	"next_scrape": 1644699538157,
+	"next_scrape": 1644742112166,
 	"category": "coin_flipper",
 	"last_update": 1644654482373,
 	"output": [
@@ -98,6 +102,7 @@
 			]
 		}
 	],
-	"updt": 1644653316978,
-	"edit": 29
+	"updt": 1644654489328,
+	"edit": 30,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_s7xbjh.play: script doesn't exist\"}"
 }
