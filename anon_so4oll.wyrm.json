@@ -1,16 +1,113 @@
 {
 	"_id": "anon_so4oll.wyrm",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_so4oll.wyrm",
 	"sector": "SPC_9823",
 	"sec_level": 4,
 	"date_added": 1644779953522,
-	"last_scraped": 0,
+	"last_scraped": 1644780547630,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644779953522
+		}
+	],
+	"updt": 1644780371868,
+	"edit": 3,
+	"scrape_ct": 11,
+	"next_scrape": 1644780607630,
+	"category": "fishie_tank",
+	"last_update": 1644780547630,
+	"output": [
+		{
+			"args": {},
+			"calls": 21981,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ow I'",
+				"know ",
+				"we can",
+				"ut tha",
+				"tempted",
+				"st tempt",
+				"most tem",
+				"21EE You",
+				" I'm alm"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ow I'",
+						"know ",
+						"we can",
+						"ut tha",
+						"tempted",
+						"st tempt",
+						"most tem",
+						"21EE You",
+						" I'm alm"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4652,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ow I'",
+				"know ",
+				"we can",
+				"ut tha",
+				"tempted",
+				"st tempt",
+				"most tem",
+				"21EE You",
+				" I'm alm"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17200,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ow I'",
+				"know ",
+				"we can",
+				"ut tha",
+				"tempted",
+				"st tempt",
+				"most tem",
+				"21EE You",
+				" I'm alm"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ow I'",
+				"know ",
+				"we can",
+				"ut tha",
+				"tempted",
+				"st tempt",
+				"most tem",
+				"21EE You",
+				" I'm alm"
+			]
 		}
 	]
 }
