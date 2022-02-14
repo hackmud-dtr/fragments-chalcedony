@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_52h0w6.nos",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_52h0w6.nos",
 	"sector": "VNP_6461",
 	"sec_level": 4,
 	"date_added": 1644856053409,
-	"last_scraped": 1644872949735,
+	"last_scraped": 1644874758776,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644856053409
+		},
+		{
+			"type": "died",
+			"when": 1644874758776
+		},
+		{
+			"type": "died",
+			"when": 1644874778593
 		}
 	],
-	"next_scrape": 1644918769663,
+	"next_scrape": 1644957877029,
 	"category": "coin_flipper",
 	"last_update": 1644872949735,
 	"output": [
@@ -142,6 +150,7 @@
 			]
 		}
 	],
-	"updt": 1644871232501,
-	"edit": 17
+	"updt": 1644872988426,
+	"edit": 18,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_52h0w6.nos: script doesn't exist\"}"
 }
