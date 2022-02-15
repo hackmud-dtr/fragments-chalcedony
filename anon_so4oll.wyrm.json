@@ -6,37 +6,36 @@
 	"sector": "SPC_9823",
 	"sec_level": 4,
 	"date_added": 1644779953522,
-	"last_scraped": 1644950699401,
+	"last_scraped": 1644952513266,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644779953522
 		}
 	],
-	"updt": 1644949206058,
-	"edit": 106,
-	"next_scrape": 1644991151243,
+	"updt": 1644950765849,
+	"edit": 107,
+	"next_scrape": 1644995396407,
 	"category": "fishie_tank",
-	"last_update": 1644950699401,
+	"last_update": 1644952513266,
 	"output": [
 		{
 			"args": {},
-			"calls": 407987,
+			"calls": 410828,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"that ",
 				"we can",
 				"ut tha",
 				"now I'",
-				"F3 But",
-				"1F3 Bu",
 				" we ca",
 				" But t",
-				"tempted",
 				"pted\\n2",
 				"ou know",
 				"nd we c",
+				"1F3 But",
 				"'m almo",
+				" You kn",
 				" know I",
 				"st tempt",
 				"ow I'm a",
@@ -48,7 +47,9 @@
 				"21EE You",
 				"1EE You ",
 				" I'm alm",
-				" can.\\n2"
+				" can.\\n2",
+				"tempted\\n",
+				"ted\\n21F3"
 			],
 			"hits": [
 				{
@@ -155,6 +156,14 @@
 				"21EE You",
 				" I'm alm"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
