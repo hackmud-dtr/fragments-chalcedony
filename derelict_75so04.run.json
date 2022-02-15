@@ -1,22 +1,30 @@
 {
 	"_id": "derelict_75so04.run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_75so04.run",
 	"sector": "SPC_8003",
 	"sec_level": 4,
 	"date_added": 1644964048079,
-	"last_scraped": 1644965993131,
+	"last_scraped": 1644966083013,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644964048079
+		},
+		{
+			"type": "died",
+			"when": 1644966083013
+		},
+		{
+			"type": "died",
+			"when": 1644966276823
 		}
 	],
-	"updt": 1644965818540,
-	"edit": 10,
+	"updt": 1644966210716,
+	"edit": 12,
 	"scrape_ct": 1,
-	"next_scrape": 1644966053131,
+	"next_scrape": 1645053475034,
 	"category": "plant_sim",
 	"last_update": 1644965993131,
 	"output": [
@@ -104,5 +112,6 @@
 				"a tautol"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_75so04.run: script doesn't exist\"}"
 }
