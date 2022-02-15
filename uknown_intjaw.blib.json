@@ -1,22 +1,30 @@
 {
 	"_id": "uknown_intjaw.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_intjaw.blib",
 	"sector": "VNP_6461",
 	"sec_level": 4,
 	"date_added": 1644937844019,
-	"last_scraped": 1644937967886,
+	"last_scraped": 1644938094478,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644937844019
+		},
+		{
+			"type": "died",
+			"when": 1644938094478
+		},
+		{
+			"type": "died",
+			"when": 1644938109565
 		}
 	],
-	"updt": 1644937871848,
-	"edit": 1,
+	"updt": 1644938065398,
+	"edit": 2,
 	"scrape_ct": 19,
-	"next_scrape": 1644938027886,
+	"next_scrape": 1645023941994,
 	"category": "dice_roller",
 	"last_update": 1644937967886,
 	"output": [
@@ -104,5 +112,6 @@
 				" | USER "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_intjaw.blib: script doesn't exist\"}"
 }
