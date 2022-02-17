@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_kj6a44.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_kj6a44.blib",
 	"sector": "SPC_0563",
 	"sec_level": 4,
 	"date_added": 1645109128897,
-	"last_scraped": 1645126724221,
+	"last_scraped": 1645128661180,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645109128897
+		},
+		{
+			"type": "died",
+			"when": 1645128661180
+		},
+		{
+			"type": "died",
+			"when": 1645128743680
 		}
 	],
-	"next_scrape": 1645171034079,
+	"next_scrape": 1645219643810,
 	"category": "plant_sim",
 	"last_update": 1645126724221,
 	"output": [
@@ -93,8 +101,8 @@
 			]
 		}
 	],
-	"updt": 1645125076746,
-	"edit": 18,
+	"updt": 1645126835608,
+	"edit": 19,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -119,5 +127,6 @@
 				"## Iona,"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_kj6a44.blib: script doesn't exist\"}"
 }
