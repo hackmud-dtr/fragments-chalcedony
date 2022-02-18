@@ -1,0 +1,94 @@
+{
+	"_id": "unidentified_4cw7kt.create_player",
+	"type": "fragment",
+	"mode": "player",
+	"script": "unidentified_4cw7kt.create_player",
+	"sector": "SPC_0563",
+	"sec_level": 4,
+	"date_added": 1645148590397,
+	"last_scraped": 1645148659101,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1645148590397
+		},
+		{
+			"type": "died",
+			"when": 1645148659101
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1645231714018,
+	"category": "fishie_tank",
+	"last_update": 1645148640527,
+	"output": [
+		{
+			"args": {},
+			"calls": 4082,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"he ba",
+				"- loss",
+				" any A",
+				"operate",
+				"ect - l",
+				" her 'h",
+				"ors. Any",
+				"mpressio"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"he ba",
+						"- loss",
+						" any A",
+						"operate",
+						"ect - l",
+						" her 'h",
+						"ors. Any",
+						"mpressio"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 729,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"he ba",
+				"- loss",
+				" any A",
+				"operate",
+				"ect - l",
+				" her 'h",
+				"ors. Any",
+				"mpressio"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"he ba",
+				"- loss",
+				" any A",
+				"operate",
+				"ect - l",
+				" her 'h",
+				"ors. Any",
+				"mpressio"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_4cw7kt.create_player: script doesn't exist\"}"
+}
