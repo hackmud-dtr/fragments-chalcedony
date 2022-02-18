@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_queyvi.upgrade_rater",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_queyvi.upgrade_rater",
 	"sector": "HJG_1222",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1642891292644
+		},
+		{
+			"type": "died",
+			"when": 1645185527198
 		}
 	],
-	"updt": 1642891320350,
-	"edit": 1,
+	"updt": 1642891516066,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,5 +42,6 @@
 				"cted to"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
