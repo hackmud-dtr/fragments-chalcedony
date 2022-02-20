@@ -6,26 +6,25 @@
 	"sector": "SPC_0563",
 	"sec_level": 4,
 	"date_added": 1645158857218,
-	"last_scraped": 1645352819629,
+	"last_scraped": 1645355429331,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645158857218
 		}
 	],
-	"updt": 1645350358757,
-	"edit": 96,
-	"next_scrape": 1645393401091,
+	"updt": 1645352900892,
+	"edit": 97,
+	"next_scrape": 1645398243735,
 	"category": "fishie_tank",
-	"last_update": 1645352819629,
+	"last_update": 1645355429331,
 	"output": [
 		{
 			"args": {},
-			"calls": 383369,
+			"calls": 388438,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"u want",
-				"wanted ",
 				"ve your",
 				"ourself",
 				"if you ",
@@ -36,6 +35,7 @@
 				"2124 :)",
 				" wanted",
 				"you coul",
+				"wanted t",
 				"uld hive",
 				"u could ",
 				"t if you",
@@ -182,6 +182,14 @@
 				"ed to,\\n",
 				"2 you co"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
