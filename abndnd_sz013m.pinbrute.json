@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_sz013m.pinbrute",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_sz013m.pinbrute",
 	"sector": "VNP_2130",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_2130",
 				"to": "HJG_6212"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1645653141616
+		}
 	],
-	"updt": 1645199330199,
-	"edit": 5240,
+	"updt": 1645202263180,
+	"edit": 5241,
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1645279857506
 }

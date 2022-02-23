@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_sz013m.breach_t1",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_sz013m.breach_t1",
 	"sector": "VNP_2130",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_2130",
 				"to": "HJG_6212"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1645653141616
+		}
 	],
-	"updt": 1645647359767,
-	"edit": 5397,
+	"updt": 1645650679940,
+	"edit": 5398,
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1645742188366
 }
