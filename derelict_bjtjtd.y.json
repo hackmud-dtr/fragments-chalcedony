@@ -1,0 +1,111 @@
+{
+	"_id": "derelict_bjtjtd.y",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_bjtjtd.y",
+	"sector": "NGC_6060",
+	"sec_level": 4,
+	"date_added": 1645640323682,
+	"last_scraped": 1645640494622,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1645640323682
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1645640554622,
+	"category": "fishie_tank",
+	"last_update": 1645640511356,
+	"output": [
+		{
+			"args": {},
+			"calls": 8859,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o cou",
+				" coul",
+				"u.\\n21",
+				"?\\n213D",
+				" Oh wai",
+				"ould you",
+				" Of cour",
+				"uld,\\n213"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o cou",
+						" coul",
+						"u.\\n21",
+						"?\\n213D",
+						" Oh wai",
+						"ould you",
+						" Of cour",
+						"uld,\\n213"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2250,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o cou",
+				" coul",
+				"u.\\n21",
+				"?\\n213D",
+				" Oh wai",
+				"ould you",
+				" Of cour",
+				"uld,\\n213"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5037,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o cou",
+				" coul",
+				"u.\\n21",
+				"?\\n213D",
+				" Oh wai",
+				"ould you",
+				" Of cour",
+				"uld,\\n213"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"o cou",
+				" coul",
+				"u.\\n21",
+				"?\\n213D",
+				" Oh wai",
+				"ould you",
+				" Of cour",
+				"uld,\\n213"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
