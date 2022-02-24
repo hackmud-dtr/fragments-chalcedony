@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_drgxgf.t3_locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_drgxgf.t3_locs",
 	"sector": "NGC_6060",
 	"sec_level": 4,
 	"date_added": 1645677671894,
-	"last_scraped": 1645693134261,
+	"last_scraped": 1645696337323,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645677671894
+		},
+		{
+			"type": "died",
+			"when": 1645696337323
+		},
+		{
+			"type": "died",
+			"when": 1645696345469
 		}
 	],
-	"next_scrape": 1645735679983,
+	"next_scrape": 1645782516100,
 	"category": "fishie_tank",
 	"last_update": 1645693134261,
 	"output": [
@@ -246,8 +254,8 @@
 			]
 		}
 	],
-	"updt": 1645689565092,
-	"edit": 9,
+	"updt": 1645693278791,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
@@ -270,5 +278,6 @@
 				" and the"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_drgxgf.t3_locs: script doesn't exist\"}"
 }
