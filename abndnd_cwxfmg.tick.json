@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_cwxfmg.tick",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_cwxfmg.tick",
 	"sector": "VNP_4682",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1643133947034
+		},
+		{
+			"type": "died",
+			"when": 1645769312380
 		}
 	],
 	"scrape_ct": 17,
@@ -471,11 +475,12 @@
 			]
 		}
 	],
-	"updt": 1643134007847,
-	"edit": 1,
+	"updt": 1643134203567,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
