@@ -6,32 +6,35 @@
 	"sector": "K_5634",
 	"sec_level": 4,
 	"date_added": 1645838017876,
-	"last_scraped": 1646074980956,
+	"last_scraped": 1646078998182,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645838017876
 		}
 	],
-	"next_scrape": 1646116443069,
+	"next_scrape": 1646118638992,
 	"category": "fishie_tank",
-	"last_update": 1646074980956,
+	"last_update": 1646078998182,
 	"output": [
 		{
 			"args": {},
-			"calls": 307412,
+			"calls": 310863,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"W #7:",
-				"R | U",
 				"CLST0",
 				"AB060",
+				"1_CLS",
 				"za com",
+				"R | NE",
 				"ME ERR",
+				"E ERRO",
 				"CT0X23",
 				"YST ERR",
 				"X8CAB06",
+				"TW #7: ",
 				"RROR | ",
+				"ROR | U",
 				"lobal |",
 				"ER smir",
 				"0X95_SE",
@@ -49,10 +52,11 @@
 				"60B\\nSYS",
 				"3E7_FILE",
 				"23E7_FIL",
-				"060B\\nSY",
 				"| USER s",
 				" USER sm",
-				" | NETW "
+				" NETW ER",
+				" | NETW ",
+				"B060B\\nSY"
 			],
 			"hits": [
 				{
@@ -75,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 69155,
+			"calls": 69942,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,16 +87,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"W #7:",
-				"R | U",
 				"CLST0",
 				"AB060",
+				"1_CLS",
 				"za com",
+				"R | NE",
 				"ME ERR",
+				"E ERRO",
 				"CT0X23",
 				"YST ERR",
 				"X8CAB06",
+				"TW #7: ",
 				"RROR | ",
+				"ROR | U",
 				"lobal |",
 				"ER smir",
 				"0X95_SE",
@@ -110,29 +117,33 @@
 				"60B\\nSYS",
 				"3E7_FILE",
 				"23E7_FIL",
-				"060B\\nSY",
 				"| USER s",
 				" USER sm",
-				" | NETW "
+				" NETW ER",
+				" | NETW ",
+				"B060B\\nSY"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 301265,
+			"calls": 305636,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"W #7:",
-				"R | U",
 				"CLST0",
 				"AB060",
+				"1_CLS",
 				"za com",
+				"R | NE",
 				"ME ERR",
+				"E ERRO",
 				"CT0X23",
 				"YST ERR",
 				"X8CAB06",
+				"TW #7: ",
 				"RROR | ",
+				"ROR | U",
 				"lobal |",
 				"ER smir",
 				"0X95_SE",
@@ -150,10 +161,11 @@
 				"60B\\nSYS",
 				"3E7_FILE",
 				"23E7_FIL",
-				"060B\\nSY",
 				"| USER s",
 				" USER sm",
-				" | NETW "
+				" NETW ER",
+				" | NETW ",
+				"B060B\\nSY"
 			]
 		}
 	],
@@ -173,6 +185,6 @@
 			]
 		}
 	],
-	"updt": 1646070428371,
-	"edit": 76
+	"updt": 1646075119412,
+	"edit": 77
 }
