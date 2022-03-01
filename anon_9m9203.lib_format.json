@@ -6,20 +6,20 @@
 	"sector": "K_5634",
 	"sec_level": 4,
 	"date_added": 1645838017876,
-	"last_scraped": 1646134892683,
+	"last_scraped": 1646138981878,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645838017876
 		}
 	],
-	"next_scrape": 1646178859168,
+	"next_scrape": 1646184672075,
 	"category": "fishie_tank",
-	"last_update": 1646134892683,
+	"last_update": 1646138981878,
 	"output": [
 		{
 			"args": {},
-			"calls": 364395,
+			"calls": 368212,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"comco",
@@ -70,6 +70,7 @@
 				"| SUBJ: ",
 				"| PROG E",
 				" USER sm",
+				" TOTW #7",
 				" NETW ER",
 				" ERROR |",
 				" | TIME ",
@@ -98,7 +99,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 81023,
+			"calls": 81904,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -154,6 +155,7 @@
 				"| SUBJ: ",
 				"| PROG E",
 				" USER sm",
+				" TOTW #7",
 				" NETW ER",
 				" ERROR |",
 				" | TIME ",
@@ -166,7 +168,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 348697,
+			"calls": 351981,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"comco",
@@ -217,6 +219,7 @@
 				"| SUBJ: ",
 				"| PROG E",
 				" USER sm",
+				" TOTW #7",
 				" NETW ER",
 				" ERROR |",
 				" | TIME ",
@@ -242,6 +245,6 @@
 			]
 		}
 	],
-	"updt": 1646130810224,
-	"edit": 93
+	"updt": 1646134912066,
+	"edit": 94
 }
