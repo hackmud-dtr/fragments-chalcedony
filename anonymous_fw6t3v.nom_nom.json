@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_fw6t3v.nom_nom",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_fw6t3v.nom_nom",
 	"sector": "SPC_3170",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1646433145526
+		},
+		{
+			"type": "died",
+			"when": 1646434545038
 		}
 	],
-	"updt": 1646433157449,
-	"edit": 1,
+	"updt": 1646433353022,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
