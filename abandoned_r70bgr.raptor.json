@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_r70bgr.raptor",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_r70bgr.raptor",
 	"sector": "HJG_5432",
 	"sec_level": 4,
 	"date_added": 1646406648091,
-	"last_scraped": 1646407100408,
+	"last_scraped": 1646408061628,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1646406648091
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1646407160408,
+	"next_scrape": 1646448038853,
 	"category": "fishie_tank",
-	"last_update": 1646407100408,
+	"last_update": 1646408061628,
 	"output": [
 		{
 			"args": {},
-			"calls": 14823,
+			"calls": 38396,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s of ",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4006,
+			"calls": 10135,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,7 +73,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 15785,
+			"calls": 42148,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s of ",
@@ -103,6 +102,6 @@
 			]
 		}
 	],
-	"updt": 1646406760880,
-	"edit": 1
+	"updt": 1646407738014,
+	"edit": 5
 }
