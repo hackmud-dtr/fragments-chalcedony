@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_hdan3m.db_backup",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unidentified_hdan3m.db_backup",
 	"sector": "VNP_5308",
 	"sec_level": 4,
 	"date_added": 1646355771990,
-	"last_scraped": 1646355831789,
+	"last_scraped": 1646360187577,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1646447148798,
+	"next_scrape": 1646450059159,
 	"category": "risk_factor",
-	"last_update": 1646355813130,
+	"last_update": 1646360187577,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 127,
+			"calls": 234,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				" Mall",
@@ -54,11 +54,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1646355948762,
+	"edit": 1
 }
