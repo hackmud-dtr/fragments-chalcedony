@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jcni3w.probe",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_jcni3w.probe",
 	"sector": "VNP_5061",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1638469258369
+		},
+		{
+			"type": "died",
+			"when": 1646514021814
 		}
 	],
 	"next_scrape": 1640829478680,
@@ -92,8 +96,8 @@
 			]
 		}
 	],
-	"updt": 1640763353381,
-	"edit": 249,
+	"updt": 1640783673678,
+	"edit": 250,
 	"retry_args": [
 		{
 			"do": "feed"
