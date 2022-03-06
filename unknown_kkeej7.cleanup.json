@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_kkeej7.cleanup",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_kkeej7.cleanup",
 	"sector": "HJG_7029",
 	"sec_level": 1,
 	"date_added": 1634746460066,
-	"last_scraped": 1646526176811,
+	"last_scraped": 1646531295254,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,14 @@
 				"from": "HJG_7029",
 				"to": "K_3526"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1646531571020
+		}
 	],
 	"pl_output": "{\"ok\":true,\"msg\":{\"ok\":false,\"msg\":\"RUNTIME ERROR barnet.public: script doesn't exist\"}}",
-	"next_scrape": 1646618675751,
-	"updt": 1646516787789,
-	"edit": 5499
+	"next_scrape": 1646617408215,
+	"updt": 1646531441348,
+	"edit": 5501
 }
