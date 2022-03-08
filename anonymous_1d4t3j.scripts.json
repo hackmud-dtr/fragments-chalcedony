@@ -1,0 +1,71 @@
+{
+	"_id": "anonymous_1d4t3j.scripts",
+	"type": "fragment",
+	"mode": "player",
+	"script": "anonymous_1d4t3j.scripts",
+	"sector": "SPC_1515",
+	"sec_level": 4,
+	"date_added": 1646696933258,
+	"last_scraped": 1646697048960,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1646696933258
+		},
+		{
+			"type": "died",
+			"when": 1646697048960
+		}
+	],
+	"updt": 1646696953131,
+	"edit": 1,
+	"scrape_ct": 20,
+	"next_scrape": 1646780372868,
+	"category": "coin_flipper",
+	"last_update": 1646696957987,
+	"output": [
+		{
+			"args": {},
+			"calls": 3069,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"0100 ",
+				"100 000",
+				"01 0001 ",
+				"001 0100",
+				"00 0101 ",
+				" 0001 01",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0100 ",
+						"100 000",
+						"01 0001 ",
+						"001 0100",
+						"00 0101 ",
+						" 0001 01",
+						" 0000 00"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0100 ",
+				"100 000",
+				"01 0001 ",
+				"001 0100",
+				"00 0101 ",
+				" 0001 01",
+				" 0000 00"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_1d4t3j.scripts: script doesn't exist\"}"
+}
