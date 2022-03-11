@@ -6,27 +6,32 @@
 	"sector": "SPC_0563",
 	"sec_level": 4,
 	"date_added": 1645133180657,
-	"last_scraped": 1646964870584,
+	"last_scraped": 1646970978281,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645133180657
 		}
 	],
-	"next_scrape": 1647007826066,
+	"next_scrape": 1647012054451,
 	"category": "fishie_tank",
-	"last_update": 1646964870584,
+	"last_update": 1646970978281,
 	"output": [
 		{
 			"args": {},
-			"calls": 2128346,
+			"calls": 2133423,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"0XA43",
+				"R | NE",
 				"OG ERR",
+				" NETW ",
 				" fbret",
 				"R | USE",
 				"FT0X44_",
-				"IME ERRO"
+				"IME ERRO",
+				"| USER f",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -45,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 458397,
+			"calls": 459318,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,25 +58,35 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"0XA43",
+				"R | NE",
 				"OG ERR",
+				" NETW ",
 				" fbret",
 				"R | USE",
 				"FT0X44_",
-				"IME ERRO"
+				"IME ERRO",
+				"| USER f",
+				" ERROR |"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2124142,
+			"calls": 2126591,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"0XA43",
+				"R | NE",
 				"OG ERR",
+				" NETW ",
 				" fbret",
 				"R | USE",
 				"FT0X44_",
-				"IME ERRO"
+				"IME ERRO",
+				"| USER f",
+				" ERROR |"
 			]
 		}
 	],
@@ -87,6 +102,6 @@
 			]
 		}
 	],
-	"updt": 1646955134692,
-	"edit": 561
+	"updt": 1646970967411,
+	"edit": 563
 }
