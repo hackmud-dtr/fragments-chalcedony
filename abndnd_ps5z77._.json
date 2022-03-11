@@ -6,29 +6,33 @@
 	"sector": "NGC_1705",
 	"sec_level": 4,
 	"date_added": 1646826784758,
-	"last_scraped": 1647011247436,
+	"last_scraped": 1647016489771,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1646826784758
 		}
 	],
-	"next_scrape": 1647053602560,
+	"next_scrape": 1647060697051,
 	"category": "fishie_tank",
-	"last_update": 1647011247436,
+	"last_update": 1647016489771,
 	"output": [
 		{
 			"args": {},
-			"calls": 182087,
+			"calls": 185881,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"OR | T",
 				"TIME ER",
 				"R | PRO",
+				"| TIME ",
 				" TIME E",
 				" | NETW",
 				"TW ERROR",
 				"R | TIME",
+				"OR | NET",
+				"NETW ERR",
+				"IME ERRO",
 				"G ERROR ",
 				"ERROR | ",
 				"| PROG E",
@@ -53,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 40212,
+			"calls": 41216,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,10 +68,14 @@
 				"OR | T",
 				"TIME ER",
 				"R | PRO",
+				"| TIME ",
 				" TIME E",
 				" | NETW",
 				"TW ERROR",
 				"R | TIME",
+				"OR | NET",
+				"NETW ERR",
+				"IME ERRO",
 				"G ERROR ",
 				"ERROR | ",
 				"| PROG E",
@@ -79,16 +87,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 185624,
+			"calls": 189338,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"OR | T",
 				"TIME ER",
 				"R | PRO",
+				"| TIME ",
 				" TIME E",
 				" | NETW",
 				"TW ERROR",
 				"R | TIME",
+				"OR | NET",
+				"NETW ERR",
+				"IME ERRO",
 				"G ERROR ",
 				"ERROR | ",
 				"| PROG E",
@@ -110,6 +122,6 @@
 			]
 		}
 	],
-	"updt": 1647011217126,
-	"edit": 45
+	"updt": 1647011412418,
+	"edit": 46
 }
