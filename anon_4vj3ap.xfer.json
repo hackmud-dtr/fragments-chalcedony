@@ -1,0 +1,126 @@
+{
+	"_id": "anon_4vj3ap.xfer",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_4vj3ap.xfer",
+	"sector": "HJG_2888",
+	"sec_level": 4,
+	"date_added": 1646977293597,
+	"last_scraped": 1646977606673,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1646977293597
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1646977666673,
+	"category": "fishie_tank",
+	"last_update": 1646977606673,
+	"output": [
+		{
+			"args": {},
+			"calls": 15345,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o rece",
+				"E36 Is",
+				"B your",
+				"ve\\n1E2",
+				"ur requ",
+				"ceive\\n",
+				" to rec",
+				"m happy ",
+				"1E2B you",
+				"uest!\\n1E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o rece",
+						"E36 Is",
+						"B your",
+						"ve\\n1E2",
+						"ur requ",
+						"ceive\\n",
+						" to rec",
+						"m happy ",
+						"1E2B you",
+						"uest!\\n1E"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2015,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o rece",
+				"E36 Is",
+				"B your",
+				"ve\\n1E2",
+				"ur requ",
+				"ceive\\n",
+				" to rec",
+				"m happy ",
+				"1E2B you",
+				"uest!\\n1E"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12347,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o rece",
+				"E36 Is",
+				"B your",
+				"ve\\n1E2",
+				"ur requ",
+				"ceive\\n",
+				" to rec",
+				"m happy ",
+				"1E2B you",
+				"uest!\\n1E"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"o rece",
+				"E36 Is",
+				"B your",
+				"ve\\n1E2",
+				"ur requ",
+				"ceive\\n",
+				" to rec",
+				"m happy ",
+				"1E2B you",
+				"uest!\\n1E"
+			]
+		}
+	],
+	"updt": 1646977417165,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
