@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_l5ncsg.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_l5ncsg.bank",
 	"sector": "K_2696",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_2696",
 				"to": "K_1235"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1647085179592
+		}
 	],
-	"updt": 1647075715709,
-	"edit": 4792,
+	"updt": 1647080400916,
+	"edit": 4793,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1647169296742
 }
