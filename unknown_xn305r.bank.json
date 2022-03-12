@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_xn305r.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_xn305r.bank",
 	"sector": "HJG_1977",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "HJG_1977",
 				"to": "K_7252"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1647126724754
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":{\"usage\":\"unknown_xn305r.bank {action: \\\"\\\", amount: 0}\",\"actions\":[\"withdraw\",\"deposit\"],\"users\":[\"deadbeef\",\"deadcafe\"]}}",
 	"next_scrape": 1647218350184,
-	"updt": 1647120461055,
-	"edit": 5539
+	"updt": 1647125548552,
+	"edit": 5540
 }

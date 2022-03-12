@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_qbsxtp.log",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_qbsxtp.log",
 	"sector": "VNP_5061",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_5061",
 				"to": "K_1235"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1647126724754
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":{\"usage\":\"abndnd_qbsxtp.log {log: \\\"\\\", time:0}\"}}",
 	"next_scrape": 1644544742657,
-	"updt": 1644460072085,
-	"edit": 4599
+	"updt": 1644461633782,
+	"edit": 4600
 }
