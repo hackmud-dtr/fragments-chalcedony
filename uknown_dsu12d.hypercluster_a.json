@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_dsu12d.hypercluster_a",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_dsu12d.hypercluster_a",
 	"sector": "SPC_9823",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1644813303661
+		},
+		{
+			"type": "died",
+			"when": 1647059513867
 		}
 	],
 	"scrape_ct": 18,
@@ -365,5 +369,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1644813403966,
+	"edit": 1
 }

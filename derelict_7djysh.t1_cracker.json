@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_7djysh.t1_cracker",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_7djysh.t1_cracker",
 	"sector": "HJG_2888",
 	"sec_level": 4,
 	"date_added": 1647034327035,
-	"last_scraped": 1647051912762,
+	"last_scraped": 1647059503519,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1647034327035
+		},
+		{
+			"type": "died",
+			"when": 1647059503519
+		},
+		{
+			"type": "died",
+			"when": 1647059685398
 		}
 	],
-	"next_scrape": 1647093170021,
+	"next_scrape": 1647147099782,
 	"category": "coin_flipper",
 	"last_update": 1647051912762,
 	"output": [
@@ -97,6 +105,7 @@
 			]
 		}
 	],
-	"updt": 1647043856697,
-	"edit": 12
+	"updt": 1647052069741,
+	"edit": 13,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_7djysh.t1_cracker: script doesn't exist\"}"
 }
