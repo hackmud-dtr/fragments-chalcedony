@@ -1,0 +1,106 @@
+{
+	"_id": "abandoned_5hr8v0.quack",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_5hr8v0.quack",
+	"sector": "K_1724",
+	"sec_level": 4,
+	"date_added": 1647065782297,
+	"last_scraped": 1647066722208,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1647065782297
+		}
+	],
+	"scrape_ct": 10,
+	"next_scrape": 1647066782208,
+	"category": "fishie_tank",
+	"last_update": 1647066612807,
+	"output": [
+		{
+			"args": {},
+			"calls": 22308,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e sent",
+				"o descr",
+				"ly good",
+				"arted t",
+				"(I'm sur",
+				" (I'm su"
+			],
+			"hits": [
+				{
+					"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+					"frags": [
+						"e sent",
+						"o descr",
+						"ly good",
+						"arted t",
+						"(I'm sur",
+						" (I'm su"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4982,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e sent",
+				"o descr",
+				"ly good",
+				"arted t",
+				"(I'm sur",
+				" (I'm su"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20005,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e sent",
+				"o descr",
+				"ly good",
+				"arted t",
+				"(I'm sur",
+				" (I'm su"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+			"frags": [
+				"e sent",
+				"o descr",
+				"ly good",
+				"arted t",
+				"(I'm sur",
+				" (I'm su"
+			]
+		}
+	],
+	"updt": 1647066528157,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
