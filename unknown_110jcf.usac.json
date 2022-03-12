@@ -1,28 +1,31 @@
 {
 	"_id": "unknown_110jcf.usac",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_110jcf.usac",
 	"sector": "K_1724",
 	"sec_level": 4,
 	"date_added": 1647065837629,
-	"last_scraped": 1647067469269,
+	"last_scraped": 1647067650979,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1647065837629
+		},
+		{
+			"type": "died",
+			"when": 1647068057834
 		}
 	],
-	"updt": 1647067115505,
-	"edit": 7,
-	"scrape_ct": 2,
-	"next_scrape": 1647067529269,
+	"updt": 1647067703077,
+	"edit": 9,
+	"next_scrape": 1647110129188,
 	"category": "fishie_tank",
-	"last_update": 1647067487557,
+	"last_update": 1647067650979,
 	"output": [
 		{
 			"args": {},
-			"calls": 33951,
+			"calls": 36800,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"uld hi",
@@ -74,7 +77,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8576,
+			"calls": 9365,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -82,32 +85,37 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"7 tak",
 				"uld hi",
 				"nted t",
 				"d hive",
-				"yoursel",
+				"32 you",
 				"ve your",
 				"ut if y",
-				"u wante",
 				"to,\\n21",
 				"ive you",
 				"F But i",
 				"2137 ta",
 				" wanted",
+				"yourself",
 				"you coul",
-				"rself\\n2",
+				"ou wante",
 				"ou could",
 				"lf\\n2137",
+				"if you w",
 				"f you wa",
 				"212F But",
 				"2 you co",
 				"12F But ",
-				",\\n2132 ",
 				" you wan",
 				" could h",
+				"urself\\n2",
+				"rself\\n21",
 				"ourself\\n",
+				"o,\\n2132 ",
 				"f\\n2137 t",
 				"ed to,\\n2",
+				"124 :)\\n2",
 				")\\n212F B",
 				" :)\\n212F"
 			]
@@ -116,30 +124,42 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30433,
+			"calls": 38558,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ive y",
-				"yourse",
+				"7 tak",
 				"uld hi",
-				"2 you ",
-				"137 ta",
+				"nted t",
+				"d hive",
+				"32 you",
+				"ve your",
 				"ut if y",
 				"to,\\n21",
-				"f\\n2137",
+				"ive you",
 				"F But i",
-				"\\n2137 ",
+				"2137 ta",
 				" wanted",
+				"yourself",
 				"you coul",
-				"urself\\n",
+				"ou wante",
 				"ou could",
+				"lf\\n2137",
+				"if you w",
 				"f you wa",
 				"212F But",
-				",\\n2132 ",
+				"2 you co",
+				"12F But ",
 				" you wan",
 				" could h",
-				" :)\\n212",
-				"ed to,\\n2"
+				"urself\\n2",
+				"rself\\n21",
+				"ourself\\n",
+				"o,\\n2132 ",
+				"f\\n2137 t",
+				"ed to,\\n2",
+				"124 :)\\n2",
+				")\\n212F B",
+				" :)\\n212F"
 			]
 		}
 	],
@@ -156,11 +176,6 @@
 				" wanted",
 				",\\n2132 "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
