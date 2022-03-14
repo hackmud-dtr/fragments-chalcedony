@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_l0m21g.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_l0m21g.db",
 	"sector": "K_1724",
 	"sec_level": 4,
 	"date_added": 1647267201450,
-	"last_scraped": 1647268385577,
+	"last_scraped": 1647268751144,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1647267201450
 		}
 	],
-	"updt": 1647268205623,
-	"edit": 5,
-	"scrape_ct": 4,
-	"next_scrape": 1647268445577,
+	"updt": 1647268596704,
+	"edit": 7,
+	"next_scrape": 1647309183924,
 	"category": "fishie_tank",
-	"last_update": 1647268385577,
+	"last_update": 1647268751144,
 	"output": [
 		{
 			"args": {},
-			"calls": 36654,
+			"calls": 43081,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Mall",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7194,
+			"calls": 9986,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,7 +69,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 37636,
+			"calls": 50255,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" Mall",
@@ -93,14 +92,6 @@
 				"st as go",
 				"py?\\n1E56"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
