@@ -1,20 +1,82 @@
 {
 	"_id": "uknown_fczpmw.clean",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "fresh",
 	"script": "uknown_fczpmw.clean",
-	"sector": "NGC_6770",
+	"sector": "VNP_0640",
 	"sec_level": 1,
 	"date_added": 1644370778147,
-	"last_scraped": 1644651824149,
+	"last_scraped": 1647312919296,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1644370778147
-		}
+		},
+		{
+			"type": "died",
+			"when": 1647312852914
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1647312859123,
+				"from": "VNP_0640",
+				"to": "NGC_6770"
+			}
+		]
 	],
 	"pl_output": "\nNo worthless items found\n\n\nlist of `Nk3ys`:\n",
-	"next_scrape": 1644733107443,
-	"updt": 1644651950894,
-	"edit": 235
+	"next_scrape": 1647312979296,
+	"updt": 1644653511251,
+	"edit": 236,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1647312919296,
+	"output": [
+		{
+			"args": {},
+			"calls": 188,
+			"base": "\nNo worthless items found\n\n\nlist of `Nk3ys`:\n",
+			"fragments": [
+				"his t",
+				" It's",
+				"lised ",
+				"opportu",
+				"ed syst",
+				"to put t",
+				"tems. Th",
+				"centrali"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"his t",
+						" It's",
+						"lised ",
+						"opportu",
+						"ed syst",
+						"to put t",
+						"tems. Th",
+						"centrali"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"his t",
+				" It's",
+				"lised ",
+				"opportu",
+				"ed syst",
+				"to put t",
+				"tems. Th",
+				"centrali"
+			]
+		}
+	]
 }
