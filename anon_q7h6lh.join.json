@@ -1,25 +1,25 @@
 {
 	"_id": "anon_q7h6lh.join",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anon_q7h6lh.join",
 	"sector": "VNP_8364",
 	"sec_level": 4,
 	"date_added": 1646158254985,
-	"last_scraped": 1647424629220,
+	"last_scraped": 1647430173814,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1646158254985
 		}
 	],
-	"next_scrape": 1647467297716,
+	"next_scrape": 1647517561151,
 	"category": "clicker",
-	"last_update": 1647424629220,
+	"last_update": 1647430173814,
 	"output": [
 		{
 			"args": {},
-			"calls": 1133071,
+			"calls": 1135628,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" you?",
@@ -56,7 +56,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 1062799,
+			"calls": 1068441,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				" you?",
@@ -501,6 +501,11 @@
 			]
 		}
 	],
-	"updt": 1647419463451,
-	"edit": 286
+	"updt": 1647424739105,
+	"edit": 287,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
