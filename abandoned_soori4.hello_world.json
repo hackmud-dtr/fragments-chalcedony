@@ -3,18 +3,74 @@
 	"type": "fragment",
 	"mode": "skip",
 	"script": "abandoned_soori4.hello_world",
-	"sector": "K_7947",
+	"sector": "K_7927",
 	"sec_level": 4,
 	"date_added": 1641532712236,
-	"last_scraped": 1647121044945,
+	"last_scraped": 1647591425185,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1641532712236
-		}
+		},
+		{
+			"type": "died",
+			"when": 1647591078842
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1647591176218,
+				"from": "K_7927",
+				"to": "K_7947"
+			}
+		]
 	],
 	"pl_output": "hello from rudiger, farmer_john!\nI see you've been here recently!\nWant a more personalized `Ngreeting`?",
-	"next_scrape": 1647202353432,
-	"updt": 1647121047395,
-	"edit": 4042
+	"next_scrape": 1647591485185,
+	"updt": 1647591415663,
+	"edit": 4045,
+	"scrape_ct": 13,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1647591425185,
+	"output": [
+		{
+			"args": {},
+			"calls": 1700,
+			"base": "hello from rudiger, farmer_john!\nI see you've been here recently!\nWant a more personalized `Ngreeting`?",
+			"fragments": [
+				"X665E",
+				"E0X0D",
+				"OR | P",
+				"ister ",
+				"ECT0X665",
+				" | NETW "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"X665E",
+						"E0X0D",
+						"OR | P",
+						"ister ",
+						"ECT0X665",
+						" | NETW "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"X665E",
+				"E0X0D",
+				"OR | P",
+				"ister ",
+				"ECT0X665",
+				" | NETW "
+			]
+		}
+	]
 }
