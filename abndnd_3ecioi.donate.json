@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_3ecioi.donate",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "abndnd_3ecioi.donate",
-	"sector": "SPC_2422",
+	"sector": "K_1701",
 	"sec_level": 2,
 	"date_added": 1644005014171,
-	"last_scraped": 1644006150620,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1647657101942
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1647657386153,
+				"from": "K_1701",
+				"to": "SPC_2422"
+			}
+		]
 	],
 	"pl_output": "Thanks for your help",
 	"next_scrape": 1644098732200,
-	"updt": 1644006317631,
-	"edit": 2
+	"updt": 1647657261430,
+	"edit": 3
 }
