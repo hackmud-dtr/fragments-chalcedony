@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_mqs7j2.db",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_mqs7j2.db",
 	"sector": "K_7927",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1647766357021
+		},
+		{
+			"type": "died",
+			"when": 1647768002216
 		}
 	],
 	"retry_args": [
@@ -54,5 +58,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1647766471899,
+	"edit": 1
 }
