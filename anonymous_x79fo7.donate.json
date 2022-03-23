@@ -1,9 +1,9 @@
 {
 	"_id": "anonymous_x79fo7.donate",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_x79fo7.donate",
-	"sector": "NGC_6232",
+	"sector": "K_1701",
 	"sec_level": 2,
 	"date_added": 1644005014171,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1644005014171
-		}
+		},
+		{
+			"type": "died",
+			"when": 1648007788070
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1648007879007,
+				"from": "K_1701",
+				"to": "NGC_6232"
+			}
+		]
 	],
-	"updt": 1644005146405,
-	"edit": 1
+	"updt": 1644005342636,
+	"edit": 2
 }
