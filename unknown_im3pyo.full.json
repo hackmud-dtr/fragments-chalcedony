@@ -1,16 +1,97 @@
 {
 	"_id": "unknown_im3pyo.full",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "npc",
 	"script": "unknown_im3pyo.full",
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648195684547,
-	"last_scraped": 0,
+	"last_scraped": 1648202237219,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648195684547
+		}
+	],
+	"updt": 1648197268403,
+	"edit": 9,
+	"next_scrape": 1648245288353,
+	"category": "fishie_tank",
+	"last_update": 1648202237219,
+	"output": [
+		{
+			"args": {},
+			"calls": 57905,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"card p",
+				" disca",
+				"e lane.",
+				"\\n216D ",
+				"the lane",
+				"\\n216C t"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"card p",
+						" disca",
+						"e lane.",
+						"\\n216D ",
+						"the lane",
+						"\\n216C t"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 12524,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"card p",
+				" disca",
+				"e lane.",
+				"\\n216D ",
+				"the lane",
+				"\\n216C t"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 54524,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"card p",
+				" disca",
+				"e lane.",
+				"\\n216D ",
+				"the lane",
+				"\\n216C t"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"card p",
+				" disca",
+				"e lane.",
+				"\\n216D ",
+				"the lane",
+				"\\n216C t"
+			]
 		}
 	]
 }
