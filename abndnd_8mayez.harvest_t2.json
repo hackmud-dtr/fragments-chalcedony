@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_8mayez.harvest_t2",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_8mayez.harvest_t2",
 	"sector": "K_0534",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1640409613257
+		},
+		{
+			"type": "died",
+			"when": 1648558342881
 		}
 	],
 	"scrape_ct": 18,
@@ -461,8 +465,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1640409659761,
-	"edit": 1,
+	"updt": 1640409855793,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
