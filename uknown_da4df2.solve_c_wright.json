@@ -1,26 +1,25 @@
 {
 	"_id": "uknown_da4df2.solve_c_wright",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_da4df2.solve_c_wright",
 	"sector": "NGC_2519",
 	"sec_level": 4,
 	"date_added": 1648629600157,
-	"last_scraped": 1648630066205,
+	"last_scraped": 1648631023364,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648629600157
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1648630126205,
+	"next_scrape": 1648675465630,
 	"category": "fishie_tank",
-	"last_update": 1648630066205,
+	"last_update": 1648631023364,
 	"output": [
 		{
 			"args": {},
-			"calls": 20864,
+			"calls": 52263,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e 'Pr",
@@ -48,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3951,
+			"calls": 10757,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,7 +80,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 20544,
+			"calls": 57339,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e 'Pr",
@@ -106,6 +105,6 @@
 			]
 		}
 	],
-	"updt": 1648629876484,
-	"edit": 2
+	"updt": 1648630852042,
+	"edit": 7
 }
