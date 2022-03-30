@@ -6,22 +6,22 @@
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648195684547,
-	"last_scraped": 1648609332063,
+	"last_scraped": 1648615081160,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648195684547
 		}
 	],
-	"updt": 1648602908554,
-	"edit": 87,
-	"next_scrape": 1648651711874,
+	"updt": 1648609553657,
+	"edit": 89,
+	"next_scrape": 1648655049780,
 	"category": "fishie_tank",
-	"last_update": 1648609350141,
+	"last_update": 1648615081160,
 	"output": [
 		{
 			"args": {},
-			"calls": 386674,
+			"calls": 390092,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"card p",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 83712,
+			"calls": 84404,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 382196,
+			"calls": 390917,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"card p",
@@ -92,11 +92,6 @@
 				"the lane",
 				"\\n216C t"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
