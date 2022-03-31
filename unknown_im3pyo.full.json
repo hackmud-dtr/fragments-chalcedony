@@ -6,18 +6,18 @@
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648195684547,
-	"last_scraped": 1648710989219,
+	"last_scraped": 1648710952931,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648195684547
 		}
 	],
-	"updt": 1648710968573,
-	"edit": 108,
-	"next_scrape": 1648751677183,
+	"updt": 1648705690014,
+	"edit": 107,
+	"next_scrape": 1648757278191,
 	"category": "fishie_tank",
-	"last_update": 1648710989219,
+	"last_update": 1648710952931,
 	"output": [
 		{
 			"args": {},
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 100338,
+			"calls": 99482,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 462129,
+			"calls": 456975,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"card p",
@@ -92,6 +92,14 @@
 				"the lane",
 				"\\n216C t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
