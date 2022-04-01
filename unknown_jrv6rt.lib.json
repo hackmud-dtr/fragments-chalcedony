@@ -1,50 +1,64 @@
 {
 	"_id": "unknown_jrv6rt.lib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_jrv6rt.lib",
 	"sector": "HJG_9290",
 	"sec_level": 4,
 	"date_added": 1648802089310,
-	"last_scraped": 1648802981745,
+	"last_scraped": 1648803198963,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648802089310
+		},
+		{
+			"type": "died",
+			"when": 1648803198963
+		},
+		{
+			"type": "died",
+			"when": 1648803349840
 		}
 	],
-	"scrape_ct": 12,
-	"next_scrape": 1648803041745,
+	"scrape_ct": 11,
+	"next_scrape": 1648884535649,
 	"category": "coin_flipper",
-	"last_update": 1648802981745,
+	"last_update": 1648803108273,
 	"output": [
 		{
 			"args": {},
-			"calls": 41176,
+			"calls": 47399,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"e not",
-				"d of ",
-				" of t",
 				" Do y",
-				"you se",
-				"Of cou",
 				"o you ",
 				"his li",
 				"E Of c",
+				"d of t",
+				"Ahead ",
+				" you s",
+				" Of co",
 				"like I ",
-				"ke I do",
 				"course ",
 				"ck.\\n20",
 				"A7 Ahea",
+				"you see ",
 				"see this",
 				"ourse no",
 				"of the d",
+				"Of cours",
+				"o?\\n20AE",
+				"ke I do?",
 				"k.\\n20AD",
 				"is like ",
+				"ike I do",
 				"f the de",
+				"do?\\n20A",
 				"deck.\\n2",
 				"20AE Of ",
+				".\\n20AD ",
 				" see thi",
 				" deck.\\n",
 				"\\n20AD Do",
@@ -103,6 +117,7 @@
 			]
 		}
 	],
-	"updt": 1648802608162,
-	"edit": 3
+	"updt": 1648803193887,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_jrv6rt.lib: script doesn't exist\"}"
 }
