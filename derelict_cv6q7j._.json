@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_cv6q7j._",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_cv6q7j._",
 	"sector": "HJG_9290",
 	"sec_level": 4,
@@ -501,10 +501,11 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1648793821800,
-	"edit": 1
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
