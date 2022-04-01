@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_1l52xs.say",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_1l52xs.say",
 	"sector": "HJG_9290",
 	"sec_level": 4,
 	"date_added": 1648824965096,
-	"last_scraped": 1648825021443,
+	"last_scraped": 1648830483925,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1648916815568,
+	"next_scrape": 1648916778077,
 	"category": "risk_factor",
-	"last_update": 1648825003819,
+	"last_update": 1648830483925,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +40,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 130,
+			"calls": 233,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"way d",
@@ -60,11 +60,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1648825077810,
+	"edit": 1
 }
