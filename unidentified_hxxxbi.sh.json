@@ -1,28 +1,27 @@
 {
 	"_id": "unidentified_hxxxbi.sh",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_hxxxbi.sh",
 	"sector": "HJG_3913",
 	"sec_level": 4,
 	"date_added": 1648921571685,
-	"last_scraped": 1648922160815,
+	"last_scraped": 1648922992677,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648921571685
 		}
 	],
-	"updt": 1648921988297,
-	"edit": 3,
-	"scrape_ct": 12,
-	"next_scrape": 1648922220815,
+	"updt": 1648922965626,
+	"edit": 8,
+	"next_scrape": 1648964063695,
 	"category": "fishie_tank",
-	"last_update": 1648922179426,
+	"last_update": 1648922992677,
 	"output": [
 		{
 			"args": {},
-			"calls": 20271,
+			"calls": 44274,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"14E Co",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5243,
+			"calls": 11161,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,7 +75,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 19873,
+			"calls": 53653,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"14E Co",
@@ -103,11 +102,6 @@
 				"ese may ",
 				" cards?\\n"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
