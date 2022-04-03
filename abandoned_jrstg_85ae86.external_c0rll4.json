@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jrstg_85ae86.external_c0rll4",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_jrstg_85ae86.external_c0rll4",
 	"sector": "HJG_6398",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "HJG_6398",
 				"to": "CHAOS_LAMBDA_0"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1648966212622
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_jrstg_85ae86.external_c0rll4: Shift operation is currently in progress. 265s remain\"}",
 	"next_scrape": 1634063496344,
-	"updt": 1639169297791,
-	"edit": 4
+	"updt": 1639169492572,
+	"edit": 5
 }
