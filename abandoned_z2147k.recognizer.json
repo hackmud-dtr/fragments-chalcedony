@@ -1,0 +1,108 @@
+{
+	"_id": "abandoned_z2147k.recognizer",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_z2147k.recognizer",
+	"sector": "NGC_9822",
+	"sec_level": 4,
+	"date_added": 1649065337846,
+	"last_scraped": 1649066337295,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1649065337846
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1649066397295,
+	"category": "fishie_tank",
+	"last_update": 1649066356564,
+	"output": [
+		{
+			"args": {},
+			"calls": 41982,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e of ",
+				"dults",
+				"nd the",
+				" of th",
+				"of the ",
+				"s have b",
+				"perly-ma"
+			],
+			"hits": [
+				{
+					"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+					"frags": [
+						"e of ",
+						"dults",
+						"nd the",
+						" of th",
+						"of the ",
+						"s have b",
+						"perly-ma"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7817,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e of ",
+				"dults",
+				"nd the",
+				" of th",
+				"of the ",
+				"s have b",
+				"perly-ma"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 31768,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e of ",
+				"dults",
+				"nd the",
+				" of th",
+				"of the ",
+				"s have b",
+				"perly-ma"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+			"frags": [
+				"e of ",
+				"dults",
+				"nd the",
+				" of th",
+				"of the ",
+				"s have b",
+				"perly-ma"
+			]
+		}
+	],
+	"updt": 1649066174171,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
