@@ -1,19 +1,23 @@
 {
 	"_id": "uknown_sbo9ja.hata",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_sbo9ja.hata",
 	"sector": "VNP_5308",
 	"sec_level": 4,
 	"date_added": 1646316503815,
-	"last_scraped": 1649059049391,
+	"last_scraped": 1649065162609,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1646316503815
+		},
+		{
+			"type": "died",
+			"when": 1649065162609
 		}
 	],
-	"next_scrape": 1649101721451,
+	"next_scrape": 1649155736572,
 	"category": "dice_roller",
 	"last_update": 1649059049391,
 	"output": [
@@ -92,6 +96,7 @@
 			]
 		}
 	],
-	"updt": 1649053286167,
-	"edit": 515
+	"updt": 1649059145105,
+	"edit": 516,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_sbo9ja.hata: script doesn't exist\"}"
 }
