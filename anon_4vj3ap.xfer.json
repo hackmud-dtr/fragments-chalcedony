@@ -6,29 +6,31 @@
 	"sector": "HJG_2888",
 	"sec_level": 4,
 	"date_added": 1646977293597,
-	"last_scraped": 1649065272787,
+	"last_scraped": 1649071636626,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1646977293597
 		}
 	],
-	"next_scrape": 1649105875500,
+	"next_scrape": 1649112654515,
 	"category": "fishie_tank",
-	"last_update": 1649065272787,
+	"last_update": 1649071636626,
 	"output": [
 		{
 			"args": {},
-			"calls": 1764445,
+			"calls": 1767590,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"our re",
 				"E36 Is",
 				"B your",
-				"ve\\n1E2",
+				",\\n1E2",
+				" there",
+				" am ha",
 				"ur requ",
 				"ppy to ",
-				"ceive\\n",
+				"e\\n1E2B",
 				" to rec",
 				"t!\\n1E36",
 				"request!",
@@ -36,7 +38,9 @@
 				"m happy ",
 				"am happy",
 				"1E2B you",
-				"uest!\\n1E"
+				"uest!\\n1E",
+				"eive\\n1E2",
+				"eceive\\n1"
 			],
 			"hits": [
 				{
@@ -127,6 +131,14 @@
 			]
 		}
 	],
-	"updt": 1649059145105,
-	"edit": 444
+	"updt": 1649065586508,
+	"edit": 445,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
