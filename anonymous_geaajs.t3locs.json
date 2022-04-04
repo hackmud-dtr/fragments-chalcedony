@@ -6,28 +6,28 @@
 	"sector": "HJG_3913",
 	"sec_level": 4,
 	"date_added": 1648843084809,
-	"last_scraped": 1649069176044,
+	"last_scraped": 1649075133695,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648843084809
 		}
 	],
-	"next_scrape": 1649110232178,
+	"next_scrape": 1649121497184,
 	"category": "fishie_tank",
-	"last_update": 1649069176044,
+	"last_update": 1649075152257,
 	"output": [
 		{
 			"args": {},
-			"calls": 227102,
+			"calls": 230968,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"mutual",
 				"with mu",
 				"th of z",
 				"t with ",
 				"gth of ",
 				" of zer",
+				" mutual",
 				"ual stre",
 				"tual str",
 				"trength ",
@@ -36,10 +36,12 @@
 				"of zero.",
 				"NCE reso",
 				"l streng",
+				"ith mutu",
 				"E resolv",
 				"BOUNCE r",
 				"6F comba",
 				"16F comb",
+				". BOUNCE",
 				" resolve",
 				" combat ",
 				" ?. BOUN",
@@ -70,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 50605,
+			"calls": 51592,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,12 +80,12 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"mutual",
 				"with mu",
 				"th of z",
 				"t with ",
 				"gth of ",
 				" of zer",
+				" mutual",
 				"ual stre",
 				"tual str",
 				"trength ",
@@ -92,10 +94,12 @@
 				"of zero.",
 				"NCE reso",
 				"l streng",
+				"ith mutu",
 				"E resolv",
 				"BOUNCE r",
 				"6F comba",
 				"16F comb",
+				". BOUNCE",
 				" resolve",
 				" combat ",
 				" ?. BOUN",
@@ -157,6 +161,11 @@
 			]
 		}
 	],
-	"updt": 1649062267979,
-	"edit": 50
+	"updt": 1649069298487,
+	"edit": 51,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
