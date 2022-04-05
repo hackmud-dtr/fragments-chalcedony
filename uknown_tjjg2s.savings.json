@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_tjjg2s.savings",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_tjjg2s.savings",
 	"sector": "K_3713",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_3713",
 				"to": "SPC_8686"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1649137369471
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR foxtellsnolies.c0n: script doesn't exist\"}",
 	"next_scrape": 1647572299834,
-	"updt": 1647483940393,
-	"edit": 5263
+	"updt": 1647489407151,
+	"edit": 5264
 }

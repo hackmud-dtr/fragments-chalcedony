@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_homvsy.bigbot",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_homvsy.bigbot",
 	"sector": "HJG_3913",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1648900336326
+		},
+		{
+			"type": "died",
+			"when": 1649137215562
 		}
 	],
 	"scrape_ct": 18,
@@ -630,5 +634,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1648900499002,
+	"edit": 1
 }
