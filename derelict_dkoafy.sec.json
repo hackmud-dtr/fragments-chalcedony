@@ -1,0 +1,101 @@
+{
+	"_id": "derelict_dkoafy.sec",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_dkoafy.sec",
+	"sector": "SPC_6918",
+	"sec_level": 4,
+	"date_added": 1649219013993,
+	"last_scraped": 1649219749511,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1649219013993
+		}
+	],
+	"scrape_ct": 10,
+	"next_scrape": 1649219809511,
+	"category": "fishie_tank",
+	"last_update": 1649219658438,
+	"output": [
+		{
+			"args": {},
+			"calls": 25554,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"em. #",
+				"e, th",
+				"oping ",
+				" the bi",
+				"Saleem. "
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"em. #",
+						"e, th",
+						"oping ",
+						" the bi",
+						"Saleem. "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4898,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"em. #",
+				"e, th",
+				"oping ",
+				" the bi",
+				"Saleem. "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28303,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"em. #",
+				"e, th",
+				"oping ",
+				" the bi",
+				"Saleem. "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"em. #",
+				"e, th",
+				"oping ",
+				" the bi",
+				"Saleem. "
+			]
+		}
+	],
+	"updt": 1649219557953,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
