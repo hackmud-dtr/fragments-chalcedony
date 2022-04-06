@@ -1,0 +1,93 @@
+{
+	"_id": "derelict_e3bbx7.sell",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_e3bbx7.sell",
+	"sector": "SPC_6918",
+	"sec_level": 4,
+	"date_added": 1649230609581,
+	"last_scraped": 1649231265643,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1649230609581
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1649231325643,
+	"category": "fishie_tank",
+	"last_update": 1649231265643,
+	"output": [
+		{
+			"args": {},
+			"calls": 24144,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ind t",
+				"ang? ",
+				" my min",
+				" comput",
+				"t blows "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ind t",
+						"ang? ",
+						" my min",
+						" comput",
+						"t blows "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4867,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ind t",
+				"ang? ",
+				" my min",
+				" comput",
+				"t blows "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26185,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ind t",
+				"ang? ",
+				" my min",
+				" comput",
+				"t blows "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"ind t",
+				"ang? ",
+				" my min",
+				" comput",
+				"t blows "
+			]
+		}
+	],
+	"updt": 1649231082702,
+	"edit": 3
+}
