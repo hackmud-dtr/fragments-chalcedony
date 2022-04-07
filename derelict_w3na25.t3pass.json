@@ -1,28 +1,37 @@
 {
 	"_id": "derelict_w3na25.t3pass",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_w3na25.t3pass",
 	"sector": "K_0425",
 	"sec_level": 4,
 	"date_added": 1649371317259,
-	"last_scraped": 1649372770800,
+	"last_scraped": 1649372987708,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649371317259
+		},
+		{
+			"type": "died",
+			"when": 1649372987708
+		},
+		{
+			"type": "died",
+			"when": 1649372997672
 		}
 	],
-	"scrape_ct": 5,
-	"next_scrape": 1649372830800,
+	"scrape_ct": 4,
+	"next_scrape": 1649458658402,
 	"category": "dice_roller",
-	"last_update": 1649372770800,
+	"last_update": 1649372861320,
 	"output": [
 		{
 			"args": {},
-			"calls": 71266,
+			"calls": 77478,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
+				"r stag",
 				"ng par",
 				"e: thi",
 				": this",
@@ -36,7 +45,6 @@
 				"dule: t",
 				"aramete",
 				" we are",
-				" parame",
 				" on sch",
 				"working ",
 				"s for st",
@@ -47,10 +55,12 @@
 				"ge 2. we",
 				"eters fo",
 				"ers for ",
+				"ed worki",
 				"e are on",
 				"d workin",
 				"age 2. w",
 				" this wa",
+				" paramet",
 				" are on ",
 				" 2. we a"
 			],
@@ -86,6 +96,7 @@
 			]
 		}
 	],
-	"updt": 1649372583671,
-	"edit": 7
+	"updt": 1649372975316,
+	"edit": 9,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_w3na25.t3pass: script doesn't exist\"}"
 }
