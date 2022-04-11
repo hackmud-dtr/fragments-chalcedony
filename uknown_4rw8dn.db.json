@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_4rw8dn.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_4rw8dn.db",
 	"sector": "HJG_4513",
 	"sec_level": 4,
 	"date_added": 1649658163644,
-	"last_scraped": 1649659399180,
+	"last_scraped": 1649666050920,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649658163644
 		}
 	],
-	"updt": 1649659040146,
-	"edit": 5,
-	"scrape_ct": 8,
-	"next_scrape": 1649659459180,
+	"updt": 1649660213741,
+	"edit": 10,
+	"next_scrape": 1649706772618,
 	"category": "fishie_tank",
-	"last_update": 1649659416211,
+	"last_update": 1649666050920,
 	"output": [
 		{
 			"args": {},
-			"calls": 33002,
+			"calls": 60970,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"emova",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5519,
+			"calls": 9978,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,7 +72,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 25309,
+			"calls": 54789,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"emova",
@@ -98,11 +97,6 @@
 				"ER, MAXW",
 				" ## Repo"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
