@@ -1,28 +1,27 @@
 {
 	"_id": "abndnd_vj1t6g.lib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_vj1t6g.lib",
 	"sector": "HJG_4513",
 	"sec_level": 4,
 	"date_added": 1649785471999,
-	"last_scraped": 1649786622140,
+	"last_scraped": 1649792676504,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649785471999
 		}
 	],
-	"updt": 1649786456497,
-	"edit": 5,
-	"scrape_ct": 3,
-	"next_scrape": 1649786682140,
+	"updt": 1649787044682,
+	"edit": 8,
+	"next_scrape": 1649837628945,
 	"category": "fishie_tank",
-	"last_update": 1649786622140,
+	"last_update": 1649792693993,
 	"output": [
 		{
 			"args": {},
-			"calls": 44998,
+			"calls": 56437,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"shuma",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10767,
+			"calls": 13766,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,7 +78,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 41393,
+			"calls": 49453,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"shuma",
@@ -108,6 +107,11 @@
 				". They ",
 				"x. You'r"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
