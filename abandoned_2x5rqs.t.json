@@ -1,20 +1,25 @@
 {
 	"_id": "abandoned_2x5rqs.t",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abandoned_2x5rqs.t",
 	"sector": "HJG_4513",
 	"sec_level": 4,
 	"date_added": 1649791864675,
-	"last_scraped": 1649791935627,
+	"last_scraped": 1649791917036,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649791864675
 		}
 	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
 	"scrape_ct": 19,
-	"next_scrape": 1649871162189,
+	"next_scrape": 1649791977036,
 	"category": "risk_factor",
 	"last_update": 1649791917036,
 	"output": [
@@ -51,16 +56,5 @@
 			]
 		}
 	],
-	"cannot_identify": true,
-	"updt": 1649791924415,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"cannot_identify": true
 }
