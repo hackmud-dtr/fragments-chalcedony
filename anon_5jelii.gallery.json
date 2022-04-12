@@ -6,20 +6,20 @@
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648378894150,
-	"last_scraped": 1649725451063,
+	"last_scraped": 1649731148097,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648378894150
 		}
 	],
-	"next_scrape": 1649766082726,
+	"next_scrape": 1649770895467,
 	"category": "fishie_tank",
-	"last_update": 1649725451063,
+	"last_update": 1649731148097,
 	"output": [
 		{
 			"args": {},
-			"calls": 1127005,
+			"calls": 1133303,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"he gam",
@@ -97,6 +97,14 @@
 			]
 		}
 	],
-	"updt": 1649719819440,
-	"edit": 269
+	"updt": 1649725483494,
+	"edit": 270,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
