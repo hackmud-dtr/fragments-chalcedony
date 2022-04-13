@@ -6,33 +6,38 @@
 	"sector": "HJG_4513",
 	"sec_level": 4,
 	"date_added": 1649785471999,
-	"last_scraped": 1649852319664,
+	"last_scraped": 1649857160365,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649785471999
 		}
 	],
-	"updt": 1649852307165,
-	"edit": 21,
-	"next_scrape": 1649898300745,
+	"updt": 1649852502149,
+	"edit": 22,
+	"next_scrape": 1649902631898,
 	"category": "fishie_tank",
-	"last_update": 1649852319664,
+	"last_update": 1649857178184,
 	"output": [
 		{
 			"args": {},
-			"calls": 107578,
+			"calls": 113801,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"shuma",
-				"h cit",
 				"ut. | ",
+				"th cof",
+				"y in a ",
 				"t (if n",
+				"fresh) ",
 				"esh) fr",
 				"couple ",
 				"ay with",
+				"ame aro",
 				". They ",
-				"x. You'r"
+				"x. You'r",
+				"shumai. ",
+				"le of ho",
+				"h city i"
 			],
 			"hits": [
 				{
@@ -55,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24560,
+			"calls": 25567,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,15 +68,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"shuma",
-				"h cit",
 				"ut. | ",
+				"th cof",
+				"y in a ",
 				"t (if n",
+				"fresh) ",
 				"esh) fr",
 				"couple ",
 				"ay with",
+				"ame aro",
 				". They ",
-				"x. You'r"
+				"x. You'r",
+				"shumai. ",
+				"le of ho",
+				"h city i"
 			]
 		},
 		{
@@ -107,6 +117,11 @@
 				". They ",
 				"x. You'r"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
