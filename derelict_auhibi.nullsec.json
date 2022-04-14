@@ -1,0 +1,81 @@
+{
+	"_id": "derelict_auhibi.nullsec",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_auhibi.nullsec",
+	"sector": "HJG_3854",
+	"sec_level": 4,
+	"date_added": 1649944714561,
+	"last_scraped": 1649944830868,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1649944714561
+		},
+		{
+			"type": "died",
+			"when": 1649944830868
+		},
+		{
+			"type": "died",
+			"when": 1649944992575
+		}
+	],
+	"updt": 1649944934666,
+	"edit": 2,
+	"scrape_ct": 20,
+	"next_scrape": 1650026274676,
+	"category": "coin_flipper",
+	"last_update": 1649944740956,
+	"output": [
+		{
+			"args": {},
+			"calls": 3117,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"0011 0",
+				"0100 00",
+				"100 0011",
+				"0000 000",
+				"000 0000",
+				"0 0000 0",
+				" 0000 00",
+				"000\\n0000",
+				"00 0000\\n"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0011 0",
+						"0100 00",
+						"100 0011",
+						"0000 000",
+						"000 0000",
+						"0 0000 0",
+						" 0000 00",
+						"000\\n0000",
+						"00 0000\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0011 0",
+				"0100 00",
+				"100 0011",
+				"0000 000",
+				"000 0000",
+				"0 0000 0",
+				" 0000 00",
+				"000\\n0000",
+				"00 0000\\n"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_auhibi.nullsec: script doesn't exist\"}"
+}
