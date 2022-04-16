@@ -1,26 +1,34 @@
 {
 	"_id": "abandoned_sesgon.public",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_sesgon.public",
 	"sector": "HJG_3854",
 	"sec_level": 4,
 	"date_added": 1650095406198,
-	"last_scraped": 1650096516679,
+	"last_scraped": 1650096697954,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650095406198
+		},
+		{
+			"type": "died",
+			"when": 1650096697954
+		},
+		{
+			"type": "died",
+			"when": 1650097128725
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1650096576679,
+	"scrape_ct": 8,
+	"next_scrape": 1650186779749,
 	"category": "plant_sim",
-	"last_update": 1650096516679,
+	"last_update": 1650096609469,
 	"output": [
 		{
 			"args": {},
-			"calls": 9108,
+			"calls": 9986,
 			"base": "c:\"3u5wb6\" d:\"<f l n s w>\"\n\n\n\n\n\n                 \n                 .\n                 ",
 			"fragments": [
 				"356_F",
@@ -110,6 +118,7 @@
 			]
 		}
 	],
-	"updt": 1650096408110,
-	"edit": 5
+	"updt": 1650096800508,
+	"edit": 7,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_sesgon.public: script doesn't exist\"}"
 }
