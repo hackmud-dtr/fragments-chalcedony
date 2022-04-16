@@ -6,26 +6,21 @@
 	"sector": "K_5130",
 	"sec_level": 4,
 	"date_added": 1650117241826,
-	"last_scraped": 1650117281911,
+	"last_scraped": 1650118097224,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650117241826
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1650117341911,
+	"scrape_ct": 7,
+	"next_scrape": 1650118157224,
 	"category": "fishie_tank",
-	"last_update": 1650117300323,
+	"last_update": 1650118078272,
 	"output": [
 		{
 			"args": {},
-			"calls": 3972,
+			"calls": 29826,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ir sta",
@@ -34,13 +29,26 @@
 				"scard\\n2",
 				"\\n2175 A",
 				"tack\\n217"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ir sta",
+						"rd\\n217",
+						" discar",
+						"scard\\n2",
+						"\\n2175 A",
+						"tack\\n217"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1187,
+			"calls": 6861,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -48,6 +56,62 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ir sta",
+				"rd\\n217",
+				" discar",
+				"scard\\n2",
+				"\\n2175 A",
+				"tack\\n217"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ir sta",
+						"rd\\n217",
+						" discar",
+						"scard\\n2",
+						"\\n2175 A",
+						"tack\\n217"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26189,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ir sta",
+				"rd\\n217",
+				" discar",
+				"scard\\n2",
+				"\\n2175 A",
+				"tack\\n217"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ir sta",
+						"rd\\n217",
+						" discar",
+						"scard\\n2",
+						"\\n2175 A",
+						"tack\\n217"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1650117904244,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"ir sta",
 				"rd\\n217",
 				" discar",
