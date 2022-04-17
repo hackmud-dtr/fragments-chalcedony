@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_ccunwh.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_ccunwh.db",
 	"sector": "SPC_3109",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1642298094449
+		},
+		{
+			"type": "died",
+			"when": 1650209984624
 		}
 	],
-	"updt": 1642298101417,
-	"edit": 1,
+	"updt": 1642298296118,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -40,5 +44,6 @@
 				" Ahead o"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
