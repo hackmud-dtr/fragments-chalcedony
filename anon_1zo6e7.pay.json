@@ -1,7 +1,7 @@
 {
 	"_id": "anon_1zo6e7.pay",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_1zo6e7.pay",
 	"sector": "SPC_3109",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1642298094449
+		},
+		{
+			"type": "died",
+			"when": 1650311427550
 		}
 	],
-	"updt": 1642298296118,
-	"edit": 2,
+	"updt": 1642298490652,
+	"edit": 3,
 	"scrape_ct": 18,
 	"next_scrape": 1642298323862,
 	"category": "risk_factor",
@@ -319,5 +323,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
