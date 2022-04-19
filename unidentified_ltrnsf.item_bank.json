@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ltrnsf.item_bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_ltrnsf.item_bank",
 	"sector": "K_5130",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1650400372001
+		},
+		{
+			"type": "died",
+			"when": 1650402148250
 		}
 	],
 	"scrape_ct": 19,
@@ -92,5 +96,7 @@
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1650400501886,
+	"edit": 1
 }
