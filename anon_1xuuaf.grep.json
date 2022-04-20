@@ -1,0 +1,86 @@
+{
+	"_id": "anon_1xuuaf.grep",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_1xuuaf.grep",
+	"sector": "K_5130",
+	"sec_level": 4,
+	"date_added": 1650433584344,
+	"last_scraped": 1650433653778,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1650433584344
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1650433713778,
+	"category": "fishie_tank",
+	"last_update": 1650433653778,
+	"output": [
+		{
+			"args": {},
+			"calls": 3926,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" this ",
+				"?\\n20D6",
+				" let me",
+				"s lane.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" this ",
+						"?\\n20D6",
+						" let me",
+						"s lane.\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 876,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" this ",
+				"?\\n20D6",
+				" let me",
+				"s lane.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6381,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" this ",
+				"?\\n20D6",
+				" let me",
+				"s lane.\\n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" this ",
+				"?\\n20D6",
+				" let me",
+				"s lane.\\n"
+			]
+		}
+	]
+}
