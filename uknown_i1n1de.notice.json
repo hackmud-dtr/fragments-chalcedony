@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_i1n1de.notice",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_i1n1de.notice",
 	"sector": "NGC_2480",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1650529116057
+		},
+		{
+			"type": "died",
+			"when": 1650531290207
 		}
 	],
 	"retry_args": [
@@ -60,5 +64,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1650529674660,
+	"edit": 1
 }
