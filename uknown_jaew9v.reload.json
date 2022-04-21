@@ -6,26 +6,21 @@
 	"sector": "NGC_2480",
 	"sec_level": 4,
 	"date_added": 1650510432254,
-	"last_scraped": 1650510496620,
+	"last_scraped": 1650510695217,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650510432254
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1650510556620,
+	"scrape_ct": 17,
+	"next_scrape": 1650510755217,
 	"category": "fishie_tank",
-	"last_update": 1650510513713,
+	"last_update": 1650510695217,
 	"output": [
 		{
 			"args": {},
-			"calls": 4359,
+			"calls": 8572,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ke I ",
@@ -53,13 +48,28 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1134,
+			"calls": 2066,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"ke I ",
+				"d of ",
+				"A7 Ahea",
+				"0AE Of ",
+				" Of cour",
+				"o?\\n20AE "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12462,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ke I ",
 				"d of ",
@@ -82,5 +92,7 @@
 				"o?\\n20AE "
 			]
 		}
-	]
+	],
+	"updt": 1650510529403,
+	"edit": 1
 }
