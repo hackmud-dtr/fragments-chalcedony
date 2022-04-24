@@ -1,23 +1,27 @@
 {
 	"_id": "unidentified_ztszb0.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_ztszb0.db",
 	"sector": "K_8683",
 	"sec_level": 4,
 	"date_added": 1650798566891,
-	"last_scraped": 1650799940058,
+	"last_scraped": 1650799975112,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650798566891
+		},
+		{
+			"type": "died",
+			"when": 1650800659009
 		}
 	],
-	"updt": 1650799753666,
-	"edit": 6,
-	"next_scrape": 1650845347864,
+	"updt": 1650800145637,
+	"edit": 8,
+	"next_scrape": 1650841608668,
 	"category": "fishie_tank",
-	"last_update": 1650799940058,
+	"last_update": 1650799975112,
 	"output": [
 		{
 			"args": {},
@@ -79,7 +83,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8977,
+			"calls": 10280,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -120,7 +124,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 37768,
+			"calls": 41973,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"reduce",
@@ -173,14 +177,6 @@
 				"initiate",
 				" is redu"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
