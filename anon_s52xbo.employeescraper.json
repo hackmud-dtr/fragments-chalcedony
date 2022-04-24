@@ -1,12 +1,12 @@
 {
 	"_id": "anon_s52xbo.employeescraper",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anon_s52xbo.employeescraper",
 	"sector": "SPC_4297",
 	"sec_level": 4,
 	"date_added": 1650823051535,
-	"last_scraped": 1650823105933,
+	"last_scraped": 1650829251053,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1650913114035,
+	"next_scrape": 1650910788783,
 	"category": "risk_factor",
-	"last_update": 1650823087968,
+	"last_update": 1650829251053,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 111,
+			"calls": 228,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"torage",
@@ -50,11 +50,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1650823201977,
+	"edit": 1
 }
