@@ -1,45 +1,56 @@
 {
 	"_id": "unidentified_ztszb0.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_ztszb0.db",
 	"sector": "K_8683",
 	"sec_level": 4,
 	"date_added": 1650798566891,
-	"last_scraped": 1650798886104,
+	"last_scraped": 1650799940058,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650798566891
 		}
 	],
-	"updt": 1650798778176,
-	"edit": 2,
-	"scrape_ct": 15,
-	"next_scrape": 1650798946104,
+	"updt": 1650799753666,
+	"edit": 6,
+	"next_scrape": 1650845347864,
 	"category": "fishie_tank",
-	"last_update": 1650798886104,
+	"last_update": 1650799940058,
 	"output": [
 		{
 			"args": {},
-			"calls": 14391,
+			"calls": 52179,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				" Defe",
-				"mbat\\n",
+				"reduce",
+				"F on d",
 				"ed by ",
 				"EAKs i",
-				"ate co",
-				"t\\n215F",
+				" turn.",
 				"nder BR",
 				"n defen",
-				"fender ",
+				"educed ",
 				"e comba",
-				" 1.\\n21",
+				"duced b",
+				"der BRE",
+				"defende",
+				"215F on",
+				"s initia",
 				"r BREAKs",
 				"nder tur",
 				"initiate",
-				" is redu"
+				"fender B",
+				"Defender",
+				"bat\\n215",
+				"ate comb",
+				"at\\n215F",
+				"5E Defen",
+				"1.\\n215E",
+				" is redu",
+				"by 1.\\n21",
+				" combat\\n"
 			],
 			"hits": [
 				{
@@ -68,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2723,
+			"calls": 8977,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,45 +87,69 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" Defe",
-				"mbat\\n",
+				"reduce",
+				"F on d",
 				"ed by ",
 				"EAKs i",
-				"ate co",
-				"t\\n215F",
+				" turn.",
 				"nder BR",
 				"n defen",
-				"fender ",
+				"educed ",
 				"e comba",
-				" 1.\\n21",
+				"duced b",
+				"der BRE",
+				"defende",
+				"215F on",
+				"s initia",
 				"r BREAKs",
 				"nder tur",
 				"initiate",
-				" is redu"
+				"fender B",
+				"Defender",
+				"bat\\n215",
+				"ate comb",
+				"at\\n215F",
+				"5E Defen",
+				"1.\\n215E",
+				" is redu",
+				"by 1.\\n21",
+				" combat\\n"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 12390,
+			"calls": 37768,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" Defe",
-				"mbat\\n",
+				"reduce",
+				"F on d",
 				"ed by ",
 				"EAKs i",
-				"ate co",
-				"t\\n215F",
+				" turn.",
 				"nder BR",
 				"n defen",
-				"fender ",
+				"educed ",
 				"e comba",
-				" 1.\\n21",
+				"duced b",
+				"der BRE",
+				"defende",
+				"215F on",
+				"s initia",
 				"r BREAKs",
 				"nder tur",
 				"initiate",
-				" is redu"
+				"fender B",
+				"Defender",
+				"bat\\n215",
+				"ate comb",
+				"at\\n215F",
+				"5E Defen",
+				"1.\\n215E",
+				" is redu",
+				"by 1.\\n21",
+				" combat\\n"
 			]
 		}
 	],
@@ -138,6 +173,14 @@
 				"initiate",
 				" is redu"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
