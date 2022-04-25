@@ -1,26 +1,25 @@
 {
 	"_id": "anon_1us9k5.cake",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_1us9k5.cake",
 	"sector": "SPC_4297",
 	"sec_level": 4,
 	"date_added": 1650845222755,
-	"last_scraped": 1650846231384,
+	"last_scraped": 1650853516801,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650845222755
 		}
 	],
-	"scrape_ct": 6,
-	"next_scrape": 1650846291384,
+	"next_scrape": 1650898550423,
 	"category": "fishie_tank",
-	"last_update": 1650846248944,
+	"last_update": 1650853516801,
 	"output": [
 		{
 			"args": {},
-			"calls": 37209,
+			"calls": 55629,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" I wi",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7540,
+			"calls": 11323,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,7 +70,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 35801,
+			"calls": 57875,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" I wi",
@@ -98,11 +97,6 @@
 			]
 		}
 	],
-	"updt": 1650846073946,
-	"edit": 5,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1650853499836,
+	"edit": 9
 }
