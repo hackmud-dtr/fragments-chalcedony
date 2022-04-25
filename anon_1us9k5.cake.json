@@ -1,0 +1,108 @@
+{
+	"_id": "anon_1us9k5.cake",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_1us9k5.cake",
+	"sector": "SPC_4297",
+	"sec_level": 4,
+	"date_added": 1650845222755,
+	"last_scraped": 1650845652938,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1650845222755
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1650845712938,
+	"category": "fishie_tank",
+	"last_update": 1650845670553,
+	"output": [
+		{
+			"args": {},
+			"calls": 20089,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" I wi",
+				"stmas.",
+				"ll.\\n2",
+				"istmas",
+				"llory. I",
+				"221D Mer",
+				"\\n221D M"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" I wi",
+						"stmas.",
+						"ll.\\n2",
+						"istmas",
+						"llory. I",
+						"221D Mer",
+						"\\n221D M"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4374,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" I wi",
+				"stmas.",
+				"ll.\\n2",
+				"istmas",
+				"llory. I",
+				"221D Mer",
+				"\\n221D M"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13471,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" I wi",
+				"stmas.",
+				"ll.\\n2",
+				"istmas",
+				"llory. I",
+				"221D Mer",
+				"\\n221D M"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" I wi",
+				"stmas.",
+				"ll.\\n2",
+				"istmas",
+				"llory. I",
+				"221D Mer",
+				"\\n221D M"
+			]
+		}
+	],
+	"updt": 1650845486110,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
