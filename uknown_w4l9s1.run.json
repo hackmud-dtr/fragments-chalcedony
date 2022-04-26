@@ -6,21 +6,124 @@
 	"sector": "SPC_7612",
 	"sec_level": 4,
 	"date_added": 1650960342240,
-	"last_scraped": 1650960398395,
+	"last_scraped": 1650960686913,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650960342240
 		}
 	],
-	"retry_args": [
+	"scrape_ct": 15,
+	"next_scrape": 1650960746913,
+	"category": "fishie_tank",
+	"last_update": 1650960686913,
+	"output": [
 		{
-			"do": "feed"
+			"args": {},
+			"calls": 7388,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"sugge",
+				"nific",
+				"c att",
+				"ts tha",
+				"t vecto",
+				"cant po",
+				" - sugg",
+				"hat a si",
+				"bility a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"sugge",
+						"nific",
+						"c att",
+						"ts tha",
+						"t vecto",
+						"cant po",
+						" - sugg",
+						"hat a si",
+						"bility a"
+					]
+				}
+			]
 		},
 		{
-			"do": "clean"
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3002,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"sugge",
+				"nific",
+				"c att",
+				"ts tha",
+				"t vecto",
+				"cant po",
+				" - sugg",
+				"hat a si",
+				"bility a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"sugge",
+						"nific",
+						"c att",
+						"ts tha",
+						"t vecto",
+						"cant po",
+						" - sugg",
+						"hat a si",
+						"bility a"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12925,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"sugge",
+				"nific",
+				"c att",
+				"ts tha",
+				"t vecto",
+				"cant po",
+				" - sugg",
+				"hat a si",
+				"bility a"
+			]
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1650960458395
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+			"frags": [
+				"sugge",
+				"nific",
+				"c att",
+				"ts tha",
+				"t vecto",
+				"cant po",
+				" - sugg",
+				"hat a si",
+				"bility a"
+			]
+		}
+	],
+	"updt": 1650960595423,
+	"edit": 1
 }
