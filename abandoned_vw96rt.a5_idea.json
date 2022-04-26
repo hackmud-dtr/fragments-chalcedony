@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_vw96rt.a5_idea",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_vw96rt.a5_idea",
 	"sector": "SPC_7612",
 	"sec_level": 4,
 	"date_added": 1650971899011,
-	"last_scraped": 1650972680112,
+	"last_scraped": 1650979538457,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650971899011
 		}
 	],
-	"updt": 1650972321778,
-	"edit": 3,
-	"scrape_ct": 9,
-	"next_scrape": 1650972740112,
+	"updt": 1650973497157,
+	"edit": 7,
+	"next_scrape": 1651020647548,
 	"category": "fishie_tank",
-	"last_update": 1650972680112,
+	"last_update": 1650979538457,
 	"output": [
 		{
 			"args": {},
-			"calls": 23596,
+			"calls": 45242,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t sta",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4844,
+			"calls": 9152,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,7 +69,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18290,
+			"calls": 40457,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t sta",
@@ -93,6 +92,11 @@
 				"## for",
 				"ll func"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
