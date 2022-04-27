@@ -1,27 +1,27 @@
 {
 	"_id": "anon_gwaszm.boring",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_gwaszm.boring",
 	"sector": "VNP_5337",
 	"sec_level": 4,
 	"date_added": 1645931847068,
-	"last_scraped": 1651072199774,
+	"last_scraped": 1651079142046,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645931847068
 		}
 	],
-	"updt": 1651065756244,
-	"edit": 1075,
-	"next_scrape": 1651115665536,
+	"updt": 1651072207993,
+	"edit": 1076,
+	"next_scrape": 1651123113401,
 	"category": "fishie_tank",
-	"last_update": 1651072199774,
+	"last_update": 1651079179551,
 	"output": [
 		{
 			"args": {},
-			"calls": 4139641,
+			"calls": 4148952,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s han",
@@ -61,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 918548,
+			"calls": 919275,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"own That",
 				"Built\",\""
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
