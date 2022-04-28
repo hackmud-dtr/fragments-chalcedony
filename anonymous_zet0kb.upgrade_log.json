@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_zet0kb.upgrade_log",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_zet0kb.upgrade_log",
 	"sector": "SPC_8078",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1650923355706
+		},
+		{
+			"type": "died",
+			"when": 1651168536211
 		}
 	],
 	"retry_args": [
@@ -39,5 +43,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1650923468828,
+	"edit": 1
 }
