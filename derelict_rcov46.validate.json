@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_rcov46.validate",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_rcov46.validate",
 	"sector": "SPC_2301",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1643328543555
+		},
+		{
+			"type": "died",
+			"when": 1651381372595
 		}
 	],
 	"retry_args": [
@@ -52,6 +56,7 @@
 			]
 		}
 	],
-	"updt": 1643328638655,
-	"edit": 1
+	"updt": 1643328835530,
+	"edit": 2,
+	"cannot_identify": true
 }
