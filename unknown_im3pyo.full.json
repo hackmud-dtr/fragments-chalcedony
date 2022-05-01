@@ -6,22 +6,22 @@
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648195684547,
-	"last_scraped": 1651380949577,
+	"last_scraped": 1651387029716,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648195684547
 		}
 	],
-	"updt": 1651374766994,
-	"edit": 616,
-	"next_scrape": 1651427242554,
+	"updt": 1651381017924,
+	"edit": 617,
+	"next_scrape": 1651431047800,
 	"category": "fishie_tank",
-	"last_update": 1651380949577,
+	"last_update": 1651387048393,
 	"output": [
 		{
 			"args": {},
-			"calls": 2401702,
+			"calls": 2406187,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"card p",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 519918,
+			"calls": 520822,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,6 +92,11 @@
 				"the lane",
 				"\\n216C t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
