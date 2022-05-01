@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jy9xcx.decorruptor",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_jy9xcx.decorruptor",
 	"sector": "HJG_2488",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "HJG_2488",
 				"to": "NGC_6876"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1651438214246
+		}
 	],
 	"pl_output": "t1g3r_5h0t.decorruptor{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:\nt1g3r_5h0t.decorruptor {{ target:#s.{0}, args:{1} }}",
 	"next_scrape": 1642705440971,
-	"updt": 1642704329903,
-	"edit": 2058,
+	"updt": 1642705505965,
+	"edit": 2059,
 	"scrape_ct": 14,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1642705380971,
