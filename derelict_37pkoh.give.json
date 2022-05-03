@@ -1,16 +1,107 @@
 {
 	"_id": "derelict_37pkoh.give",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "npc",
 	"script": "derelict_37pkoh.give",
 	"sector": "NGC_1466",
 	"sec_level": 4,
 	"date_added": 1651619383428,
-	"last_scraped": 0,
+	"last_scraped": 1651621135427,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651619383428
+		}
+	],
+	"updt": 1651620977577,
+	"edit": 6,
+	"next_scrape": 1651667814468,
+	"category": "fishie_tank",
+	"last_update": 1651621135427,
+	"output": [
+		{
+			"args": {},
+			"calls": 44193,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"utogov",
+				"ruptio",
+				"on as ",
+				"heir r",
+				"quence ",
+				"process",
+				"e on Ch",
+				"d proce"
+			],
+			"hits": [
+				{
+					"document": "MFT0X87_CLST0X1C_SECT0XA42E_FILE0XE19B2A90",
+					"frags": [
+						"utogov",
+						"ruptio",
+						"on as ",
+						"heir r",
+						"quence ",
+						"process",
+						"e on Ch",
+						"d proce"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 9835,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"utogov",
+				"ruptio",
+				"on as ",
+				"heir r",
+				"quence ",
+				"process",
+				"e on Ch",
+				"d proce"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 55409,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"utogov",
+				"ruptio",
+				"on as ",
+				"heir r",
+				"quence ",
+				"process",
+				"e on Ch",
+				"d proce"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X87_CLST0X1C_SECT0XA42E_FILE0XE19B2A90",
+			"frags": [
+				"utogov",
+				"ruptio",
+				"on as ",
+				"heir r",
+				"quence ",
+				"process",
+				"e on Ch",
+				"d proce"
+			]
 		}
 	]
 }
