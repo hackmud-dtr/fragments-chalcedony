@@ -1,12 +1,12 @@
 {
 	"_id": "anon_w1iln4.broken_boy",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_w1iln4.broken_boy",
-	"sector": "K_2714",
+	"sector": "NGC_5122",
 	"sec_level": 4,
 	"date_added": 1648166038282,
-	"last_scraped": 1651574439878,
+	"last_scraped": 1651575541949,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1651575394281
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1651575502155,
+				"from": "NGC_5122",
+				"to": "K_2714"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1651660842062,
-	"updt": 1651574466630,
-	"edit": 572
+	"next_scrape": 1651655619116,
+	"updt": 1651575445147,
+	"edit": 573
 }
