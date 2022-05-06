@@ -1,0 +1,101 @@
+{
+	"_id": "uknown_6iwx44.reloader",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_6iwx44.reloader",
+	"sector": "NGC_5755",
+	"sec_level": 4,
+	"date_added": 1651856188550,
+	"last_scraped": 1651856243903,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1651856188550
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1651856303903,
+	"category": "fishie_tank",
+	"last_update": 1651856243903,
+	"output": [
+		{
+			"args": {},
+			"calls": 3109,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ng in",
+				"g in ",
+				"ig one",
+				" is th",
+				"m. ## Hi",
+				"is the b",
+				"Hi! This"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ng in",
+						"g in ",
+						"ig one",
+						" is th",
+						"m. ## Hi",
+						"is the b",
+						"Hi! This"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 661,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ng in",
+				"g in ",
+				"ig one",
+				" is th",
+				"m. ## Hi",
+				"is the b",
+				"Hi! This"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 2104,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ng in",
+				"g in ",
+				"ig one",
+				" is th",
+				"m. ## Hi",
+				"is the b",
+				"Hi! This"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"ng in",
+				"g in ",
+				"ig one",
+				" is th",
+				"m. ## Hi",
+				"is the b",
+				"Hi! This"
+			]
+		}
+	]
+}
