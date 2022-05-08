@@ -1,0 +1,101 @@
+{
+	"_id": "abandoned_uhs2jf.age_old_sec",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "abandoned_uhs2jf.age_old_sec",
+	"sector": "K_0875",
+	"sec_level": 4,
+	"date_added": 1652022392707,
+	"last_scraped": 1652022874615,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1652022392707
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1652114993500,
+	"category": "fishie_tank",
+	"last_update": 1652022874615,
+	"output": [
+		{
+			"args": {},
+			"calls": 16651,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"Their",
+				"\",\"he",
+				"ave We",
+				" Worth",
+				"CT0X63A"
+			],
+			"hits": [
+				{
+					"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+					"frags": [
+						"Their",
+						"\",\"he",
+						"ave We",
+						" Worth",
+						"CT0X63A"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2813,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"Their",
+				"\",\"he",
+				"ave We",
+				" Worth",
+				"CT0X63A"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14918,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"Their",
+				"\",\"he",
+				"ave We",
+				" Worth",
+				"CT0X63A"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+			"frags": [
+				"Their",
+				"\",\"he",
+				"ave We",
+				" Worth",
+				"CT0X63A"
+			]
+		}
+	],
+	"updt": 1652022758379,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
