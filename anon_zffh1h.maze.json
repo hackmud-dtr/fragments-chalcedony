@@ -1,7 +1,7 @@
 {
 	"_id": "anon_zffh1h.maze",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_zffh1h.maze",
 	"sector": "K_0732",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1652134278139
+		},
+		{
+			"type": "died",
+			"when": 1652137033828
 		}
 	],
-	"updt": 1652134326125,
-	"edit": 1,
+	"updt": 1652134522103,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -79,5 +83,6 @@
 				"ate and "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
