@@ -6,30 +6,31 @@
 	"sector": "NGC_5755",
 	"sec_level": 4,
 	"date_added": 1651842116115,
-	"last_scraped": 1652061858407,
+	"last_scraped": 1652068862679,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651842116115
 		}
 	],
-	"next_scrape": 1652102945508,
+	"next_scrape": 1652115327978,
 	"category": "fishie_tank",
-	"last_update": 1652061858407,
+	"last_update": 1652068862679,
 	"output": [
 		{
 			"args": {},
-			"calls": 168054,
+			"calls": 172406,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ted t",
+				"2132 ",
 				"urself",
 				"32 you",
 				"212F B",
+				"\\n2132",
 				" yours",
 				" you w",
 				"you wan",
-				"self\\n2",
 				"24 :)\\n",
 				"12F But",
 				"you coul",
@@ -38,10 +39,13 @@
 				"ould hiv",
 				"ou could",
 				"hive you",
+				"f\\n2137 ",
 				"d to,\\n2",
 				"d hive y",
 				"2F But i",
-				"137 take"
+				"137 take",
+				")\\n212F ",
+				"self\\n213"
 			],
 			"hits": [
 				{
@@ -146,6 +150,14 @@
 			]
 		}
 	],
-	"updt": 1652061837873,
-	"edit": 38
+	"updt": 1652062032584,
+	"edit": 39,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
