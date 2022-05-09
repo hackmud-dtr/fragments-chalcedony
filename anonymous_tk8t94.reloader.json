@@ -1,0 +1,111 @@
+{
+	"_id": "anonymous_tk8t94.reloader",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_tk8t94.reloader",
+	"sector": "K_0875",
+	"sec_level": 4,
+	"date_added": 1652105102578,
+	"last_scraped": 1652105790218,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1652105102578
+		}
+	],
+	"scrape_ct": 10,
+	"next_scrape": 1652105850218,
+	"category": "fishie_tank",
+	"last_update": 1652105790218,
+	"output": [
+		{
+			"args": {},
+			"calls": 23729,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"onsen",
+				" that",
+				"that w",
+				"preced",
+				"e deem",
+				"lvable ",
+				"ildren "
+			],
+			"hits": [
+				{
+					"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+					"frags": [
+						"onsen",
+						" that",
+						"that w",
+						"preced",
+						"e deem",
+						"lvable ",
+						"ildren "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4467,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"onsen",
+				" that",
+				"that w",
+				"preced",
+				"e deem",
+				"lvable ",
+				"ildren "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 18903,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"onsen",
+				" that",
+				"that w",
+				"preced",
+				"e deem",
+				"lvable ",
+				"ildren "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+			"frags": [
+				"onsen",
+				" that",
+				"that w",
+				"preced",
+				"e deem",
+				"lvable ",
+				"ildren "
+			]
+		}
+	],
+	"updt": 1652105605442,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
