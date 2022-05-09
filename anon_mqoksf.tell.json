@@ -6,29 +6,54 @@
 	"sector": "HJG_3967",
 	"sec_level": 4,
 	"date_added": 1652088059928,
-	"last_scraped": 1652088516388,
+	"last_scraped": 1652089385861,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652088059928
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1652088576388,
+	"scrape_ct": 0,
+	"next_scrape": 1652089445861,
 	"category": "fishie_tank",
-	"last_update": 1652088516388,
+	"last_update": 1652089297144,
 	"output": [
 		{
 			"args": {},
-			"calls": 16250,
+			"calls": 35930,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"must ",
-				"gins ",
-				"cards ",
+				"when c",
+				" TRAP ",
+				" must ",
+				" face ",
+				"wn when",
+				"own whe",
+				"n when ",
+				"must be",
+				"face do",
+				"begins ",
+				"ards mu",
 				"67 face",
-				"t\\n2168 ",
-				"\\n2167 f"
+				"2168 be",
+				"168 beg",
+				"167 fac",
+				" combat",
+				"TRAP car",
+				"rds must",
+				"RAP card",
+				"P cards ",
+				"en comba",
+				"be\\n2167",
+				"at\\n2168",
+				"ace down",
+				"68 begin",
+				" down wh",
+				"t\\n2168 b",
+				"t be\\n216",
+				"e\\n2167 f",
+				"combat\\n2",
+				"\\n2167 fa"
 			],
 			"hits": [
 				{
@@ -48,7 +73,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3568,
+			"calls": 8865,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,25 +81,35 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"must ",
-				"face ",
-				"ce do",
-				" TRAP",
 				"when c",
-				"ust be",
-				"down w",
-				"2168 b",
-				"rds mus",
+				" TRAP ",
+				" must ",
+				" face ",
+				"wn when",
+				"own whe",
+				"n when ",
+				"must be",
+				"face do",
 				"begins ",
 				"ards mu",
-				"AP card",
 				"67 face",
+				"2168 be",
 				"168 beg",
+				"167 fac",
+				" combat",
 				"TRAP car",
-				"t\\n2168 ",
+				"rds must",
+				"RAP card",
 				"P cards ",
+				"en comba",
 				"be\\n2167",
-				" be\\n216",
+				"at\\n2168",
+				"ace down",
+				"68 begin",
+				" down wh",
+				"t\\n2168 b",
+				"t be\\n216",
+				"e\\n2167 f",
 				"combat\\n2",
 				"\\n2167 fa"
 			]
@@ -83,28 +118,38 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14960,
+			"calls": 40163,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"must ",
-				"face ",
-				"ce do",
-				" TRAP",
 				"when c",
-				"ust be",
-				"down w",
-				"2168 b",
-				"rds mus",
+				" TRAP ",
+				" must ",
+				" face ",
+				"wn when",
+				"own whe",
+				"n when ",
+				"must be",
+				"face do",
 				"begins ",
 				"ards mu",
-				"AP card",
 				"67 face",
+				"2168 be",
 				"168 beg",
+				"167 fac",
+				" combat",
 				"TRAP car",
-				"t\\n2168 ",
+				"rds must",
+				"RAP card",
 				"P cards ",
+				"en comba",
 				"be\\n2167",
-				" be\\n216",
+				"at\\n2168",
+				"ace down",
+				"68 begin",
+				" down wh",
+				"t\\n2168 b",
+				"t be\\n216",
+				"e\\n2167 f",
 				"combat\\n2",
 				"\\n2167 fa"
 			]
@@ -123,6 +168,14 @@
 			]
 		}
 	],
-	"updt": 1652088414389,
-	"edit": 2
+	"updt": 1652089001462,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
