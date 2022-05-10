@@ -1,20 +1,28 @@
 {
 	"_id": "anon_2q3zul.gib",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_2q3zul.gib",
-	"sector": "NGC_1877",
+	"sector": "HJG_9397",
 	"sec_level": 2,
 	"date_added": 1648322413091,
-	"last_scraped": 1648450624438,
+	"last_scraped": 1652140093829,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648322413091
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1652140045244,
+				"from": "HJG_9397",
+				"to": "NGC_1877"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}",
-	"next_scrape": 1648534128751,
-	"updt": 1648450715146,
-	"edit": 24
+	"next_scrape": 1652230413851,
+	"updt": 1648456774646,
+	"edit": 25
 }
