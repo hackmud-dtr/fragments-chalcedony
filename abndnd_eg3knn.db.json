@@ -6,20 +6,20 @@
 	"sector": "HJG_9251",
 	"sec_level": 4,
 	"date_added": 1649121121234,
-	"last_scraped": 1652388486517,
+	"last_scraped": 1652397503725,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649121121234
 		}
 	],
-	"next_scrape": 1652429801494,
+	"next_scrape": 1652439401080,
 	"category": "fishie_tank",
-	"last_update": 1652388486517,
+	"last_update": 1652397503725,
 	"output": [
 		{
 			"args": {},
-			"calls": 2211580,
+			"calls": 2216299,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | US",
@@ -33,7 +33,6 @@
 				"ajbhand",
 				" PROG E",
 				" imiyaw",
-				" | USER",
 				" | PROG",
 				"W ERROR ",
 				"TIME ERR",
@@ -51,7 +50,8 @@
 				"bhandari",
 				" USER er",
 				" ERROR |",
-				" erajbha"
+				" erajbha",
+				" | USER "
 			],
 			"hits": [
 				{
@@ -72,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 505820,
+			"calls": 506559,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +91,6 @@
 				"ajbhand",
 				" PROG E",
 				" imiyaw",
-				" | USER",
 				" | PROG",
 				"W ERROR ",
 				"TIME ERR",
@@ -109,14 +108,15 @@
 				"bhandari",
 				" USER er",
 				" ERROR |",
-				" erajbha"
+				" erajbha",
+				" | USER "
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2220284,
+			"calls": 2224855,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R | US",
@@ -130,7 +130,6 @@
 				"ajbhand",
 				" PROG E",
 				" imiyaw",
-				" | USER",
 				" | PROG",
 				"W ERROR ",
 				"TIME ERR",
@@ -148,7 +147,8 @@
 				"bhandari",
 				" USER er",
 				" ERROR |",
-				" erajbha"
+				" erajbha",
+				" | USER "
 			]
 		}
 	],
@@ -166,6 +166,6 @@
 			]
 		}
 	],
-	"updt": 1652380547534,
-	"edit": 608
+	"updt": 1652388554543,
+	"edit": 609
 }
