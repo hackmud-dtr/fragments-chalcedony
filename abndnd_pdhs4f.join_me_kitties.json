@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_pdhs4f.join_me_kitties",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_pdhs4f.join_me_kitties",
 	"sector": "K_7852",
 	"sec_level": 4,
 	"date_added": 1652468148164,
-	"last_scraped": 1652523836297,
+	"last_scraped": 1652532376192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652468148164
 		}
 	],
-	"next_scrape": 1652569408344,
+	"next_scrape": 1652572700627,
 	"category": "fishie_tank",
-	"last_update": 1652523836297,
+	"last_update": 1652532376192,
 	"output": [
 		{
 			"args": {},
-			"calls": 78792,
+			"calls": 98265,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" the ",
@@ -107,6 +107,14 @@
 			]
 		}
 	],
-	"updt": 1652516174213,
-	"edit": 13
+	"updt": 1652523993855,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
