@@ -6,31 +6,33 @@
 	"sector": "SPC_6941",
 	"sec_level": 4,
 	"date_added": 1652423719974,
-	"last_scraped": 1652573012186,
+	"last_scraped": 1652580579602,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652423719974
 		}
 	],
-	"updt": 1652565814843,
-	"edit": 29,
-	"next_scrape": 1652616291072,
+	"updt": 1652573039504,
+	"edit": 30,
+	"next_scrape": 1652621460583,
 	"category": "fishie_tank",
-	"last_update": 1652573012186,
+	"last_update": 1652580579602,
 	"output": [
 		{
 			"args": {},
-			"calls": 139841,
+			"calls": 144222,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"FT0X0",
+				"0XC4_",
 				"T0X08_",
-				"0X08_C",
-				"T0X8926",
-				"0X8926_",
+				"MFT0X08",
 				"08_CLST",
+				"_CLST0X",
+				"CT0X8926",
 				"C4_SECT0",
+				"0X8926_F",
+				"0X08_CLS",
 				"_SECT0X8"
 			],
 			"hits": [
@@ -86,7 +88,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 28313,
+			"calls": 29230,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -94,13 +96,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"FT0X0",
+				"0XC4_",
 				"T0X08_",
-				"0X08_C",
-				"T0X8926",
-				"0X8926_",
+				"MFT0X08",
 				"08_CLST",
+				"_CLST0X",
+				"CT0X8926",
 				"C4_SECT0",
+				"0X8926_F",
+				"0X08_CLS",
 				"_SECT0X8"
 			],
 			"hits": [
@@ -156,16 +160,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 120599,
+			"calls": 125147,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"FT0X0",
+				"0XC4_",
 				"T0X08_",
-				"0X08_C",
-				"T0X8926",
-				"0X8926_",
+				"MFT0X08",
 				"08_CLST",
+				"_CLST0X",
+				"CT0X8926",
 				"C4_SECT0",
+				"0X8926_F",
+				"0X08_CLS",
 				"_SECT0X8"
 			],
 			"hits": [
