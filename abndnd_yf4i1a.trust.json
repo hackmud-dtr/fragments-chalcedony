@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_yf4i1a.trust",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_yf4i1a.trust",
 	"sector": "HJG_2888",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1647048868443
+		},
+		{
+			"type": "died",
+			"when": 1652801538628
 		}
 	],
 	"retry_args": [
@@ -56,5 +60,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1647048942886,
+	"edit": 1
 }
