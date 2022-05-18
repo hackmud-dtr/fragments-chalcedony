@@ -6,31 +6,33 @@
 	"sector": "K_5130",
 	"sec_level": 4,
 	"date_added": 1650475097532,
-	"last_scraped": 1652824202593,
+	"last_scraped": 1652832171598,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650475097532
 		}
 	],
-	"next_scrape": 1652864937259,
+	"next_scrape": 1652877430018,
 	"category": "fishie_tank",
-	"last_update": 1652824202593,
+	"last_update": 1652832171598,
 	"output": [
 		{
 			"args": {},
-			"calls": 1431647,
+			"calls": 1436827,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"SYST ",
-				"YST ER",
+				"E0XEEF",
+				"YST ERR",
+				"SYST ER",
 				"ILE0XEE",
 				"ST ERROR",
 				"ERROR | ",
-				"902D6\\nS",
 				"6_FILE0X",
 				"0XEEF902",
-				"_FILE0XE"
+				"_FILE0XE",
+				"EF902D6\\n",
+				"902D6\\nSY"
 			],
 			"hits": [
 				{
@@ -54,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 317856,
+			"calls": 318821,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,15 +64,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"SYST ",
-				"YST ER",
+				"E0XEEF",
+				"YST ERR",
+				"SYST ER",
 				"ILE0XEE",
 				"ST ERROR",
 				"ERROR | ",
-				"902D6\\nS",
 				"6_FILE0X",
 				"0XEEF902",
-				"_FILE0XE"
+				"_FILE0XE",
+				"EF902D6\\n",
+				"902D6\\nSY"
 			],
 			"hits": [
 				{
@@ -94,18 +98,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1444775,
+			"calls": 1449480,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"SYST ",
-				"YST ER",
+				"E0XEEF",
+				"YST ERR",
+				"SYST ER",
 				"ILE0XEE",
 				"ST ERROR",
 				"ERROR | ",
-				"902D6\\nS",
 				"6_FILE0X",
 				"0XEEF902",
-				"_FILE0XE"
+				"_FILE0XE",
+				"EF902D6\\n",
+				"902D6\\nSY"
 			],
 			"hits": [
 				{
@@ -126,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1652816458495,
-	"edit": 398,
+	"updt": 1652824272776,
+	"edit": 399,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
