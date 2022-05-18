@@ -1,25 +1,29 @@
 {
 	"_id": "uknown_ckv1ro.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_ckv1ro.bot_scam_do_not_run",
 	"sector": "K_1955",
 	"sec_level": 4,
 	"date_added": 1645409186010,
-	"last_scraped": 1646136900953,
+	"last_scraped": 1646140970768,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1645409186010
+		},
+		{
+			"type": "died",
+			"when": 1652863449723
 		}
 	],
-	"next_scrape": 1646178597633,
+	"next_scrape": 1646231361564,
 	"category": "fishie_tank",
-	"last_update": 1646136900953,
+	"last_update": 1646140970768,
 	"output": [
 		{
 			"args": {},
-			"calls": 928024,
+			"calls": 930277,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ing t",
@@ -97,6 +101,14 @@
 			]
 		}
 	],
-	"updt": 1646137065776,
-	"edit": 244
+	"updt": 1646141165422,
+	"edit": 246,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
