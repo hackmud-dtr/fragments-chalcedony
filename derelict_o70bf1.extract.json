@@ -1,0 +1,103 @@
+{
+	"_id": "derelict_o70bf1.extract",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_o70bf1.extract",
+	"sector": "SPC_0085",
+	"sec_level": 4,
+	"date_added": 1653123818938,
+	"last_scraped": 1653124036869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1653123818938
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1653124096869,
+	"category": "fishie_tank",
+	"last_update": 1653124036869,
+	"output": [
+		{
+			"args": {},
+			"calls": 8010,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"n. ##",
+				"his da",
+				"re life",
+				"is day ",
+				"have wa",
+				"e life ",
+				" waited "
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"n. ##",
+						"his da",
+						"re life",
+						"is day ",
+						"have wa",
+						"e life ",
+						" waited "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1871,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n. ##",
+				"his da",
+				"re life",
+				"is day ",
+				"have wa",
+				"e life ",
+				" waited "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12048,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"n. ##",
+				"his da",
+				"re life",
+				"is day ",
+				"have wa",
+				"e life ",
+				" waited "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"n. ##",
+				"his da",
+				"re life",
+				"is day ",
+				"have wa",
+				"e life ",
+				" waited "
+			]
+		}
+	],
+	"updt": 1653123861580,
+	"edit": 1
+}
