@@ -1,12 +1,12 @@
 {
 	"_id": "anon_fcsmk3.borrow",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_fcsmk3.borrow",
-	"sector": "K_1701",
+	"sector": "HJG_9397",
 	"sec_level": 2,
 	"date_added": 1647763506234,
-	"last_scraped": 0,
+	"last_scraped": 1653264256359,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1653263867602
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1653264203077,
+				"from": "HJG_9397",
+				"to": "K_1701"
+			}
+		]
 	],
-	"updt": 1647763544028,
-	"edit": 1
+	"updt": 1653263978910,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1653352314837
 }
