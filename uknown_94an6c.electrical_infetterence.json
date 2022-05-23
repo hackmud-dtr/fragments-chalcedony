@@ -1,25 +1,34 @@
 {
 	"_id": "uknown_94an6c.electrical_infetterence",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "uknown_94an6c.electrical_infetterence",
 	"sector": "NGC_2699",
 	"sec_level": 4,
 	"date_added": 1653317091049,
-	"last_scraped": 1653318603641,
+	"last_scraped": 1653317115458,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653317091049
 		}
 	],
-	"next_scrape": 1653363975684,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1653317175458,
 	"category": "fishie_tank",
-	"last_update": 1653318603641,
+	"last_update": 1653317115458,
 	"output": [
 		{
 			"args": {},
-			"calls": 46158,
+			"calls": 3273,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ule: ",
@@ -50,49 +59,6 @@
 					]
 				}
 			]
-		},
-		{
-			"args": {
-				"do": "feed"
-			},
-			"calls": 10361,
-			"base": [
-				"Fishies are happy.",
-				"actuly they look fine",
-				"they are still hungry?",
-				"they don't look so good"
-			],
-			"fragments": [
-				"ule: ",
-				"orkin",
-				"for s",
-				"are o",
-				"parame",
-				"meters",
-				"edule:",
-				"stage 2.",
-				"schedule",
-				"arameter"
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 43418,
-			"base": "Fishies are happy. Algea eaters are displeased.",
-			"fragments": [
-				"ule: ",
-				"orkin",
-				"for s",
-				"are o",
-				"parame",
-				"meters",
-				"edule:",
-				"stage 2.",
-				"schedule",
-				"arameter"
-			]
 		}
 	],
 	"identified": [
@@ -111,7 +77,5 @@
 				"arameter"
 			]
 		}
-	],
-	"updt": 1653318498643,
-	"edit": 7
+	]
 }
