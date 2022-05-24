@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_jwlnvy.post",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_jwlnvy.post",
 	"sector": "VNP_7578",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1653381600279
+		},
+		{
+			"type": "died",
+			"when": 1653383566713
 		}
 	],
-	"updt": 1653381638530,
-	"edit": 1,
+	"updt": 1653381832566,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -53,5 +57,6 @@
 				" OF OUR "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
