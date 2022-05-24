@@ -1,24 +1,23 @@
 {
 	"_id": "derelict_7wj1um.bank",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_7wj1um.bank",
 	"sector": "VNP_7578",
 	"sec_level": 4,
 	"date_added": 1653380429550,
-	"last_scraped": 1653382015242,
+	"last_scraped": 1653382069398,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653380429550
 		}
 	],
-	"updt": 1653381832566,
-	"edit": 7,
-	"scrape_ct": 0,
-	"next_scrape": 1653382075242,
+	"updt": 1653382026747,
+	"edit": 8,
+	"next_scrape": 1653423508682,
 	"category": "fishie_tank",
-	"last_update": 1653382015242,
+	"last_update": 1653382069398,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8414,
+			"calls": 9332,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,7 +69,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 33675,
+			"calls": 36319,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rity ",
@@ -93,14 +92,6 @@
 				" the sec",
 				" no. ## "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
