@@ -1,25 +1,25 @@
 {
 	"_id": "anon_2vejeo.breach",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_2vejeo.breach",
 	"sector": "VNP_8804",
 	"sec_level": 4,
 	"date_added": 1652842361326,
-	"last_scraped": 1653637824628,
+	"last_scraped": 1653647230282,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652842361326
 		}
 	],
-	"next_scrape": 1653680149006,
+	"next_scrape": 1653687191084,
 	"category": "fishie_tank",
-	"last_update": 1653637824628,
+	"last_update": 1653647379684,
 	"output": [
 		{
 			"args": {},
-			"calls": 385422,
+			"calls": 389747,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" have",
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 84975,
+			"calls": 91571,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -87,6 +87,11 @@
 			]
 		}
 	],
-	"updt": 1653627701500,
-	"edit": 104
+	"updt": 1653647242110,
+	"edit": 106,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
