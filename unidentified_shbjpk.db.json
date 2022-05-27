@@ -1,21 +1,21 @@
 {
 	"_id": "unidentified_shbjpk.db",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "unidentified_shbjpk.db",
 	"sector": "HJG_3854",
 	"sec_level": 4,
 	"date_added": 1650074567882,
-	"last_scraped": 1653612698869,
+	"last_scraped": 1653612643969,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650074567882
 		}
 	],
-	"next_scrape": 1653695121198,
+	"next_scrape": 1653656780980,
 	"category": "fishie_tank",
-	"last_update": 1653612698869,
+	"last_update": 1653612643969,
 	"output": [
 		{
 			"args": {},
@@ -74,7 +74,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 460563,
+			"calls": 459767,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,7 +118,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2045854,
+			"calls": 2041289,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y com",
@@ -170,6 +170,14 @@
 			]
 		}
 	],
-	"updt": 1653612648774,
-	"edit": 573
+	"updt": 1653603460614,
+	"edit": 572,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
