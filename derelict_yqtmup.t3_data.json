@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_yqtmup.t3_data",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_yqtmup.t3_data",
 	"sector": "NGC_6544",
 	"sec_level": 4,
 	"date_added": 1653490667516,
-	"last_scraped": 1653745320694,
+	"last_scraped": 1653757288086,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653490667516
 		}
 	],
-	"updt": 1653735604717,
-	"edit": 35,
-	"next_scrape": 1653785002461,
+	"updt": 1653745371911,
+	"edit": 36,
+	"next_scrape": 1653803421267,
 	"category": "fishie_tank",
-	"last_update": 1653745320694,
+	"last_update": 1653757323135,
 	"output": [
 		{
 			"args": {},
-			"calls": 156228,
+			"calls": 158424,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"elian",
@@ -53,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 32377,
+			"calls": 33385,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -132,6 +132,11 @@
 				"Che-deri",
 				"and proc"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
