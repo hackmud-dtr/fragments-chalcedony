@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_8852ry.medusa",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_8852ry.medusa",
-	"sector": "VNP_0640",
+	"sector": "VNP_9735",
 	"sec_level": 1,
 	"date_added": 1650259003560,
-	"last_scraped": 1653732412854,
+	"last_scraped": 1653739829081,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1653739052473
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1653739804319,
+				"from": "VNP_9735",
+				"to": "VNP_0640"
+			}
+		]
 	],
-	"updt": 1653732477067,
-	"edit": 475,
+	"updt": 1653739120881,
+	"edit": 476,
 	"pl_output": "{\"ok\":false,\"msg\":\"#1\"}",
-	"next_scrape": 1653825742364
+	"next_scrape": 1653825906375
 }
