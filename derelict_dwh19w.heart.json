@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_dwh19w.heart",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_dwh19w.heart",
 	"sector": "K_5130",
 	"sec_level": 4,
 	"date_added": 1650484749517,
-	"last_scraped": 1653710084500,
+	"last_scraped": 1653719360567,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650484749517
+		},
+		{
+			"type": "died",
+			"when": 1653719360567
+		},
+		{
+			"type": "died",
+			"when": 1653719877031
 		}
 	],
-	"next_scrape": 1653754807756,
+	"next_scrape": 1653802520315,
 	"category": "dice_roller",
 	"last_update": 1653710084500,
 	"output": [
@@ -87,6 +95,7 @@
 			]
 		}
 	],
-	"updt": 1653701006901,
-	"edit": 440
+	"updt": 1653719371862,
+	"edit": 442,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_dwh19w.heart: script doesn't exist\"}"
 }
