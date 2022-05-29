@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_9d78l1.update",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_9d78l1.update",
 	"sector": "K_7852",
 	"sec_level": 4,
 	"date_added": 1652731894773,
-	"last_scraped": 1653804426277,
+	"last_scraped": 1653814480285,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652731894773
 		}
 	],
-	"next_scrape": 1653847816781,
+	"next_scrape": 1653903569496,
 	"category": "fishie_tank",
-	"last_update": 1653804426277,
+	"last_update": 1653814480285,
 	"output": [
 		{
 			"args": {},
-			"calls": 534661,
+			"calls": 537674,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t onl",
@@ -107,6 +107,14 @@
 			]
 		}
 	],
-	"updt": 1653804415864,
-	"edit": 148
+	"updt": 1653804613369,
+	"edit": 149,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
