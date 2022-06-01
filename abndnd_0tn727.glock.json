@@ -1,9 +1,9 @@
 {
 	"_id": "abndnd_0tn727.glock",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "abndnd_0tn727.glock",
-	"sector": "K_2003",
+	"sector": "SPC_7632",
 	"sec_level": 2,
 	"date_added": 1650692705637,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1654087801146
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1654088129388,
+				"from": "SPC_7632",
+				"to": "K_2003"
+			}
+		]
 	],
-	"updt": 1650693060329,
-	"edit": 1
+	"updt": 1654087833676,
+	"edit": 2
 }
