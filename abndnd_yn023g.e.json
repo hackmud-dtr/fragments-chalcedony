@@ -1,0 +1,184 @@
+{
+	"_id": "abndnd_yn023g.e",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_yn023g.e",
+	"sector": "K_0445",
+	"sec_level": 4,
+	"date_added": 1654053123712,
+	"last_scraped": 1654053608019,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1654053123712
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1654053668019,
+	"category": "fishie_tank",
+	"last_update": 1654053624266,
+	"output": [
+		{
+			"args": {},
+			"calls": 17071,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"8_CLS",
+				"0XC4_",
+				"08_CL",
+				"SECT0X",
+				"MFT0X08",
+				"LST0XC4",
+				"_CLST0XC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"0XC4_",
+						"SECT0X",
+						"LST0XC4",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"8_CLS",
+						"SECT0X",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"08_CL",
+						"MFT0X08"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3718,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"8_CLS",
+				"0XC4_",
+				"08_CL",
+				"SECT0X",
+				"MFT0X08",
+				"LST0XC4",
+				"_CLST0XC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"0XC4_",
+						"SECT0X",
+						"LST0XC4",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"8_CLS",
+						"SECT0X",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"08_CL",
+						"MFT0X08"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12551,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"8_CLS",
+				"0XC4_",
+				"08_CL",
+				"SECT0X",
+				"MFT0X08",
+				"LST0XC4",
+				"_CLST0XC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"0XC4_",
+						"SECT0X",
+						"LST0XC4",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"8_CLS",
+						"SECT0X",
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"08_CL",
+						"MFT0X08"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"0XC4_",
+				"SECT0X",
+				"LST0XC4",
+				"_CLST0XC"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"8_CLS",
+				"SECT0X",
+				"_CLST0XC"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"08_CL",
+				"MFT0X08"
+			]
+		}
+	],
+	"updt": 1654053441449,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
