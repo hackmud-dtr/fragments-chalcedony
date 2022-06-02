@@ -1,16 +1,32 @@
 {
 	"_id": "abandoned_4z4an6.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_4z4an6.bank",
-	"sector": "NGC_1877",
+	"sector": "SPC_7632",
 	"sec_level": 2,
 	"date_added": 1649638604620,
-	"last_scraped": 0,
+	"last_scraped": 1654210954478,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649638604620
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1654210908962
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1654210923971,
+				"from": "SPC_7632",
+				"to": "NGC_1877"
+			}
+		]
+	],
+	"updt": 1649638726977,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1654298790954
 }
