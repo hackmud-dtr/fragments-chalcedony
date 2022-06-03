@@ -1,27 +1,28 @@
 {
 	"_id": "anon_b6rxs7.solve_tresham",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_b6rxs7.solve_tresham",
 	"sector": "HJG_7138",
 	"sec_level": 4,
 	"date_added": 1654236374713,
-	"last_scraped": 1654237902284,
+	"last_scraped": 1654237264718,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654236374713
 		}
 	],
-	"updt": 1654237765884,
-	"edit": 8,
-	"next_scrape": 1654284289036,
+	"updt": 1654237179356,
+	"edit": 5,
+	"scrape_ct": 7,
+	"next_scrape": 1654237324718,
 	"category": "fishie_tank",
-	"last_update": 1654237902284,
+	"last_update": 1654237264718,
 	"output": [
 		{
 			"args": {},
-			"calls": 38544,
+			"calls": 24731,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s. I ",
@@ -53,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8687,
+			"calls": 5529,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 45752,
+			"calls": 31016,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s. I ",
