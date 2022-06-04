@@ -1,0 +1,116 @@
+{
+	"_id": "abndnd_25mki4.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_25mki4.bot_brain",
+	"sector": "HJG_7138",
+	"sec_level": 4,
+	"date_added": 1654386361582,
+	"last_scraped": 1654386699517,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1654386361582
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1654386759517,
+	"category": "fishie_tank",
+	"last_update": 1654386699517,
+	"output": [
+		{
+			"args": {},
+			"calls": 10436,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the h",
+				"s to ",
+				"ld or",
+				"it ju",
+				"gets ",
+				" beca",
+				"Not th",
+				" make ",
+				"e heat,",
+				"ough. No"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"the h",
+						"s to ",
+						"ld or",
+						"it ju",
+						"gets ",
+						" beca",
+						"Not th",
+						" make ",
+						"e heat,",
+						"ough. No"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2350,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the h",
+				"s to ",
+				"ld or",
+				"it ju",
+				"gets ",
+				" beca",
+				"Not th",
+				" make ",
+				"e heat,",
+				"ough. No"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13536,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"the h",
+				"s to ",
+				"ld or",
+				"it ju",
+				"gets ",
+				" beca",
+				"Not th",
+				" make ",
+				"e heat,",
+				"ough. No"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"the h",
+				"s to ",
+				"ld or",
+				"it ju",
+				"gets ",
+				" beca",
+				"Not th",
+				" make ",
+				"e heat,",
+				"ough. No"
+			]
+		}
+	]
+}
