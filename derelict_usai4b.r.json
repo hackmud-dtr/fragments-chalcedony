@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_usai4b.r",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_usai4b.r",
 	"sector": "VNP_4997",
 	"sec_level": 4,
 	"date_added": 1651979248374,
-	"last_scraped": 1654644001856,
+	"last_scraped": 1654654002192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651979248374
+		},
+		{
+			"type": "died",
+			"when": 1654654002192
+		},
+		{
+			"type": "died",
+			"when": 1654654005053
 		}
 	],
-	"next_scrape": 1654685392747,
+	"next_scrape": 1654738326548,
 	"category": "coin_flipper",
 	"last_update": 1654644001856,
 	"output": [
@@ -116,6 +124,7 @@
 			]
 		}
 	],
-	"updt": 1654633796315,
-	"edit": 308
+	"updt": 1654644155518,
+	"edit": 309,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_usai4b.r: script doesn't exist\"}"
 }
