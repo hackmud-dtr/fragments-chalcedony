@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_x4n1mf.t1_scraper",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_x4n1mf.t1_scraper",
 	"sector": "HJG_6902",
 	"sec_level": 4,
 	"date_added": 1654714947189,
-	"last_scraped": 1654715086094,
+	"last_scraped": 1654725713767,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1654808229236,
+	"next_scrape": 1654808353510,
 	"category": "risk_factor",
-	"last_update": 1654715068710,
+	"last_update": 1654725713767,
 	"output": [
 		{
 			"args": {},
@@ -34,7 +34,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 231,
+			"calls": 333,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"lt to",
@@ -512,11 +512,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1654715104827,
+	"edit": 1
 }
