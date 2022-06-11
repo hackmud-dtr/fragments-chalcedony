@@ -1,28 +1,36 @@
 {
 	"_id": "unidentified_8ip2rr.tag",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_8ip2rr.tag",
 	"sector": "SPC_1865",
 	"sec_level": 4,
 	"date_added": 1654972610393,
-	"last_scraped": 1654973853725,
+	"last_scraped": 1654974036162,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654972610393
+		},
+		{
+			"type": "died",
+			"when": 1654974036162
+		},
+		{
+			"type": "died",
+			"when": 1654974445235
 		}
 	],
-	"updt": 1654973669593,
-	"edit": 5,
-	"scrape_ct": 8,
-	"next_scrape": 1654973913725,
+	"updt": 1654974060542,
+	"edit": 7,
+	"scrape_ct": 7,
+	"next_scrape": 1655057932825,
 	"category": "coin_flipper",
-	"last_update": 1654973853725,
+	"last_update": 1654973944178,
 	"output": [
 		{
 			"args": {},
-			"calls": 64510,
+			"calls": 67393,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"am th",
@@ -87,5 +95,6 @@
 				"r\\n2088 :"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_8ip2rr.tag: script doesn't exist\"}"
 }
