@@ -1,21 +1,29 @@
 {
 	"_id": "unknown_3gh5sk.override",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_3gh5sk.override",
 	"sector": "NGC_5122",
 	"sec_level": 4,
 	"date_added": 1651553309729,
-	"last_scraped": 1654894891812,
+	"last_scraped": 1654905656724,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651553309729
+		},
+		{
+			"type": "died",
+			"when": 1654905656724
+		},
+		{
+			"type": "died",
+			"when": 1654905704331
 		}
 	],
-	"updt": 1654885126768,
-	"edit": 448,
-	"next_scrape": 1654939136294,
+	"updt": 1654894904892,
+	"edit": 449,
+	"next_scrape": 1654987054083,
 	"category": "fishie_tank",
 	"last_update": 1654894891812,
 	"output": [
@@ -203,5 +211,6 @@
 				"ks.\\n2151"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_3gh5sk.override: script doesn't exist\"}"
 }
