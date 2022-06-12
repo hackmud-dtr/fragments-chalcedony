@@ -1,7 +1,7 @@
 {
 	"_id": "anon_sgwcf3.banking_min",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_sgwcf3.banking_min",
 	"sector": "K_0425",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1649297636345
+		},
+		{
+			"type": "died",
+			"when": 1655042214132
 		}
 	],
 	"next_scrape": 1649454519862,
@@ -87,8 +91,8 @@
 			]
 		}
 	],
-	"updt": 1649362025550,
-	"edit": 20,
+	"updt": 1649367695798,
+	"edit": 21,
 	"retry_args": [
 		{
 			"do": "feed"
