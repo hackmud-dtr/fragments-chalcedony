@@ -6,14 +6,14 @@
 	"sector": "HJG_7241",
 	"sec_level": 4,
 	"date_added": 1653959542186,
-	"last_scraped": 1655080479786,
+	"last_scraped": 1655091509274,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653959542186
 		}
 	],
-	"next_scrape": 1655122870432,
+	"next_scrape": 1655132495171,
 	"category": "fishie_tank",
 	"last_update": 1655080479786,
 	"output": [
@@ -105,8 +105,8 @@
 			]
 		}
 	],
-	"updt": 1655070794610,
-	"edit": 131,
+	"updt": 1655080565732,
+	"edit": 132,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -116,6 +116,14 @@
 				" BODY Hi",
 				" | BODY "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
