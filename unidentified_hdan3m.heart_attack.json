@@ -1,21 +1,29 @@
 {
 	"_id": "unidentified_hdan3m.heart_attack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_hdan3m.heart_attack",
 	"sector": "NGC_1957",
 	"sec_level": 4,
 	"date_added": 1654864966280,
-	"last_scraped": 1655091346694,
+	"last_scraped": 1655101443354,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654864966280
+		},
+		{
+			"type": "died",
+			"when": 1655101443354
+		},
+		{
+			"type": "died",
+			"when": 1655101488895
 		}
 	],
-	"updt": 1655080371537,
-	"edit": 33,
-	"next_scrape": 1655131548888,
+	"updt": 1655101478644,
+	"edit": 35,
+	"next_scrape": 1655187598142,
 	"category": "plant_sim",
 	"last_update": 1655091346694,
 	"output": [
@@ -152,5 +160,6 @@
 				" underst"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_hdan3m.heart_attack: script doesn't exist\"}"
 }
