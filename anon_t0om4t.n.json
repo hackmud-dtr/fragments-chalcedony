@@ -1,38 +1,43 @@
 {
 	"_id": "anon_t0om4t.n",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anon_t0om4t.n",
 	"sector": "SPC_5802",
 	"sec_level": 4,
 	"date_added": 1655255289070,
-	"last_scraped": 1655257006735,
+	"last_scraped": 1655257259506,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655255289070
+		},
+		{
+			"type": "died",
+			"when": 1655257259506
+		},
+		{
+			"type": "died",
+			"when": 1655257414250
 		}
 	],
-	"scrape_ct": 5,
-	"next_scrape": 1655257066735,
+	"scrape_ct": 4,
+	"next_scrape": 1655346147282,
 	"category": "dice_roller",
-	"last_update": 1655257006735,
+	"last_update": 1655257132186,
 	"output": [
 		{
 			"args": {},
-			"calls": 63856,
+			"calls": 71643,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"X8C851",
-				"CLST0X",
 				"_CLST0",
 				"YST ERR",
 				"X69_SEC",
 				"ROR | N",
 				"R | NET",
 				"OR | NE",
-				"LST0X69",
-				"LE0X8C8",
 				"885F_FI",
 				"85F_FIL",
 				"5F_FILE",
@@ -42,10 +47,12 @@
 				"ST0X69_S",
 				"ST ERROR",
 				"MFT0X82_",
+				"LE0X8C85",
 				"FILE0X8C",
 				"F_FILE0X",
 				"ERROR | ",
 				"ECT0X885",
+				"CLST0X69",
 				"B2\\nSYST",
 				"9_SECT0X",
 				"69_SECT0",
@@ -82,8 +89,8 @@
 			]
 		}
 	],
-	"updt": 1655256838639,
-	"edit": 8,
+	"updt": 1655257226725,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -105,5 +112,6 @@
 				"2\\nSYST E"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_t0om4t.n: script doesn't exist\"}"
 }
