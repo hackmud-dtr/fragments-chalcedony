@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_1us3ys.rectifier",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_1us3ys.rectifier",
 	"sector": "SPC_5802",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1655278088617
+		},
+		{
+			"type": "died",
+			"when": 1655299828982
 		}
 	],
-	"updt": 1655278142150,
-	"edit": 1,
+	"updt": 1655278336985,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				" - this "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
