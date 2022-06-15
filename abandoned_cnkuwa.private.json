@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_cnkuwa.private",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_cnkuwa.private",
 	"sector": "VNP_8804",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1652912967478
+		},
+		{
+			"type": "died",
+			"when": 1655293148500
 		}
 	],
-	"updt": 1652912982745,
-	"edit": 1,
+	"updt": 1652913178091,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
