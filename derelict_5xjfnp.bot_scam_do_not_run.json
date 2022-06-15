@@ -6,39 +6,36 @@
 	"sector": "K_7852",
 	"sec_level": 4,
 	"date_added": 1652459267392,
-	"last_scraped": 1655291102879,
+	"last_scraped": 1655300974159,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652459267392
 		}
 	],
-	"updt": 1655281074421,
-	"edit": 351,
-	"next_scrape": 1655333615924,
+	"updt": 1655291237066,
+	"edit": 352,
+	"next_scrape": 1655345791848,
 	"category": "fishie_tank",
-	"last_update": 1655291102879,
+	"last_update": 1655300993019,
 	"output": [
 		{
 			"args": {},
-			"calls": 1228820,
+			"calls": 1231855,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"erson",
-				"119 Do",
 				"'I, yo",
 				" two p",
 				"you thi",
 				"two per",
 				"son gam",
-				"nk of t",
 				"I, you'",
+				"erson g",
 				"E You a",
 				"Do you ",
 				"211D as",
 				" you th",
 				" You ar",
-				" Do you",
 				"you'\\n21",
 				"wo perso",
 				"u'\\n2119",
@@ -46,14 +43,15 @@
 				"this\\n21",
 				"s a two ",
 				"on game?",
+				"nk of th",
 				"k of thi",
 				"hink of ",
 				"as a two",
+				"9 Do you",
 				"211E You",
 				"19 Do yo",
 				"11E You ",
 				"11D as a",
-				"\\n2119 D",
 				" of this",
 				" game?\\n",
 				" as a tw",
@@ -62,6 +60,8 @@
 				"is\\n211D ",
 				"f this\\n2",
 				"e?\\n211E ",
+				"\\n211E Yo",
+				"\\n2119 Do",
 				", you'\\n2"
 			],
 			"hits": [
@@ -84,7 +84,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 277763,
+			"calls": 278576,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,21 +92,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"erson",
-				"119 Do",
 				"'I, yo",
 				" two p",
 				"you thi",
 				"two per",
 				"son gam",
-				"nk of t",
 				"I, you'",
+				"erson g",
 				"E You a",
 				"Do you ",
 				"211D as",
 				" you th",
 				" You ar",
-				" Do you",
 				"you'\\n21",
 				"wo perso",
 				"u'\\n2119",
@@ -114,14 +111,15 @@
 				"this\\n21",
 				"s a two ",
 				"on game?",
+				"nk of th",
 				"k of thi",
 				"hink of ",
 				"as a two",
+				"9 Do you",
 				"211E You",
 				"19 Do yo",
 				"11E You ",
 				"11D as a",
-				"\\n2119 D",
 				" of this",
 				" game?\\n",
 				" as a tw",
@@ -130,6 +128,8 @@
 				"is\\n211D ",
 				"f this\\n2",
 				"e?\\n211E ",
+				"\\n211E Yo",
+				"\\n2119 Do",
 				", you'\\n2"
 			]
 		},
@@ -195,6 +195,11 @@
 				" of this",
 				"f this\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
