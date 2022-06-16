@@ -1,38 +1,56 @@
 {
 	"_id": "abndnd_gqpgea.search",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_gqpgea.search",
 	"sector": "HJG_4292",
 	"sec_level": 4,
 	"date_added": 1655358912676,
-	"last_scraped": 1655360164003,
+	"last_scraped": 1655361075198,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655358912676
+		},
+		{
+			"type": "died",
+			"when": 1655361075198
+		},
+		{
+			"type": "died",
+			"when": 1655361312811
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1655360224003,
+	"scrape_ct": 2,
+	"next_scrape": 1655440860839,
 	"category": "coin_flipper",
-	"last_update": 1655360164003,
+	"last_update": 1655360966797,
 	"output": [
 		{
 			"args": {},
-			"calls": 45897,
+			"calls": 72136,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"R | N",
-				"NETW ",
-				"E ERR",
-				"PROG E",
+				" | PRO",
+				"TIME ER",
 				"T ERROR",
+				"R | NET",
+				"| PROG ",
+				" PROG E",
+				"TW ERROR",
 				"RROR | U",
+				"RROR | P",
+				"RROR | N",
 				"ROR | TI",
 				"ROR | PR",
 				"ROG ERRO",
-				"| TIME E"
+				"OR | TIM",
+				"NETW ERR",
+				"IME ERRO",
+				"G ERROR ",
+				"ERROR | ",
+				"| TIME E",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -58,6 +76,7 @@
 			]
 		}
 	],
-	"updt": 1655359843634,
-	"edit": 4
+	"updt": 1655361209875,
+	"edit": 8,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_gqpgea.search: script doesn't exist\"}"
 }
