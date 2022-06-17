@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_growus.cat",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anonymous_growus.cat",
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655491997694,
-	"last_scraped": 1655492086167,
+	"last_scraped": 1655502232718,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1655573708580,
+	"next_scrape": 1655588245812,
 	"category": "risk_factor",
-	"last_update": 1655492068992,
+	"last_update": 1655502232718,
 	"output": [
 		{
 			"args": {},
@@ -45,15 +45,17 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 200,
+			"calls": 300,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"y wel",
 				"on't ",
 				" You'",
 				"ou'll ",
+				"F5 You",
 				"case\\n",
-				"4 Very",
 				" your ",
+				"ur case",
 				"u'll ne",
 				"n't hel",
 				"lp your",
@@ -62,7 +64,10 @@
 				"help you",
 				"hat won'",
 				"ell, the",
+				"1F4 Very",
+				"se\\n21F4 ",
 				"n.\\n21F5 ",
+				"en.\\n21F5",
 				"\\n21F5 Yo"
 			]
 		},
@@ -514,11 +519,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1655492164118,
+	"edit": 1
 }
