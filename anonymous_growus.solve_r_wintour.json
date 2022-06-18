@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_growus.solve_r_wintour",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_growus.solve_r_wintour",
 	"sector": "SPC_0085",
 	"sec_level": 4,
 	"date_added": 1653155099249,
-	"last_scraped": 1655506326732,
+	"last_scraped": 1655516499105,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653155099249
+		},
+		{
+			"type": "died",
+			"when": 1655516499105
 		}
 	],
-	"next_scrape": 1655549393622,
+	"next_scrape": 1655604913831,
 	"category": "coin_flipper",
 	"last_update": 1655506326732,
 	"output": [
@@ -121,6 +125,7 @@
 			]
 		}
 	],
-	"updt": 1655496659459,
-	"edit": 245
+	"updt": 1655506429994,
+	"edit": 246,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_growus.solve_r_wintour: script doesn't exist\"}"
 }
