@@ -1,12 +1,12 @@
 {
 	"_id": "anon_jr_mm2cpc.con_test",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "new",
 	"script": "anon_jr_mm2cpc.con_test",
-	"sector": "KIN_LAMBDA_2",
+	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1650553283779,
-	"last_scraped": 1655736640761,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1655738717519
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1655739405178,
+				"from": "NGC_7375",
+				"to": "KIN_LAMBDA_2"
+			}
+		]
 	],
 	"pl_output": "{}",
 	"next_scrape": 1655819097534,
-	"updt": 1655736692371,
-	"edit": 621
+	"updt": 1655738842772,
+	"edit": 622
 }

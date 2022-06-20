@@ -1,27 +1,27 @@
 {
 	"_id": "uknown_4rw8dn.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "uknown_4rw8dn.db",
 	"sector": "HJG_4513",
 	"sec_level": 4,
 	"date_added": 1649658163644,
-	"last_scraped": 1655729362768,
+	"last_scraped": 1655739522864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649658163644
 		}
 	],
-	"updt": 1655719091174,
-	"edit": 922,
-	"next_scrape": 1655769446366,
+	"updt": 1655729459064,
+	"edit": 923,
+	"next_scrape": 1655825447348,
 	"category": "fishie_tank",
-	"last_update": 1655729362768,
+	"last_update": 1655739522864,
 	"output": [
 		{
 			"args": {},
-			"calls": 3173593,
+			"calls": 3176583,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"st 04",
@@ -283,6 +283,14 @@
 				"ER, MAXW",
 				" ## Repo"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
