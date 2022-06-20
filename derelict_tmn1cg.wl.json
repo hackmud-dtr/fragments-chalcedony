@@ -1,20 +1,28 @@
 {
 	"_id": "derelict_tmn1cg.wl",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_tmn1cg.wl",
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655700070884,
-	"last_scraped": 1655701604393,
+	"last_scraped": 1655701694657,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655700070884
+		},
+		{
+			"type": "died",
+			"when": 1655701694657
+		},
+		{
+			"type": "died",
+			"when": 1655702301188
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1655701664393,
+	"next_scrape": 1655791693781,
 	"category": "dice_roller",
 	"last_update": 1655701604393,
 	"output": [
@@ -118,6 +126,7 @@
 			]
 		}
 	],
-	"updt": 1655701499325,
-	"edit": 8
+	"updt": 1655701889581,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_tmn1cg.wl: script doesn't exist\"}"
 }
