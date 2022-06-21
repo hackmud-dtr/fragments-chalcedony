@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_wyd2s5.maid",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_wyd2s5.maid",
 	"sector": "NGC_8235",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "NGC_8235",
 				"to": "K_7077"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1655792729963
+		}
 	],
-	"updt": 1646948879957,
-	"edit": 3,
+	"updt": 1646949074702,
+	"edit": 4,
 	"pl_output": "{\"ok\":false,\"msg\":\"TypeError: Cannot read property 'ok' of null\\n    at SC$image$render (image.render:6:9)\\n    at SC$uknown_wyd2s5$maid (uknown_wyd2s5.maid:6:9)\\n    at call (<anonymous>:11:69)\\n    at Object.SC$lore$scrape_fragments.args.t.call (lore.scrape_fragments:407:12)\\n    at extractBase (lore.scrape_fragments:431:17)\\n    at SC$lore$scrape_fragments (lore.scrape_fragments:522:12)\\n    at farmer_john.idle:6:9\\n    at SC$farmer_john$idle (farmer_john.idle:8:2)\\n    at <anonymous>:3:10\"}",
 	"next_scrape": 1644095846504
 }

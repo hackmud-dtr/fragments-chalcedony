@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_3ecioi.donate",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_3ecioi.donate",
 	"sector": "K_1701",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "K_1701",
 				"to": "SPC_2422"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1655792729963
+		}
 	],
 	"pl_output": "Thanks for your help",
 	"next_scrape": 1644098732200,
-	"updt": 1647657261430,
-	"edit": 3
+	"updt": 1647657456807,
+	"edit": 4
 }
