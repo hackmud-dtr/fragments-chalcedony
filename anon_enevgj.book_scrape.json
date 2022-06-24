@@ -1,0 +1,103 @@
+{
+	"_id": "anon_enevgj.book_scrape",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_enevgj.book_scrape",
+	"sector": "HJG_4953",
+	"sec_level": 4,
+	"date_added": 1656067917964,
+	"last_scraped": 1656068130229,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656067917964
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1656068190229,
+	"category": "fishie_tank",
+	"last_update": 1656068130229,
+	"output": [
+		{
+			"args": {},
+			"calls": 7729,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"reall",
+				"accep",
+				"out the",
+				"got to ",
+				"e assis",
+				"ot to ac",
+				"e got to"
+			],
+			"hits": [
+				{
+					"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+					"frags": [
+						"reall",
+						"accep",
+						"out the",
+						"got to ",
+						"e assis",
+						"ot to ac",
+						"e got to"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1658,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"reall",
+				"accep",
+				"out the",
+				"got to ",
+				"e assis",
+				"ot to ac",
+				"e got to"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7641,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"reall",
+				"accep",
+				"out the",
+				"got to ",
+				"e assis",
+				"ot to ac",
+				"e got to"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+			"frags": [
+				"reall",
+				"accep",
+				"out the",
+				"got to ",
+				"e assis",
+				"ot to ac",
+				"e got to"
+			]
+		}
+	],
+	"updt": 1656067991116,
+	"edit": 1
+}
