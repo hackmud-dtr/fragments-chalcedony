@@ -1,0 +1,103 @@
+{
+	"_id": "derelict_sx7eve.cripts",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_sx7eve.cripts",
+	"sector": "HJG_4953",
+	"sec_level": 4,
+	"date_added": 1656089293648,
+	"last_scraped": 1656089488530,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656089293648
+		}
+	],
+	"updt": 1656089302927,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1656089548530,
+	"category": "fishie_tank",
+	"last_update": 1656089488530,
+	"output": [
+		{
+			"args": {},
+			"calls": 6607,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"t Act",
+				"of th",
+				"erms ",
+				" Act.",
+				"ly-pro",
+				"ld's mos",
+				"and the "
+			],
+			"hits": [
+				{
+					"document": "MFT0X87_CLST0X1C_SECT0XA42E_FILE0XE19B2A90",
+					"frags": [
+						"t Act",
+						"of th",
+						"erms ",
+						" Act.",
+						"ly-pro",
+						"ld's mos",
+						"and the "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1686,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t Act",
+				"of th",
+				"erms ",
+				" Act.",
+				"ly-pro",
+				"ld's mos",
+				"and the "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10787,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"t Act",
+				"of th",
+				"erms ",
+				" Act.",
+				"ly-pro",
+				"ld's mos",
+				"and the "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X87_CLST0X1C_SECT0XA42E_FILE0XE19B2A90",
+			"frags": [
+				"t Act",
+				"of th",
+				"erms ",
+				" Act.",
+				"ly-pro",
+				"ld's mos",
+				"and the "
+			]
+		}
+	]
+}
