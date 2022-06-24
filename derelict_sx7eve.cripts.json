@@ -1,27 +1,28 @@
 {
 	"_id": "derelict_sx7eve.cripts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_sx7eve.cripts",
 	"sector": "HJG_4953",
 	"sec_level": 4,
 	"date_added": 1656089293648,
-	"last_scraped": 1656090814171,
+	"last_scraped": 1656090378922,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656089293648
 		}
 	],
-	"updt": 1656090474663,
-	"edit": 6,
-	"next_scrape": 1656134310022,
+	"updt": 1656090279668,
+	"edit": 5,
+	"scrape_ct": 5,
+	"next_scrape": 1656090438922,
 	"category": "fishie_tank",
-	"last_update": 1656090814171,
+	"last_update": 1656090378922,
 	"output": [
 		{
 			"args": {},
-			"calls": 39441,
+			"calls": 27006,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t Act",
@@ -51,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9768,
+			"calls": 6984,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,7 +73,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 39466,
+			"calls": 31496,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t Act",
