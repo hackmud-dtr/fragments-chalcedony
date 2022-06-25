@@ -6,21 +6,21 @@
 	"sector": "HJG_5856",
 	"sec_level": 4,
 	"date_added": 1656188450004,
-	"last_scraped": 1656189560024,
+	"last_scraped": 1656189938877,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656188450004
 		}
 	],
-	"scrape_ct": 5,
-	"next_scrape": 1656189620024,
+	"scrape_ct": 0,
+	"next_scrape": 1656189998877,
 	"category": "fishie_tank",
-	"last_update": 1656189560024,
+	"last_update": 1656189956728,
 	"output": [
 		{
 			"args": {},
-			"calls": 30791,
+			"calls": 41920,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rgue, ",
@@ -30,13 +30,27 @@
 				"cifical",
 				" We are",
 				"he futur"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"rgue, ",
+						"nd. Sp",
+						"ry, and",
+						"nst the",
+						"cifical",
+						" We are",
+						"he futur"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6905,
+			"calls": 10224,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,15 +65,59 @@
 				"cifical",
 				" We are",
 				"he futur"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"rgue, ",
+						"nd. Sp",
+						"ry, and",
+						"nst the",
+						"cifical",
+						" We are",
+						"he futur"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 31735,
+			"calls": 39177,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"rgue, ",
+				"nd. Sp",
+				"ry, and",
+				"nst the",
+				"cifical",
+				" We are",
+				"he futur"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"rgue, ",
+						"nd. Sp",
+						"ry, and",
+						"nst the",
+						"cifical",
+						" We are",
+						"he futur"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1656189577487,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
 				"rgue, ",
 				"nd. Sp",
 				"ry, and",
@@ -70,6 +128,9 @@
 			]
 		}
 	],
-	"updt": 1656189184250,
-	"edit": 4
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
