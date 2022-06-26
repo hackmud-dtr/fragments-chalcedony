@@ -1,0 +1,136 @@
+{
+	"_id": "uknown_68q4o8.b",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_68q4o8.b",
+	"sector": "HJG_5856",
+	"sec_level": 4,
+	"date_added": 1656231138030,
+	"last_scraped": 1656231764869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656231138030
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1656231824869,
+	"category": "fishie_tank",
+	"last_update": 1656231781671,
+	"output": [
+		{
+			"args": {},
+			"calls": 21414,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0_SECT",
+				"R | NET",
+				"OR | TI",
+				"ddr era",
+				"3_FILE0",
+				"| PROG ",
+				"SUBJ: Do"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"0_SECT",
+						"R | NET",
+						"OR | TI",
+						"ddr era",
+						"3_FILE0",
+						"| PROG ",
+						"SUBJ: Do"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3911,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0_SECT",
+				"R | NET",
+				"OR | TI",
+				"ddr era",
+				"3_FILE0",
+				"| PROG ",
+				"SUBJ: Do"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"0_SECT",
+						"R | NET",
+						"OR | TI",
+						"ddr era",
+						"3_FILE0",
+						"| PROG ",
+						"SUBJ: Do"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15946,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0_SECT",
+				"R | NET",
+				"OR | TI",
+				"ddr era",
+				"3_FILE0",
+				"| PROG ",
+				"SUBJ: Do"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"0_SECT",
+						"R | NET",
+						"OR | TI",
+						"ddr era",
+						"3_FILE0",
+						"| PROG ",
+						"SUBJ: Do"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1656231597084,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"0_SECT",
+				"R | NET",
+				"OR | TI",
+				"ddr era",
+				"3_FILE0",
+				"| PROG ",
+				"SUBJ: Do"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
