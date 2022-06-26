@@ -6,26 +6,21 @@
 	"sector": "HJG_5856",
 	"sec_level": 4,
 	"date_added": 1656204760793,
-	"last_scraped": 1656204779155,
+	"last_scraped": 1656205595273,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656204760793
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1656204839155,
+	"scrape_ct": 8,
+	"next_scrape": 1656205655273,
 	"category": "fishie_tank",
-	"last_update": 1656204797862,
+	"last_update": 1656205503956,
 	"output": [
 		{
 			"args": {},
-			"calls": 4769,
+			"calls": 26241,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"alue-",
@@ -36,13 +31,28 @@
 				"ke a to",
 				"le to cr",
 				"e her lo"
+			],
+			"hits": [
+				{
+					"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+					"frags": [
+						"alue-",
+						"r own,",
+						"her bl",
+						"e. If ",
+						" town.",
+						"ke a to",
+						"le to cr",
+						"e her lo"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 554,
+			"calls": 5138,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,7 +68,79 @@
 				"ke a to",
 				"le to cr",
 				"e her lo"
+			],
+			"hits": [
+				{
+					"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+					"frags": [
+						"alue-",
+						"r own,",
+						"her bl",
+						"e. If ",
+						" town.",
+						"ke a to",
+						"le to cr",
+						"e her lo"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21578,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"alue-",
+				"r own,",
+				"her bl",
+				"e. If ",
+				" town.",
+				"ke a to",
+				"le to cr",
+				"e her lo"
+			],
+			"hits": [
+				{
+					"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+					"frags": [
+						"alue-",
+						"r own,",
+						"her bl",
+						"e. If ",
+						" town.",
+						"ke a to",
+						"le to cr",
+						"e her lo"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1656205401742,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
+			"frags": [
+				"alue-",
+				"r own,",
+				"her bl",
+				"e. If ",
+				" town.",
+				"ke a to",
+				"le to cr",
+				"e her lo"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
