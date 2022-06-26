@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_d6tsik.bad_lib_dont_touch",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_d6tsik.bad_lib_dont_touch",
 	"sector": "HJG_5856",
 	"sec_level": 4,
 	"date_added": 1656188450004,
-	"last_scraped": 1656200309325,
+	"last_scraped": 1656210877855,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656188450004
+		},
+		{
+			"type": "died",
+			"when": 1656210877855
 		}
 	],
-	"next_scrape": 1656245803206,
+	"next_scrape": 1656303913066,
 	"category": "fishie_tank",
 	"last_update": 1656200309325,
 	"output": [
@@ -147,8 +151,8 @@
 			]
 		}
 	],
-	"updt": 1656190162556,
-	"edit": 7,
+	"updt": 1656200319622,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -162,5 +166,6 @@
 				"he futur"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_d6tsik.bad_lib_dont_touch: script doesn't exist\"}"
 }
