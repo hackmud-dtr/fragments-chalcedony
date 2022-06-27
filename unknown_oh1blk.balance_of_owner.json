@@ -1,0 +1,98 @@
+{
+	"_id": "unknown_oh1blk.balance_of_owner",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_oh1blk.balance_of_owner",
+	"sector": "NGC_4659",
+	"sec_level": 4,
+	"date_added": 1656294023372,
+	"last_scraped": 1656294494773,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656294023372
+		}
+	],
+	"scrape_ct": 13,
+	"next_scrape": 1656294554773,
+	"category": "fishie_tank",
+	"last_update": 1656294494773,
+	"output": [
+		{
+			"args": {},
+			"calls": 17212,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"_CLST",
+				"F227_F",
+				"E BOUN",
+				"_FILE0",
+				"T0X7A_SE",
+				"CE is ?."
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"_CLST",
+						"F227_F",
+						"E BOUN",
+						"_FILE0",
+						"T0X7A_SE",
+						"CE is ?."
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3354,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"_CLST",
+				"F227_F",
+				"E BOUN",
+				"_FILE0",
+				"T0X7A_SE",
+				"CE is ?."
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15659,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"_CLST",
+				"F227_F",
+				"E BOUN",
+				"_FILE0",
+				"T0X7A_SE",
+				"CE is ?."
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"_CLST",
+				"F227_F",
+				"E BOUN",
+				"_FILE0",
+				"T0X7A_SE",
+				"CE is ?."
+			]
+		}
+	],
+	"updt": 1656294336519,
+	"edit": 2
+}
