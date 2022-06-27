@@ -1,25 +1,26 @@
 {
 	"_id": "anon_clmg1y.inventory",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_clmg1y.inventory",
 	"sector": "NGC_4659",
 	"sec_level": 4,
 	"date_added": 1656343281388,
-	"last_scraped": 1656344337093,
+	"last_scraped": 1656343595430,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656343281388
 		}
 	],
-	"next_scrape": 1656389943838,
+	"scrape_ct": 13,
+	"next_scrape": 1656343655430,
 	"category": "clicker",
-	"last_update": 1656344337093,
+	"last_update": 1656343595430,
 	"output": [
 		{
 			"args": {},
-			"calls": 28086,
+			"calls": 9709,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"o you",
@@ -59,7 +60,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 28702,
+			"calls": 8286,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"o you",
@@ -80,7 +81,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 11197,
+			"calls": 2835,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"o you",
@@ -117,6 +118,11 @@
 			]
 		}
 	],
-	"updt": 1656344187120,
-	"edit": 4
+	"updt": 1656343406567,
+	"edit": 1,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
