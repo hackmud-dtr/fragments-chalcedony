@@ -1,25 +1,31 @@
 {
 	"_id": "uknown_qdrofy.me",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "uknown_qdrofy.me",
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656447223321,
-	"last_scraped": 1656448634378,
+	"last_scraped": 1656447243063,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656447223321
 		}
 	],
-	"next_scrape": 1656493054158,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1656447303063,
 	"category": "fishie_tank",
-	"last_update": 1656448634378,
+	"last_update": 1656447261268,
 	"output": [
 		{
 			"args": {},
-			"calls": 35868,
+			"calls": 4276,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"u say",
@@ -47,28 +53,13 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9591,
+			"calls": 959,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
-			"fragments": [
-				"u say",
-				"eed t",
-				" say ",
-				"ught y",
-				"omeone",
-				"l you sa"
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 38002,
-			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"u say",
 				"eed t",
@@ -91,7 +82,5 @@
 				"l you sa"
 			]
 		}
-	],
-	"updt": 1656448442750,
-	"edit": 7
+	]
 }

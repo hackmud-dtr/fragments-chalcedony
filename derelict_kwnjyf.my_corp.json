@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_kwnjyf.my_corp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_kwnjyf.my_corp",
 	"sector": "HJG_7241",
 	"sec_level": 4,
 	"date_added": 1653903782048,
-	"last_scraped": 1656437274479,
+	"last_scraped": 1656449701126,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653903782048
 		}
 	],
-	"next_scrape": 1656482801887,
+	"next_scrape": 1656540799278,
 	"category": "clicker",
-	"last_update": 1656437274479,
+	"last_update": 1656449701126,
 	"output": [
 		{
 			"args": {},
-			"calls": 942822,
+			"calls": 946024,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"times",
@@ -74,7 +74,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 984829,
+			"calls": 988250,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"times",
@@ -164,6 +164,11 @@
 			]
 		}
 	],
-	"updt": 1656426155686,
-	"edit": 281
+	"updt": 1656437305801,
+	"edit": 282,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
