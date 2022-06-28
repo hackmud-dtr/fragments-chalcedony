@@ -1,19 +1,23 @@
 {
 	"_id": "uknown_0jsed1.big_red_button",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_0jsed1.big_red_button",
 	"sector": "NGC_4659",
 	"sec_level": 4,
 	"date_added": 1656407411214,
-	"last_scraped": 1656421022585,
+	"last_scraped": 1656432275669,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656407411214
+		},
+		{
+			"type": "died",
+			"when": 1656432275669
 		}
 	],
-	"next_scrape": 1656462070358,
+	"next_scrape": 1656520683800,
 	"category": "coin_flipper",
 	"last_update": 1656421022585,
 	"output": [
@@ -62,8 +66,8 @@
 			]
 		}
 	],
-	"updt": 1656410130217,
-	"edit": 13,
+	"updt": 1656421080111,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -81,5 +85,6 @@
 				" about h"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_0jsed1.big_red_button: script doesn't exist\"}"
 }
