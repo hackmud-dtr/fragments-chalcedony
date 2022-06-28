@@ -1,19 +1,23 @@
 {
 	"_id": "unidentified_msruu0.atria_delta",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unidentified_msruu0.atria_delta",
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656407411214,
-	"last_scraped": 1656420154115,
+	"last_scraped": 1656431406793,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656407411214
+		},
+		{
+			"type": "died",
+			"when": 1656431406793
 		}
 	],
-	"next_scrape": 1656466739567,
+	"next_scrape": 1656524963321,
 	"category": "fishie_tank",
 	"last_update": 1656420154115,
 	"output": [
@@ -171,8 +175,8 @@
 			]
 		}
 	],
-	"updt": 1656408959308,
-	"edit": 7,
+	"updt": 1656420296804,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -193,5 +197,6 @@
 				"ccess' a"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_msruu0.atria_delta: script doesn't exist\"}"
 }
