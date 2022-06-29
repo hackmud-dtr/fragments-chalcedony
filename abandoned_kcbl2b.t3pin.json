@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_kcbl2b.t3pin",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_kcbl2b.t3pin",
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656493580730,
-	"last_scraped": 1656494177527,
+	"last_scraped": 1656507706815,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656493580730
 		}
 	],
-	"updt": 1656494003506,
-	"edit": 3,
-	"scrape_ct": 11,
-	"next_scrape": 1656494237527,
+	"updt": 1656495174177,
+	"edit": 8,
+	"next_scrape": 1656550253837,
 	"category": "fishie_tank",
-	"last_update": 1656494177527,
+	"last_update": 1656507761444,
 	"output": [
 		{
 			"args": {},
-			"calls": 16207,
+			"calls": 39955,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nder ",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4993,
+			"calls": 11927,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,7 +75,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 23435,
+			"calls": 46628,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"nder ",
@@ -103,6 +102,11 @@
 				"d pile.",
 				"A to th"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
