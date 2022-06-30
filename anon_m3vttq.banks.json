@@ -1,19 +1,23 @@
 {
 	"_id": "anon_m3vttq.banks",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_m3vttq.banks",
 	"sector": "K_0445",
 	"sec_level": 4,
 	"date_added": 1654045383835,
-	"last_scraped": 1656552239078,
+	"last_scraped": 1656562757660,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654045383835
+		},
+		{
+			"type": "died",
+			"when": 1656562757660
 		}
 	],
-	"next_scrape": 1656594492331,
+	"next_scrape": 1656643794573,
 	"category": "fishie_tank",
 	"last_update": 1656552239078,
 	"output": [
@@ -231,8 +235,8 @@
 			]
 		}
 	],
-	"updt": 1656540124209,
-	"edit": 287,
+	"updt": 1656552437294,
+	"edit": 288,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -245,5 +249,6 @@
 				"ul to st"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_m3vttq.banks: script doesn't exist\"}"
 }
