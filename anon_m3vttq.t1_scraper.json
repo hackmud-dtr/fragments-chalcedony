@@ -1,7 +1,7 @@
 {
 	"_id": "anon_m3vttq.t1_scraper",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_m3vttq.t1_scraper",
 	"sector": "NGC_7960",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1656541234239
+		},
+		{
+			"type": "died",
+			"when": 1656578946593
 		}
 	],
 	"scrape_ct": 17,
@@ -334,8 +338,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1656541490866,
-	"edit": 2,
+	"updt": 1656553609001,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"

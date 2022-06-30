@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_z2147k.recognizer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_z2147k.recognizer",
 	"sector": "NGC_9822",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1649065337846
+		},
+		{
+			"type": "died",
+			"when": 1656578946593
 		}
 	],
 	"next_scrape": 1650134950823,
@@ -97,8 +101,8 @@
 			]
 		}
 	],
-	"updt": 1650037003227,
-	"edit": 200,
+	"updt": 1650042864023,
+	"edit": 201,
 	"retry_args": [
 		{
 			"do": "feed"
