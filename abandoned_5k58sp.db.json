@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_5k58sp.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_5k58sp.db",
 	"sector": "HJG_5856",
 	"sec_level": 4,
 	"date_added": 1656204760793,
-	"last_scraped": 1656603276152,
+	"last_scraped": 1656619074459,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656204760793
 		}
 	],
-	"next_scrape": 1656645867172,
+	"next_scrape": 1656662703264,
 	"category": "fishie_tank",
-	"last_update": 1656603276152,
+	"last_update": 1656619092865,
 	"output": [
 		{
 			"args": {},
-			"calls": 158784,
+			"calls": 161822,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"alue-",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 39865,
+			"calls": 40908,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1656603244421,
-	"edit": 47,
+	"updt": 1656603439464,
+	"edit": 48,
 	"identified": [
 		{
 			"document": "MFT0XFD_CLST0X92_SECT0X2FC4_FILE0X70959CE3",
@@ -132,6 +132,11 @@
 				"le to cr",
 				"e her lo"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
