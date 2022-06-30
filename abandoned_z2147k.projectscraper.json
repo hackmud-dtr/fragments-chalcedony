@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_z2147k.projectscraper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_z2147k.projectscraper",
 	"sector": "NGC_4659",
 	"sec_level": 4,
 	"date_added": 1656287529185,
-	"last_scraped": 1656554079809,
+	"last_scraped": 1656564459297,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656287529185
+		},
+		{
+			"type": "died",
+			"when": 1656564459297
 		}
 	],
-	"next_scrape": 1656597704147,
+	"next_scrape": 1656643855934,
 	"category": "clicker",
 	"last_update": 1656554079809,
 	"output": [
@@ -271,6 +275,7 @@
 			]
 		}
 	],
-	"updt": 1656542469859,
-	"edit": 29
+	"updt": 1656554196389,
+	"edit": 30,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_z2147k.projectscraper: script doesn't exist\"}"
 }
