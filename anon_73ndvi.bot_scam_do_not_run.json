@@ -1,0 +1,91 @@
+{
+	"_id": "anon_73ndvi.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_73ndvi.bot_scam_do_not_run",
+	"sector": "SPC_5235",
+	"sec_level": 4,
+	"date_added": 1656584985748,
+	"last_scraped": 1656585065393,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656584985748
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1656585125393,
+	"category": "fishie_tank",
+	"last_update": 1656585065393,
+	"output": [
+		{
+			"args": {},
+			"calls": 4318,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e act",
+				"timing",
+				"ensive",
+				"thin th",
+				"multiple"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e act",
+						"timing",
+						"ensive",
+						"thin th",
+						"multiple"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1333,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e act",
+				"timing",
+				"ensive",
+				"thin th",
+				"multiple"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3241,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e act",
+				"timing",
+				"ensive",
+				"thin th",
+				"multiple"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e act",
+				"timing",
+				"ensive",
+				"thin th",
+				"multiple"
+			]
+		}
+	]
+}
