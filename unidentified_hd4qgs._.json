@@ -1,0 +1,98 @@
+{
+	"_id": "unidentified_hd4qgs._",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_hd4qgs._",
+	"sector": "NGC_1759",
+	"sec_level": 4,
+	"date_added": 1656653481019,
+	"last_scraped": 1656654211047,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656653481019
+		}
+	],
+	"scrape_ct": 10,
+	"next_scrape": 1656654271047,
+	"category": "fishie_tank",
+	"last_update": 1656654228966,
+	"output": [
+		{
+			"args": {},
+			"calls": 19718,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"g] [b",
+				"[bunn",
+				" ## [",
+				"g] ## ",
+				"## Take"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"g] [b",
+						"[bunn",
+						" ## [",
+						"g] ## ",
+						"## Take"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6179,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"g] [b",
+				"[bunn",
+				" ## [",
+				"g] ## ",
+				"## Take"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20105,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"g] [b",
+				"[bunn",
+				" ## [",
+				"g] ## ",
+				"## Take"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"g] [b",
+				"[bunn",
+				" ## [",
+				"g] ## ",
+				"## Take"
+			]
+		}
+	],
+	"updt": 1656654045744,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
