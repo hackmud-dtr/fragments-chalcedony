@@ -1,0 +1,93 @@
+{
+	"_id": "derelict_iwrav1.list",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_iwrav1.list",
+	"sector": "NGC_1759",
+	"sec_level": 4,
+	"date_added": 1656662012667,
+	"last_scraped": 1656662243140,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1656662012667
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1656662303140,
+	"category": "fishie_tank",
+	"last_update": 1656662243140,
+	"output": [
+		{
+			"args": {},
+			"calls": 6807,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"G ERR",
+				"ER fb",
+				"R | PRO",
+				"| TIME ",
+				"ETW ERRO"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"G ERR",
+						"ER fb",
+						"R | PRO",
+						"| TIME ",
+						"ETW ERRO"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1428,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"G ERR",
+				"ER fb",
+				"R | PRO",
+				"| TIME ",
+				"ETW ERRO"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3841,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"G ERR",
+				"ER fb",
+				"R | PRO",
+				"| TIME ",
+				"ETW ERRO"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"G ERR",
+				"ER fb",
+				"R | PRO",
+				"| TIME ",
+				"ETW ERRO"
+			]
+		}
+	],
+	"updt": 1656662055514,
+	"edit": 1
+}
