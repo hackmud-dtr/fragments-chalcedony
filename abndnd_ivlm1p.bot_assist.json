@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_ivlm1p.bot_assist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_ivlm1p.bot_assist",
 	"sector": "K_0445",
 	"sec_level": 4,
 	"date_added": 1654029410194,
-	"last_scraped": 1656726958327,
+	"last_scraped": 1656737467661,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654029410194
+		},
+		{
+			"type": "died",
+			"when": 1656737451473
+		},
+		{
+			"type": "died",
+			"when": 1656737467661
 		}
 	],
-	"next_scrape": 1656769003288,
+	"next_scrape": 1656818612876,
 	"category": "plant_sim",
 	"last_update": 1656726958327,
 	"output": [
@@ -163,6 +171,7 @@
 			]
 		}
 	],
-	"updt": 1656717554805,
-	"edit": 265
+	"updt": 1656727125096,
+	"edit": 266,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_ivlm1p.bot_assist: script doesn't exist\"}"
 }
