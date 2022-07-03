@@ -1,33 +1,41 @@
 {
 	"_id": "abandoned_2x5rqs.t1_scraper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_2x5rqs.t1_scraper",
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655650426968,
-	"last_scraped": 1656837378204,
+	"last_scraped": 1656875506952,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655650426968
 		}
 	],
-	"next_scrape": 1656879791874,
+	"next_scrape": 1656915340549,
 	"category": "fishie_tank",
-	"last_update": 1656837378204,
+	"last_update": 1656875562577,
 	"output": [
 		{
 			"args": {},
-			"calls": 455573,
+			"calls": 474173,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"s on ",
+				"ject ",
 				"/cult",
 				"ted re",
 				"/perso",
+				" has M",
+				"persona",
 				"JOR his",
 				"that has",
-				"icance n"
+				"ity with",
+				"ith VERY",
+				"icance n",
+				"ical/cul",
+				" limited"
 			],
 			"hits": [
 				{
@@ -47,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 105789,
+			"calls": 112030,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,27 +63,43 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"s on ",
+				"ject ",
 				"/cult",
 				"ted re",
 				"/perso",
+				" has M",
+				"persona",
 				"JOR his",
 				"that has",
-				"icance n"
+				"ity with",
+				"ith VERY",
+				"icance n",
+				"ical/cul",
+				" limited"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 503009,
+			"calls": 513878,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"s on ",
+				"ject ",
 				"/cult",
 				"ted re",
 				"/perso",
+				" has M",
+				"persona",
 				"JOR his",
 				"that has",
-				"icance n"
+				"ity with",
+				"ith VERY",
+				"icance n",
+				"ical/cul",
+				" limited"
 			]
 		}
 	],
@@ -92,6 +116,11 @@
 			]
 		}
 	],
-	"updt": 1656837366140,
-	"edit": 130
+	"updt": 1656866078307,
+	"edit": 135,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
