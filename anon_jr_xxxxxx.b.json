@@ -1,12 +1,12 @@
 {
 	"_id": "anon_jr_xxxxxx.b",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_jr_xxxxxx.b",
-	"sector": "KIN_LAMBDA_2",
+	"sector": "K_0626",
 	"sec_level": 4,
 	"date_added": 1651619672046,
-	"last_scraped": 1651619694177,
+	"last_scraped": 1656835257638,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1651620959358
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1656805113213,
+				"from": "K_0626",
+				"to": "KIN_LAMBDA_2"
+			}
+		]
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_jr_xxxxxx.b: Shift operation is currently in progress. 251s remain\"}",
-	"next_scrape": 1651711887436,
-	"updt": 1651619805751,
-	"edit": 1
+	"pl_output": "{\"ok\":false}",
+	"next_scrape": 1656923061344,
+	"updt": 1656824661674,
+	"edit": 6
 }
