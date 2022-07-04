@@ -1,27 +1,31 @@
 {
 	"_id": "unknown_im3pyo.full",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_im3pyo.full",
 	"sector": "K_2714",
 	"sec_level": 4,
 	"date_added": 1648195684547,
-	"last_scraped": 1656394261936,
+	"last_scraped": 1656394709918,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1648195684547
+		},
+		{
+			"type": "died",
+			"when": 1656942153708
 		}
 	],
-	"updt": 1656394106494,
-	"edit": 1243,
-	"next_scrape": 1656433865783,
+	"updt": 1656394886046,
+	"edit": 1246,
+	"next_scrape": 1656438328913,
 	"category": "fishie_tank",
-	"last_update": 1656394261936,
+	"last_update": 1656394727135,
 	"output": [
 		{
 			"args": {},
-			"calls": 4689689,
+			"calls": 4755011,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"C to ",
@@ -61,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1018746,
+			"calls": 1020058,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -131,9 +135,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
