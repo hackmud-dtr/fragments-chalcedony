@@ -1,21 +1,25 @@
 {
 	"_id": "unknown_x45ia0.lockcheck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_x45ia0.lockcheck",
 	"sector": "NGC_2225",
 	"sec_level": 4,
 	"date_added": 1653808518919,
-	"last_scraped": 1656975525491,
+	"last_scraped": 1656985577827,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653808518919
+		},
+		{
+			"type": "died",
+			"when": 1656985577827
 		}
 	],
-	"updt": 1656965542938,
-	"edit": 313,
-	"next_scrape": 1657018719233,
+	"updt": 1656975703651,
+	"edit": 314,
+	"next_scrape": 1657078966150,
 	"category": "plant_sim",
 	"last_update": 1656975525491,
 	"output": [
@@ -90,5 +94,6 @@
 				"nitored "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_x45ia0.lockcheck: script doesn't exist\"}"
 }
