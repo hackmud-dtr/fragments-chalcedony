@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_5e15oe.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_5e15oe.bank",
 	"sector": "HJG_7241",
 	"sec_level": 4,
 	"date_added": 1653985426582,
-	"last_scraped": 1656973948017,
+	"last_scraped": 1656984181793,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653985426582
+		},
+		{
+			"type": "died",
+			"when": 1656984181793
 		}
 	],
-	"updt": 1656963584789,
-	"edit": 295,
-	"next_scrape": 1657016866141,
+	"updt": 1656974140035,
+	"edit": 296,
+	"next_scrape": 1657068994209,
 	"category": "coin_flipper",
 	"last_update": 1656973948017,
 	"output": [
@@ -94,5 +98,6 @@
 				"esolves\\n"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_5e15oe.bank: script doesn't exist\"}"
 }
