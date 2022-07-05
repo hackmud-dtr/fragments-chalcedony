@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_cv6q7j.gallery",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_cv6q7j.gallery",
 	"sector": "K_0626",
 	"sec_level": 4,
 	"date_added": 1656831953428,
-	"last_scraped": 1657054636058,
+	"last_scraped": 1657064025615,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656831953428
+		},
+		{
+			"type": "died",
+			"when": 1657064025615
+		},
+		{
+			"type": "died",
+			"when": 1657064190449
 		}
 	],
-	"next_scrape": 1657097614632,
+	"next_scrape": 1657145567977,
 	"category": "coin_flipper",
 	"last_update": 1657054636058,
 	"output": [
@@ -77,6 +85,7 @@
 			]
 		}
 	],
-	"updt": 1657045661375,
-	"edit": 35
+	"updt": 1657064029601,
+	"edit": 37,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_cv6q7j.gallery: script doesn't exist\"}"
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_cv6q7j._",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_cv6q7j._",
 	"sector": "HJG_9290",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1648793683577
+		},
+		{
+			"type": "died",
+			"when": 1657064054319
 		}
 	],
 	"scrape_ct": 17,
@@ -501,11 +505,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1648799289369,
+	"edit": 2
 }
