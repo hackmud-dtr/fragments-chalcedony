@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_o4g2ir.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_o4g2ir.bot_scam_do_not_run",
 	"sector": "NGC_6544",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1653525049154
+		},
+		{
+			"type": "died",
+			"when": 1656980092515
 		}
 	],
-	"updt": 1653525090712,
-	"edit": 1,
+	"updt": 1653525285979,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -40,5 +44,6 @@
 				"osely. I"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_12mhpv.christmas",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_12mhpv.christmas",
 	"sector": "NGC_2480",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "NGC_2480",
 				"to": "SPC_4727"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1656980242062
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR wr41th.christmas: script doesn't exist\"}",
 	"next_scrape": 1657055257787,
-	"updt": 1656964367820,
-	"edit": 1834
+	"updt": 1656974531057,
+	"edit": 1835
 }

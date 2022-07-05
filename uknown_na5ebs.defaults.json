@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_na5ebs.defaults",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_na5ebs.defaults",
 	"sector": "K_0626",
 	"sec_level": 4,
@@ -11,12 +11,13 @@
 		{
 			"type": "added",
 			"when": 1656674147852
+		},
+		{
+			"type": "died",
+			"when": 1656980475627
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
@@ -38,5 +39,8 @@
 				" and I D"
 			]
 		}
-	]
+	],
+	"updt": 1656674374154,
+	"edit": 2,
+	"cannot_identify": true
 }

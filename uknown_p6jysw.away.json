@@ -1,19 +1,27 @@
 {
 	"_id": "uknown_p6jysw.away",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_p6jysw.away",
 	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1656956138237,
-	"last_scraped": 1656970163684,
+	"last_scraped": 1656979832171,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656956138237
+		},
+		{
+			"type": "died",
+			"when": 1656979832171
+		},
+		{
+			"type": "died",
+			"when": 1656980092515
 		}
 	],
-	"next_scrape": 1657016649163,
+	"next_scrape": 1657069515523,
 	"category": "coin_flipper",
 	"last_update": 1656970163684,
 	"output": [
@@ -63,8 +71,8 @@
 			]
 		}
 	],
-	"updt": 1656958308306,
-	"edit": 12,
+	"updt": 1656979999607,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -81,5 +89,6 @@
 				"- intro "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_p6jysw.away: script doesn't exist\"}"
 }
