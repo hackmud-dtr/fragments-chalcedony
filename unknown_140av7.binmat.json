@@ -1,26 +1,64 @@
 {
 	"_id": "unknown_140av7.binmat",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_140av7.binmat",
 	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1657025699825,
-	"last_scraped": 1657025729380,
+	"last_scraped": 1657025766000,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657025699825
+		},
+		{
+			"type": "died",
+			"when": 1657028033448
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1657025789380
+	"next_scrape": 1657107956919,
+	"category": "risk_factor",
+	"last_update": 1657025766000,
+	"output": [
+		{
+			"args": {},
+			"calls": 1193,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				" 0100 ",
+				"00 0100",
+				" 0000 0",
+				"100 0000",
+				"000\\n000",
+				"0 0000\\n",
+				" 0000\\n00"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" 0100 ",
+				"00 0100",
+				" 0000 0",
+				"100 0000",
+				"000\\n000",
+				"0 0000\\n",
+				" 0000\\n00"
+			]
+		}
+	],
+	"cannot_identify": true,
+	"updt": 1657025927193,
+	"edit": 1
 }
