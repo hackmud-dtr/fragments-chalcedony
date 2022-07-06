@@ -6,32 +6,33 @@
 	"sector": "SPC_6918",
 	"sec_level": 4,
 	"date_added": 1649219013993,
-	"last_scraped": 1657097511973,
+	"last_scraped": 1657106600987,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1649219013993
 		}
 	],
-	"next_scrape": 1657137943851,
+	"next_scrape": 1657150722455,
 	"category": "fishie_tank",
-	"last_update": 1657097511973,
+	"last_update": 1657106600987,
 	"output": [
 		{
 			"args": {},
-			"calls": 3995291,
+			"calls": 3998424,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ing i",
+				"This i",
 				"oping ",
 				"ig one",
 				"Hi! Th",
+				"! This",
 				"s is th",
 				"ng in S",
 				"n Salee",
 				"leem. #",
 				"g in Sa",
-				"eem. ##",
 				"## Hi! ",
 				" one, t",
 				" is the",
@@ -43,6 +44,7 @@
 				"m. ## Hi",
 				"is the b",
 				"em. ## H",
+				"eem. ## ",
 				"e, then.",
 				" the big",
 				" in Sale"
@@ -144,6 +146,14 @@
 			]
 		}
 	],
-	"updt": 1657086884851,
-	"edit": 1140
+	"updt": 1657097630473,
+	"edit": 1141,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
