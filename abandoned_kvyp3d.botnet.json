@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_kvyp3d.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_kvyp3d.botnet",
 	"sector": "NGC_5112",
 	"sec_level": 4,
 	"date_added": 1651214545642,
-	"last_scraped": 1657160121970,
+	"last_scraped": 1657170812941,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651214545642
 		}
 	],
-	"next_scrape": 1657200129200,
+	"next_scrape": 1657215779045,
 	"category": "fishie_tank",
-	"last_update": 1657160121970,
+	"last_update": 1657170830735,
 	"output": [
 		{
 			"args": {},
-			"calls": 2617777,
+			"calls": 2622132,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r cha",
@@ -62,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 595358,
+			"calls": 596687,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -137,6 +137,11 @@
 			]
 		}
 	],
-	"updt": 1657150978235,
-	"edit": 754
+	"updt": 1657160361153,
+	"edit": 755,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
