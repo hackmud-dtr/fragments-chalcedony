@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_lmx2k3.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_lmx2k3.dist",
 	"sector": "HJG_7241",
 	"sec_level": 4,
 	"date_added": 1653999197875,
-	"last_scraped": 1657210641732,
+	"last_scraped": 1657222741036,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653999197875
 		}
 	],
-	"next_scrape": 1657251859200,
+	"next_scrape": 1657264118855,
 	"category": "fishie_tank",
-	"last_update": 1657210641732,
+	"last_update": 1657222795429,
 	"output": [
 		{
 			"args": {},
-			"calls": 1246860,
+			"calls": 1248638,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" 0101 ",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 278248,
+			"calls": 278691,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -120,6 +120,11 @@
 			]
 		}
 	],
-	"updt": 1657201788667,
-	"edit": 358
+	"updt": 1657210778262,
+	"edit": 359,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

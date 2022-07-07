@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_0za2ns.in_flames",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0za2ns.in_flames",
 	"sector": "VNP_4997",
 	"sec_level": 4,
 	"date_added": 1651988567441,
-	"last_scraped": 1657209794439,
+	"last_scraped": 1657221598013,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651988567441
 		}
 	],
-	"next_scrape": 1657250149949,
+	"next_scrape": 1657261856700,
 	"category": "fishie_tank",
-	"last_update": 1657209794439,
+	"last_update": 1657221598013,
 	"output": [
 		{
 			"args": {},
-			"calls": 2214209,
+			"calls": 2220363,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"u fee",
@@ -181,6 +181,14 @@
 			]
 		}
 	],
-	"updt": 1657201203678,
-	"edit": 625
+	"updt": 1657209800178,
+	"edit": 626,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
