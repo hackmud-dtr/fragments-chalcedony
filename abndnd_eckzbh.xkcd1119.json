@@ -1,26 +1,34 @@
 {
 	"_id": "abndnd_eckzbh.xkcd1119",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_eckzbh.xkcd1119",
 	"sector": "HJG_6774",
 	"sec_level": 4,
 	"date_added": 1657253600898,
-	"last_scraped": 1657255472119,
+	"last_scraped": 1657255652707,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657253600898
+		},
+		{
+			"type": "died",
+			"when": 1657255652707
+		},
+		{
+			"type": "died",
+			"when": 1657255706922
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1657255532119,
+	"scrape_ct": 2,
+	"next_scrape": 1657339775690,
 	"category": "dice_roller",
-	"last_update": 1657255472119,
+	"last_update": 1657255562269,
 	"output": [
 		{
 			"args": {},
-			"calls": 81281,
+			"calls": 85443,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"t? ##",
@@ -106,6 +114,7 @@
 			]
 		}
 	],
-	"updt": 1657255325570,
-	"edit": 9
+	"updt": 1657255520933,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_eckzbh.xkcd1119: script doesn't exist\"}"
 }
