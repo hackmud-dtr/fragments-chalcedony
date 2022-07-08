@@ -1,20 +1,82 @@
 {
 	"_id": "unknown_fctqmy.scraper",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unknown_fctqmy.scraper",
-	"sector": "NGC_5122",
+	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1651505018746,
-	"last_scraped": 1656601773655,
+	"last_scraped": 1657269951803,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651505018746
-		}
+		},
+		{
+			"type": "died",
+			"when": 1657269651164
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1657269708215,
+				"from": "HJG_8229",
+				"to": "NGC_5122"
+			}
+		]
 	],
 	"pl_output": "Usage: spaceman.scraper {`Nt`: `V#s.`corp.script}\n\nT1 Debug functions:\n[Deprecated] `Ndebug`:`V\"t1\"` Displays all of the below\n`Ndebug`:`Vtrue` Displays corp arg info\n`Np_debug`: `Vtrue` Returns project locs with their corresponding projects\n`Nscreen`: `Vtrue` || `V\"raw\"` Returns the decorrupted or raw corp info screen\n`Ncmdscreen`: `Vtrue` || `V\"raw\"` Returns the decorrupted or raw cmd info screen\n`Ndescription`: `Vtrue` Returns the corp's description page",
-	"next_scrape": 1656682854601,
-	"updt": 1656591131207,
-	"edit": 552
+	"next_scrape": 1657270011803,
+	"updt": 1657269783180,
+	"edit": 554,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1657269951803,
+	"output": [
+		{
+			"args": {},
+			"calls": 3058,
+			"base": "Usage: spaceman.scraper {`Nt`: `V#s.`corp.script}\n\nT1 Debug functions:\n[Deprecated] `Ndebug`:`V\"t1\"` Displays all of the below\n`Ndebug`:`Vtrue` Displays corp arg info\n`Np_debug`: `Vtrue` Returns project locs with their corresponding projects\n`Nscreen`: `Vtrue` || `V\"raw\"` Returns the decorrupted or raw corp info screen\n`Ncmdscreen`: `Vtrue` || `V\"raw\"` Returns the decorrupted or raw cmd info screen\n`Ndescription`: `Vtrue` Returns the corp's description page",
+			"fragments": [
+				"d wit",
+				" we c",
+				" that",
+				" be f",
+				"with cha",
+				"day - bu",
+				", we wil",
+				" challen"
+			],
+			"hits": [
+				{
+					"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+					"frags": [
+						"d wit",
+						" we c",
+						" that",
+						" be f",
+						"with cha",
+						"day - bu",
+						", we wil",
+						" challen"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+			"frags": [
+				"d wit",
+				" we c",
+				" that",
+				" be f",
+				"with cha",
+				"day - bu",
+				", we wil",
+				" challen"
+			]
+		}
+	]
 }

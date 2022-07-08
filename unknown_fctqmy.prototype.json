@@ -1,20 +1,79 @@
 {
 	"_id": "unknown_fctqmy.prototype",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unknown_fctqmy.prototype",
-	"sector": "NGC_5122",
+	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1651505018746,
-	"last_scraped": 1657263346751,
+	"last_scraped": 1657269932643,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651505018746
-		}
+		},
+		{
+			"type": "died",
+			"when": 1657269651164
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1657269708215,
+				"from": "HJG_8229",
+				"to": "NGC_5122"
+			}
+		]
 	],
 	"pl_output": "`DAccess denied.`",
-	"next_scrape": 1657352888266,
-	"updt": 1657255715915,
-	"edit": 619
+	"next_scrape": 1657269992643,
+	"updt": 1657269783180,
+	"edit": 621,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1657269932643,
+	"output": [
+		{
+			"args": {},
+			"calls": 2928,
+			"base": "`DAccess denied.`",
+			"fragments": [
+				"FILE0X",
+				"D_SECT",
+				"settlem",
+				"ECT0XB3",
+				"a_type\"",
+				"B7\\n{\"da",
+				"7_CLST0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"FILE0X",
+						"D_SECT",
+						"settlem",
+						"ECT0XB3",
+						"a_type\"",
+						"B7\\n{\"da",
+						"7_CLST0X"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+			"frags": [
+				"FILE0X",
+				"D_SECT",
+				"settlem",
+				"ECT0XB3",
+				"a_type\"",
+				"B7\\n{\"da",
+				"7_CLST0X"
+			]
+		}
+	]
 }
