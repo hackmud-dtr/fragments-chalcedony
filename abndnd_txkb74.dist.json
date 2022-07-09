@@ -6,26 +6,34 @@
 	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1657187256009,
-	"last_scraped": 1657356818955,
+	"last_scraped": 1657365390287,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657187256009
 		}
 	],
-	"next_scrape": 1657401774570,
+	"next_scrape": 1657406745278,
 	"category": "fishie_tank",
-	"last_update": 1657356818955,
+	"last_update": 1657365390287,
 	"output": [
 		{
 			"args": {},
-			"calls": 145030,
+			"calls": 148616,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"PROG ",
-				"OR | ",
+				"| TIM",
+				"iyawak",
+				"| USER",
+				"USER mh",
+				"ROG ERR",
+				"OR | US",
 				"OG ERRO",
+				"ER mhol",
+				"mhollist",
 				"ME ERROR",
+				"ERROR | ",
 				" ERROR |"
 			],
 			"hits": [
@@ -45,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 32537,
+			"calls": 33775,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,9 +62,17 @@
 			],
 			"fragments": [
 				"PROG ",
-				"OR | ",
+				"| TIM",
+				"iyawak",
+				"| USER",
+				"USER mh",
+				"ROG ERR",
+				"OR | US",
 				"OG ERRO",
+				"ER mhol",
+				"mhollist",
 				"ME ERROR",
+				"ERROR | ",
 				" ERROR |"
 			]
 		},
@@ -64,13 +80,21 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 152440,
+			"calls": 156927,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"PROG ",
-				"OR | ",
+				"| TIM",
+				"iyawak",
+				"| USER",
+				"USER mh",
+				"ROG ERR",
+				"OR | US",
 				"OG ERRO",
+				"ER mhol",
+				"mhollist",
 				"ME ERROR",
+				"ERROR | ",
 				" ERROR |"
 			]
 		}
@@ -87,6 +111,6 @@
 			]
 		}
 	],
-	"updt": 1657349105272,
-	"edit": 27
+	"updt": 1657356920598,
+	"edit": 28
 }
