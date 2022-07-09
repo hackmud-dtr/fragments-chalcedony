@@ -6,31 +6,33 @@
 	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1657187256009,
-	"last_scraped": 1657392519773,
+	"last_scraped": 1657401829876,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657187256009
 		}
 	],
-	"next_scrape": 1657435003142,
+	"next_scrape": 1657446636937,
 	"category": "fishie_tank",
-	"last_update": 1657392519773,
+	"last_update": 1657401847450,
 	"output": [
 		{
 			"args": {},
-			"calls": 159633,
+			"calls": 161657,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"PROG ",
 				"| TIM",
+				"TIME E",
+				"ster i",
 				"iyawak",
+				"er imi",
 				"| USER",
 				"USER mh",
-				"ROG ERR",
 				"OR | US",
 				"OG ERRO",
 				"ER mhol",
+				"PROG ERR",
 				"mhollist",
 				"ME ERROR",
 				"ERROR | ",
@@ -53,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 36809,
+			"calls": 38039,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,15 +63,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"PROG ",
 				"| TIM",
+				"TIME E",
+				"ster i",
 				"iyawak",
+				"er imi",
 				"| USER",
 				"USER mh",
-				"ROG ERR",
 				"OR | US",
 				"OG ERRO",
 				"ER mhol",
+				"PROG ERR",
 				"mhollist",
 				"ME ERROR",
 				"ERROR | ",
@@ -111,6 +115,11 @@
 			]
 		}
 	],
-	"updt": 1657381935961,
-	"edit": 33
+	"updt": 1657392680344,
+	"edit": 34,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
