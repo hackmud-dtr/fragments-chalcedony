@@ -1,0 +1,109 @@
+{
+	"_id": "uknown_c2zniu.tiny",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_c2zniu.tiny",
+	"sector": "K_6178",
+	"sec_level": 4,
+	"date_added": 1657419650068,
+	"last_scraped": 1657419832179,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1657419650068
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1657419892179,
+	"category": "fishie_tank",
+	"last_update": 1657419832179,
+	"output": [
+		{
+			"args": {},
+			"calls": 9236,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"tal s",
+				"r poli",
+				"vironme",
+				"n't. We",
+				"ious an",
+				"tical ec",
+				"rstand i"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"tal s",
+						"r poli",
+						"vironme",
+						"n't. We",
+						"ious an",
+						"tical ec",
+						"rstand i"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 871,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"tal s",
+				"r poli",
+				"vironme",
+				"n't. We",
+				"ious an",
+				"tical ec",
+				"rstand i"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4782,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"tal s",
+				"r poli",
+				"vironme",
+				"n't. We",
+				"ious an",
+				"tical ec",
+				"rstand i"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"tal s",
+				"r poli",
+				"vironme",
+				"n't. We",
+				"ious an",
+				"tical ec",
+				"rstand i"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
