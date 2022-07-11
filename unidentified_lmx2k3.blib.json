@@ -6,29 +6,21 @@
 	"sector": "K_6178",
 	"sec_level": 4,
 	"date_added": 1657528631210,
-	"last_scraped": 1657528652007,
+	"last_scraped": 1657529628697,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657528631210
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1657528712007,
+	"scrape_ct": 6,
+	"next_scrape": 1657529688697,
 	"category": "fishie_tank",
-	"last_update": 1657528652007,
+	"last_update": 1657529628697,
 	"output": [
 		{
 			"args": {},
-			"calls": 4564,
+			"calls": 28545,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rinte",
@@ -59,6 +51,49 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5623,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rinte",
+				" need ",
+				"C9 Alri",
+				"a print",
+				"ght. Giv",
+				"B Okay, ",
+				"t all.\\n1",
+				"rin R\\n1E",
+				"l.\\n1EBB ",
+				"\\n1EBC Yo"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27383,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rinte",
+				" need ",
+				"C9 Alri",
+				"a print",
+				"ght. Giv",
+				"B Okay, ",
+				"t all.\\n1",
+				"rin R\\n1E",
+				"l.\\n1EBB ",
+				"\\n1EBC Yo"
+			]
 		}
 	],
 	"identified": [
@@ -76,6 +111,16 @@
 				"l.\\n1EBB ",
 				"\\n1EBC Yo"
 			]
+		}
+	],
+	"updt": 1657529447637,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
