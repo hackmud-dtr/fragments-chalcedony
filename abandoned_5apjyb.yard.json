@@ -1,20 +1,75 @@
 {
 	"_id": "abandoned_5apjyb.yard",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abandoned_5apjyb.yard",
-	"sector": "NGC_2699",
+	"sector": "K_6178",
 	"sec_level": 4,
 	"date_added": 1653200246474,
-	"last_scraped": 1657567164376,
+	"last_scraped": 1657569285321,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653200246474
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1657569143858,
+				"from": "K_6178",
+				"to": "NGC_2699"
+			}
+		]
+	],
+	"updt": 1657567342046,
+	"edit": 434,
+	"pl_output": "you dig around the junk.yard and you find nothing. you can check again later",
+	"next_scrape": 1657569345321,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1657569285321,
+	"output": [
+		{
+			"args": {},
+			"calls": 1228,
+			"base": "you dig around the junk.yard and you find nothing. you can check again later",
+			"fragments": [
+				"E0X14",
+				"| TIM",
+				"ST0X8A",
+				"SECT0X7",
+				"CLST0X8",
+				"MFT0X71_",
+				"0X14AFF9"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"E0X14",
+						"| TIM",
+						"ST0X8A",
+						"SECT0X7",
+						"CLST0X8",
+						"MFT0X71_",
+						"0X14AFF9"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1657558941211,
-	"edit": 433,
-	"pl_output": "you dig around the junk.yard and you find nothing. you can check again later",
-	"next_scrape": 1657650643178
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"E0X14",
+				"| TIM",
+				"ST0X8A",
+				"SECT0X7",
+				"CLST0X8",
+				"MFT0X71_",
+				"0X14AFF9"
+			]
+		}
+	]
 }
