@@ -1,58 +1,73 @@
 {
 	"_id": "unknown_puz3bp.t1scrape",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_puz3bp.t1scrape",
 	"sector": "NGC_6923",
 	"sec_level": 4,
 	"date_added": 1657632414485,
-	"last_scraped": 1657633806878,
+	"last_scraped": 1657634323116,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657632414485
+		},
+		{
+			"type": "died",
+			"when": 1657634284183
+		},
+		{
+			"type": "died",
+			"when": 1657634323116
+		},
+		{
+			"type": "died",
+			"when": 1657634324612
 		}
 	],
-	"scrape_ct": 6,
-	"next_scrape": 1657633866878,
+	"scrape_ct": 3,
+	"next_scrape": 1657715440872,
 	"category": "dice_roller",
-	"last_update": 1657633806878,
+	"last_update": 1657634097471,
 	"output": [
 		{
 			"args": {},
-			"calls": 55527,
+			"calls": 68609,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"ta-pra",
-				"ring d",
-				"quarin",
-				"essity",
 				"data-p",
 				"with da",
-				"we need",
-				"uaring ",
-				"ssity w",
-				"rt squa",
+				"ta-prac",
 				"ing dat",
 				"h data-",
 				"d to st",
-				"art squ",
-				"-practi",
+				"we need ",
 				"ut we ne",
+				"uaring d",
 				"ty with ",
 				"to start",
 				"ta-neces",
 				"t squari",
 				"start sq",
 				"sity wit",
+				"quaring ",
 				"o start ",
 				"ng data-",
 				"necessit",
 				"ity with",
+				"essity w",
 				"eed to s",
+				"data-nec",
+				"cessity ",
+				"ata-nece",
+				"art squa",
+				"aring da",
+				"a-practi",
 				"a-necess",
 				"-necessi",
+				" start s",
 				" need to",
+				" data-ne",
 				" but we "
 			],
 			"hits": [
@@ -99,6 +114,7 @@
 			]
 		}
 	],
-	"updt": 1657633618347,
-	"edit": 6
+	"updt": 1657634205496,
+	"edit": 9,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_puz3bp.t1scrape: script doesn't exist\"}"
 }
