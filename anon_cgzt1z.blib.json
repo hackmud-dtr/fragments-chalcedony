@@ -1,25 +1,25 @@
 {
 	"_id": "anon_cgzt1z.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_cgzt1z.blib",
 	"sector": "NGC_6544",
 	"sec_level": 4,
 	"date_added": 1653518980073,
-	"last_scraped": 1657608271669,
+	"last_scraped": 1657617963155,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653518980073
 		}
 	],
-	"next_scrape": 1657650480551,
+	"next_scrape": 1657659339434,
 	"category": "fishie_tank",
-	"last_update": 1657608271669,
+	"last_update": 1657618197007,
 	"output": [
 		{
 			"args": {},
-			"calls": 1634543,
+			"calls": 1636595,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tatut",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 366428,
+			"calls": 377069,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -138,8 +138,8 @@
 			]
 		}
 	],
-	"updt": 1657599217105,
-	"edit": 469,
+	"updt": 1657618177431,
+	"edit": 471,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -153,6 +153,11 @@
 				"th ComCO",
 				"ct as it"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
