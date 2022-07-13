@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_0r16lg.hire",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_0r16lg.hire",
 	"sector": "K_1650",
 	"sec_level": 4,
 	"date_added": 1657672331976,
-	"last_scraped": 1657672387997,
+	"last_scraped": 1657682054674,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1657761411334,
+	"next_scrape": 1657772701871,
 	"category": "risk_factor",
-	"last_update": 1657672370311,
+	"last_update": 1657682054674,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 132,
+			"calls": 241,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"mon f",
@@ -50,11 +50,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1657672513585,
+	"edit": 1
 }
