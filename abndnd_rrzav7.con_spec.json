@@ -1,22 +1,30 @@
 {
 	"_id": "abndnd_rrzav7.con_spec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_rrzav7.con_spec",
 	"sector": "K_1650",
 	"sec_level": 4,
 	"date_added": 1657677751120,
-	"last_scraped": 1657679256830,
+	"last_scraped": 1657679520232,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657677751120
+		},
+		{
+			"type": "died",
+			"when": 1657679520232
+		},
+		{
+			"type": "died",
+			"when": 1657679635295
 		}
 	],
-	"updt": 1657679153448,
-	"edit": 8,
+	"updt": 1657679542385,
+	"edit": 10,
 	"scrape_ct": 5,
-	"next_scrape": 1657679316830,
+	"next_scrape": 1657764797470,
 	"category": "plant_sim",
 	"last_update": 1657679256830,
 	"output": [
@@ -93,5 +101,6 @@
 				"ile\\n20F4"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_rrzav7.con_spec: script doesn't exist\"}"
 }
