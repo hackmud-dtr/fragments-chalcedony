@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_kyv6ey.dump",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_kyv6ey.dump",
 	"sector": "K_0626",
 	"sec_level": 4,
 	"date_added": 1656878678947,
-	"last_scraped": 1657884545863,
+	"last_scraped": 1657893087021,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656878678947
 		}
 	],
-	"next_scrape": 1657930350293,
+	"next_scrape": 1657937977608,
 	"category": "fishie_tank",
-	"last_update": 1657884545863,
+	"last_update": 1657893104831,
 	"output": [
 		{
 			"args": {},
-			"calls": 487354,
+			"calls": 490939,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"re ro",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 116820,
+			"calls": 117759,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,6 +97,11 @@
 			]
 		}
 	],
-	"updt": 1657876168995,
-	"edit": 132
+	"updt": 1657884574503,
+	"edit": 133,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
