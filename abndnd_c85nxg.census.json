@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_c85nxg.census",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_c85nxg.census",
 	"sector": "K_6178",
 	"sec_level": 4,
 	"date_added": 1657585947849,
-	"last_scraped": 1657848843900,
+	"last_scraped": 1657867120808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657585947849
+		},
+		{
+			"type": "died",
+			"when": 1657867120808
 		}
 	],
-	"next_scrape": 1657893880175,
+	"next_scrape": 1657957551074,
 	"category": "plant_sim",
 	"last_update": 1657848843900,
 	"output": [
@@ -112,6 +116,7 @@
 			]
 		}
 	],
-	"updt": 1657839229277,
-	"edit": 37
+	"updt": 1657849004671,
+	"edit": 38,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_c85nxg.census: script doesn't exist\"}"
 }
