@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_0za2ns.grabdata",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_0za2ns.grabdata",
 	"sector": "NGC_4817",
 	"sec_level": 4,
 	"date_added": 1657839693669,
-	"last_scraped": 1657851109544,
+	"last_scraped": 1657870540128,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657839693669
+		},
+		{
+			"type": "died",
+			"when": 1657870540128
 		}
 	],
-	"next_scrape": 1657893221920,
+	"next_scrape": 1657953082897,
 	"category": "coin_flipper",
 	"last_update": 1657851109544,
 	"output": [
@@ -96,6 +100,7 @@
 			]
 		}
 	],
-	"updt": 1657842162671,
-	"edit": 12
+	"updt": 1657851154513,
+	"edit": 13,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_0za2ns.grabdata: script doesn't exist\"}"
 }
