@@ -6,20 +6,20 @@
 	"sector": "SPC_4297",
 	"sec_level": 4,
 	"date_added": 1650841251187,
-	"last_scraped": 1657896067796,
+	"last_scraped": 1657907609306,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1650841251187
 		}
 	],
-	"next_scrape": 1657940489136,
+	"next_scrape": 1657954177601,
 	"category": "fishie_tank",
-	"last_update": 1657896067796,
+	"last_update": 1657907628366,
 	"output": [
 		{
 			"args": {},
-			"calls": 3187899,
+			"calls": 3192268,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the w",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 714256,
+			"calls": 715181,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -156,6 +156,11 @@
 			]
 		}
 	],
-	"updt": 1657887506376,
-	"edit": 895
+	"updt": 1657896109265,
+	"edit": 896,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
