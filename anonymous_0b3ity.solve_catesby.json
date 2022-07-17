@@ -1,28 +1,27 @@
 {
 	"_id": "anonymous_0b3ity.solve_catesby",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_0b3ity.solve_catesby",
 	"sector": "VNP_5542",
 	"sec_level": 4,
 	"date_added": 1658031107292,
-	"last_scraped": 1658031311538,
+	"last_scraped": 1658041336453,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658031107292
 		}
 	],
-	"updt": 1658031131101,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1658031371538,
+	"updt": 1658032691396,
+	"edit": 9,
+	"next_scrape": 1658082254034,
 	"category": "fishie_tank",
-	"last_update": 1658031311538,
+	"last_update": 1658041336453,
 	"output": [
 		{
 			"args": {},
-			"calls": 5857,
+			"calls": 50964,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"will ",
@@ -48,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1020,
+			"calls": 11635,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,7 +66,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4674,
+			"calls": 46459,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"will ",
@@ -88,14 +87,6 @@
 				"have est",
 				"en data "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
