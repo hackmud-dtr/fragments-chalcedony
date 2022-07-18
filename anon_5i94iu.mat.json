@@ -1,21 +1,25 @@
 {
 	"_id": "anon_5i94iu.mat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_5i94iu.mat",
 	"sector": "SPC_5802",
 	"sec_level": 4,
 	"date_added": 1655236113929,
-	"last_scraped": 1658116215922,
+	"last_scraped": 1658124839552,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655236113929
+		},
+		{
+			"type": "died",
+			"when": 1658124839552
 		}
 	],
-	"updt": 1658107733667,
-	"edit": 300,
-	"next_scrape": 1658156412950,
+	"updt": 1658116326117,
+	"edit": 301,
+	"next_scrape": 1658208226802,
 	"category": "dice_roller",
 	"last_update": 1658116215922,
 	"output": [
@@ -105,5 +109,6 @@
 				" to help"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_5i94iu.mat: script doesn't exist\"}"
 }
