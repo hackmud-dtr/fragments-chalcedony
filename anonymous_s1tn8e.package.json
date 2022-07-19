@@ -1,28 +1,27 @@
 {
 	"_id": "anonymous_s1tn8e.package",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_s1tn8e.package",
 	"sector": "SPC_4012",
 	"sec_level": 4,
 	"date_added": 1658211669732,
-	"last_scraped": 1658213044626,
+	"last_scraped": 1658213625425,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658211669732
 		}
 	],
-	"updt": 1658212873388,
-	"edit": 6,
-	"scrape_ct": 7,
-	"next_scrape": 1658213104626,
+	"updt": 1658213459119,
+	"edit": 8,
+	"next_scrape": 1658255009160,
 	"category": "fishie_tank",
-	"last_update": 1658213044626,
+	"last_update": 1658213625425,
 	"output": [
 		{
 			"args": {},
-			"calls": 30245,
+			"calls": 44921,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rvice",
@@ -46,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6632,
+			"calls": 10474,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,7 +74,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 31698,
+			"calls": 49998,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rvice",
