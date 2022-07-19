@@ -6,15 +6,15 @@
 	"sector": "NGC_4817",
 	"sec_level": 4,
 	"date_added": 1657771008004,
-	"last_scraped": 1658218117496,
+	"last_scraped": 1658227401280,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657771008004
 		}
 	],
-	"updt": 1658207400033,
-	"edit": 49,
+	"updt": 1658218152059,
+	"edit": 50,
 	"pl_output": "\n`c/​/ snazzah.util helps shorten code and has useful functions. Ain't that nice?`\n`Nfunction` `C() {`\n  `Nlet` `Autil` `X=` `A#fs``C.``Asnazzah``C.``Mutil``C();`\n\n  `c/​/ Shows [duration_ms] as time difference, good for displaying to users (negative numbers for past)`\n  `c/​/ Ex. 5*60*60*1000 -> \"in 5 hours\"`\n  `c/​/ ``C@returns``c [``CString``c] `\n  `Autil``C.``MfmtDr``C(``Fduration_ms``C);` \n\n  `c/​/ Shows how much time was in between now and [date_epoch] using util​.fmtDr`\n  `c/​/ ``C@returns``c [``CString``c] `\n  `Autil``C.``MfrmNw``C(``Fdate_epoch``C);` \n\n  `c/​/ Divides [duration_ms] into a defined [type]`\n  `c/​/ The [type] can be these values​: \"ms\", \"s\"(econds), \"m\"(inutes), \"h\"(ours),`\n  `c/​/ \"w\"(eeks), \"M\"(onths), \"y\"(ears). (Returns NaN for invalid types)`\n  `c/​/ ``C@returns``c [``CString``c|``CNaN``c] `\n  `Autil``C.``MnAs``C(``Fduration_ms``C, ``Ftype``C);` \n\n  `c/​/ Returns [num] as roman numerals. Ex. 123 -> \"CXXIII\"`\n  `c/​/ ``C@returns``c [``CString``c] `\n  `Autil``C.``Mromn``C(``Fnum``C);`\n\n  `c/​/ Abbreviates [num]. Ex. 12345 -> \"1.2k\"`\n  `c/​/ ``C@returns``c [``CString``c] `\n  `Autil``C.``Mabbr``C(``Fnum``C);` \n\n  `c/​/ Returns [num] as an ordinal number string Ex. 1 -> \"1st\"`\n  `c/​/ ``C@returns``c [``CString``c] `\n  `Autil``C.``Mord``C(``Fnum``C);` \n  \n  `c/​/ Shorthand Functions`\n  `Autil``C.``Asl``C.``A_` `X=` `A#fs``C.``Ascripts``C.``A​``Mlib``C();`\n  `Autil``C.``AgL` `X=` `A#fs``C.``Ascripts``C.``Aget_level``C;`\n  `Autil``C.``NM` `X=` `AMath``C.``Amax``C;`\n  `Autil``C.``Am` `X=` `AMath``C.``Amin``C;`\n  `Autil``C.``Afl` `X=` `AMath``C.``Afloor``C;`\n  `Autil``C.``Ace` `X=` `AMath``C.``Aceil``C;`\n  `Autil``C.``Arn` `X=` `AMath``C.``Arandom``C;`\n  `Autil``C.``Ar` `X=` `AMath``C.``Around``C;`\n  \n  `c/​/ Shorthand scripts​.lib`\n  `Autil``C.``Asl``C.``Acee` `X=` `Alib``C.``Acan_continue_execution``C;`\n  `Autil``C.``Asl``C.``Accee` `X=` `Alib``C.``Acan_continue_execution_error``C;`\n  `Autil``C.``Asl``C.``Acrs` `X=` `Alib``C.``Acreate_rand_string``C;`\n  `Autil``C.``Asl``C.``A​``NCC` `X=` `Alib``C.``Acorruption_chars``C;`\n  \n  `c/​/ Shorthand Operations`\n  `Autil``C.``MtL``C(``Fstr``C);` `c/​/ str​.toLowerCase()`\n  `Autil``C.``MtU``C(``Fstr``C);` `c/​/ str​.toUpperCase()`\n  `Autil``C.``MtLS``C(``Fobj``C);` `c/​/ obj​.toLocaleString()`\n  `Autil``C.``Mcl``C(``Fmin``C, ``Fmax``C, ``Fnum``C);` `c/​/ Clamps [num] between [min] and [max]`\n  `Autil``C.``MrA``C(``Farray``C);` `c/​/ Gets a random item from [array]`\n  `Autil``C.``Mlp``C(``Fx``C, ``Ffunc``C);` `c/​/ Runs [func], [x] times, and returns the array of results (first func param is index)`\n`C}`",
-	"next_scrape": 1658306786918
+	"next_scrape": 1658316689177
 }
