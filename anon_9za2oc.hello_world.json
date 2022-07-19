@@ -1,19 +1,27 @@
 {
 	"_id": "anon_9za2oc.hello_world",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anon_9za2oc.hello_world",
 	"sector": "K_0732",
 	"sec_level": 4,
 	"date_added": 1652237921477,
-	"last_scraped": 1658208118114,
+	"last_scraped": 1658218913633,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652237921477
+		},
+		{
+			"type": "died",
+			"when": 1658218913633
+		},
+		{
+			"type": "died",
+			"when": 1658219200935
 		}
 	],
-	"next_scrape": 1658254580108,
+	"next_scrape": 1658311591095,
 	"category": "plant_sim",
 	"last_update": 1658208118114,
 	"output": [
@@ -478,6 +486,7 @@
 			]
 		}
 	],
-	"updt": 1658199576559,
-	"edit": 631
+	"updt": 1658218934579,
+	"edit": 633,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_9za2oc.hello_world: script doesn't exist\"}"
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "anon_9za2oc.blib",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_9za2oc.blib",
 	"sector": "SPC_4012",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1658211669732
+		},
+		{
+			"type": "died",
+			"when": 1658219200935
 		}
 	],
-	"updt": 1658211700078,
-	"edit": 1,
+	"updt": 1658211896072,
+	"edit": 2,
 	"scrape_ct": 17,
 	"next_scrape": 1658294953110,
 	"category": "risk_factor",
@@ -662,5 +666,6 @@
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true
 }
