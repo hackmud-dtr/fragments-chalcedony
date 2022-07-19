@@ -6,29 +6,21 @@
 	"sector": "SPC_4012",
 	"sec_level": 4,
 	"date_added": 1658240197668,
-	"last_scraped": 1658240229088,
+	"last_scraped": 1658240882935,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658240197668
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1658240289088,
+	"scrape_ct": 11,
+	"next_scrape": 1658240942935,
 	"category": "fishie_tank",
-	"last_update": 1658240229088,
+	"last_update": 1658240882935,
 	"output": [
 		{
 			"args": {},
-			"calls": 4033,
+			"calls": 17354,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"er th",
@@ -55,6 +47,45 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4364,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"er th",
+				"aster",
+				"| SUBJ",
+				" | SUB",
+				"k there",
+				"iorities",
+				"hread | ",
+				"hink the"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23101,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"er th",
+				"aster",
+				"| SUBJ",
+				" | SUB",
+				"k there",
+				"iorities",
+				"hread | ",
+				"hink the"
+			]
 		}
 	],
 	"identified": [
@@ -71,5 +102,7 @@
 				"hink the"
 			]
 		}
-	]
+	],
+	"updt": 1658240821660,
+	"edit": 4
 }
