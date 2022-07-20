@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_xlawi1.t1_npcs",
-	"sector": "NGC_2699",
+	"sector": "VNP_2058",
 	"sec_level": 4,
 	"date_added": 1653328939688,
-	"last_scraped": 1658346887544,
+	"last_scraped": 1658347756809,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653328939688
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1658347721974,
+				"from": "VNP_2058",
+				"to": "NGC_2699"
+			}
+		]
 	],
 	"pl_output": "{\"msg\":\"weathernet.public, skimmerite.public, robovac.public, aon.public\"}",
-	"next_scrape": 1658431392231,
-	"updt": 1658338151956,
-	"edit": 503
+	"next_scrape": 1658437810853,
+	"updt": 1658347730561,
+	"edit": 505
 }
