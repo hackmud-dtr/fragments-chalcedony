@@ -1,25 +1,31 @@
 {
 	"_id": "anon_a7kdt1.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_a7kdt1.dist",
 	"sector": "VNP_2058",
 	"sec_level": 4,
 	"date_added": 1658370810388,
-	"last_scraped": 1658372335021,
+	"last_scraped": 1658370953214,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658370810388
 		}
 	],
-	"next_scrape": 1658418158140,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1658371013214,
 	"category": "fishie_tank",
-	"last_update": 1658372335021,
+	"last_update": 1658370971912,
 	"output": [
 		{
 			"args": {},
-			"calls": 30853,
+			"calls": 3397,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"6C to ",
@@ -57,33 +63,13 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8332,
+			"calls": 541,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
-			"fragments": [
-				"6C to ",
-				"216C t",
-				" lane.",
-				" in th",
-				"pile\\n2",
-				"e disca",
-				"to the d",
-				"s\\n216C ",
-				"le\\n216D",
-				"iscard p",
-				"ard pile"
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 52638,
-			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"6C to ",
 				"216C t",
@@ -116,7 +102,5 @@
 				"ard pile"
 			]
 		}
-	],
-	"updt": 1658372156357,
-	"edit": 7
+	]
 }
