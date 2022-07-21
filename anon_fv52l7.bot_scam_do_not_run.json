@@ -6,26 +6,21 @@
 	"sector": "VNP_2058",
 	"sec_level": 4,
 	"date_added": 1658440308224,
-	"last_scraped": 1658440337494,
+	"last_scraped": 1658441532585,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658440308224
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1658440397494,
+	"scrape_ct": 2,
+	"next_scrape": 1658441592585,
 	"category": "fishie_tank",
-	"last_update": 1658440355745,
+	"last_update": 1658441532585,
 	"output": [
 		{
 			"args": {},
-			"calls": 4648,
+			"calls": 39547,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ursary",
@@ -61,13 +56,32 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 917,
+			"calls": 8138,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"ursary",
+				"is sub",
+				"identi",
+				"ermit.",
+				"5E (he",
+				"y; lifet",
+				"revocati",
+				"ployee S",
+				"n of the",
+				"e ban fr"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 30650,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ursary",
 				"is sub",
@@ -97,6 +111,16 @@
 				"n of the",
 				"e ban fr"
 			]
+		}
+	],
+	"updt": 1658441348045,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
