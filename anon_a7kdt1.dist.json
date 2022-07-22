@@ -6,20 +6,20 @@
 	"sector": "VNP_2058",
 	"sec_level": 4,
 	"date_added": 1658370810388,
-	"last_scraped": 1658504073484,
+	"last_scraped": 1658513618334,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658370810388
 		}
 	],
-	"next_scrape": 1658546227859,
+	"next_scrape": 1658556265547,
 	"category": "fishie_tank",
-	"last_update": 1658504073484,
+	"last_update": 1658513618334,
 	"output": [
 		{
 			"args": {},
-			"calls": 87397,
+			"calls": 92235,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ds\\n21",
@@ -36,6 +36,7 @@
 				"iscard p",
 				"end card",
 				"e\\n216D ",
+				"discard ",
 				"d pile\\n",
 				"D in the",
 				"ard pile",
@@ -67,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19943,
+			"calls": 21808,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -89,6 +90,7 @@
 				"iscard p",
 				"end card",
 				"e\\n216D ",
+				"discard ",
 				"d pile\\n",
 				"D in the",
 				"ard pile",
@@ -102,7 +104,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 103026,
+			"calls": 108287,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ds\\n21",
@@ -119,6 +121,7 @@
 				"iscard p",
 				"end card",
 				"e\\n216D ",
+				"discard ",
 				"d pile\\n",
 				"D in the",
 				"ard pile",
@@ -147,14 +150,6 @@
 			]
 		}
 	],
-	"updt": 1658494905693,
-	"edit": 22,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1658504286782,
+	"edit": 24
 }
