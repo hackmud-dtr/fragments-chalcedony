@@ -1,0 +1,121 @@
+{
+	"_id": "abndnd_bzh6jp.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_bzh6jp.bot_brain",
+	"sector": "HJG_0214",
+	"sec_level": 4,
+	"date_added": 1658566656632,
+	"last_scraped": 1658566803944,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1658566656632
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1658566863944,
+	"category": "fishie_tank",
+	"last_update": 1658566820327,
+	"output": [
+		{
+			"args": {},
+			"calls": 6306,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" the ",
+				"xactly",
+				"ns. ##",
+				"ctly t",
+				"s like ",
+				"like a ",
+				" me ## ",
+				" ## Ris",
+				"e word I",
+				"## Risk "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" the ",
+						"xactly",
+						"ns. ##",
+						"ctly t",
+						"s like ",
+						"like a ",
+						" me ## ",
+						" ## Ris",
+						"e word I",
+						"## Risk "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1482,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" the ",
+				"xactly",
+				"ns. ##",
+				"ctly t",
+				"s like ",
+				"like a ",
+				" me ## ",
+				" ## Ris",
+				"e word I",
+				"## Risk "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4128,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" the ",
+				"xactly",
+				"ns. ##",
+				"ctly t",
+				"s like ",
+				"like a ",
+				" me ## ",
+				" ## Ris",
+				"e word I",
+				"## Risk "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				" the ",
+				"xactly",
+				"ns. ##",
+				"ctly t",
+				"s like ",
+				"like a ",
+				" me ## ",
+				" ## Ris",
+				"e word I",
+				"## Risk "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
