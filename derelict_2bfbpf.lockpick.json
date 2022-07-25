@@ -1,30 +1,67 @@
 {
 	"_id": "derelict_2bfbpf.lockpick",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_2bfbpf.lockpick",
-	"sector": "VNP_9735",
+	"sector": "VNP_4829",
 	"sec_level": 1,
 	"date_added": 1653199968781,
-	"last_scraped": 1658783224510,
+	"last_scraped": 1658790129245,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653199968781
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1658790079166,
+				"from": "VNP_4829",
+				"to": "VNP_9735"
+			}
+		]
 	],
 	"pl_output": "for kitties only",
-	"next_scrape": 1658827042910,
-	"updt": 1658773578733,
-	"edit": 562,
+	"next_scrape": 1658790189245,
+	"updt": 1658783353712,
+	"edit": 563,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1658783224510,
+	"last_update": 1658790129245,
 	"output": [
 		{
 			"args": {},
-			"calls": 4736,
+			"calls": 6039,
 			"base": "for kitties only",
 			"fragments": [
+				" NETW",
+				"FILE0X",
+				"E ERRO",
+				"0X7A81",
+				"T0X6B58",
+				"58_FILE",
+				"W ERROR "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						" NETW",
+						"FILE0X",
+						"E ERRO",
+						"0X7A81",
+						"T0X6B58",
+						"58_FILE",
+						"W ERROR "
+					]
+				}
+			]
+		}
+	],
+	"scrape_ct": 20,
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
 				" NETW",
 				"FILE0X",
 				"E ERRO",
