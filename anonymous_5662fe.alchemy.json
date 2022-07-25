@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_5662fe.alchemy",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_5662fe.alchemy",
 	"sector": "SPC_2235",
 	"sec_level": 4,
 	"date_added": 1658747339056,
-	"last_scraped": 1658748741400,
+	"last_scraped": 1658759317153,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658747339056
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1658748801400,
+	"next_scrape": 1658803906039,
 	"category": "fishie_tank",
-	"last_update": 1658748741400,
+	"last_update": 1658759317153,
 	"output": [
 		{
 			"args": {},
-			"calls": 44443,
+			"calls": 52262,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" It's ",
@@ -46,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9518,
+			"calls": 11782,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,7 +64,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 36547,
+			"calls": 48735,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" It's ",
@@ -88,14 +87,6 @@
 			]
 		}
 	],
-	"updt": 1658748563002,
-	"edit": 7,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1658759313354,
+	"edit": 10
 }
