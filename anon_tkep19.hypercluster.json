@@ -1,26 +1,25 @@
 {
 	"_id": "anon_tkep19.hypercluster",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_tkep19.hypercluster",
 	"sector": "SPC_2235",
 	"sec_level": 4,
 	"date_added": 1658749438576,
-	"last_scraped": 1658750686471,
+	"last_scraped": 1658760676585,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658749438576
 		}
 	],
-	"scrape_ct": 4,
-	"next_scrape": 1658750746471,
+	"next_scrape": 1658802423734,
 	"category": "fishie_tank",
-	"last_update": 1658750704937,
+	"last_update": 1658760676585,
 	"output": [
 		{
 			"args": {},
-			"calls": 31250,
+			"calls": 40591,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y win",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9722,
+			"calls": 11693,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 27068,
+			"calls": 39770,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y win",
@@ -108,9 +107,12 @@
 			]
 		}
 	],
-	"updt": 1658750516712,
-	"edit": 6,
+	"updt": 1658751299555,
+	"edit": 9,
 	"retry_args": [
+		{
+			"do": "feed"
+		},
 		{
 			"do": "clean"
 		}
