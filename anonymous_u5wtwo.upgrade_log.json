@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_u5wtwo.upgrade_log",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_u5wtwo.upgrade_log",
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656546230991,
-	"last_scraped": 1658847654054,
+	"last_scraped": 1658857019787,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656546230991
 		}
 	],
-	"next_scrape": 1658888991784,
+	"next_scrape": 1658942761702,
 	"category": "fishie_tank",
-	"last_update": 1658847654054,
+	"last_update": 1658857019787,
 	"output": [
 		{
 			"args": {},
-			"calls": 1021825,
+			"calls": 1026574,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s fas",
@@ -210,6 +210,14 @@
 			]
 		}
 	],
-	"updt": 1658838431444,
-	"edit": 286
+	"updt": 1658847803563,
+	"edit": 287,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
