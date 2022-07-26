@@ -6,20 +6,20 @@
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656546230991,
-	"last_scraped": 1658838228564,
+	"last_scraped": 1658847654054,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656546230991
 		}
 	],
-	"next_scrape": 1658882655428,
+	"next_scrape": 1658888991784,
 	"category": "fishie_tank",
-	"last_update": 1658838228564,
+	"last_update": 1658847654054,
 	"output": [
 		{
 			"args": {},
-			"calls": 1017904,
+			"calls": 1021825,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s fas",
@@ -87,7 +87,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 235145,
+			"calls": 237197,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,13 +95,14 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"s fas",
+				"it's ",
 				" fasc",
 				"t's fa",
 				"t of m",
 				"rote p",
 				"ng\\n1E",
 				"1 Did ",
-				" that ",
 				"think i",
 				"ow that",
 				"of my p",
@@ -116,6 +117,7 @@
 				" part o",
 				" of my ",
 				" I thin",
+				"w that I",
 				"u know t",
 				"te part ",
 				"know tha",
@@ -123,6 +125,7 @@
 				"id you k",
 				"Did you ",
 				"d you kn",
+				"at?\\n1E6",
 				"5 wrote ",
 				"1E6B I t",
 				" Did you",
@@ -130,25 +133,29 @@
 				"that I\\n1",
 				"t I\\n1E75",
 				"nating\\n1",
+				"hat I\\n1E",
 				"\\n1E75 wr",
 				"?\\n1E6B I",
-				" my phD\\n"
+				" that I\\n",
+				" my phD\\n",
+				" I\\n1E75 "
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1031772,
+			"calls": 1040938,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"s fas",
+				"it's ",
 				" fasc",
 				"t's fa",
 				"t of m",
 				"rote p",
 				"ng\\n1E",
 				"1 Did ",
-				" that ",
 				"think i",
 				"ow that",
 				"of my p",
@@ -163,6 +170,7 @@
 				" part o",
 				" of my ",
 				" I thin",
+				"w that I",
 				"u know t",
 				"te part ",
 				"know tha",
@@ -170,6 +178,7 @@
 				"id you k",
 				"Did you ",
 				"d you kn",
+				"at?\\n1E6",
 				"5 wrote ",
 				"1E6B I t",
 				" Did you",
@@ -177,9 +186,12 @@
 				"that I\\n1",
 				"t I\\n1E75",
 				"nating\\n1",
+				"hat I\\n1E",
 				"\\n1E75 wr",
 				"?\\n1E6B I",
-				" my phD\\n"
+				" that I\\n",
+				" my phD\\n",
+				" I\\n1E75 "
 			]
 		}
 	],
@@ -198,14 +210,6 @@
 			]
 		}
 	],
-	"updt": 1658828662710,
-	"edit": 284,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1658838431444,
+	"edit": 286
 }
