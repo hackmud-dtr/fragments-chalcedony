@@ -1,21 +1,29 @@
 {
 	"_id": "abandoned_kvyp3d.whois",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_kvyp3d.whois",
 	"sector": "VNP_0007",
 	"sec_level": 4,
 	"date_added": 1658613082962,
-	"last_scraped": 1658893630364,
+	"last_scraped": 1658902909268,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658613082962
+		},
+		{
+			"type": "died",
+			"when": 1658902909268
+		},
+		{
+			"type": "died",
+			"when": 1658903151946
 		}
 	],
-	"updt": 1658884340388,
-	"edit": 36,
-	"next_scrape": 1658935759040,
+	"updt": 1658903090802,
+	"edit": 38,
+	"next_scrape": 1658986303958,
 	"category": "clicker",
 	"last_update": 1658893630364,
 	"output": [
@@ -286,5 +294,6 @@
 				"a couple"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_kvyp3d.whois: script doesn't exist\"}"
 }
