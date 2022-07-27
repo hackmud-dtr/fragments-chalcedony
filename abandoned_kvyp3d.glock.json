@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_kvyp3d.glock",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_kvyp3d.glock",
 	"sector": "HJG_3384",
 	"sec_level": 4,
 	"date_added": 1655848703357,
-	"last_scraped": 1658892524249,
+	"last_scraped": 1658901772571,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655848703357
+		},
+		{
+			"type": "died",
+			"when": 1658901772571
 		}
 	],
-	"next_scrape": 1658934327942,
+	"next_scrape": 1658984148769,
 	"category": "dice_roller",
 	"last_update": 1658892524249,
 	"output": [
@@ -84,6 +88,7 @@
 			]
 		}
 	],
-	"updt": 1658883364708,
-	"edit": 322
+	"updt": 1658892550737,
+	"edit": 323,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_kvyp3d.glock: script doesn't exist\"}"
 }
