@@ -6,24 +6,23 @@
 	"sector": "K_5590",
 	"sec_level": 4,
 	"date_added": 1651369695679,
-	"last_scraped": 1659006865111,
+	"last_scraped": 1659016322816,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651369695679
 		}
 	],
-	"next_scrape": 1659048685539,
+	"next_scrape": 1659062062802,
 	"category": "fishie_tank",
-	"last_update": 1659006865111,
+	"last_update": 1659016322816,
 	"output": [
 		{
 			"args": {},
-			"calls": 3349095,
+			"calls": 3353414,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ack\\n21",
-				"154 If ",
 				" next ^",
 				" If it ",
 				" card i",
@@ -44,6 +43,7 @@
 				"55 card ",
 				"54 If it",
 				"3 to the",
+				"154 If i",
 				"153 to t",
 				" the nex",
 				" it is t",
@@ -78,7 +78,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 745194,
+			"calls": 746192,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -87,7 +87,6 @@
 			],
 			"fragments": [
 				"ack\\n21",
-				"154 If ",
 				" next ^",
 				" If it ",
 				" card i",
@@ -108,6 +107,7 @@
 				"55 card ",
 				"54 If it",
 				"3 to the",
+				"154 If i",
 				"153 to t",
 				" the nex",
 				" it is t",
@@ -131,11 +131,10 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3398677,
+			"calls": 3404945,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ack\\n21",
-				"154 If ",
 				" next ^",
 				" If it ",
 				" card i",
@@ -156,6 +155,7 @@
 				"55 card ",
 				"54 If it",
 				"3 to the",
+				"154 If i",
 				"153 to t",
 				" the nex",
 				" it is t",
@@ -187,6 +187,6 @@
 			]
 		}
 	],
-	"updt": 1658997442675,
-	"edit": 953
+	"updt": 1659007020203,
+	"edit": 954
 }
