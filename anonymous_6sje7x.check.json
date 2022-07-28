@@ -1,21 +1,29 @@
 {
 	"_id": "anonymous_6sje7x.check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_6sje7x.check",
 	"sector": "VNP_0007",
 	"sec_level": 4,
 	"date_added": 1658729924713,
-	"last_scraped": 1659019384023,
+	"last_scraped": 1659028873521,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658729924713
+		},
+		{
+			"type": "died",
+			"when": 1659028873521
+		},
+		{
+			"type": "died",
+			"when": 1659028991059
 		}
 	],
-	"updt": 1659009953054,
-	"edit": 44,
-	"next_scrape": 1659064577815,
+	"updt": 1659028898655,
+	"edit": 46,
+	"next_scrape": 1659111068194,
 	"category": "plant_sim",
 	"last_update": 1659019384023,
 	"output": [
@@ -135,5 +143,6 @@
 				"al. She "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_6sje7x.check: script doesn't exist\"}"
 }
