@@ -1,9 +1,9 @@
 {
 	"_id": "unidentified_7dtop6.p_jptl7j",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "timeout",
 	"script": "unidentified_7dtop6.p_jptl7j",
-	"sector": "SPC_7632",
+	"sector": "HJG_4283",
 	"sec_level": 2,
 	"date_added": 1654492572483,
 	"last_scraped": 0,
@@ -11,6 +11,20 @@
 		{
 			"type": "added",
 			"when": 1654492572483
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1659070794875
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1659071009494,
+				"from": "HJG_4283",
+				"to": "SPC_7632"
+			}
+		]
+	],
+	"updt": 1659070931971,
+	"edit": 2
 }
