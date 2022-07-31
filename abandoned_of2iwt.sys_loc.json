@@ -6,16 +6,16 @@
 	"sector": "NGC_3008",
 	"sec_level": 4,
 	"date_added": 1658903141186,
-	"last_scraped": 1659307236055,
+	"last_scraped": 1659307199815,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658903141186
 		}
 	],
-	"next_scrape": 1659349098274,
+	"next_scrape": 1659350368998,
 	"category": "fishie_tank",
-	"last_update": 1659307236055,
+	"last_update": 1659307199815,
 	"output": [
 		{
 			"args": {},
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 49733,
+			"calls": 49157,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,7 +79,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 220364,
+			"calls": 212801,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"or lo",
@@ -112,6 +112,14 @@
 			]
 		}
 	],
-	"updt": 1659307214589,
-	"edit": 57
+	"updt": 1659298019513,
+	"edit": 56,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
