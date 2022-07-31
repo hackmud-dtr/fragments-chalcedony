@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_otsscv.post_mortem",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_otsscv.post_mortem",
 	"sector": "K_1510",
 	"sec_level": 4,
 	"date_added": 1659291812732,
-	"last_scraped": 1659291892387,
+	"last_scraped": 1659301359393,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1659374488786,
+	"next_scrape": 1659393658477,
 	"category": "risk_factor",
-	"last_update": 1659291856283,
+	"last_update": 1659301359393,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +40,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 122,
+			"calls": 222,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"o be ",
@@ -60,11 +60,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1659301350689,
+	"edit": 2
 }
