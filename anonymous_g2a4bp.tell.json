@@ -6,40 +6,46 @@
 	"sector": "K_1510",
 	"sec_level": 4,
 	"date_added": 1659338028439,
-	"last_scraped": 1659348744851,
+	"last_scraped": 1659358183309,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659338028439
 		}
 	],
-	"next_scrape": 1659395410255,
+	"next_scrape": 1659398598600,
 	"category": "fishie_tank",
-	"last_update": 1659348744851,
+	"last_update": 1659358183309,
 	"output": [
 		{
 			"args": {},
-			"calls": 46631,
+			"calls": 49264,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ETW E",
+				"270FC",
+				"0X756",
 				"0_CLS",
 				"| NET",
 				"X00_CL",
+				"W ERRO",
 				"ST ERR",
 				"FILE0X",
-				"E0XBBE",
-				"6A_FIL",
 				"XBBE270",
 				"OR | NE",
 				"MFT0X00",
+				"LST0XF3",
 				"F3_SECT",
 				"CLST0XF",
-				"756A_FI",
+				"3_SECT0",
+				"0XF3_SE",
+				"X756A_FI",
 				"T ERROR ",
 				"ST0XF3_S",
 				"RROR | P",
+				"LE0XBBE2",
 				"FT0X00_C",
+				"6A_FILE0",
 				"_SECT0X7"
 			],
 			"hits": [
@@ -61,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10728,
+			"calls": 11422,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,23 +76,29 @@
 			],
 			"fragments": [
 				"ETW E",
+				"270FC",
+				"0X756",
 				"0_CLS",
 				"| NET",
 				"X00_CL",
+				"W ERRO",
 				"ST ERR",
 				"FILE0X",
-				"E0XBBE",
-				"6A_FIL",
 				"XBBE270",
 				"OR | NE",
 				"MFT0X00",
+				"LST0XF3",
 				"F3_SECT",
 				"CLST0XF",
-				"756A_FI",
+				"3_SECT0",
+				"0XF3_SE",
+				"X756A_FI",
 				"T ERROR ",
 				"ST0XF3_S",
 				"RROR | P",
+				"LE0XBBE2",
 				"FT0X00_C",
+				"6A_FILE0",
 				"_SECT0X7"
 			]
 		},
@@ -94,27 +106,33 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 39810,
+			"calls": 44867,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ETW E",
+				"270FC",
+				"0X756",
 				"0_CLS",
 				"| NET",
 				"X00_CL",
+				"W ERRO",
 				"ST ERR",
 				"FILE0X",
-				"E0XBBE",
-				"6A_FIL",
 				"XBBE270",
 				"OR | NE",
 				"MFT0X00",
+				"LST0XF3",
 				"F3_SECT",
 				"CLST0XF",
-				"756A_FI",
+				"3_SECT0",
+				"0XF3_SE",
+				"X756A_FI",
 				"T ERROR ",
 				"ST0XF3_S",
 				"RROR | P",
+				"LE0XBBE2",
 				"FT0X00_C",
+				"6A_FILE0",
 				"_SECT0X7"
 			]
 		}
@@ -133,6 +151,6 @@
 			]
 		}
 	],
-	"updt": 1659339649280,
-	"edit": 8
+	"updt": 1659348832584,
+	"edit": 9
 }
