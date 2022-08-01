@@ -1,35 +1,46 @@
 {
 	"_id": "anonymous_g2a4bp.tell",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_g2a4bp.tell",
 	"sector": "K_1510",
 	"sec_level": 4,
 	"date_added": 1659338028439,
-	"last_scraped": 1659339206901,
+	"last_scraped": 1659348744851,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659338028439
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1659339266901,
+	"next_scrape": 1659395410255,
 	"category": "fishie_tank",
-	"last_update": 1659339206901,
+	"last_update": 1659348744851,
 	"output": [
 		{
 			"args": {},
-			"calls": 31827,
+			"calls": 46631,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ETW E",
-				"CT0X7",
+				"0_CLS",
+				"| NET",
+				"X00_CL",
+				"ST ERR",
+				"FILE0X",
+				"E0XBBE",
 				"6A_FIL",
-				"0X00_C",
 				"XBBE270",
 				"OR | NE",
-				"RROR | P"
+				"MFT0X00",
+				"F3_SECT",
+				"CLST0XF",
+				"756A_FI",
+				"T ERROR ",
+				"ST0XF3_S",
+				"RROR | P",
+				"FT0X00_C",
+				"_SECT0X7"
 			],
 			"hits": [
 				{
@@ -50,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7993,
+			"calls": 10728,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,28 +70,52 @@
 			],
 			"fragments": [
 				"ETW E",
-				"CT0X7",
+				"0_CLS",
+				"| NET",
+				"X00_CL",
+				"ST ERR",
+				"FILE0X",
+				"E0XBBE",
 				"6A_FIL",
-				"0X00_C",
 				"XBBE270",
 				"OR | NE",
-				"RROR | P"
+				"MFT0X00",
+				"F3_SECT",
+				"CLST0XF",
+				"756A_FI",
+				"T ERROR ",
+				"ST0XF3_S",
+				"RROR | P",
+				"FT0X00_C",
+				"_SECT0X7"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30427,
+			"calls": 39810,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ETW E",
-				"CT0X7",
+				"0_CLS",
+				"| NET",
+				"X00_CL",
+				"ST ERR",
+				"FILE0X",
+				"E0XBBE",
 				"6A_FIL",
-				"0X00_C",
 				"XBBE270",
 				"OR | NE",
-				"RROR | P"
+				"MFT0X00",
+				"F3_SECT",
+				"CLST0XF",
+				"756A_FI",
+				"T ERROR ",
+				"ST0XF3_S",
+				"RROR | P",
+				"FT0X00_C",
+				"_SECT0X7"
 			]
 		}
 	],
@@ -98,6 +133,6 @@
 			]
 		}
 	],
-	"updt": 1659339062746,
-	"edit": 5
+	"updt": 1659339649280,
+	"edit": 8
 }
