@@ -1,0 +1,69 @@
+{
+	"_id": "anonymous_g2a4bp.tell",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_g2a4bp.tell",
+	"sector": "K_1510",
+	"sec_level": 4,
+	"date_added": 1659338028439,
+	"last_scraped": 1659338067044,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1659338028439
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1659338127044,
+	"category": "fishie_tank",
+	"last_update": 1659338067044,
+	"output": [
+		{
+			"args": {},
+			"calls": 3339,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ETW E",
+				"CT0X7",
+				"6A_FIL",
+				"0X00_C",
+				"XBBE270",
+				"OR | NE",
+				"RROR | P"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ETW E",
+						"CT0X7",
+						"6A_FIL",
+						"0X00_C",
+						"XBBE270",
+						"OR | NE",
+						"RROR | P"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ETW E",
+				"CT0X7",
+				"6A_FIL",
+				"0X00_C",
+				"XBBE270",
+				"OR | NE",
+				"RROR | P"
+			]
+		}
+	]
+}
