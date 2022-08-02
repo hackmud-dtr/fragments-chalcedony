@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ngusfd.lib",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_ngusfd.lib",
 	"sector": "SPC_3097",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1651132104783
+		},
+		{
+			"type": "died",
+			"when": 1659411338042
 		}
 	],
 	"retry_args": [
@@ -54,5 +58,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1651132229612,
+	"edit": 1
 }

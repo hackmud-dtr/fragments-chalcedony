@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_jrv8s3.heart_attack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_jrv8s3.heart_attack",
 	"sector": "K_1510",
 	"sec_level": 4,
 	"date_added": 1659375123640,
-	"last_scraped": 1659395642429,
+	"last_scraped": 1659404800832,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659375123640
+		},
+		{
+			"type": "died",
+			"when": 1659404800832
 		}
 	],
-	"next_scrape": 1659437356734,
+	"next_scrape": 1659486403632,
 	"category": "fishie_tank",
 	"last_update": 1659395642429,
 	"output": [
@@ -147,6 +151,7 @@
 			]
 		}
 	],
-	"updt": 1659386156294,
-	"edit": 8
+	"updt": 1659395731862,
+	"edit": 9,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_jrv8s3.heart_attack: script doesn't exist\"}"
 }

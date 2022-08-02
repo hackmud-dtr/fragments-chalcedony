@@ -1,19 +1,23 @@
 {
 	"_id": "anon_ngusfd.interesting",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_ngusfd.interesting",
 	"sector": "K_0626",
 	"sec_level": 4,
 	"date_added": 1656687690402,
-	"last_scraped": 1659395679480,
+	"last_scraped": 1659404878361,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656687690402
+		},
+		{
+			"type": "died",
+			"when": 1659404878361
 		}
 	],
-	"next_scrape": 1659440169998,
+	"next_scrape": 1659496182226,
 	"category": "dice_roller",
 	"last_update": 1659395679480,
 	"output": [
@@ -102,6 +106,7 @@
 			]
 		}
 	],
-	"updt": 1659386156294,
-	"edit": 296
+	"updt": 1659395731862,
+	"edit": 297,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_ngusfd.interesting: script doesn't exist\"}"
 }
