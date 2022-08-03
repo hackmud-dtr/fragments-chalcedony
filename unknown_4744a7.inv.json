@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_4744a7.inv",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_4744a7.inv",
 	"sector": "NGC_9886",
 	"sec_level": 4,
 	"date_added": 1659566743291,
-	"last_scraped": 1659566887589,
+	"last_scraped": 1659566905783,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659566743291
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1659566947589,
+	"next_scrape": 1659653953203,
 	"category": "risk_factor",
 	"last_update": 1659566887589,
 	"output": [
@@ -52,5 +47,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1659566903215,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
