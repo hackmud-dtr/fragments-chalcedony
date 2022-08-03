@@ -1,7 +1,7 @@
 {
 	"_id": "anon_fcsmk3.borrow",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_fcsmk3.borrow",
 	"sector": "HJG_9397",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "HJG_9397",
 				"to": "K_1701"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1659548641595
+		}
 	],
-	"updt": 1653403730242,
-	"edit": 18,
+	"updt": 1653413896464,
+	"edit": 19,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1653488155485
 }
