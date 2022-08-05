@@ -6,33 +6,37 @@
 	"sector": "VNP_9010",
 	"sec_level": 4,
 	"date_added": 1659679435580,
-	"last_scraped": 1659691041045,
+	"last_scraped": 1659700706408,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659679435580
 		}
 	],
-	"next_scrape": 1659737104743,
+	"next_scrape": 1659742111105,
 	"category": "coin_flipper",
-	"last_update": 1659691041045,
+	"last_update": 1659700706408,
 	"output": [
 		{
 			"args": {},
-			"calls": 109943,
+			"calls": 116082,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"100 1",
 				"00 10",
 				"1001 01",
-				"0000 00",
 				"100 0001",
+				"1 0100 0",
 				"001 0100",
+				"000\\n000",
+				"000 0100",
 				"000 0000",
-				"00\\n0000",
 				"00 0100 ",
+				"00 0000 ",
+				"0 0100 1",
 				"0 0000 0",
 				" 0000 01",
+				" 0000 00",
+				"00\\n0000 ",
 				"0 0000\\n0"
 			],
 			"hits": [
@@ -73,6 +77,6 @@
 			]
 		}
 	],
-	"updt": 1659681778206,
-	"edit": 12
+	"updt": 1659691157232,
+	"edit": 13
 }
