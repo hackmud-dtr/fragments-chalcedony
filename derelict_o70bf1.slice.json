@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_o70bf1.slice",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_o70bf1.slice",
 	"sector": "VNP_9010",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1659679825949
+		},
+		{
+			"type": "died",
+			"when": 1659679903042
 		}
 	],
 	"scrape_ct": 18,
@@ -142,5 +146,7 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_o70bf1.slice: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_o70bf1.slice: script doesn't exist\"}",
+	"updt": 1659679827295,
+	"edit": 1
 }
