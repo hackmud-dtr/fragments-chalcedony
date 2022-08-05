@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ibmgoh.def",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_ibmgoh.def",
 	"sector": "NGC_5755",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1651814895648
+		},
+		{
+			"type": "died",
+			"when": 1659674055474
 		}
 	],
 	"retry_args": [
@@ -58,5 +62,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1651815023023,
+	"edit": 1
 }
