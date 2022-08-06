@@ -6,39 +6,41 @@
 	"sector": "K_7852",
 	"sec_level": 4,
 	"date_added": 1652527204947,
-	"last_scraped": 1659743220724,
+	"last_scraped": 1659752465177,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652527204947
 		}
 	],
-	"next_scrape": 1659789737479,
+	"next_scrape": 1659796827601,
 	"category": "fishie_tank",
-	"last_update": 1659743220724,
+	"last_update": 1659752483614,
 	"output": [
 		{
 			"args": {},
-			"calls": 3032573,
+			"calls": 3037433,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"are s",
 				" are ",
 				"e sent",
-				"card p",
 				"ter com",
 				"s\\n217A",
 				"he atta",
 				"discard",
+				"card pi",
 				"17A dis",
 				" sent t",
 				"to the a",
 				"t to the",
+				"pile aft",
 				"o the at",
 				"ile afte",
 				"er comba",
 				"ent to t",
 				"e after ",
+				"cker's\\n",
 				"attacker",
 				"ard pile",
 				"after co",
@@ -69,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 681952,
+			"calls": 682870,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,20 +82,22 @@
 				"are s",
 				" are ",
 				"e sent",
-				"card p",
 				"ter com",
 				"s\\n217A",
 				"he atta",
 				"discard",
+				"card pi",
 				"17A dis",
 				" sent t",
 				"to the a",
 				"t to the",
+				"pile aft",
 				"o the at",
 				"ile afte",
 				"er comba",
 				"ent to t",
 				"e after ",
+				"cker's\\n",
 				"attacker",
 				"ard pile",
 				"after co",
@@ -156,6 +160,11 @@
 			]
 		}
 	],
-	"updt": 1659734329612,
-	"edit": 854
+	"updt": 1659743320758,
+	"edit": 855,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
