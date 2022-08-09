@@ -6,24 +6,23 @@
 	"sector": "K_6178",
 	"sec_level": 4,
 	"date_added": 1657528631210,
-	"last_scraped": 1660074442261,
+	"last_scraped": 1660083753042,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657528631210
 		}
 	],
-	"next_scrape": 1660117634044,
+	"next_scrape": 1660128248701,
 	"category": "fishie_tank",
-	"last_update": 1660074442261,
+	"last_update": 1660083753042,
 	"output": [
 		{
 			"args": {},
-			"calls": 1080157,
+			"calls": 1084533,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"lright",
-				"ive me",
 				"inter.",
 				"ill ne",
 				". Give",
@@ -32,15 +31,17 @@
 				"nter.\\n",
 				"kay, us",
 				"EBB Oka",
+				"e five.",
 				"C9 Alri",
 				"ay, use",
 				", user ",
 				" will n",
-				" need a",
 				" a prin",
 				"You will",
 				"ser Erin",
 				"ll need ",
+				"l need a",
+				"ive me f",
 				"ght. Giv",
 				"eed a pr",
 				"ed a pri",
@@ -50,11 +51,13 @@
 				"a printe",
 				"9 Alrigh",
 				"1EC9 Alr",
+				"1EBC You",
 				"ter.\\n1EC",
 				"t all.\\n1",
 				"rin R\\n1E",
 				"R\\n1EBC Y",
 				"l.\\n1EBB ",
+				"er.\\n1EC9",
 				"all.\\n1EB",
 				"\\n1EBC Yo",
 				".\\n1EC9 A",
@@ -193,6 +196,14 @@
 			]
 		}
 	],
-	"updt": 1660065581206,
-	"edit": 315
+	"updt": 1660074572279,
+	"edit": 316,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
