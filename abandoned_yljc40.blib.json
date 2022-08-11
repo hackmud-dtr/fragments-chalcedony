@@ -1,19 +1,31 @@
 {
 	"_id": "abandoned_yljc40.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_yljc40.blib",
 	"sector": "VNP_0626",
 	"sec_level": 4,
 	"date_added": 1660193378658,
-	"last_scraped": 1660204675854,
+	"last_scraped": 1660214537986,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660193378658
+		},
+		{
+			"type": "died",
+			"when": 1660214534520
+		},
+		{
+			"type": "died",
+			"when": 1660214537986
+		},
+		{
+			"type": "died",
+			"when": 1660214540642
 		}
 	],
-	"next_scrape": 1660247600623,
+	"next_scrape": 1660303223817,
 	"category": "dice_roller",
 	"last_update": 1660204675854,
 	"output": [
@@ -82,6 +94,7 @@
 			]
 		}
 	],
-	"updt": 1660195576853,
-	"edit": 11
+	"updt": 1660204762730,
+	"edit": 12,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_yljc40.blib: script doesn't exist\"}"
 }
