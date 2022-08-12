@@ -6,16 +6,16 @@
 	"sector": "NGC_3008",
 	"sec_level": 4,
 	"date_added": 1658915114214,
-	"last_scraped": 1660290198115,
+	"last_scraped": 1660290144273,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658915114214
 		}
 	],
-	"next_scrape": 1660331266146,
+	"next_scrape": 1660332909792,
 	"category": "fishie_tank",
-	"last_update": 1660290198115,
+	"last_update": 1660290144273,
 	"output": [
 		{
 			"args": {},
@@ -60,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 140561,
+			"calls": 139603,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,8 +70,6 @@
 			"fragments": [
 				" to f",
 				"2171 t",
-				"171 to",
-				" be pl",
 				"UNCE ma",
 				"ombat\\n",
 				"be play",
@@ -81,7 +79,6 @@
 				"orce com",
 				"d face u",
 				"ce up\\n2",
-				"BOUNCE m",
 				"ayed fac",
 				"2172 Whe",
 				"\\n2172 Wh"
@@ -91,13 +88,11 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 634622,
+			"calls": 628288,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" to f",
 				"2171 t",
-				"171 to",
-				" be pl",
 				"UNCE ma",
 				"ombat\\n",
 				"be play",
@@ -107,7 +102,6 @@
 				"orce com",
 				"d face u",
 				"ce up\\n2",
-				"BOUNCE m",
 				"ayed fac",
 				"2172 Whe",
 				"\\n2172 Wh"
@@ -129,6 +123,14 @@
 			]
 		}
 	],
-	"updt": 1660290162122,
-	"edit": 161
+	"updt": 1660281372878,
+	"edit": 160,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
