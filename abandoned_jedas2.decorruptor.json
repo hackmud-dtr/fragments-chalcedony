@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_jedas2.decorruptor",
-	"sector": "SPC_5299",
+	"sector": "K_2014",
 	"sec_level": 4,
 	"date_added": 1655434934297,
-	"last_scraped": 1660316774686,
+	"last_scraped": 1660317371504,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655434934297
-		}
+		},
+		{
+			"type": "died",
+			"when": 1660317331646
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1660317354801,
+				"from": "K_2014",
+				"to": "SPC_5299"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You are not whitelisted.\"}",
-	"next_scrape": 1660401986513,
-	"updt": 1660307748758,
-	"edit": 499
+	"next_scrape": 1660408180332,
+	"updt": 1660316936912,
+	"edit": 500
 }
