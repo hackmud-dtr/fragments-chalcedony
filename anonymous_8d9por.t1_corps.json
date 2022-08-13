@@ -6,34 +6,32 @@
 	"sector": "K_5590",
 	"sec_level": 4,
 	"date_added": 1651290179065,
-	"last_scraped": 1660350312125,
+	"last_scraped": 1660359506817,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1651290179065
 		}
 	],
-	"next_scrape": 1660390247537,
+	"next_scrape": 1660400781032,
 	"category": "fishie_tank",
-	"last_update": 1660350312125,
+	"last_update": 1660359525268,
 	"output": [
 		{
 			"args": {},
-			"calls": 3921365,
+			"calls": 3923856,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ys fo",
 				"ve ex",
 				"s... ",
 				"follo",
-				"exten",
-				"bordi",
 				"ave e",
 				"xperie",
 				"nds of",
-				"nd no ",
 				"lowing",
 				"k, tho",
+				"extens",
 				"d exte",
 				"ands o",
 				"... an",
@@ -44,18 +42,18 @@
 				"o ETA f",
 				"ing the",
 				"In the ",
-				"for ret",
 				"f the s",
-				"ervices",
 				"\\nIn th",
 				"\\\" of t",
 				"\" of th",
 				".. and ",
 				" days f",
 				"xtensive",
+				"ubordina",
 				"turn\\\" o",
 				"tensive ",
 				"te servi",
+				"services",
 				"service.",
 				"rn\\\" of ",
 				"return\\\"",
@@ -63,11 +61,15 @@
 				"or retur",
 				"nate ser",
 				"inate se",
+				"g the at",
 				"ETA for ",
 				"ds of su",
 				" thousan",
 				" the ser",
-				"rvice.\\nI"
+				" for ret",
+				" and no ",
+				"rvice.\\nI",
+				"ervice.\\n"
 			],
 			"hits": [
 				{
@@ -88,7 +90,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 887093,
+			"calls": 887669,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,14 +102,12 @@
 				"ve ex",
 				"s... ",
 				"follo",
-				"exten",
-				"bordi",
 				"ave e",
 				"xperie",
 				"nds of",
-				"nd no ",
 				"lowing",
 				"k, tho",
+				"extens",
 				"d exte",
 				"ands o",
 				"... an",
@@ -118,18 +118,18 @@
 				"o ETA f",
 				"ing the",
 				"In the ",
-				"for ret",
 				"f the s",
-				"ervices",
 				"\\nIn th",
 				"\\\" of t",
 				"\" of th",
 				".. and ",
 				" days f",
 				"xtensive",
+				"ubordina",
 				"turn\\\" o",
 				"tensive ",
 				"te servi",
+				"services",
 				"service.",
 				"rn\\\" of ",
 				"return\\\"",
@@ -137,11 +137,15 @@
 				"or retur",
 				"nate ser",
 				"inate se",
+				"g the at",
 				"ETA for ",
 				"ds of su",
 				" thousan",
 				" the ser",
-				"rvice.\\nI"
+				" for ret",
+				" and no ",
+				"rvice.\\nI",
+				"ervice.\\n"
 			]
 		},
 		{
@@ -214,6 +218,11 @@
 			]
 		}
 	],
-	"updt": 1660341750349,
-	"edit": 1122
+	"updt": 1660350351180,
+	"edit": 1123,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
