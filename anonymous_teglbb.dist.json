@@ -6,20 +6,20 @@
 	"sector": "NGC_1957",
 	"sec_level": 4,
 	"date_added": 1654739998370,
-	"last_scraped": 1660491356472,
+	"last_scraped": 1660500610065,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1654739998370
 		}
 	],
-	"next_scrape": 1660537871151,
+	"next_scrape": 1660543281718,
 	"category": "fishie_tank",
-	"last_update": 1660491356472,
+	"last_update": 1660500610065,
 	"output": [
 		{
 			"args": {},
-			"calls": 2365439,
+			"calls": 2369274,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"roces",
@@ -27,16 +27,16 @@
 				"inary",
 				"he wr",
 				"est i",
-				"e don",
 				" take",
-				"re in ",
 				"ng way",
 				" Pleas",
 				" ## No",
+				"way. ##",
 				"terest.",
 				"t inter",
 				"sses ar",
 				"ses are",
+				"rest. P",
 				"peratio",
 				"operati",
 				"nterest",
@@ -44,9 +44,11 @@
 				"n our b",
 				"g way. ",
 				"f opera",
+				"e don't",
 				" unders",
 				" are in",
 				"trix pro",
+				"re in ou",
 				"ocesses ",
 				"No no, I",
 				"nary Mat",
@@ -56,7 +58,10 @@
 				"e that t",
 				"ational ",
 				"al Binar",
-				"ake that"
+				"ake that",
+				", I unde",
+				" that th",
+				" No no, "
 			],
 			"hits": [
 				{
@@ -209,6 +214,11 @@
 			]
 		}
 	],
-	"updt": 1660482252624,
-	"edit": 675
+	"updt": 1660491438234,
+	"edit": 676,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
