@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_8g0hkv.midsec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "derelict_8g0hkv.midsec",
 	"sector": "K_1006",
 	"sec_level": 4,
 	"date_added": 1660513446956,
-	"last_scraped": 1660513515818,
+	"last_scraped": 1660513551255,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1660513575818,
+	"next_scrape": 1660603740522,
 	"category": "risk_factor",
-	"last_update": 1660513515818,
+	"last_update": 1660513551255,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +38,27 @@
 				". They ",
 				"with ava"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 109,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"s wha",
+				"ateri",
+				"t's wh",
+				"ble ma",
+				"t they ",
+				"le mate",
+				"al, it'",
+				". They ",
+				"with ava"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1660513530070,
+	"edit": 1
 }
