@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_otnnot.acct_nt_lib",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_otnnot.acct_nt_lib",
 	"sector": "K_1006",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1660627822373
+		},
+		{
+			"type": "died",
+			"when": 1660646740403
 		}
 	],
 	"scrape_ct": 19,
@@ -60,8 +64,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1660628067231,
-	"edit": 2,
+	"updt": 1660636861614,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"

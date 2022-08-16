@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_otnnot.t1_lock_sim",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_otnnot.t1_lock_sim",
 	"sector": "NGC_1466",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1651691863083
+		},
+		{
+			"type": "died",
+			"when": 1660646629988
 		}
 	],
 	"next_scrape": 1653470627818,
@@ -139,8 +143,8 @@
 			]
 		}
 	],
-	"updt": 1653380854040,
-	"edit": 253,
+	"updt": 1653390436846,
+	"edit": 254,
 	"retry_args": [
 		{
 			"do": "feed"
