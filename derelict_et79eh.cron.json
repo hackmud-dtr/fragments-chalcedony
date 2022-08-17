@@ -1,21 +1,29 @@
 {
 	"_id": "derelict_et79eh.cron",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_et79eh.cron",
 	"sector": "SPC_6941",
 	"sec_level": 4,
 	"date_added": 1652433104066,
-	"last_scraped": 1660739357386,
+	"last_scraped": 1660747920594,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1652433104066
+		},
+		{
+			"type": "died",
+			"when": 1660747920594
+		},
+		{
+			"type": "died",
+			"when": 1660748124588
 		}
 	],
-	"updt": 1660730852113,
-	"edit": 868,
-	"next_scrape": 1660781481422,
+	"updt": 1660748051116,
+	"edit": 870,
+	"next_scrape": 1660833949537,
 	"category": "plant_sim",
 	"last_update": 1660739357386,
 	"output": [
@@ -145,5 +153,6 @@
 				" technol"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_et79eh.cron: script doesn't exist\"}"
 }
