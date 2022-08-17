@@ -1,7 +1,7 @@
 {
 	"_id": "anon_t55se1.census",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_t55se1.census",
 	"sector": "VNP_4997",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1651900119829
+		},
+		{
+			"type": "died",
+			"when": 1660749748522
 		}
 	],
 	"retry_args": [
@@ -38,5 +42,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1651900233580,
+	"edit": 1
 }
