@@ -1,7 +1,7 @@
 {
 	"_id": "anon_p934ia.slice",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_p934ia.slice",
 	"sector": "K_0445",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1654114228634
+		},
+		{
+			"type": "died",
+			"when": 1660725091666
 		}
 	],
-	"updt": 1654114231874,
-	"edit": 1,
+	"updt": 1654114427426,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -51,5 +55,6 @@
 				"00\\n0000"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
