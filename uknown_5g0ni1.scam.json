@@ -6,16 +6,16 @@
 	"sector": "HJG_8229",
 	"sec_level": 4,
 	"date_added": 1657227236071,
-	"last_scraped": 1660845736191,
+	"last_scraped": 1660845563285,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657227236071
 		}
 	],
-	"next_scrape": 1660887705690,
+	"next_scrape": 1660887094668,
 	"category": "fishie_tank",
-	"last_update": 1660845736191,
+	"last_update": 1660845563285,
 	"output": [
 		{
 			"args": {},
@@ -60,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 361380,
+			"calls": 360649,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,51 +70,37 @@
 			"fragments": [
 				"u and",
 				" won.",
-				"ttacke",
 				"d you ",
 				"breach",
-				"ached ",
+				"105 I ",
 				" is re",
 				" attac",
 				"I have ",
-				"he game",
-				"game is",
-				"2105 I ",
 				"106 the",
-				"acker ha",
-				"6 the ga",
 				"5 I have",
 				"\\n2106 t",
-				" the gam",
-				" has won"
+				" the gam"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1600139,
+			"calls": 1596922,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"u and",
 				" won.",
-				"ttacke",
 				"d you ",
 				"breach",
-				"ached ",
+				"105 I ",
 				" is re",
 				" attac",
 				"I have ",
-				"he game",
-				"game is",
-				"2105 I ",
 				"106 the",
-				"acker ha",
-				"6 the ga",
 				"5 I have",
 				"\\n2106 t",
-				" the gam",
-				" has won"
+				" the gam"
 			]
 		}
 	],
@@ -131,6 +117,14 @@
 			]
 		}
 	],
-	"updt": 1660845581568,
-	"edit": 447
+	"updt": 1660837171687,
+	"edit": 446,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
