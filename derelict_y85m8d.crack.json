@@ -6,20 +6,20 @@
 	"sector": "NGC_3008",
 	"sec_level": 4,
 	"date_added": 1658915114214,
-	"last_scraped": 1660832250852,
+	"last_scraped": 1660841328886,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658915114214
 		}
 	],
-	"next_scrape": 1660874985962,
+	"next_scrape": 1660882066094,
 	"category": "fishie_tank",
-	"last_update": 1660832269636,
+	"last_update": 1660841328886,
 	"output": [
 		{
 			"args": {},
-			"calls": 853939,
+			"calls": 856665,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" to f",
@@ -64,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 195712,
+			"calls": 196260,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -99,14 +99,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 855116,
+			"calls": 864714,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" to f",
+				"71 to ",
 				"2171 t",
 				"171 to",
+				"\\n2170",
 				" be pl",
 				"UNCE ma",
+				"t\\n2172",
 				"ombat\\n",
 				"be play",
 				"2170 BO",
@@ -118,6 +121,7 @@
 				"BOUNCE m",
 				"ayed fac",
 				"2172 Whe",
+				"up\\n2171 ",
 				"\\n2172 Wh"
 			]
 		}
@@ -137,11 +141,6 @@
 			]
 		}
 	],
-	"updt": 1660824069309,
-	"edit": 235,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1660832477977,
+	"edit": 237
 }
