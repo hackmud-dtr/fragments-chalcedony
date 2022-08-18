@@ -1,7 +1,7 @@
 {
 	"_id": "anon_2vejeo.probe",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_2vejeo.probe",
 	"sector": "K_3446",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1660791241773
+		},
+		{
+			"type": "died",
+			"when": 1660818321481
 		}
 	],
 	"retry_args": [
@@ -39,5 +43,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1660791433675,
+	"edit": 1
 }
