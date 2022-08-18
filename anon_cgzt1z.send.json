@@ -1,30 +1,30 @@
 {
 	"_id": "anon_cgzt1z.send",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "anon_cgzt1z.send",
 	"sector": "K_3446",
 	"sec_level": 4,
 	"date_added": 1660778870775,
-	"last_scraped": 1660778952258,
+	"last_scraped": 1660778915631,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660778870775
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
 		},
 		{
-			"type": "died",
-			"when": 1660778952258
-		},
-		{
-			"type": "died",
-			"when": 1660779103874
+			"do": "clean"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1660870194758,
+	"next_scrape": 1660778975631,
 	"category": "fishie_tank",
-	"last_update": 1660778933411,
+	"last_update": 1660778915631,
 	"output": [
 		{
 			"args": {},
@@ -67,34 +67,6 @@
 					]
 				}
 			]
-		},
-		{
-			"args": {
-				"do": "feed"
-			},
-			"calls": 825,
-			"base": [
-				"Fishies are happy.",
-				"actuly they look fine",
-				"they are still hungry?",
-				"they don't look so good"
-			],
-			"fragments": [
-				"s tha",
-				"ll do",
-				"l do ",
-				"at me",
-				"## Io",
-				"re els",
-				"o go. ",
-				"here e",
-				" that ",
-				"ything.",
-				"do anyt",
-				" mean s",
-				" go. I ",
-				"r prison"
-			]
 		}
 	],
 	"identified": [
@@ -117,8 +89,5 @@
 				"r prison"
 			]
 		}
-	],
-	"updt": 1660778928142,
-	"edit": 1,
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_cgzt1z.send: script doesn't exist\"}"
+	]
 }
