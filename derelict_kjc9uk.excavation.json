@@ -1,0 +1,116 @@
+{
+	"_id": "derelict_kjc9uk.excavation",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_kjc9uk.excavation",
+	"sector": "K_3446",
+	"sec_level": 4,
+	"date_added": 1660914742678,
+	"last_scraped": 1660916128675,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1660914742678
+		}
+	],
+	"scrape_ct": 0,
+	"next_scrape": 1660916188675,
+	"category": "fishie_tank",
+	"last_update": 1660916128675,
+	"output": [
+		{
+			"args": {},
+			"calls": 48199,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r nat",
+				"ons? ",
+				"be ch",
+				" Our c",
+				"ach of ",
+				" these ",
+				"e notion",
+				" nations"
+			],
+			"hits": [
+				{
+					"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+					"frags": [
+						"r nat",
+						"ons? ",
+						"be ch",
+						" Our c",
+						"ach of ",
+						" these ",
+						"e notion",
+						" nations"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8234,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"r nat",
+				"ons? ",
+				"be ch",
+				" Our c",
+				"ach of ",
+				" these ",
+				"e notion",
+				" nations"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 37765,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"r nat",
+				"ons? ",
+				"be ch",
+				" Our c",
+				"ach of ",
+				" these ",
+				"e notion",
+				" nations"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+			"frags": [
+				"r nat",
+				"ons? ",
+				"be ch",
+				" Our c",
+				"ach of ",
+				" these ",
+				"e notion",
+				" nations"
+			]
+		}
+	],
+	"updt": 1660915945850,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
