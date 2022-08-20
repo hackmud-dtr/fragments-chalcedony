@@ -6,39 +6,52 @@
 	"sector": "HJG_3606",
 	"sec_level": 4,
 	"date_added": 1660961818544,
-	"last_scraped": 1660962021146,
+	"last_scraped": 1660962964528,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660961818544
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1660962081146,
+	"scrape_ct": 3,
+	"next_scrape": 1660963024528,
 	"category": "fishie_tank",
-	"last_update": 1660962021146,
+	"last_update": 1660962964528,
 	"output": [
 		{
 			"args": {},
-			"calls": 8470,
+			"calls": 34782,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"SYST ",
-				"R | PR",
-				"OR | T",
+				"NETW ",
+				"0X13_",
 				"LE0X52",
-				" | TIM",
 				"T ERROR",
+				"R | PRO",
+				"LST0X13",
 				"IME ERR",
-				"E ERROR",
-				"282A91C",
+				"91C\\nSY",
+				"3_SECT0",
+				"0XE23E_",
 				"_CLST0X",
+				" PROG E",
 				"XE23E_FI",
+				"X1F_CLST",
+				"W ERROR ",
+				"SYST ERR",
+				"RROR | P",
+				"ROR | TI",
 				"ROR | NE",
+				"R | TIME",
 				"MFT0X1F_",
+				"ERROR | ",
+				"ECT0XE23",
+				"E23E_FIL",
 				"E_FILE0X",
+				"E ERROR ",
 				"0X5282A9",
-				"| TIME E"
+				"| TIME E",
+				"282A91C\\n"
 			],
 			"hits": [
 				{
@@ -69,7 +82,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2047,
+			"calls": 8329,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,47 +90,73 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"SYST ",
-				"R | PR",
-				"OR | T",
+				"NETW ",
+				"0X13_",
 				"LE0X52",
-				" | TIM",
 				"T ERROR",
+				"R | PRO",
+				"LST0X13",
 				"IME ERR",
-				"E ERROR",
-				"282A91C",
+				"91C\\nSY",
+				"3_SECT0",
+				"0XE23E_",
 				"_CLST0X",
+				" PROG E",
 				"XE23E_FI",
+				"X1F_CLST",
+				"W ERROR ",
+				"SYST ERR",
+				"RROR | P",
+				"ROR | TI",
 				"ROR | NE",
+				"R | TIME",
 				"MFT0X1F_",
+				"ERROR | ",
+				"ECT0XE23",
+				"E23E_FIL",
 				"E_FILE0X",
+				"E ERROR ",
 				"0X5282A9",
-				"| TIME E"
+				"| TIME E",
+				"282A91C\\n"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7142,
+			"calls": 33571,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"SYST ",
-				"R | PR",
-				"OR | T",
+				"NETW ",
+				"0X13_",
 				"LE0X52",
-				" | TIM",
 				"T ERROR",
+				"R | PRO",
+				"LST0X13",
 				"IME ERR",
-				"E ERROR",
-				"282A91C",
+				"91C\\nSY",
+				"3_SECT0",
+				"0XE23E_",
 				"_CLST0X",
+				" PROG E",
 				"XE23E_FI",
+				"X1F_CLST",
+				"W ERROR ",
+				"SYST ERR",
+				"RROR | P",
+				"ROR | TI",
 				"ROR | NE",
+				"R | TIME",
 				"MFT0X1F_",
+				"ERROR | ",
+				"ECT0XE23",
+				"E23E_FIL",
 				"E_FILE0X",
+				"E ERROR ",
 				"0X5282A9",
-				"| TIME E"
+				"| TIME E",
+				"282A91C\\n"
 			]
 		}
 	],
@@ -145,6 +184,6 @@
 			]
 		}
 	],
-	"updt": 1660961875237,
-	"edit": 1
+	"updt": 1660962849625,
+	"edit": 5
 }
