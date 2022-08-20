@@ -1,31 +1,34 @@
 {
 	"_id": "unknown_2k2stv.scrape_fragments",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_2k2stv.scrape_fragments",
 	"sector": "HJG_3606",
 	"sec_level": 4,
 	"date_added": 1660961818544,
-	"last_scraped": 1660962964528,
+	"last_scraped": 1660963218370,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660961818544
+		},
+		{
+			"type": "died",
+			"when": 1660963218370
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1660963024528,
+	"scrape_ct": 0,
+	"next_scrape": 1661055966250,
 	"category": "fishie_tank",
-	"last_update": 1660962964528,
+	"last_update": 1660963200438,
 	"output": [
 		{
 			"args": {},
-			"calls": 34782,
+			"calls": 42666,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"NETW ",
-				"0X13_",
-				"LE0X52",
+				"TIME ER",
 				"T ERROR",
 				"R | PRO",
 				"LST0X13",
@@ -34,23 +37,29 @@
 				"3_SECT0",
 				"0XE23E_",
 				"_CLST0X",
-				" PROG E",
 				"XE23E_FI",
 				"X1F_CLST",
 				"W ERROR ",
 				"SYST ERR",
+				"ST0X13_S",
+				"RROR | T",
 				"RROR | P",
 				"ROR | TI",
 				"ROR | NE",
 				"R | TIME",
 				"MFT0X1F_",
+				"ILE0X528",
+				"ETW ERRO",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
 				"E_FILE0X",
 				"E ERROR ",
+				"23E_FILE",
 				"0X5282A9",
 				"| TIME E",
+				" PROG ER",
+				"C\\nSYST E",
 				"282A91C\\n"
 			],
 			"hits": [
@@ -82,7 +91,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8329,
+			"calls": 10362,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,8 +100,7 @@
 			],
 			"fragments": [
 				"NETW ",
-				"0X13_",
-				"LE0X52",
+				"TIME ER",
 				"T ERROR",
 				"R | PRO",
 				"LST0X13",
@@ -101,23 +109,29 @@
 				"3_SECT0",
 				"0XE23E_",
 				"_CLST0X",
-				" PROG E",
 				"XE23E_FI",
 				"X1F_CLST",
 				"W ERROR ",
 				"SYST ERR",
+				"ST0X13_S",
+				"RROR | T",
 				"RROR | P",
 				"ROR | TI",
 				"ROR | NE",
 				"R | TIME",
 				"MFT0X1F_",
+				"ILE0X528",
+				"ETW ERRO",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
 				"E_FILE0X",
 				"E ERROR ",
+				"23E_FILE",
 				"0X5282A9",
 				"| TIME E",
+				" PROG ER",
+				"C\\nSYST E",
 				"282A91C\\n"
 			]
 		},
@@ -125,30 +139,31 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 33571,
+			"calls": 36729,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"NETW ",
-				"0X13_",
-				"LE0X52",
 				"T ERROR",
 				"R | PRO",
 				"LST0X13",
 				"IME ERR",
+				"C\\nSYST",
 				"91C\\nSY",
 				"3_SECT0",
 				"0XE23E_",
 				"_CLST0X",
-				" PROG E",
 				"XE23E_FI",
 				"X1F_CLST",
 				"W ERROR ",
 				"SYST ERR",
+				"ST0X13_S",
+				"RROR | T",
 				"RROR | P",
 				"ROR | TI",
 				"ROR | NE",
 				"R | TIME",
 				"MFT0X1F_",
+				"ILE0X528",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
@@ -156,6 +171,7 @@
 				"E ERROR ",
 				"0X5282A9",
 				"| TIME E",
+				" PROG ER",
 				"282A91C\\n"
 			]
 		}
@@ -184,6 +200,7 @@
 			]
 		}
 	],
-	"updt": 1660962849625,
-	"edit": 5
+	"updt": 1660963044346,
+	"edit": 6,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_2k2stv.scrape_fragments: script doesn't exist\"}"
 }
