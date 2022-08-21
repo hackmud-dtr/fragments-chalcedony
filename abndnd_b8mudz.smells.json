@@ -1,0 +1,111 @@
+{
+	"_id": "abndnd_b8mudz.smells",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_b8mudz.smells",
+	"sector": "K_9573",
+	"sec_level": 4,
+	"date_added": 1661098940394,
+	"last_scraped": 1661099257016,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1661098940394
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1661099317016,
+	"category": "fishie_tank",
+	"last_update": 1661099257016,
+	"output": [
+		{
+			"args": {},
+			"calls": 12975,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ROR | P",
+				"ROG ERR",
+				"OG ERRO",
+				" ERROR ",
+				"ROR | TI",
+				"ER fbret",
+				" | NETW "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ROR | P",
+						"ROG ERR",
+						"OG ERRO",
+						" ERROR ",
+						"ROR | TI",
+						"ER fbret",
+						" | NETW "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1595,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ROR | P",
+				"ROG ERR",
+				"OG ERRO",
+				" ERROR ",
+				"ROR | TI",
+				"ER fbret",
+				" | NETW "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5719,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ROR | P",
+				"ROG ERR",
+				"OG ERRO",
+				" ERROR ",
+				"ROR | TI",
+				"ER fbret",
+				" | NETW "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"ROR | P",
+				"ROG ERR",
+				"OG ERRO",
+				" ERROR ",
+				"ROR | TI",
+				"ER fbret",
+				" | NETW "
+			]
+		}
+	],
+	"updt": 1661099074111,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
