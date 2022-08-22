@@ -6,22 +6,22 @@
 	"sector": "HJG_4953",
 	"sec_level": 4,
 	"date_added": 1656089293648,
-	"last_scraped": 1661160054689,
+	"last_scraped": 1661168230789,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656089293648
 		}
 	],
-	"updt": 1661160035103,
-	"edit": 619,
-	"next_scrape": 1661205388699,
+	"updt": 1661160230655,
+	"edit": 620,
+	"next_scrape": 1661210726981,
 	"category": "fishie_tank",
-	"last_update": 1661160054689,
+	"last_update": 1661168230789,
 	"output": [
 		{
 			"args": {},
-			"calls": 2111947,
+			"calls": 2115433,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t Act",
@@ -97,6 +97,14 @@
 				"ld's mos",
 				"and the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
