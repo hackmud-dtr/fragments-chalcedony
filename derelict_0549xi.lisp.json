@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_0549xi.lisp",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_0549xi.lisp",
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661327469458,
-	"last_scraped": 1661328613484,
+	"last_scraped": 1661328921622,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661327469458
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1661328673484,
+	"next_scrape": 1661374274598,
 	"category": "fishie_tank",
-	"last_update": 1661328613484,
+	"last_update": 1661328921622,
 	"output": [
 		{
 			"args": {},
-			"calls": 30232,
+			"calls": 37889,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | T",
@@ -48,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8137,
+			"calls": 9682,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -68,7 +67,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 40340,
+			"calls": 48351,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R | T",
@@ -93,6 +92,6 @@
 			]
 		}
 	],
-	"updt": 1661328495031,
-	"edit": 5
+	"updt": 1661328885101,
+	"edit": 7
 }
