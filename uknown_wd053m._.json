@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_wd053m._",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_wd053m._",
 	"sector": "SPC_0965",
 	"sec_level": 4,
 	"date_added": 1661416147693,
-	"last_scraped": 1661416220560,
+	"last_scraped": 1661416238842,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661416147693
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1661416280560,
+	"next_scrape": 1661500536987,
 	"category": "risk_factor",
 	"last_update": 1661416220560,
 	"output": [
@@ -62,5 +57,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1661416233181,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
