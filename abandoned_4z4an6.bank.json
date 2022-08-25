@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_4z4an6.bank",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_4z4an6.bank",
 	"sector": "SPC_7632",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "SPC_7632",
 				"to": "NGC_1877"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1661423528143
+		}
 	],
-	"updt": 1654220561287,
-	"edit": 3,
+	"updt": 1654220754521,
+	"edit": 4,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1654298790954
 }
