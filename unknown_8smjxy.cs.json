@@ -1,0 +1,93 @@
+{
+	"_id": "unknown_8smjxy.cs",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_8smjxy.cs",
+	"sector": "NGC_7139",
+	"sec_level": 4,
+	"date_added": 1661534985613,
+	"last_scraped": 1661535295835,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1661534985613
+		}
+	],
+	"updt": 1661535199872,
+	"edit": 2,
+	"scrape_ct": 15,
+	"next_scrape": 1661535355835,
+	"category": "fishie_tank",
+	"last_update": 1661535295835,
+	"output": [
+		{
+			"args": {},
+			"calls": 12579,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"R imi",
+				"G ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"R imi",
+						"G ERROR",
+						"| NETW E",
+						" ERROR |",
+						" | PROG "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3515,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"R imi",
+				"G ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | PROG "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13570,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"R imi",
+				"G ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | PROG "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"R imi",
+				"G ERROR",
+				"| NETW E",
+				" ERROR |",
+				" | PROG "
+			]
+		}
+	]
+}
