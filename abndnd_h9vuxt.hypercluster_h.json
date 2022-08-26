@@ -6,37 +6,41 @@
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661377644349,
-	"last_scraped": 1661503508384,
+	"last_scraped": 1661512131606,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661377644349
 		}
 	],
-	"next_scrape": 1661547699131,
+	"next_scrape": 1661552784780,
 	"category": "fishie_tank",
-	"last_update": 1661503508384,
+	"last_update": 1661512149293,
 	"output": [
 		{
 			"args": {},
-			"calls": 101492,
+			"calls": 107806,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"YST E",
-				"SECT0",
-				"0XBBE",
+				"ROR |",
 				"R | NE",
 				"OR | P",
 				"E270FC",
-				"6A_FIL",
 				"| NETW",
 				"XBBE270",
+				"MFT0X00",
 				"CT0X756",
+				"CLST0XF",
 				"756A_FI",
+				"70FC\\nS",
 				"0X00_CL",
-				"0FC\\nSY",
+				"SECT0X75",
 				"LST0XF3_",
+				"E0XBBE27",
 				"A_FILE0X",
+				"56A_FILE",
+				"0FC\\nSYS",
 				"00_CLST0"
 			],
 			"hits": [
@@ -58,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24332,
+			"calls": 25367,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,20 +71,24 @@
 			],
 			"fragments": [
 				"YST E",
-				"SECT0",
-				"0XBBE",
+				"ROR |",
 				"R | NE",
 				"OR | P",
 				"E270FC",
-				"6A_FIL",
 				"| NETW",
 				"XBBE270",
+				"MFT0X00",
 				"CT0X756",
+				"CLST0XF",
 				"756A_FI",
+				"70FC\\nS",
 				"0X00_CL",
-				"0FC\\nSY",
+				"SECT0X75",
 				"LST0XF3_",
+				"E0XBBE27",
 				"A_FILE0X",
+				"56A_FILE",
+				"0FC\\nSYS",
 				"00_CLST0"
 			]
 		},
@@ -124,6 +132,11 @@
 			]
 		}
 	],
-	"updt": 1661494769195,
-	"edit": 21
+	"updt": 1661503559715,
+	"edit": 22,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
