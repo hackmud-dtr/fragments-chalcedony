@@ -1,21 +1,25 @@
 {
 	"_id": "abandoned_p0p8cq.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_p0p8cq.db",
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661405878398,
-	"last_scraped": 1661620685717,
+	"last_scraped": 1661629490157,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661405878398
+		},
+		{
+			"type": "died",
+			"when": 1661629490157
 		}
 	],
-	"updt": 1661612551245,
-	"edit": 34,
-	"next_scrape": 1661662110052,
+	"updt": 1661620753242,
+	"edit": 35,
+	"next_scrape": 1661709367128,
 	"category": "dice_roller",
 	"last_update": 1661620685717,
 	"output": [
@@ -107,5 +111,6 @@
 				" all of "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_p0p8cq.db: script doesn't exist\"}"
 }
