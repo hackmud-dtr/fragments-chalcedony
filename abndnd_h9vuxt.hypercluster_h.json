@@ -1,41 +1,40 @@
 {
 	"_id": "abndnd_h9vuxt.hypercluster_h",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "npc",
 	"script": "abndnd_h9vuxt.hypercluster_h",
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661377644349,
-	"last_scraped": 1661600283469,
+	"last_scraped": 1661600247931,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661377644349
-		},
-		{
-			"type": "died",
-			"when": 1661601665091
 		}
 	],
-	"next_scrape": 1661644295459,
+	"next_scrape": 1661644308982,
 	"category": "fishie_tank",
-	"last_update": 1661600283469,
+	"last_update": 1661591929939,
 	"output": [
 		{
 			"args": {},
-			"calls": 153559,
+			"calls": 150762,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"YST ER",
 				"OR | P",
+				"E270FC",
 				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
 				"FT0X00_",
+				"F3_SECT",
 				"CLST0XF",
 				"BBE270F",
 				"756A_FI",
+				"70FC\\nS",
 				"0X00_CL",
 				"| PROG ",
 				"_CLST0X",
@@ -49,20 +48,16 @@
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
-				"F3_SECT0",
 				"E0XBBE27",
 				"CT0X756A",
 				"A_FILE0X",
-				"70FC\\nSY",
 				"6A_FILE0",
 				"56A_FILE",
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
 				"00_CLST0",
-				" ERROR |",
-				" | NETW ",
-				"BE270FC\\n"
+				" | NETW "
 			],
 			"hits": [
 				{
@@ -83,7 +78,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 36817,
+			"calls": 35903,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,14 +88,17 @@
 			"fragments": [
 				"YST ER",
 				"OR | P",
+				"E270FC",
 				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
 				"FT0X00_",
+				"F3_SECT",
 				"CLST0XF",
 				"BBE270F",
 				"756A_FI",
+				"70FC\\nS",
 				"0X00_CL",
 				"| PROG ",
 				"_CLST0X",
@@ -114,39 +112,38 @@
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
-				"F3_SECT0",
 				"E0XBBE27",
 				"CT0X756A",
 				"A_FILE0X",
-				"70FC\\nSY",
 				"6A_FILE0",
 				"56A_FILE",
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
 				"00_CLST0",
-				" ERROR |",
-				" | NETW ",
-				"BE270FC\\n"
+				" | NETW "
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 168327,
+			"calls": 162186,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"YST ER",
 				"OR | P",
+				"E270FC",
 				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
 				"FT0X00_",
+				"F3_SECT",
 				"CLST0XF",
 				"BBE270F",
 				"756A_FI",
+				"70FC\\nS",
 				"0X00_CL",
 				"| PROG ",
 				"_CLST0X",
@@ -160,20 +157,16 @@
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
-				"F3_SECT0",
 				"E0XBBE27",
 				"CT0X756A",
 				"A_FILE0X",
-				"70FC\\nSY",
 				"6A_FILE0",
 				"56A_FILE",
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
 				"00_CLST0",
-				" ERROR |",
-				" | NETW ",
-				"BE270FC\\n"
+				" | NETW "
 			]
 		}
 	],
@@ -191,6 +184,14 @@
 			]
 		}
 	],
-	"updt": 1661600445218,
-	"edit": 38
+	"updt": 1661592050437,
+	"edit": 37,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
