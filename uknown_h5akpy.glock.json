@@ -1,0 +1,113 @@
+{
+	"_id": "uknown_h5akpy.glock",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_h5akpy.glock",
+	"sector": "NGC_7139",
+	"sec_level": 4,
+	"date_added": 1661600126230,
+	"last_scraped": 1661601008101,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1661600126230
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1661601068101,
+	"category": "fishie_tank",
+	"last_update": 1661601008101,
+	"output": [
+		{
+			"args": {},
+			"calls": 30577,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"t mat",
+				"okay.",
+				"ake a",
+				" is t",
+				"is nec",
+				"## does",
+				"to take ",
+				"ight now"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"t mat",
+						"okay.",
+						"ake a",
+						" is t",
+						"is nec",
+						"## does",
+						"to take ",
+						"ight now"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6378,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t mat",
+				"okay.",
+				"ake a",
+				" is t",
+				"is nec",
+				"## does",
+				"to take ",
+				"ight now"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29076,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"t mat",
+				"okay.",
+				"ake a",
+				" is t",
+				"is nec",
+				"## does",
+				"to take ",
+				"ight now"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"t mat",
+				"okay.",
+				"ake a",
+				" is t",
+				"is nec",
+				"## does",
+				"to take ",
+				"ight now"
+			]
+		}
+	],
+	"updt": 1661600835908,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
