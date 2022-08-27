@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ffoaoa.give",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_ffoaoa.give",
 	"sector": "K_9998",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_9998",
 				"to": "K_0489"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1661642228493
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}",
 	"next_scrape": 1649945372349,
-	"updt": 1653754361899,
-	"edit": 4
+	"updt": 1653754558970,
+	"edit": 5
 }
