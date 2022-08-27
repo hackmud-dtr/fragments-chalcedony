@@ -6,28 +6,26 @@
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661377644349,
-	"last_scraped": 1661582937482,
+	"last_scraped": 1661591929939,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661377644349
 		}
 	],
-	"next_scrape": 1661624470911,
+	"next_scrape": 1661633615154,
 	"category": "fishie_tank",
-	"last_update": 1661582937482,
+	"last_update": 1661591929939,
 	"output": [
 		{
 			"args": {},
-			"calls": 146305,
+			"calls": 150762,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"YST E",
-				"R | NE",
+				"YST ER",
 				"OR | P",
-				"ERROR ",
 				"E270FC",
-				"| NETW",
+				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
@@ -41,10 +39,12 @@
 				"| PROG ",
 				"_CLST0X",
 				" PROG E",
+				"W ERROR ",
 				"TW ERROR",
 				"T0XF3_SE",
 				"T0X756A_",
 				"SECT0X75",
+				"ROR | NE",
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
@@ -56,7 +56,8 @@
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
-				"00_CLST0"
+				"00_CLST0",
+				" | NETW "
 			],
 			"hits": [
 				{
@@ -77,7 +78,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 34977,
+			"calls": 35903,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,12 +86,10 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"YST E",
-				"R | NE",
+				"YST ER",
 				"OR | P",
-				"ERROR ",
 				"E270FC",
-				"| NETW",
+				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
@@ -104,10 +103,12 @@
 				"| PROG ",
 				"_CLST0X",
 				" PROG E",
+				"W ERROR ",
 				"TW ERROR",
 				"T0XF3_SE",
 				"T0X756A_",
 				"SECT0X75",
+				"ROR | NE",
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
@@ -119,22 +120,21 @@
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
-				"00_CLST0"
+				"00_CLST0",
+				" | NETW "
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 155812,
+			"calls": 162186,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"YST E",
-				"R | NE",
+				"YST ER",
 				"OR | P",
-				"ERROR ",
 				"E270FC",
-				"| NETW",
+				"XF3_SEC",
 				"XBBE270",
 				"RROR | ",
 				"MFT0X00",
@@ -148,10 +148,12 @@
 				"| PROG ",
 				"_CLST0X",
 				" PROG E",
+				"W ERROR ",
 				"TW ERROR",
 				"T0XF3_SE",
 				"T0X756A_",
 				"SECT0X75",
+				"ROR | NE",
 				"R | PROG",
 				"LST0XF3_",
 				"ILE0XBBE",
@@ -163,7 +165,8 @@
 				"3_SECT0X",
 				"0X756A_F",
 				"0FC\\nSYS",
-				"00_CLST0"
+				"00_CLST0",
+				" | NETW "
 			]
 		}
 	],
@@ -181,6 +184,6 @@
 			]
 		}
 	],
-	"updt": 1661574662835,
-	"edit": 35
+	"updt": 1661583065136,
+	"edit": 36
 }
