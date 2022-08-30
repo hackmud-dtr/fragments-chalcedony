@@ -6,20 +6,20 @@
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655692781217,
-	"last_scraped": 1661834920672,
+	"last_scraped": 1661843779962,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655692781217
 		}
 	],
-	"next_scrape": 1661875342313,
+	"next_scrape": 1661887491387,
 	"category": "fishie_tank",
-	"last_update": 1661834920672,
+	"last_update": 1661843779962,
 	"output": [
 		{
 			"args": {},
-			"calls": 2651452,
+			"calls": 2653637,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"XF4_C",
@@ -33,6 +33,7 @@
 				"OR | TI",
 				"F4_CLST",
 				"E0XE2A8",
+				"BDD4\\nS",
 				"2A8BDD4",
 				"0XE2A8B",
 				"YST ERRO",
@@ -41,7 +42,9 @@
 				"MFT0XF4_",
 				"FILE0XE2",
 				"0XCC_SEC",
-				"_SECT0X7"
+				"_SECT0X7",
+				" ERROR |",
+				" | TIME "
 			],
 			"hits": [
 				{
@@ -61,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 595166,
+			"calls": 595761,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,6 +83,7 @@
 				"OR | TI",
 				"F4_CLST",
 				"E0XE2A8",
+				"BDD4\\nS",
 				"2A8BDD4",
 				"0XE2A8B",
 				"YST ERRO",
@@ -88,7 +92,9 @@
 				"MFT0XF4_",
 				"FILE0XE2",
 				"0XCC_SEC",
-				"_SECT0X7"
+				"_SECT0X7",
+				" ERROR |",
+				" | TIME "
 			],
 			"hits": [
 				{
@@ -108,7 +114,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2651041,
+			"calls": 2655623,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"XF4_C",
@@ -122,6 +128,7 @@
 				"OR | TI",
 				"F4_CLST",
 				"E0XE2A8",
+				"BDD4\\nS",
 				"2A8BDD4",
 				"0XE2A8B",
 				"YST ERRO",
@@ -130,7 +137,9 @@
 				"MFT0XF4_",
 				"FILE0XE2",
 				"0XCC_SEC",
-				"_SECT0X7"
+				"_SECT0X7",
+				" ERROR |",
+				" | TIME "
 			],
 			"hits": [
 				{
@@ -147,8 +156,8 @@
 			]
 		}
 	],
-	"updt": 1661834893342,
-	"edit": 758,
+	"updt": 1661835089251,
+	"edit": 759,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
