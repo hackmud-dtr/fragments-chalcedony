@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_a7cnlx.boring",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_a7cnlx.boring",
 	"sector": "NGC_1957",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1654839728317
+		},
+		{
+			"type": "died",
+			"when": 1661826104124
 		}
 	],
-	"updt": 1654839779352,
-	"edit": 1,
+	"updt": 1654839975220,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -42,5 +46,6 @@
 				" strain "
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
