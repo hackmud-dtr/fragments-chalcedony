@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_qdrofy.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "uknown_qdrofy.dist",
 	"sector": "SPC_0965",
 	"sec_level": 4,
 	"date_added": 1661411481924,
-	"last_scraped": 1661822219807,
+	"last_scraped": 1661831021224,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661411481924
 		}
 	],
-	"next_scrape": 1661865885697,
+	"next_scrape": 1661912383037,
 	"category": "fishie_tank",
-	"last_update": 1661822219807,
+	"last_update": 1661831021224,
 	"output": [
 		{
 			"args": {},
-			"calls": 259458,
+			"calls": 263740,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nge to",
@@ -87,6 +87,14 @@
 			]
 		}
 	],
-	"updt": 1661812605575,
-	"edit": 57
+	"updt": 1661822381498,
+	"edit": 58,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
