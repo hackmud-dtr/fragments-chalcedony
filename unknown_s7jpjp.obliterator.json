@@ -1,21 +1,25 @@
 {
 	"_id": "unknown_s7jpjp.obliterator",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_s7jpjp.obliterator",
 	"sector": "VNP_7578",
 	"sec_level": 4,
 	"date_added": 1653426743622,
-	"last_scraped": 1661861844037,
+	"last_scraped": 1661870286871,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1653426743622
+		},
+		{
+			"type": "died",
+			"when": 1661870286871
 		}
 	],
-	"updt": 1661853649026,
-	"edit": 882,
-	"next_scrape": 1661906356880,
+	"updt": 1661861853021,
+	"edit": 883,
+	"next_scrape": 1661951149813,
 	"category": "coin_flipper",
 	"last_update": 1661861844037,
 	"output": [
@@ -87,5 +91,6 @@
 				"\\nSYST ER"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_s7jpjp.obliterator: script doesn't exist\"}"
 }
