@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_mp314d.compress",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_mp314d.compress",
 	"sector": "NGC_8565",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1655066437163
+		},
+		{
+			"type": "died",
+			"when": 1661944952182
 		}
 	],
 	"scrape_ct": 18,
@@ -456,8 +460,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1655066493059,
-	"edit": 1,
+	"updt": 1655066688788,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
