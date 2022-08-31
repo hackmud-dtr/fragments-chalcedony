@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_qdov4q.defaults",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_qdov4q.defaults",
 	"sector": "NGC_7375",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1655702300304
+		},
+		{
+			"type": "died",
+			"when": 1661975763301
 		}
 	],
 	"retry_args": [
@@ -58,5 +62,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1655702475862,
+	"edit": 1
 }
