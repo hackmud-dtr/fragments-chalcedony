@@ -6,28 +6,32 @@
 	"sector": "HJG_0134",
 	"sec_level": 4,
 	"date_added": 1655785629641,
-	"last_scraped": 1662009558179,
+	"last_scraped": 1662018360721,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655785629641
 		}
 	],
-	"next_scrape": 1662053093764,
+	"next_scrape": 1662059488895,
 	"category": "fishie_tank",
-	"last_update": 1662009558179,
+	"last_update": 1662018377790,
 	"output": [
 		{
 			"args": {},
-			"calls": 2639570,
+			"calls": 2642931,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"th yo",
+				"t to ",
+				"lf th",
 				"h you",
 				"f san",
+				"ccept",
 				" of s",
 				"tioned",
 				"s? If ",
+				"rs? If",
 				" accep",
 				"yoursel",
 				"you're ",
@@ -88,7 +92,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 616272,
+			"calls": 617057,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,11 +101,15 @@
 			],
 			"fragments": [
 				"th yo",
+				"t to ",
+				"lf th",
 				"h you",
 				"f san",
+				"ccept",
 				" of s",
 				"tioned",
 				"s? If ",
+				"rs? If",
 				" accep",
 				"yoursel",
 				"you're ",
@@ -214,6 +222,11 @@
 			]
 		}
 	],
-	"updt": 1662000991457,
-	"edit": 768
+	"updt": 1662009593193,
+	"edit": 769,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
