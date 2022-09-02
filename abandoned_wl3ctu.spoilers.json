@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_wl3ctu.spoilers",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_wl3ctu.spoilers",
 	"sector": "NGC_9886",
 	"sec_level": 4,
 	"date_added": 1659606481537,
-	"last_scraped": 1662117014290,
+	"last_scraped": 1662125198264,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659606481537
 		}
 	],
-	"next_scrape": 1662156719909,
+	"next_scrape": 1662214519502,
 	"category": "fishie_tank",
-	"last_update": 1662117014290,
+	"last_update": 1662125198264,
 	"output": [
 		{
 			"args": {},
-			"calls": 1193942,
+			"calls": 1198021,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"8C851",
@@ -106,6 +106,14 @@
 			]
 		}
 	],
-	"updt": 1662108081877,
-	"edit": 323
+	"updt": 1662117070337,
+	"edit": 324,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
