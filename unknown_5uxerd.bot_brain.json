@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_5uxerd.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_5uxerd.bot_brain",
 	"sector": "NGC_2699",
 	"sec_level": 4,
@@ -11,11 +11,15 @@
 		{
 			"type": "added",
 			"when": 1653261851819
+		},
+		{
+			"type": "died",
+			"when": 1662139718390
 		}
 	],
 	"next_scrape": 1655905783149,
 	"category": "fishie_tank",
-	"last_update": 1655859420646,
+	"last_update": 1655859457754,
 	"output": [
 		{
 			"args": {},
@@ -49,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 230480,
+			"calls": 231604,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,8 +101,8 @@
 			]
 		}
 	],
-	"updt": 1655849072046,
-	"edit": 299,
+	"updt": 1655859819890,
+	"edit": 301,
 	"retry_args": [
 		{
 			"do": "clean"
