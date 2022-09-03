@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_tas0gb.time_it",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_tas0gb.time_it",
 	"sector": "VNP_9010",
 	"sec_level": 4,
 	"date_added": 1659685734963,
-	"last_scraped": 1662160834018,
+	"last_scraped": 1662170590578,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1659685734963
+		},
+		{
+			"type": "died",
+			"when": 1662170590578
+		},
+		{
+			"type": "died",
+			"when": 1662170762112
 		}
 	],
-	"next_scrape": 1662203553288,
+	"next_scrape": 1662255597468,
 	"category": "dice_roller",
 	"last_update": 1662160834018,
 	"output": [
@@ -150,6 +158,7 @@
 			]
 		}
 	],
-	"updt": 1662150287174,
-	"edit": 285
+	"updt": 1662170607166,
+	"edit": 287,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_tas0gb.time_it: script doesn't exist\"}"
 }
