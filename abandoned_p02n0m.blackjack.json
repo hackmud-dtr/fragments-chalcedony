@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_p02n0m.blackjack",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_p02n0m.blackjack",
 	"sector": "NGC_2244",
 	"sec_level": 4,
 	"date_added": 1662256826848,
-	"last_scraped": 1662265859548,
+	"last_scraped": 1662274249715,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1662356634231,
+	"next_scrape": 1662363549551,
 	"category": "risk_factor",
-	"last_update": 1662265842080,
+	"last_update": 1662274249715,
 	"output": [
 		{
 			"args": {},
@@ -33,7 +33,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 215,
+			"calls": 315,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"8",
@@ -46,12 +46,9 @@
 	],
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1662256988124,
-	"edit": 1,
+	"updt": 1662265966905,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
