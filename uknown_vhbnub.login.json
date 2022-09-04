@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_vhbnub.login",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_vhbnub.login",
 	"sector": "VNP_0626",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1660087096922
+		},
+		{
+			"type": "died",
+			"when": 1662293428196
 		}
 	],
 	"retry_args": [
@@ -52,5 +56,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1660087286698,
+	"edit": 1
 }
