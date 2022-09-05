@@ -6,22 +6,22 @@
 	"sector": "K_6178",
 	"sec_level": 4,
 	"date_added": 1657520610273,
-	"last_scraped": 1662404716599,
+	"last_scraped": 1662413710123,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657520610273
 		}
 	],
-	"updt": 1662396126483,
-	"edit": 607,
-	"next_scrape": 1662446119270,
+	"updt": 1662404724213,
+	"edit": 608,
+	"next_scrape": 1662457912843,
 	"category": "fishie_tank",
-	"last_update": 1662404716599,
+	"last_update": 1662413710123,
 	"output": [
 		{
 			"args": {},
-			"calls": 2151495,
+			"calls": 2155084,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s act",
@@ -148,6 +148,14 @@
 				"that Mal",
 				"e ## Kno"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
