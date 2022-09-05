@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_w2aczt.hey_listen",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_w2aczt.hey_listen",
 	"sector": "NGC_8565",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1655018754463
+		},
+		{
+			"type": "died",
+			"when": 1662366204380
 		}
 	],
 	"retry_args": [
@@ -39,5 +43,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1655018807676,
+	"edit": 1
 }
