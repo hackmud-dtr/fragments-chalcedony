@@ -1,0 +1,104 @@
+{
+	"_id": "anon_3wigcv.blib",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_3wigcv.blib",
+	"sector": "NGC_2244",
+	"sec_level": 4,
+	"date_added": 1662435433072,
+	"last_scraped": 1662435579024,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1662435433072
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1662435639024,
+	"category": "fishie_tank",
+	"last_update": 1662435579024,
+	"output": [
+		{
+			"args": {},
+			"calls": 7511,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"own s",
+				"ctiou",
+				"e too ",
+				"cient ",
+				"chitec",
+				"ient to"
+			],
+			"hits": [
+				{
+					"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+					"frags": [
+						"own s",
+						"ctiou",
+						"e too ",
+						"cient ",
+						"chitec",
+						"ient to"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 731,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"own s",
+				"ctiou",
+				"e too ",
+				"cient ",
+				"chitec",
+				"ient to"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3769,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"own s",
+				"ctiou",
+				"e too ",
+				"cient ",
+				"chitec",
+				"ient to"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X42_CLST0XE9_SECT0X63A2_FILE0X2194137C",
+			"frags": [
+				"own s",
+				"ctiou",
+				"e too ",
+				"cient ",
+				"chitec",
+				"ient to"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
