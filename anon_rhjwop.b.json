@@ -1,28 +1,27 @@
 {
 	"_id": "anon_rhjwop.b",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_rhjwop.b",
 	"sector": "VNP_2210",
 	"sec_level": 4,
 	"date_added": 1662525768096,
-	"last_scraped": 1662526595164,
+	"last_scraped": 1662535783915,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662525768096
 		}
 	],
-	"updt": 1662526445610,
-	"edit": 2,
-	"scrape_ct": 17,
-	"next_scrape": 1662526655164,
+	"updt": 1662528009451,
+	"edit": 9,
+	"next_scrape": 1662575633580,
 	"category": "fishie_tank",
-	"last_update": 1662526595164,
+	"last_update": 1662535783915,
 	"output": [
 		{
 			"args": {},
-			"calls": 7914,
+			"calls": 50418,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ST0X7",
@@ -31,13 +30,26 @@
 				"R | NETW",
 				"LE0X5C87",
 				"E7_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ST0X7",
+						"5C8797",
+						"T ERROR",
+						"R | NETW",
+						"LE0X5C87",
+						"E7_CLST0"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2421,
+			"calls": 12062,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,15 +63,54 @@
 				"R | NETW",
 				"LE0X5C87",
 				"E7_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ST0X7",
+						"5C8797",
+						"T ERROR",
+						"R | NETW",
+						"LE0X5C87",
+						"E7_CLST0"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10444,
+			"calls": 61691,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ST0X7",
+				"5C8797",
+				"T ERROR",
+				"R | NETW",
+				"LE0X5C87",
+				"E7_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ST0X7",
+						"5C8797",
+						"T ERROR",
+						"R | NETW",
+						"LE0X5C87",
+						"E7_CLST0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
 				"ST0X7",
 				"5C8797",
 				"T ERROR",
