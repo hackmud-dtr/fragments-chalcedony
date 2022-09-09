@@ -1,28 +1,27 @@
 {
 	"_id": "anon_v8cemc.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_v8cemc.bot_brain",
 	"sector": "VNP_2210",
 	"sec_level": 4,
 	"date_added": 1662705180843,
-	"last_scraped": 1662706551347,
+	"last_scraped": 1662706751191,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662705180843
 		}
 	],
-	"updt": 1662706374704,
-	"edit": 6,
-	"scrape_ct": 2,
-	"next_scrape": 1662706611347,
+	"updt": 1662706569963,
+	"edit": 7,
+	"next_scrape": 1662746978088,
 	"category": "fishie_tank",
-	"last_update": 1662706551347,
+	"last_update": 1662706751191,
 	"output": [
 		{
 			"args": {},
-			"calls": 41353,
+			"calls": 46278,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"CLST0",
@@ -58,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8878,
+			"calls": 10323,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -82,7 +81,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 41105,
+			"calls": 49313,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"CLST0",
@@ -113,14 +112,6 @@
 				"SECT0X88",
 				"885F_FIL"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
