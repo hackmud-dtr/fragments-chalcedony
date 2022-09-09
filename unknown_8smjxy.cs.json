@@ -6,16 +6,16 @@
 	"sector": "NGC_7139",
 	"sec_level": 4,
 	"date_added": 1661534985613,
-	"last_scraped": 1662722658032,
+	"last_scraped": 1662730010259,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661534985613
 		}
 	],
-	"updt": 1662715357283,
-	"edit": 153,
-	"next_scrape": 1662767890842,
+	"updt": 1662722780304,
+	"edit": 154,
+	"next_scrape": 1662770103720,
 	"category": "fishie_tank",
 	"last_update": 1662722658032,
 	"output": [
@@ -102,6 +102,14 @@
 				" ERROR |",
 				" | PROG "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
