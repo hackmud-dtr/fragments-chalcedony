@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_11yod4.qr",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_11yod4.qr",
 	"sector": "VNP_2210",
 	"sec_level": 4,
 	"date_added": 1662800385410,
-	"last_scraped": 1662800874779,
+	"last_scraped": 1662801779608,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662800385410
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1662800934779,
+	"next_scrape": 1662847663044,
 	"category": "fishie_tank",
-	"last_update": 1662800874779,
+	"last_update": 1662801779608,
 	"output": [
 		{
 			"args": {},
-			"calls": 12745,
+			"calls": 35939,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"elp y",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3193,
+			"calls": 9788,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,7 +79,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14945,
+			"calls": 45532,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"elp y",
@@ -113,6 +112,6 @@
 			]
 		}
 	],
-	"updt": 1662800746814,
-	"edit": 2
+	"updt": 1662801724418,
+	"edit": 6
 }
