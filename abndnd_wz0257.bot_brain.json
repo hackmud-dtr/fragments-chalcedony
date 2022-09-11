@@ -6,30 +6,36 @@
 	"sector": "K_2922",
 	"sec_level": 4,
 	"date_added": 1662005211410,
-	"last_scraped": 1662847315391,
+	"last_scraped": 1662855043200,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662005211410
 		}
 	],
-	"next_scrape": 1662887691052,
+	"next_scrape": 1662895030436,
 	"category": "fishie_tank",
-	"last_update": 1662847315391,
+	"last_update": 1662855061815,
 	"output": [
 		{
 			"args": {},
-			"calls": 454399,
+			"calls": 458473,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"unpre",
 				"rior.",
 				"emed ",
 				" only",
 				" a ge",
 				"risis-",
 				"ildren",
+				"global",
+				" crisi",
+				"on cris",
 				"ecedent",
 				" that m",
+				"unsolvab",
+				"solvable",
 				"-level i"
 			],
 			"hits": [
@@ -53,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 99330,
+			"calls": 100024,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,14 +67,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"unpre",
 				"rior.",
 				"emed ",
 				" only",
 				" a ge",
 				"risis-",
 				"ildren",
+				"global",
+				" crisi",
+				"on cris",
 				"ecedent",
 				" that m",
+				"unsolvab",
+				"solvable",
 				"-level i"
 			]
 		},
@@ -107,6 +119,11 @@
 			]
 		}
 	],
-	"updt": 1662839631955,
-	"edit": 117
+	"updt": 1662847447638,
+	"edit": 118,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
