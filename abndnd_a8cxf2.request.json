@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_a8cxf2.request",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_a8cxf2.request",
 	"sector": "VNP_5623",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1662830106963
+		},
+		{
+			"type": "died",
+			"when": 1662876630361
 		}
 	],
 	"retry_args": [
@@ -52,5 +56,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1662830252800,
+	"edit": 1
 }
