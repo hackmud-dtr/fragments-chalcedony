@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_l9e0yd.big_red_button",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_l9e0yd.big_red_button",
 	"sector": "HJG_7241",
 	"sec_level": 4,
@@ -11,11 +11,15 @@
 		{
 			"type": "added",
 			"when": 1653983326182
+		},
+		{
+			"type": "died",
+			"when": 1662947796557
 		}
 	],
 	"next_scrape": 1654592354559,
 	"category": "fishie_tank",
-	"last_update": 1654549326017,
+	"last_update": 1654549345915,
 	"output": [
 		{
 			"args": {},
@@ -55,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 59392,
+			"calls": 59967,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -146,8 +150,8 @@
 			]
 		}
 	],
-	"updt": 1654539565606,
-	"edit": 73,
+	"updt": 1654549533927,
+	"edit": 75,
 	"retry_args": [
 		{
 			"do": "clean"
