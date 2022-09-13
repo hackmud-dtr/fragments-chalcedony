@@ -6,16 +6,16 @@
 	"sector": "NGC_7960",
 	"sec_level": 4,
 	"date_added": 1656499075816,
-	"last_scraped": 1663090734465,
+	"last_scraped": 1663098960875,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1656499075816
 		}
 	],
-	"updt": 1663082349958,
-	"edit": 848,
-	"next_scrape": 1663131693315,
+	"updt": 1663090759905,
+	"edit": 849,
+	"next_scrape": 1663145057900,
 	"category": "fishie_tank",
 	"last_update": 1663090734465,
 	"output": [
@@ -144,6 +144,14 @@
 				"ri imiya",
 				" | TIME "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
