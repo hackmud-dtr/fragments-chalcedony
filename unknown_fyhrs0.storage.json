@@ -1,19 +1,23 @@
 {
 	"_id": "unknown_fyhrs0.storage",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_fyhrs0.storage",
 	"sector": "VNP_5623",
 	"sec_level": 4,
 	"date_added": 1662893188079,
-	"last_scraped": 1663170923578,
+	"last_scraped": 1663179086429,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662893188079
+		},
+		{
+			"type": "died",
+			"when": 1663179086429
 		}
 	],
-	"next_scrape": 1663210804385,
+	"next_scrape": 1663267858000,
 	"category": "coin_flipper",
 	"last_update": 1663170923578,
 	"output": [
@@ -75,6 +79,7 @@
 			]
 		}
 	],
-	"updt": 1663162082472,
-	"edit": 44
+	"updt": 1663171075351,
+	"edit": 45,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_fyhrs0.storage: script doesn't exist\"}"
 }
