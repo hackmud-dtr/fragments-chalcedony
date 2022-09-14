@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_cbsfxi.duel",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_cbsfxi.duel",
 	"sector": "K_0626",
 	"sec_level": 4,
@@ -11,11 +11,15 @@
 		{
 			"type": "added",
 			"when": 1656914359548
+		},
+		{
+			"type": "died",
+			"when": 1663192888284
 		}
 	],
 	"next_scrape": 1657211405540,
 	"category": "fishie_tank",
-	"last_update": 1657168746392,
+	"last_update": 1657168764149,
 	"output": [
 		{
 			"args": {},
@@ -115,7 +119,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 31197,
+			"calls": 31931,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -229,8 +233,8 @@
 			]
 		}
 	],
-	"updt": 1657159187805,
-	"edit": 40,
+	"updt": 1657168960616,
+	"edit": 41,
 	"retry_args": [
 		{
 			"do": "clean"
