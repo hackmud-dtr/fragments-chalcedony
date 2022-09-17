@@ -6,30 +6,31 @@
 	"sector": "K_6474",
 	"sec_level": 4,
 	"date_added": 1663241406300,
-	"last_scraped": 1663429864261,
+	"last_scraped": 1663437775158,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663241406300
 		}
 	],
-	"next_scrape": 1663472348501,
+	"next_scrape": 1663483166757,
 	"category": "fishie_tank",
-	"last_update": 1663429864261,
+	"last_update": 1663437775158,
 	"output": [
 		{
 			"args": {},
-			"calls": 142362,
+			"calls": 146827,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ER fb",
 				" NETW",
 				"TIME E",
-				"ROG ER",
 				"reton ",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
+				"PROG ER",
+				"G ERROR",
 				"| TIME ",
 				" USER f",
 				" | PROG",
@@ -65,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 33631,
+			"calls": 34358,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,11 +77,12 @@
 				"ER fb",
 				" NETW",
 				"TIME E",
-				"ROG ER",
 				"reton ",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
+				"PROG ER",
+				"G ERROR",
 				"| TIME ",
 				" USER f",
 				" | PROG",
@@ -98,17 +100,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 147191,
+			"calls": 153056,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ER fb",
 				" NETW",
 				"TIME E",
-				"ROG ER",
 				"reton ",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
+				"PROG ER",
+				"G ERROR",
 				"| TIME ",
 				" USER f",
 				" | PROG",
@@ -141,6 +144,6 @@
 			]
 		}
 	],
-	"updt": 1663421695553,
-	"edit": 33
+	"updt": 1663429907268,
+	"edit": 34
 }
