@@ -6,31 +6,30 @@
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655692781217,
-	"last_scraped": 1663402245804,
+	"last_scraped": 1663411322048,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655692781217
 		}
 	],
-	"next_scrape": 1663449012300,
+	"next_scrape": 1663453951176,
 	"category": "fishie_tank",
-	"last_update": 1663402245804,
+	"last_update": 1663411322048,
 	"output": [
 		{
 			"args": {},
-			"calls": 3392603,
+			"calls": 3395966,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ROG E",
-				" PROG",
+				"ER im",
 				"USER i",
 				"T0X7BE",
+				"ROG ER",
 				"OR | U",
 				"\\nSYST",
 				"_CLST0",
 				" imiya",
-				" | NET",
 				"XE2A8BD",
 				"SYST ER",
 				"OR | TI",
@@ -40,16 +39,21 @@
 				"0XE2A8B",
 				"YST ERRO",
 				"XF4_CLST",
+				"TIME ERR",
 				"ST0XCC_S",
 				"RROR | T",
 				"RROR | P",
 				"MFT0XF4_",
+				"ME ERROR",
 				"FILE0XE2",
 				"8BDD4\\nS",
 				"0XCC_SEC",
+				"| PROG E",
 				"_SECT0X7",
 				" ERROR |",
-				" | TIME "
+				" | USER ",
+				" | TIME ",
+				" | NETW "
 			],
 			"hits": [
 				{
@@ -171,8 +175,8 @@
 			]
 		}
 	],
-	"updt": 1663394543770,
-	"edit": 968,
+	"updt": 1663402355286,
+	"edit": 969,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -184,6 +188,11 @@
 				"RROR | T",
 				"0XCC_SEC"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
