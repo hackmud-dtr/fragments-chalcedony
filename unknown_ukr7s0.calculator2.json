@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_ukr7s0.calculator2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_ukr7s0.calculator2",
 	"sector": "K_6178",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "K_6178",
 				"to": "NGC_5755"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1663494196004
+		}
 	],
 	"pl_output": "Pass {s:\"Expression\"}, where Expression is, for example, 2 + 2 * (3 + 5^2) or sin(PI/3)\nAlternatively, pass {api:true} in order to retrieve the API object to process many things quickly",
 	"next_scrape": 1663530760695,
-	"updt": 1663479333192,
-	"edit": 903,
+	"updt": 1663486953366,
+	"edit": 904,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1663486824164,
 	"output": [

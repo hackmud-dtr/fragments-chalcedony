@@ -1,20 +1,28 @@
 {
 	"_id": "unknown_uyvt54.t2_scrape",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_uyvt54.t2_scrape",
 	"sector": "SPC_4096",
 	"sec_level": 4,
 	"date_added": 1663494154103,
-	"last_scraped": 1663494180512,
+	"last_scraped": 1663494270987,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663494154103
+		},
+		{
+			"type": "died",
+			"when": 1663494270987
+		},
+		{
+			"type": "died",
+			"when": 1663494389187
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1663494240512,
+	"next_scrape": 1663580084422,
 	"category": "dice_roller",
 	"last_update": 1663494180512,
 	"output": [
@@ -31,7 +39,40 @@
 				"s, UNSAN",
 				"MALLORY,",
 				"Anyway n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+					"frags": [
+						"ONED ",
+						"nows ",
+						" arou",
+						"e that",
+						"GHT. Th",
+						"s, UNSAN",
+						"MALLORY,",
+						"Anyway n"
+					]
+				}
 			]
 		}
-	]
+	],
+	"updt": 1663494381684,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+			"frags": [
+				"ONED ",
+				"nows ",
+				" arou",
+				"e that",
+				"GHT. Th",
+				"s, UNSAN",
+				"MALLORY,",
+				"Anyway n"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_uyvt54.t2_scrape: script doesn't exist\"}"
 }
