@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_3mugcb.full",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_3mugcb.full",
 	"sector": "K_6474",
 	"sec_level": 4,
 	"date_added": 1663241406300,
-	"last_scraped": 1663527834050,
+	"last_scraped": 1663535467419,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663241406300
+		},
+		{
+			"type": "died",
+			"when": 1663535467419
 		}
 	],
-	"next_scrape": 1663570807430,
+	"next_scrape": 1663627925988,
 	"category": "fishie_tank",
 	"last_update": 1663527834050,
 	"output": [
@@ -162,6 +166,7 @@
 			]
 		}
 	],
-	"updt": 1663519580544,
-	"edit": 47
+	"updt": 1663527985798,
+	"edit": 48,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_3mugcb.full: script doesn't exist\"}"
 }
