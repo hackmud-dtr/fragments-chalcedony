@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_3mugcb.corp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_3mugcb.corp",
 	"sector": "K_1006",
 	"sec_level": 4,
 	"date_added": 1660705795219,
-	"last_scraped": 1663525532248,
+	"last_scraped": 1663533273731,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660705795219
+		},
+		{
+			"type": "died",
+			"when": 1663533273731
 		}
 	],
-	"next_scrape": 1663572130106,
+	"next_scrape": 1663617731763,
 	"category": "clicker",
 	"last_update": 1663525532248,
 	"output": [
@@ -488,6 +492,7 @@
 			]
 		}
 	],
-	"updt": 1663517234481,
-	"edit": 376
+	"updt": 1663525638387,
+	"edit": 377,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_3mugcb.corp: script doesn't exist\"}"
 }
