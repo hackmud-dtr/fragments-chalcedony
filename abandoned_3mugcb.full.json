@@ -6,35 +6,37 @@
 	"sector": "K_6474",
 	"sec_level": 4,
 	"date_added": 1663241406300,
-	"last_scraped": 1663476566983,
+	"last_scraped": 1663484287309,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663241406300
 		}
 	],
-	"next_scrape": 1663521627161,
+	"next_scrape": 1663531062615,
 	"category": "fishie_tank",
-	"last_update": 1663476566983,
+	"last_update": 1663484287309,
 	"output": [
 		{
 			"args": {},
-			"calls": 169291,
+			"calls": 173781,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ER fb",
 				" NETW",
-				"TIME E",
 				"reton ",
+				"| USER",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
 				"PROG ER",
+				"OR | TI",
 				"G ERROR",
 				"| TIME ",
 				" USER f",
+				" TIME E",
 				" | PROG",
 				"W ERROR ",
+				"USER fbr",
 				"RROR | U",
 				"ROR | US",
 				"R fbreto",
@@ -66,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 39452,
+			"calls": 40139,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,19 +76,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ER fb",
 				" NETW",
-				"TIME E",
 				"reton ",
+				"| USER",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
 				"PROG ER",
+				"OR | TI",
 				"G ERROR",
 				"| TIME ",
 				" USER f",
+				" TIME E",
 				" | PROG",
 				"W ERROR ",
+				"USER fbr",
 				"RROR | U",
 				"ROR | US",
 				"R fbreto",
@@ -100,22 +104,24 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 174104,
+			"calls": 177566,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ER fb",
 				" NETW",
-				"TIME E",
 				"reton ",
+				"| USER",
 				" | USE",
 				"ROR | T",
 				"ROR | P",
 				"PROG ER",
+				"OR | TI",
 				"G ERROR",
 				"| TIME ",
 				" USER f",
+				" TIME E",
 				" | PROG",
 				"W ERROR ",
+				"USER fbr",
 				"RROR | U",
 				"ROR | US",
 				"R fbreto",
@@ -144,6 +150,6 @@
 			]
 		}
 	],
-	"updt": 1663468979588,
-	"edit": 41
+	"updt": 1663476599583,
+	"edit": 42
 }
