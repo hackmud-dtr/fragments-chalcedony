@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_myjfgc.manage",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_myjfgc.manage",
 	"sector": "K_2014",
 	"sec_level": 4,
 	"date_added": 1660223284325,
-	"last_scraped": 1663557166281,
+	"last_scraped": 1663564560824,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660223284325
 		}
 	],
-	"updt": 1663549865297,
-	"edit": 447,
-	"next_scrape": 1663600121669,
+	"updt": 1663557286520,
+	"edit": 448,
+	"next_scrape": 1663604413935,
 	"category": "clicker",
-	"last_update": 1663557166281,
+	"last_update": 1663564560824,
 	"output": [
 		{
 			"args": {},
-			"calls": 1605743,
+			"calls": 1610221,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"on eq",
@@ -196,6 +196,11 @@
 				"of prohi",
 				" environ"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
