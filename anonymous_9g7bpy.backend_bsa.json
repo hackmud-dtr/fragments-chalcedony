@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_9g7bpy.backend_bsa",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_9g7bpy.backend_bsa",
 	"sector": "NGC_7375",
 	"sec_level": 4,
 	"date_added": 1655692781217,
-	"last_scraped": 1663647772199,
+	"last_scraped": 1663655130393,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1655692781217
+		},
+		{
+			"type": "died",
+			"when": 1663655130393
 		}
 	],
-	"next_scrape": 1663691739678,
+	"next_scrape": 1663737942333,
 	"category": "fishie_tank",
 	"last_update": 1663647772199,
 	"output": [
@@ -240,8 +244,8 @@
 			]
 		}
 	],
-	"updt": 1663647756588,
-	"edit": 1003,
+	"updt": 1663647951985,
+	"edit": 1004,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -254,5 +258,6 @@
 				"0XCC_SEC"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_9g7bpy.backend_bsa: script doesn't exist\"}"
 }
