@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_qtq2bu.tier1",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_qtq2bu.tier1",
 	"sector": "SPC_4096",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1663497188698
+		},
+		{
+			"type": "died",
+			"when": 1663750297219
 		}
 	],
-	"updt": 1663497311069,
-	"edit": 1,
+	"updt": 1663497506698,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
