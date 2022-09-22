@@ -1,21 +1,25 @@
 {
 	"_id": "abandoned_5k58sp.get_level",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_5k58sp.get_level",
 	"sector": "K_9959",
 	"sec_level": 4,
 	"date_added": 1663611744194,
-	"last_scraped": 1663802052000,
+	"last_scraped": 1663809072134,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663611744194
+		},
+		{
+			"type": "died",
+			"when": 1663809072134
 		}
 	],
-	"updt": 1663794877897,
-	"edit": 36,
-	"next_scrape": 1663844608326,
+	"updt": 1663802108557,
+	"edit": 37,
+	"next_scrape": 1663897307022,
 	"category": "plant_sim",
 	"last_update": 1663802052000,
 	"output": [
@@ -103,5 +107,6 @@
 				"f 3.\\n20C"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_5k58sp.get_level: script doesn't exist\"}"
 }
