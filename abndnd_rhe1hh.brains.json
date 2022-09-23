@@ -6,31 +6,39 @@
 	"sector": "K_9573",
 	"sec_level": 4,
 	"date_added": 1661127425953,
-	"last_scraped": 1663952396318,
+	"last_scraped": 1663959337732,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661127425953
 		}
 	],
-	"next_scrape": 1663998769429,
+	"next_scrape": 1664003389479,
 	"category": "fishie_tank",
-	"last_update": 1663952396318,
+	"last_update": 1663959356978,
 	"output": [
 		{
 			"args": {},
-			"calls": 1458988,
+			"calls": 1464063,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"re - ",
+				" supp",
+				" part",
 				" is s",
 				"were -",
+				"suppos",
+				"s so m",
 				"m just",
-				"a litt",
 				"nk - wh",
+				"imental",
+				" they t",
 				"so much ",
+				"rt of wh",
+				"d. I'm j",
 				"and. I'm",
-				" sentime"
+				" sentime",
+				" a littl"
 			],
 			"hits": [
 				{
@@ -53,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 328615,
+			"calls": 329163,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,14 +70,22 @@
 			],
 			"fragments": [
 				"re - ",
+				" supp",
+				" part",
 				" is s",
 				"were -",
+				"suppos",
+				"s so m",
 				"m just",
-				"a litt",
 				"nk - wh",
+				"imental",
+				" they t",
 				"so much ",
+				"rt of wh",
+				"d. I'm j",
 				"and. I'm",
-				" sentime"
+				" sentime",
+				" a littl"
 			]
 		},
 		{
@@ -107,6 +123,11 @@
 			]
 		}
 	],
-	"updt": 1663945109590,
-	"edit": 406
+	"updt": 1663952533880,
+	"edit": 407,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
