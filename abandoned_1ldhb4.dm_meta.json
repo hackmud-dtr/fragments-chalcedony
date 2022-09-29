@@ -6,16 +6,16 @@
 	"sector": "NGC_2244",
 	"sec_level": 4,
 	"date_added": 1662399441044,
-	"last_scraped": 1664421306720,
+	"last_scraped": 1664428247074,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662399441044
 		}
 	],
-	"updt": 1664413988986,
-	"edit": 314,
-	"next_scrape": 1664463021117,
+	"updt": 1664421412901,
+	"edit": 315,
+	"next_scrape": 1664468011129,
 	"category": "fishie_tank",
 	"last_update": 1664421306720,
 	"output": [
@@ -87,6 +87,14 @@
 				"e to hit",
 				"chance t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
