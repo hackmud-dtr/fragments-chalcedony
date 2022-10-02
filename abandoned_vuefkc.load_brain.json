@@ -6,35 +6,37 @@
 	"sector": "K_8469",
 	"sec_level": 4,
 	"date_added": 1664564188839,
-	"last_scraped": 1664726057844,
+	"last_scraped": 1664732510632,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1664564188839
 		}
 	],
-	"next_scrape": 1664771588201,
+	"next_scrape": 1664779240539,
 	"category": "fishie_tank",
-	"last_update": 1664726057844,
+	"last_update": 1664732529280,
 	"output": [
 		{
 			"args": {},
-			"calls": 140489,
+			"calls": 144220,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ing w",
 				"3F Oh",
+				"ld,\\n2",
 				"ld you",
-				"you.\\n2",
 				"so coul",
+				"ing win",
 				"E so co",
 				"D Of co",
 				" so cou",
 				" Of cou",
 				"se I cou",
+				"rse I co",
 				"ndow?\\n2",
 				"I could,",
 				"h wait, ",
+				"F Oh wai",
 				"d,\\n213E",
 				"213E so ",
 				",\\n213E ",
@@ -42,7 +44,9 @@
 				" course ",
 				"w?\\n213D ",
 				"u.\\n213F ",
-				"ow?\\n213D"
+				"ow?\\n213D",
+				"\\n213E so",
+				" you.\\n21"
 			],
 			"hits": [
 				{
@@ -67,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 25943,
+			"calls": 26697,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,19 +79,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ing w",
 				"3F Oh",
+				"ld,\\n2",
 				"ld you",
-				"you.\\n2",
 				"so coul",
+				"ing win",
 				"E so co",
 				"D Of co",
 				" so cou",
 				" Of cou",
 				"se I cou",
+				"rse I co",
 				"ndow?\\n2",
 				"I could,",
 				"h wait, ",
+				"F Oh wai",
 				"d,\\n213E",
 				"213E so ",
 				",\\n213E ",
@@ -95,7 +101,9 @@
 				" course ",
 				"w?\\n213D ",
 				"u.\\n213F ",
-				"ow?\\n213D"
+				"ow?\\n213D",
+				"\\n213E so",
+				" you.\\n21"
 			]
 		},
 		{
@@ -147,6 +155,11 @@
 			]
 		}
 	],
-	"edit": 35,
-	"updt": 1664719452690
+	"edit": 36,
+	"updt": 1664726091400,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
