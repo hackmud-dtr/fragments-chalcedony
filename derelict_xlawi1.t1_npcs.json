@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_xlawi1.t1_npcs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_xlawi1.t1_npcs",
 	"sector": "VNP_2058",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_2058",
 				"to": "NGC_2699"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1665113925743
+		}
 	],
 	"pl_output": "{\"msg\":\"weathernet.public, skimmerite.public, robovac.public, aon.public\"}",
 	"next_scrape": 1660954858583,
-	"updt": 1660856720945,
-	"edit": 769
+	"updt": 1660865128277,
+	"edit": 770
 }
