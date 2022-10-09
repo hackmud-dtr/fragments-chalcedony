@@ -6,33 +6,32 @@
 	"sector": "VNP_2210",
 	"sec_level": 4,
 	"date_added": 1662525768096,
-	"last_scraped": 1665295102606,
+	"last_scraped": 1665303161076,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1662525768096
 		}
 	],
-	"updt": 1665287352914,
-	"edit": 413,
-	"next_scrape": 1665341128611,
+	"updt": 1665295166167,
+	"edit": 414,
+	"next_scrape": 1665347929228,
 	"category": "fishie_tank",
-	"last_update": 1665295102606,
+	"last_update": 1665303178242,
 	"output": [
 		{
 			"args": {},
-			"calls": 1514132,
+			"calls": 1517305,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X",
-				"T0X8CA8",
-				"T ERROR",
+				"XE7_CLS",
 				"NETW ER",
 				"\\nSYST ",
-				" ERROR ",
 				"YST ERRO",
 				"X8CA8_FI",
 				"T0X7B_SE",
+				"T ERROR ",
 				"SYST ERR",
 				"RROR | N",
 				"ROR | NE",
@@ -42,15 +41,20 @@
 				"ECT0X8CA",
 				"E7_CLST0",
 				"E0X5C879",
+				"CT0X8CA8",
 				"CLST0X7B",
+				"CA8_FILE",
 				"A8_FILE0",
 				"8_FILE0X",
 				"7B_SECT0",
 				"79769\\nS",
 				"69\\nSYST",
+				"5C879769",
+				"0X8CA8_F",
 				"0X5C8797",
 				"| NETW E",
 				"_SECT0X8",
+				" | NETW ",
 				"C879769\\n"
 			],
 			"hits": [
@@ -71,7 +75,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 315983,
+			"calls": 316795,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,14 +84,13 @@
 			],
 			"fragments": [
 				"MFT0X",
-				"T0X8CA8",
-				"T ERROR",
+				"XE7_CLS",
 				"NETW ER",
 				"\\nSYST ",
-				" ERROR ",
 				"YST ERRO",
 				"X8CA8_FI",
 				"T0X7B_SE",
+				"T ERROR ",
 				"SYST ERR",
 				"RROR | N",
 				"ROR | NE",
@@ -97,15 +100,20 @@
 				"ECT0X8CA",
 				"E7_CLST0",
 				"E0X5C879",
+				"CT0X8CA8",
 				"CLST0X7B",
+				"CA8_FILE",
 				"A8_FILE0",
 				"8_FILE0X",
 				"7B_SECT0",
 				"79769\\nS",
 				"69\\nSYST",
+				"5C879769",
+				"0X8CA8_F",
 				"0X5C8797",
 				"| NETW E",
 				"_SECT0X8",
+				" | NETW ",
 				"C879769\\n"
 			],
 			"hits": [
@@ -184,6 +192,11 @@
 				"LE0X5C87",
 				"E7_CLST0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
