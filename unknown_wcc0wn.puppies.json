@@ -1,29 +1,38 @@
 {
 	"_id": "unknown_wcc0wn.puppies",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_wcc0wn.puppies",
 	"sector": "HJG_5767",
 	"sec_level": 4,
 	"date_added": 1665388681157,
-	"last_scraped": 1665390507195,
+	"last_scraped": 1665390688387,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1665388681157
+		},
+		{
+			"type": "died",
+			"when": 1665390688387
+		},
+		{
+			"type": "died",
+			"when": 1665390784973
 		}
 	],
-	"next_scrape": 1665390567195,
-	"scrape_ct": 2,
+	"next_scrape": 1665481409540,
+	"scrape_ct": 1,
 	"category": "coin_flipper",
-	"last_update": 1665390507195,
+	"last_update": 1665390597997,
 	"output": [
 		{
 			"args": {},
-			"calls": 81835,
+			"calls": 87582,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"nally ",
+				"h pers",
+				"fospac",
 				", like",
 				", and ",
 				" perso",
@@ -31,6 +40,7 @@
 				"uch per",
 				"probabl",
 				"persona",
+				"onally ",
 				"o much,",
 				"m prett",
 				"lot, pr",
@@ -127,6 +137,7 @@
 			]
 		}
 	],
-	"edit": 9,
-	"updt": 1665390332737
+	"edit": 11,
+	"updt": 1665390725193,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_wcc0wn.puppies: script doesn't exist\"}"
 }
