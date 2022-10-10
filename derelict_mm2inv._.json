@@ -1,0 +1,98 @@
+{
+	"_id": "derelict_mm2inv._",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_mm2inv._",
+	"sector": "HJG_5767",
+	"sec_level": 4,
+	"date_added": 1665431151569,
+	"last_scraped": 1665431894054,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1665431151569
+		}
+	],
+	"edit": 4,
+	"updt": 1665431746883,
+	"next_scrape": 1665431954054,
+	"scrape_ct": 9,
+	"category": "fishie_tank",
+	"last_update": 1665431894054,
+	"output": [
+		{
+			"args": {},
+			"calls": 19198,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"u are",
+				"87 I ",
+				" am t",
+				"he atta",
+				",\\n2087",
+				" You ar"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"u are",
+						"87 I ",
+						" am t",
+						"he atta",
+						",\\n2087",
+						" You ar"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4254,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"u are",
+				"87 I ",
+				" am t",
+				"he atta",
+				",\\n2087",
+				" You ar"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26061,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"u are",
+				"87 I ",
+				" am t",
+				"he atta",
+				",\\n2087",
+				" You ar"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"u are",
+				"87 I ",
+				" am t",
+				"he atta",
+				",\\n2087",
+				" You ar"
+			]
+		}
+	]
+}
