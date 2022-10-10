@@ -1,0 +1,98 @@
+{
+	"_id": "unidentified_51sbu6.infra",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_51sbu6.infra",
+	"sector": "HJG_5767",
+	"sec_level": 4,
+	"date_added": 1665443287563,
+	"last_scraped": 1665443637219,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1665443287563
+		}
+	],
+	"next_scrape": 1665443697219,
+	"scrape_ct": 15,
+	"category": "fishie_tank",
+	"last_update": 1665443637219,
+	"output": [
+		{
+			"args": {},
+			"calls": 13478,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the n",
+				" card ",
+				" a sta",
+				"next ^2",
+				" to the",
+				"^2.\\n2154"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"the n",
+						" card ",
+						" a sta",
+						"next ^2",
+						" to the",
+						"^2.\\n2154"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2414,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the n",
+				" card ",
+				" a sta",
+				"next ^2",
+				" to the",
+				"^2.\\n2154"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11193,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"the n",
+				" card ",
+				" a sta",
+				"next ^2",
+				" to the",
+				"^2.\\n2154"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"the n",
+				" card ",
+				" a sta",
+				"next ^2",
+				" to the",
+				"^2.\\n2154"
+			]
+		}
+	],
+	"edit": 1,
+	"updt": 1665443470553
+}
