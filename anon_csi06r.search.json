@@ -1,7 +1,7 @@
 {
 	"_id": "anon_csi06r.search",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_csi06r.search",
 	"sector": "HJG_5767",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1665502556955
+		},
+		{
+			"type": "died",
+			"when": 1665525900077
 		}
 	],
 	"next_scrape": 1665600668469,
@@ -63,8 +67,8 @@
 	],
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"edit": 2,
-	"updt": 1665510686915,
+	"edit": 3,
+	"updt": 1665518302235,
 	"retry_args": [
 		{
 			"do": "LOSE"
