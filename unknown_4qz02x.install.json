@@ -1,0 +1,106 @@
+{
+	"_id": "unknown_4qz02x.install",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_4qz02x.install",
+	"sector": "VNP_8573",
+	"sec_level": 4,
+	"date_added": 1665684579176,
+	"last_scraped": 1665684744546,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1665684579176
+		}
+	],
+	"next_scrape": 1665684804546,
+	"scrape_ct": 18,
+	"category": "fishie_tank",
+	"last_update": 1665684763755,
+	"output": [
+		{
+			"args": {},
+			"calls": 8457,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0X885",
+				"85F_FIL",
+				" ERROR ",
+				"T0X69_SE",
+				"F_FILE0X",
+				"0X69_SEC",
+				"17B2\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"0X885",
+						"85F_FIL",
+						" ERROR ",
+						"T0X69_SE",
+						"F_FILE0X",
+						"0X69_SEC",
+						"17B2\\nSYS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1657,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0X885",
+				"85F_FIL",
+				" ERROR ",
+				"T0X69_SE",
+				"F_FILE0X",
+				"0X69_SEC",
+				"17B2\\nSYS"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5038,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0X885",
+				"85F_FIL",
+				" ERROR ",
+				"T0X69_SE",
+				"F_FILE0X",
+				"0X69_SEC",
+				"17B2\\nSYS"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"0X885",
+				"85F_FIL",
+				" ERROR ",
+				"T0X69_SE",
+				"F_FILE0X",
+				"0X69_SEC",
+				"17B2\\nSYS"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
