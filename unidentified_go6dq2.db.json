@@ -1,0 +1,98 @@
+{
+	"_id": "unidentified_go6dq2.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_go6dq2.db",
+	"sector": "VNP_8573",
+	"sec_level": 4,
+	"date_added": 1665847495278,
+	"last_scraped": 1665847695666,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1665847495278
+		}
+	],
+	"edit": 1,
+	"updt": 1665847512610,
+	"next_scrape": 1665847755666,
+	"scrape_ct": 17,
+	"category": "fishie_tank",
+	"last_update": 1665847695666,
+	"output": [
+		{
+			"args": {},
+			"calls": 10416,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"re/hi",
+				" road",
+				"oad agai",
+				"d again,",
+				"ain, but",
+				"/high-cu"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"re/hi",
+						" road",
+						"oad agai",
+						"d again,",
+						"ain, but",
+						"/high-cu"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1455,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"re/hi",
+				" road",
+				"oad agai",
+				"d again,",
+				"ain, but",
+				"/high-cu"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9846,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"re/hi",
+				" road",
+				"oad agai",
+				"d again,",
+				"ain, but",
+				"/high-cu"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"re/hi",
+				" road",
+				"oad agai",
+				"d again,",
+				"ain, but",
+				"/high-cu"
+			]
+		}
+	]
+}
