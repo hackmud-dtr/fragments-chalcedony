@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_tsna3h.ct1",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_tsna3h.ct1",
 	"sector": "SPC_1925",
 	"sec_level": 4,
 	"date_added": 1666038290564,
-	"last_scraped": 1666040306684,
+	"last_scraped": 1666040433592,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1666038290564
+		},
+		{
+			"type": "died",
+			"when": 1666040433592
+		},
+		{
+			"type": "died",
+			"when": 1666040445079
 		}
 	],
-	"next_scrape": 1666040366684,
+	"next_scrape": 1666132736702,
 	"scrape_ct": 0,
 	"category": "plant_sim",
 	"last_update": 1666040306684,
@@ -108,6 +116,7 @@
 			]
 		}
 	],
-	"edit": 10,
-	"updt": 1666040140647
+	"edit": 11,
+	"updt": 1666040336080,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_tsna3h.ct1: script doesn't exist\"}"
 }
