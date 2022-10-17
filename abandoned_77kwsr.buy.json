@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_77kwsr.buy",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_77kwsr.buy",
 	"sector": "SPC_1925",
 	"sec_level": 4,
 	"date_added": 1666025848383,
-	"last_scraped": 1666026864685,
+	"last_scraped": 1666027293472,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1666025848383
 		}
 	],
-	"next_scrape": 1666026924685,
-	"scrape_ct": 5,
+	"next_scrape": 1666069681455,
 	"category": "fishie_tank",
-	"last_update": 1666026847419,
+	"last_update": 1666027293472,
 	"output": [
 		{
 			"args": {},
-			"calls": 32843,
+			"calls": 47445,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"oday. ",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6269,
+			"calls": 8642,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,7 +70,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 34290,
+			"calls": 52205,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"oday. ",
@@ -98,6 +97,6 @@
 			]
 		}
 	],
-	"edit": 4,
-	"updt": 1666026671982
+	"edit": 6,
+	"updt": 1666027255483
 }
