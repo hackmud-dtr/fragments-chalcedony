@@ -1,16 +1,62 @@
 {
 	"_id": "uknown_49r39e.breakout",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "uknown_49r39e.breakout",
 	"sector": "SPC_1925",
 	"sec_level": 4,
 	"date_added": 1666014123763,
-	"last_scraped": 0,
+	"last_scraped": 1666014221043,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1666014123763
 		}
-	]
+	],
+	"edit": 1,
+	"updt": 1666014167679,
+	"next_scrape": 1666094462396,
+	"scrape_ct": 19,
+	"category": "risk_factor",
+	"last_update": 1666014203218,
+	"output": [
+		{
+			"args": {},
+			"calls": 1256,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"20C8 O",
+				"0C9 4 ",
+				".\\n20C",
+				"I have ",
+				"with str",
+				"e 7 and "
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"20C8 O",
+				"0C9 4 ",
+				".\\n20C",
+				"I have ",
+				"with str",
+				"e 7 and "
+			]
+		}
+	],
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
