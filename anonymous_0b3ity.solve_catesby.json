@@ -6,18 +6,18 @@
 	"sector": "VNP_5542",
 	"sec_level": 4,
 	"date_added": 1658031107292,
-	"last_scraped": 1666032746265,
+	"last_scraped": 1666032709401,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658031107292
 		}
 	],
-	"updt": 1666032724442,
-	"edit": 1083,
-	"next_scrape": 1666075835552,
+	"updt": 1666024130841,
+	"edit": 1082,
+	"next_scrape": 1666073757622,
 	"category": "fishie_tank",
-	"last_update": 1666032746265,
+	"last_update": 1666032709401,
 	"output": [
 		{
 			"args": {},
@@ -76,7 +76,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 820390,
+			"calls": 819728,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,6 +84,7 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"stabl",
 				"tage 1",
 				"mainde",
 				"f stag",
@@ -95,7 +96,6 @@
 				"er when",
 				"e remai",
 				"ainder ",
-				" establ",
 				"will get",
 				"we will ",
 				"ve estab",
@@ -124,9 +124,10 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3898586,
+			"calls": 3893837,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"stabl",
 				"tage 1",
 				"mainde",
 				"f stag",
@@ -138,7 +139,6 @@
 				"er when",
 				"e remai",
 				"ainder ",
-				" establ",
 				"will get",
 				"we will ",
 				"ve estab",
@@ -174,6 +174,14 @@
 				"have est",
 				"en data "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
