@@ -6,34 +6,35 @@
 	"sector": "NGC_7139",
 	"sec_level": 4,
 	"date_added": 1661534985613,
-	"last_scraped": 1666373037608,
+	"last_scraped": 1666382565677,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661534985613
 		}
 	],
-	"updt": 1666373025598,
-	"edit": 670,
-	"next_scrape": 1666413716206,
+	"updt": 1666373221296,
+	"edit": 671,
+	"next_scrape": 1666424484360,
 	"category": "fishie_tank",
-	"last_update": 1666373037608,
+	"last_update": 1666382565677,
 	"output": [
 		{
 			"args": {},
-			"calls": 2508596,
+			"calls": 2511713,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R imi",
-				"LST0X",
 				"E ERR",
 				"8BDD4",
 				" TIME",
-				"SYST E",
 				"0XF4_C",
 				"TIME ER",
 				"ROR | N",
 				"G ERROR",
+				"FILE0XE",
+				"0X7BE4_",
+				"_CLST0X",
 				"R | NETW",
 				"NETW ERR",
 				"7BE4_FIL",
@@ -41,7 +42,8 @@
 				"| NETW E",
 				"_SECT0X7",
 				" ERROR |",
-				" | PROG "
+				" | PROG ",
+				"\\nSYST ER"
 			],
 			"hits": [
 				{
@@ -60,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 517871,
+			"calls": 518626,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,15 +71,16 @@
 			],
 			"fragments": [
 				"R imi",
-				"LST0X",
 				"E ERR",
 				"8BDD4",
 				" TIME",
-				"SYST E",
 				"0XF4_C",
 				"TIME ER",
 				"ROR | N",
 				"G ERROR",
+				"FILE0XE",
+				"0X7BE4_",
+				"_CLST0X",
 				"R | NETW",
 				"NETW ERR",
 				"7BE4_FIL",
@@ -85,26 +88,28 @@
 				"| NETW E",
 				"_SECT0X7",
 				" ERROR |",
-				" | PROG "
+				" | PROG ",
+				"\\nSYST ER"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 2580547,
+			"calls": 2585327,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R imi",
-				"LST0X",
 				"E ERR",
 				"8BDD4",
 				" TIME",
-				"SYST E",
 				"0XF4_C",
 				"TIME ER",
 				"ROR | N",
 				"G ERROR",
+				"FILE0XE",
+				"0X7BE4_",
+				"_CLST0X",
 				"R | NETW",
 				"NETW ERR",
 				"7BE4_FIL",
@@ -112,7 +117,8 @@
 				"| NETW E",
 				"_SECT0X7",
 				" ERROR |",
-				" | PROG "
+				" | PROG ",
+				"\\nSYST ER"
 			]
 		}
 	],
