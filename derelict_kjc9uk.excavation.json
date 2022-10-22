@@ -6,20 +6,20 @@
 	"sector": "K_3446",
 	"sec_level": 4,
 	"date_added": 1660914742678,
-	"last_scraped": 1666439848748,
+	"last_scraped": 1666448222076,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1660914742678
 		}
 	],
-	"next_scrape": 1666480727145,
+	"next_scrape": 1666491976483,
 	"category": "fishie_tank",
-	"last_update": 1666439848748,
+	"last_update": 1666448222076,
 	"output": [
 		{
 			"args": {},
-			"calls": 2839601,
+			"calls": 2843059,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"visit",
@@ -27,9 +27,11 @@
 				"be ch",
 				" chal",
 				" Our c",
-				"tions? ",
+				"s must ",
 				"enged, ",
 				" these ",
+				" must b",
+				" Each o",
 				"the year",
 				"t be rev",
 				"se notio",
@@ -39,7 +41,9 @@
 				"ears ahe",
 				"Each of ",
 				"e notion",
+				"d, must ",
 				"challeng",
+				"ations? ",
 				"? Our na",
 				" nations"
 			],
@@ -138,6 +142,11 @@
 			]
 		}
 	],
-	"updt": 1666439840361,
-	"edit": 784
+	"updt": 1666440035457,
+	"edit": 785,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
