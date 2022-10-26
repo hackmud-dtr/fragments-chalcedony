@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_2pv3h4.pay_respects",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_2pv3h4.pay_respects",
 	"sector": "NGC_8443",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1666762942857
+		},
+		{
+			"type": "died",
+			"when": 1666783935478
 		}
 	],
-	"edit": 1,
-	"updt": 1666762953875,
+	"edit": 2,
+	"updt": 1666763150113,
 	"retry_args": [
 		{
 			"do": "LOSE"
