@@ -6,36 +6,33 @@
 	"sector": "K_1650",
 	"sec_level": 4,
 	"date_added": 1657699258893,
-	"last_scraped": 1666837981783,
+	"last_scraped": 1666846954247,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1657699258893
 		}
 	],
-	"updt": 1666829390995,
-	"edit": 1226,
-	"next_scrape": 1666883647797,
+	"updt": 1666837987819,
+	"edit": 1227,
+	"next_scrape": 1666891743658,
 	"category": "fishie_tank",
-	"last_update": 1666837981783,
+	"last_update": 1666846954247,
 	"output": [
 		{
 			"args": {},
-			"calls": 4402999,
+			"calls": 4406414,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"went ",
 				"the g",
 				"nt ou",
-				"ing m",
+				"hem, ",
 				"ent o",
-				"ee th",
-				"'t se",
 				" real",
 				"they'r",
 				"t went",
 				"nt is ",
-				"know t",
 				"hey're",
 				"And th",
 				" work.",
@@ -48,11 +45,15 @@
 				"he gove",
 				"ere is ",
 				"em, not",
+				"eeding ",
+				"ee them",
+				"eding m",
 				"e. | An",
 				"e them,",
 				"d just ",
 				"ay. The",
 				"Anyway.",
+				". There",
 				". And t",
 				" I can'",
 				" gone. ",
@@ -71,13 +72,16 @@
 				"m, not r",
 				"just wen",
 				"is feedi",
+				"I know t",
 				"ew hundr",
 				"ernment ",
 				"e govern",
 				"ays the ",
+				"an't see",
 				"always t",
 				"a few hu",
 				", not re",
+				" is feed",
 				" is alwa",
 				" | Anywa"
 			],
@@ -238,6 +242,14 @@
 				"undred j",
 				"ndred ju"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
