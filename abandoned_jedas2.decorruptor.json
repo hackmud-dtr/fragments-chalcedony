@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jedas2.decorruptor",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_jedas2.decorruptor",
 	"sector": "K_2014",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_2014",
 				"to": "SPC_5299"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1667220119386
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You are not whitelisted.\"}",
 	"next_scrape": 1667294491879,
-	"updt": 1667203506744,
-	"edit": 1329
+	"updt": 1667212293343,
+	"edit": 1330
 }

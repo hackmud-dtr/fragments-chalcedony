@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jedas2.t1_scraper",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_jedas2.t1_scraper",
 	"sector": "K_2014",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_2014",
 				"to": "SPC_5299"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1667220119386
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You are not whitelisted.\"}",
 	"next_scrape": 1667299914168,
-	"updt": 1667203702996,
-	"edit": 1328
+	"updt": 1667212293343,
+	"edit": 1329
 }
