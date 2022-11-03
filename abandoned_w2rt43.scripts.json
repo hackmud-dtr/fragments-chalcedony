@@ -6,32 +6,26 @@
 	"sector": "NGC_3008",
 	"sec_level": 4,
 	"date_added": 1658867047720,
-	"last_scraped": 1667436927711,
+	"last_scraped": 1667445547388,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1658867047720
 		}
 	],
-	"next_scrape": 1667479601731,
+	"next_scrape": 1667488999275,
 	"category": "fishie_tank",
-	"last_update": 1667436927711,
+	"last_update": 1667445547388,
 	"output": [
 		{
 			"args": {},
-			"calls": 4178315,
+			"calls": 4184049,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ton ai-",
-				"SUBJ: e",
 				"ntering",
-				"ng stag",
-				"ing sta",
 				"| SUBJ:",
 				"| BODY ",
-				": enter",
-				" SUBJ: ",
-				" enteri",
 				"Y quick ",
 				"uick not",
 				"UBJ: ent",
@@ -39,12 +33,16 @@
 				"tage 5 |",
 				"quick no",
 				"ODY quic",
+				"ng stage",
 				"n ai-tea",
 				"m | SUBJ",
 				"k note -",
+				"J: enter",
+				"ing stag",
 				"ick note",
 				"i-team |",
 				"ge 5 | B",
+				"g stage ",
 				"ering st",
 				"eam | SU",
 				"e 5 | BO",
@@ -52,10 +50,15 @@
 				"BODY qui",
 				"BJ: ente",
 				"ai-team ",
+				"age 5 | ",
 				"5 | BODY",
+				": enteri",
 				"-team | ",
+				" SUBJ: e",
 				" stage 5",
-				" BODY qu"
+				" enterin",
+				" BODY qu",
+				" ai-team"
 			],
 			"hits": [
 				{
@@ -178,6 +181,14 @@
 			]
 		}
 	],
-	"updt": 1667428564821,
-	"edit": 1163
+	"updt": 1667436963769,
+	"edit": 1164,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
