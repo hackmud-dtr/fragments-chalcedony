@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_q7uwj5.npc",
-	"sector": "VNP_7524",
+	"sector": "HJG_5486",
 	"sec_level": 4,
 	"date_added": 1664998752253,
-	"last_scraped": 1667520260684,
+	"last_scraped": 1667521619306,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1664998752253
-		}
+		},
+		{
+			"type": "died",
+			"when": 1667521452444
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1667521584776,
+				"from": "HJG_5486",
+				"to": "VNP_7524"
+			}
+		]
 	],
-	"edit": 304,
-	"updt": 1667511795670,
-	"next_scrape": 1667609932313,
+	"edit": 306,
+	"updt": 1667521559679,
+	"next_scrape": 1667606812581,
 	"pl_output": "{\"ok\":false,\"msg\":\"usage: YOURUSER.test {target:#s.t1npc.corp}\"}"
 }
