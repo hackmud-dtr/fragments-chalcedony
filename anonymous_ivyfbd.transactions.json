@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_ivyfbd.transactions",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_ivyfbd.transactions",
 	"sector": "HJG_5486",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1667505019690
+		},
+		{
+			"type": "died",
+			"when": 1667714104421
 		}
 	],
 	"retry_args": [
@@ -45,5 +49,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"edit": 1,
+	"updt": 1667505152521
 }
