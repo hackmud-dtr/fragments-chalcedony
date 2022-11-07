@@ -1,0 +1,111 @@
+{
+	"_id": "unknown_dut7wy.sortups",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_dut7wy.sortups",
+	"sector": "NGC_4223",
+	"sec_level": 4,
+	"date_added": 1667853178714,
+	"last_scraped": 1667854035204,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1667853178714
+		}
+	],
+	"next_scrape": 1667854095204,
+	"scrape_ct": 8,
+	"category": "fishie_tank",
+	"last_update": 1667854035204,
+	"output": [
+		{
+			"args": {},
+			"calls": 33527,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"es co",
+				" | SU",
+				"ntd. | ",
+				"llister",
+				"er imiy",
+				"me. stag",
+				"2 is gon"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"es co",
+						" | SU",
+						"ntd. | ",
+						"llister",
+						"er imiy",
+						"me. stag",
+						"2 is gon"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4830,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"es co",
+				" | SU",
+				"ntd. | ",
+				"llister",
+				"er imiy",
+				"me. stag",
+				"2 is gon"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22582,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"es co",
+				" | SU",
+				"ntd. | ",
+				"llister",
+				"er imiy",
+				"me. stag",
+				"2 is gon"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"es co",
+				" | SU",
+				"ntd. | ",
+				"llister",
+				"er imiy",
+				"me. stag",
+				"2 is gon"
+			]
+		}
+	],
+	"edit": 3,
+	"updt": 1667853648986,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
