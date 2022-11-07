@@ -6,28 +6,26 @@
 	"sector": "VNP_8573",
 	"sec_level": 4,
 	"date_added": 1665684579176,
-	"last_scraped": 1667847649391,
+	"last_scraped": 1667857203449,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1665684579176
 		}
 	],
-	"next_scrape": 1667893673863,
+	"next_scrape": 1667900927618,
 	"category": "fishie_tank",
-	"last_update": 1667847649391,
+	"last_update": 1667857203449,
 	"output": [
 		{
 			"args": {},
-			"calls": 1141611,
+			"calls": 1146883,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"8517B2",
 				"SYST ER",
-				"SECT0X8",
 				"OR | NE",
 				"ILE0X8C",
-				"ECT0X88",
 				"E0X8C85",
 				"85F_FIL",
 				"0X8C851",
@@ -39,6 +37,8 @@
 				"X885F_FI",
 				"T0X885F_",
 				"T0X69_SE",
+				"ST ERROR",
+				"SECT0X88",
 				"R | NETW",
 				"MFT0X82_",
 				"FT0X82_C",
@@ -51,8 +51,10 @@
 				"0X82_CLS",
 				"0X69_SEC",
 				"| NETW E",
+				"_FILE0X8",
 				" | NETW ",
 				"B2\\nSYST ",
+				"7B2\\nSYST",
 				"2\\nSYST E",
 				"17B2\\nSYS"
 			],
@@ -75,7 +77,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 202030,
+			"calls": 202860,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,10 +87,8 @@
 			"fragments": [
 				"8517B2",
 				"SYST ER",
-				"SECT0X8",
 				"OR | NE",
 				"ILE0X8C",
-				"ECT0X88",
 				"E0X8C85",
 				"85F_FIL",
 				"0X8C851",
@@ -100,6 +100,8 @@
 				"X885F_FI",
 				"T0X885F_",
 				"T0X69_SE",
+				"ST ERROR",
+				"SECT0X88",
 				"R | NETW",
 				"MFT0X82_",
 				"FT0X82_C",
@@ -112,8 +114,10 @@
 				"0X82_CLS",
 				"0X69_SEC",
 				"| NETW E",
+				"_FILE0X8",
 				" | NETW ",
 				"B2\\nSYST ",
+				"7B2\\nSYST",
 				"2\\nSYST E",
 				"17B2\\nSYS"
 			]
@@ -122,15 +126,13 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1146698,
+			"calls": 1149364,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"8517B2",
 				"SYST ER",
-				"SECT0X8",
 				"OR | NE",
 				"ILE0X8C",
-				"ECT0X88",
 				"E0X8C85",
 				"85F_FIL",
 				"0X8C851",
@@ -142,6 +144,8 @@
 				"X885F_FI",
 				"T0X885F_",
 				"T0X69_SE",
+				"ST ERROR",
+				"SECT0X88",
 				"R | NETW",
 				"MFT0X82_",
 				"FT0X82_C",
@@ -154,8 +158,10 @@
 				"0X82_CLS",
 				"0X69_SEC",
 				"| NETW E",
+				"_FILE0X8",
 				" | NETW ",
 				"B2\\nSYST ",
+				"7B2\\nSYST",
 				"2\\nSYST E",
 				"17B2\\nSYS"
 			]
@@ -175,6 +181,6 @@
 			]
 		}
 	],
-	"edit": 289,
-	"updt": 1667838414644
+	"edit": 290,
+	"updt": 1667847788708
 }
