@@ -6,24 +6,23 @@
 	"sector": "SPC_1258",
 	"sec_level": 4,
 	"date_added": 1661695491332,
-	"last_scraped": 1667934081278,
+	"last_scraped": 1667943701225,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661695491332
 		}
 	],
-	"next_scrape": 1667973753002,
+	"next_scrape": 1667987342784,
 	"category": "fishie_tank",
-	"last_update": 1667934081278,
+	"last_update": 1667943701225,
 	"output": [
 		{
 			"args": {},
-			"calls": 3221428,
+			"calls": 3225935,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" USER e",
-				" TIME E",
 				"USER era",
 				"TIME ERR",
 				"SER eraj",
@@ -35,6 +34,7 @@
 				"ERROR | ",
 				"erajbhan",
 				"ER erajb",
+				" TIME ER",
 				" ERROR |",
 				" erajbha",
 				" | USER ",
@@ -59,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 635198,
+			"calls": 635833,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -68,7 +68,6 @@
 			],
 			"fragments": [
 				" USER e",
-				" TIME E",
 				"USER era",
 				"TIME ERR",
 				"SER eraj",
@@ -80,6 +79,7 @@
 				"ERROR | ",
 				"erajbhan",
 				"ER erajb",
+				" TIME ER",
 				" ERROR |",
 				" erajbha",
 				" | USER ",
@@ -90,11 +90,10 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3243113,
+			"calls": 3247555,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" USER e",
-				" TIME E",
 				"USER era",
 				"TIME ERR",
 				"SER eraj",
@@ -106,6 +105,7 @@
 				"ERROR | ",
 				"erajbhan",
 				"ER erajb",
+				" TIME ER",
 				" ERROR |",
 				" erajbha",
 				" | USER ",
@@ -127,6 +127,6 @@
 			]
 		}
 	],
-	"updt": 1667923795199,
-	"edit": 868
+	"updt": 1667934145906,
+	"edit": 869
 }
