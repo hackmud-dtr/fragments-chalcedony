@@ -6,20 +6,20 @@
 	"sector": "SPC_1258",
 	"sec_level": 4,
 	"date_added": 1661695491332,
-	"last_scraped": 1667972209006,
+	"last_scraped": 1667981419853,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661695491332
 		}
 	],
-	"next_scrape": 1668014299852,
+	"next_scrape": 1668022626083,
 	"category": "fishie_tank",
-	"last_update": 1667972209006,
+	"last_update": 1667981419853,
 	"output": [
 		{
 			"args": {},
-			"calls": 3237064,
+			"calls": 3240054,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" USER e",
@@ -30,6 +30,7 @@
 				"R erajbh",
 				"R | USER",
 				"R | TIME",
+				"OR | USE",
 				"ME ERROR",
 				"ERROR | ",
 				"erajbhan",
@@ -59,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 638073,
+			"calls": 638742,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,6 +76,7 @@
 				"R erajbh",
 				"R | USER",
 				"R | TIME",
+				"OR | USE",
 				"ME ERROR",
 				"ERROR | ",
 				"erajbhan",
@@ -90,7 +92,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3261240,
+			"calls": 3264232,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" USER e",
@@ -101,6 +103,7 @@
 				"R erajbh",
 				"R | USER",
 				"R | TIME",
+				"OR | USE",
 				"ME ERROR",
 				"ERROR | ",
 				"erajbhan",
@@ -127,6 +130,6 @@
 			]
 		}
 	],
-	"updt": 1667963256071,
-	"edit": 872
+	"updt": 1667981416120,
+	"edit": 874
 }
