@@ -1,16 +1,113 @@
 {
 	"_id": "unidentified_cbcxch.access_data",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_cbcxch.access_data",
 	"sector": "K_2472",
 	"sec_level": 4,
 	"date_added": 1668228347845,
-	"last_scraped": 0,
+	"last_scraped": 1668229380367,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668228347845
+		}
+	],
+	"edit": 5,
+	"updt": 1668229311401,
+	"next_scrape": 1668229440367,
+	"scrape_ct": 11,
+	"category": "fishie_tank",
+	"last_update": 1668229380367,
+	"output": [
+		{
+			"args": {},
+			"calls": 18556,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ions ",
+				" it g",
+				"compre",
+				"ators.",
+				"- loss",
+				"I that ",
+				"as perm",
+				"r 'hardc",
+				"erfect -"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ions ",
+						" it g",
+						"compre",
+						"ators.",
+						"- loss",
+						"I that ",
+						"as perm",
+						"r 'hardc",
+						"erfect -"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3837,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ions ",
+				" it g",
+				"compre",
+				"ators.",
+				"- loss",
+				"I that ",
+				"as perm",
+				"r 'hardc",
+				"erfect -"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17604,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ions ",
+				" it g",
+				"compre",
+				"ators.",
+				"- loss",
+				"I that ",
+				"as perm",
+				"r 'hardc",
+				"erfect -"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"ions ",
+				" it g",
+				"compre",
+				"ators.",
+				"- loss",
+				"I that ",
+				"as perm",
+				"r 'hardc",
+				"erfect -"
+			]
 		}
 	]
 }
