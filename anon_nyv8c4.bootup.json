@@ -1,7 +1,7 @@
 {
 	"_id": "anon_nyv8c4.bootup",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_nyv8c4.bootup",
 	"sector": "K_2472",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1668177433154
+		},
+		{
+			"type": "died",
+			"when": 1668228348846
 		}
 	],
 	"next_scrape": 1668177565553,
@@ -410,5 +414,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"edit": 1,
+	"updt": 1668177546144
 }
