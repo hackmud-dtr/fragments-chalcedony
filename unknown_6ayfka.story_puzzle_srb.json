@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_6ayfka.story_puzzle_srb",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_6ayfka.story_puzzle_srb",
 	"sector": "VNP_5218",
 	"sec_level": 4,
 	"date_added": 1666458170335,
-	"last_scraped": 1668438466886,
+	"last_scraped": 1668458210342,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1666458170335
 		}
 	],
-	"next_scrape": 1668480182653,
+	"next_scrape": 1668501320662,
 	"category": "fishie_tank",
-	"last_update": 1668438466886,
+	"last_update": 1668458229585,
 	"output": [
 		{
 			"args": {},
-			"calls": 991291,
+			"calls": 995765,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"UBJ: ",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 172496,
+			"calls": 172924,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -96,8 +96,8 @@
 			]
 		}
 	],
-	"edit": 254,
-	"updt": 1668427489722,
+	"edit": 255,
+	"updt": 1668438625236,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -111,6 +111,11 @@
 				"Index p",
 				"bhandar"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
