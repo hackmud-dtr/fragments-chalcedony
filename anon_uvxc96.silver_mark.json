@@ -1,25 +1,25 @@
 {
 	"_id": "anon_uvxc96.silver_mark",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_uvxc96.silver_mark",
 	"sector": "HJG_7148",
 	"sec_level": 4,
 	"date_added": 1668056677487,
-	"last_scraped": 1668443769863,
+	"last_scraped": 1668467177793,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668056677487
 		}
 	],
-	"next_scrape": 1668486253593,
+	"next_scrape": 1668511015184,
 	"category": "fishie_tank",
-	"last_update": 1668443769863,
+	"last_update": 1668467248442,
 	"output": [
 		{
 			"args": {},
-			"calls": 199148,
+			"calls": 204404,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"D Merr",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 35620,
+			"calls": 36362,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -101,6 +101,11 @@
 			]
 		}
 	],
-	"edit": 47,
-	"updt": 1668431786426
+	"edit": 48,
+	"updt": 1668444294184,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

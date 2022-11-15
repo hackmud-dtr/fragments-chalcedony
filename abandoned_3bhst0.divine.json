@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_3bhst0.divine",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_3bhst0.divine",
 	"sector": "K_9959",
 	"sec_level": 4,
 	"date_added": 1663632877818,
-	"last_scraped": 1668440730966,
+	"last_scraped": 1668461842373,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1663632877818
 		}
 	],
-	"updt": 1668429250824,
-	"edit": 653,
-	"next_scrape": 1668483631261,
+	"updt": 1668441163512,
+	"edit": 654,
+	"next_scrape": 1668503195614,
 	"category": "fishie_tank",
-	"last_update": 1668440730966,
+	"last_update": 1668461861104,
 	"output": [
 		{
 			"args": {},
-			"calls": 2525322,
+			"calls": 2535338,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"der t",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 461956,
+			"calls": 462460,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -113,6 +113,11 @@
 				"BREAKs i",
 				" initiat"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

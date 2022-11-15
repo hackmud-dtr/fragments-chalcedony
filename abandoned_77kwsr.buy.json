@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_77kwsr.buy",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_77kwsr.buy",
 	"sector": "SPC_1925",
 	"sec_level": 4,
 	"date_added": 1666025848383,
-	"last_scraped": 1668443388996,
+	"last_scraped": 1668466513879,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1666025848383
 		}
 	],
-	"next_scrape": 1668486952974,
+	"next_scrape": 1668507547220,
 	"category": "fishie_tank",
-	"last_update": 1668443388996,
+	"last_update": 1668466513879,
 	"output": [
 		{
 			"args": {},
-			"calls": 1196400,
+			"calls": 1204688,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"milli",
@@ -121,6 +121,14 @@
 			]
 		}
 	],
-	"edit": 308,
-	"updt": 1668431396201
+	"edit": 309,
+	"updt": 1668443510506,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
