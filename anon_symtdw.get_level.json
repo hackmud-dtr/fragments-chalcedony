@@ -1,19 +1,23 @@
 {
 	"_id": "anon_symtdw.get_level",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_symtdw.get_level",
 	"sector": "VNP_6590",
 	"sec_level": 4,
 	"date_added": 1668557143001,
-	"last_scraped": 1668578566093,
+	"last_scraped": 1668585827738,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668557143001
+		},
+		{
+			"type": "died",
+			"when": 1668585827738
 		}
 	],
-	"next_scrape": 1668622209439,
+	"next_scrape": 1668675146833,
 	"category": "clicker",
 	"last_update": 1668578566093,
 	"output": [
@@ -148,6 +152,7 @@
 			]
 		}
 	],
-	"edit": 8,
-	"updt": 1668571856046
+	"edit": 9,
+	"updt": 1668578692425,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_symtdw.get_level: script doesn't exist\"}"
 }
