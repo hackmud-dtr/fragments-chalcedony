@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_shdgim.event",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_shdgim.event",
 	"sector": "NGC_1877",
 	"sec_level": 4,
 	"date_added": 1668706729424,
-	"last_scraped": 1668709116924,
+	"last_scraped": 1668709226008,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668706729424
+		},
+		{
+			"type": "died",
+			"when": 1668709226008
+		},
+		{
+			"type": "died",
+			"when": 1668709363377
 		}
 	],
-	"next_scrape": 1668709176924,
+	"next_scrape": 1668792694299,
 	"scrape_ct": 10,
 	"category": "coin_flipper",
 	"last_update": 1668709116924,
@@ -99,6 +107,7 @@
 			]
 		}
 	],
-	"edit": 9,
-	"updt": 1668709016489
+	"edit": 10,
+	"updt": 1668709212590,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_shdgim.event: script doesn't exist\"}"
 }
