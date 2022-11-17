@@ -1,19 +1,31 @@
 {
 	"_id": "unidentified_1yhpwd.search",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_1yhpwd.search",
 	"sector": "K_2731",
 	"sec_level": 4,
 	"date_added": 1668469327656,
-	"last_scraped": 1668715582313,
+	"last_scraped": 1668722758548,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668469327656
+		},
+		{
+			"type": "died",
+			"when": 1668722752007
+		},
+		{
+			"type": "died",
+			"when": 1668722758548
+		},
+		{
+			"type": "died",
+			"when": 1668722767630
 		}
 	],
-	"next_scrape": 1668759138831,
+	"next_scrape": 1668815467994,
 	"category": "dice_roller",
 	"last_update": 1668715582313,
 	"output": [
@@ -123,6 +135,7 @@
 			]
 		}
 	],
-	"edit": 49,
-	"updt": 1668706867548
+	"edit": 50,
+	"updt": 1668715656171,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_1yhpwd.search: script doesn't exist\"}"
 }

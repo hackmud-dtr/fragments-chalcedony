@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_i38b2x.b",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_i38b2x.b",
 	"sector": "SPC_4394",
 	"sec_level": 0,
@@ -23,10 +23,14 @@
 				"from": "SPC_4394",
 				"to": "SPC_3023"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1668722708828
+		}
 	],
-	"updt": 1665083572389,
-	"edit": 303,
+	"updt": 1665090802616,
+	"edit": 304,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1665172379907
 }
