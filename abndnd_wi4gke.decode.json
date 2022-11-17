@@ -1,37 +1,49 @@
 {
 	"_id": "abndnd_wi4gke.decode",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "could not json",
 	"script": "abndnd_wi4gke.decode",
 	"sector": "NGC_1877",
 	"sec_level": 4,
 	"date_added": 1668707685672,
-	"last_scraped": 1668708315997,
+	"last_scraped": 1668709135298,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668707685672
 		}
 	],
-	"next_scrape": 1668708375997,
-	"scrape_ct": 15,
+	"next_scrape": 1668709195298,
+	"scrape_ct": 10,
 	"category": "fishie_tank",
-	"last_update": 1668708315997,
+	"last_update": 1668709135298,
 	"output": [
 		{
 			"args": {},
-			"calls": 15147,
+			"calls": 29042,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				" pile",
+				"d car",
 				"he dis",
-				"216D i",
+				"card p",
+				"\\n216D",
+				"\\n216C",
+				" in th",
+				" disca",
+				"in the ",
 				"cards\\n",
 				"C to th",
+				" to the",
 				" the la",
+				" send c",
 				"o the di",
+				"he lane.",
+				"216D in ",
 				"216C to ",
-				"pile\\n216"
+				"16C to t",
+				"pile\\n216",
+				"ards\\n216",
+				" pile\\n21"
 			],
 			"hits": [
 				{
@@ -54,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1552,
+			"calls": 3140,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,33 +74,49 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" pile",
+				"d car",
+				"to the",
 				"he dis",
+				"e lane",
 				"216D i",
+				"\\n216C",
+				" in th",
+				" disca",
 				"cards\\n",
 				"C to th",
 				" the la",
+				" send c",
 				"o the di",
 				"216C to ",
-				"pile\\n216"
+				"pile\\n216",
+				"ards\\n216",
+				" pile\\n21"
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14063,
+			"calls": 24157,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" pile",
+				"d car",
+				"to the",
 				"he dis",
+				"e lane",
 				"216D i",
+				"\\n216C",
+				" in th",
+				" disca",
 				"cards\\n",
 				"C to th",
 				" the la",
+				" send c",
 				"o the di",
 				"216C to ",
-				"pile\\n216"
+				"pile\\n216",
+				"ards\\n216",
+				" pile\\n21"
 			]
 		}
 	],
@@ -108,6 +136,11 @@
 			]
 		}
 	],
-	"edit": 2,
-	"updt": 1668708041708
+	"edit": 6,
+	"updt": 1668709016489,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

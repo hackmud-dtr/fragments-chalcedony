@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_3s39ak.xfer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_3s39ak.xfer",
 	"sector": "NGC_2244",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1662421322009
+		},
+		{
+			"type": "died",
+			"when": 1668709168253
 		}
 	],
-	"updt": 1662421338476,
-	"edit": 1,
+	"updt": 1662421534223,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
