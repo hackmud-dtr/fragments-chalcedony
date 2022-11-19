@@ -6,28 +6,30 @@
 	"sector": "NGC_7139",
 	"sec_level": 4,
 	"date_added": 1661540033228,
-	"last_scraped": 1668840527376,
+	"last_scraped": 1668847537499,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661540033228
 		}
 	],
-	"next_scrape": 1668884024052,
+	"next_scrape": 1668889779735,
 	"category": "fishie_tank",
-	"last_update": 1668840527376,
+	"last_update": 1668847537499,
 	"output": [
 		{
 			"args": {},
-			"calls": 3770337,
+			"calls": 3773903,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yhole",
+				"ike p",
 				" it. B",
 				"1E29 Of",
 				" Of cou",
 				"se I hat",
 				"rse I ha",
+				"prisoner",
 				"ourse I ",
 				"I hate i",
 				"hole. Li",
@@ -36,7 +38,9 @@
 				"ate it. ",
 				"29 Of co",
 				"s.\\n1E29 ",
-				"ners.\\n1E"
+				"ners.\\n1E",
+				".\\n1E29 O",
+				". But,\\n1"
 			],
 			"hits": [
 				{
@@ -119,6 +123,14 @@
 			]
 		}
 	],
-	"updt": 1668840506527,
-	"edit": 1014
+	"updt": 1668840701950,
+	"edit": 1015,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
