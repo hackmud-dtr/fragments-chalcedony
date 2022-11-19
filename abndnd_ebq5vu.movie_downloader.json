@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_ebq5vu.movie_downloader",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "abndnd_ebq5vu.movie_downloader",
 	"sector": "NGC_5439",
 	"sec_level": 4,
@@ -14,9 +14,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
@@ -41,5 +38,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"edit": 1,
+	"updt": 1668895606393
 }
