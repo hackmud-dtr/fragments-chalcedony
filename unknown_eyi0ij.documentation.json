@@ -1,0 +1,103 @@
+{
+	"_id": "unknown_eyi0ij.documentation",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_eyi0ij.documentation",
+	"sector": "NGC_5439",
+	"sec_level": 4,
+	"date_added": 1668931603964,
+	"last_scraped": 1668932509062,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1668931603964
+		}
+	],
+	"next_scrape": 1668932569062,
+	"scrape_ct": 7,
+	"category": "fishie_tank",
+	"last_update": 1668932509062,
+	"output": [
+		{
+			"args": {},
+			"calls": 30647,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"f sanc",
+				"ed art",
+				" what ",
+				" is re",
+				"hat is r",
+				"ctioned ",
+				". Common"
+			],
+			"hits": [
+				{
+					"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+					"frags": [
+						"f sanc",
+						"ed art",
+						" what ",
+						" is re",
+						"hat is r",
+						"ctioned ",
+						". Common"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5609,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"f sanc",
+				"ed art",
+				" what ",
+				" is re",
+				"hat is r",
+				"ctioned ",
+				". Common"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28920,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"f sanc",
+				"ed art",
+				" what ",
+				" is re",
+				"hat is r",
+				"ctioned ",
+				". Common"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X14_CLST0X94_SECT0XAAC8_FILE0X2799DBE9",
+			"frags": [
+				"f sanc",
+				"ed art",
+				" what ",
+				" is re",
+				"hat is r",
+				"ctioned ",
+				". Common"
+			]
+		}
+	],
+	"edit": 4,
+	"updt": 1668932340988
+}
