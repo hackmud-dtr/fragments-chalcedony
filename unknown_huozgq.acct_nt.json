@@ -1,29 +1,39 @@
 {
 	"_id": "unknown_huozgq.acct_nt",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_huozgq.acct_nt",
 	"sector": "K_8983",
 	"sec_level": 4,
 	"date_added": 1669060404676,
-	"last_scraped": 1669062046184,
+	"last_scraped": 1669062154658,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1669060404676
+		},
+		{
+			"type": "died",
+			"when": 1669062154658
+		},
+		{
+			"type": "died",
+			"when": 1669062267127
 		}
 	],
-	"next_scrape": 1669062106184,
+	"next_scrape": 1669147272086,
 	"scrape_ct": 5,
 	"category": "dice_roller",
-	"last_update": 1669061937366,
+	"last_update": 1669062046184,
 	"output": [
 		{
 			"args": {},
-			"calls": 64271,
+			"calls": 68516,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
+				"t New",
 				"eak t",
+				"w Hous",
 				"tonite",
 				"the em",
 				"onites",
@@ -36,6 +46,7 @@
 				" handl",
 				"Two yea",
 				"otional",
+				"nites t",
 				"n. Two ",
 				"n, howe",
 				"locatio",
@@ -47,7 +58,6 @@
 				" speak ",
 				" on, ho",
 				" I spea",
-				" emotio",
 				" cost o",
 				"years on",
 				"tion. Tw",
@@ -67,7 +77,8 @@
 				" rapid r",
 				" of rapi",
 				" New Hou",
-				" however"
+				" however",
+				" emotion"
 			],
 			"hits": [
 				{
@@ -94,8 +105,8 @@
 			]
 		}
 	],
-	"edit": 8,
-	"updt": 1669061850551,
+	"edit": 9,
+	"updt": 1669062242834,
 	"identified": [
 		{
 			"document": "MFT0X3E_CLST0X4A_SECT0X7052_FILE0X42B80721",
@@ -118,5 +129,6 @@
 				" relocat"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_huozgq.acct_nt: script doesn't exist\"}"
 }
