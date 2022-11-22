@@ -1,32 +1,39 @@
 {
 	"_id": "unidentified_iun4oz._",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_iun4oz._",
 	"sector": "K_8983",
 	"sec_level": 4,
 	"date_added": 1669113385769,
-	"last_scraped": 1669115148937,
+	"last_scraped": 1669115461864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1669113385769
+		},
+		{
+			"type": "died",
+			"when": 1669115461864
+		},
+		{
+			"type": "died",
+			"when": 1669115482904
 		}
 	],
-	"edit": 8,
-	"updt": 1669115002746,
-	"next_scrape": 1669115208937,
-	"scrape_ct": 3,
+	"edit": 10,
+	"updt": 1669115393722,
+	"next_scrape": 1669199306732,
+	"scrape_ct": 1,
 	"category": "coin_flipper",
-	"last_update": 1669115148937,
+	"last_update": 1669115334920,
 	"output": [
 		{
 			"args": {},
-			"calls": 78321,
+			"calls": 87439,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"a | S",
-				" | SU",
+				"miyaw",
 				"ister ",
 				"ER mho",
 				"yawaki ",
@@ -36,8 +43,10 @@
 				"iyawaki",
 				"irza | ",
 				"hollist",
+				"| SUBJ:",
 				" SUBJ: ",
 				"UBJ: Pri",
+				"rza | SU",
 				"R mholli",
 				"i smirza",
 				"er imiya",
@@ -45,6 +54,7 @@
 				"aki smir",
 				": Priori",
 				" USER mh",
+				" smirza ",
 				" mhollis",
 				" | USER "
 			],
@@ -95,5 +105,6 @@
 				" USER mh"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_iun4oz._: script doesn't exist\"}"
 }
