@@ -1,0 +1,116 @@
+{
+	"_id": "abndnd_phinu0.blib",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_phinu0.blib",
+	"sector": "K_8983",
+	"sec_level": 4,
+	"date_added": 1669119212181,
+	"last_scraped": 1669119493027,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1669119212181
+		}
+	],
+	"next_scrape": 1669119553027,
+	"scrape_ct": 16,
+	"category": "fishie_tank",
+	"last_update": 1669119402358,
+	"output": [
+		{
+			"args": {},
+			"calls": 9799,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"secon",
+				"r 110 t",
+				"0 turns",
+				"C the de",
+				"208B aft",
+				"08B afte",
+				"ns.\\n2091",
+				"er turn\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"secon",
+						"r 110 t",
+						"0 turns",
+						"C the de",
+						"208B aft",
+						"08B afte",
+						"ns.\\n2091",
+						"er turn\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1164,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"secon",
+				"r 110 t",
+				"0 turns",
+				"C the de",
+				"208B aft",
+				"08B afte",
+				"ns.\\n2091",
+				"er turn\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9048,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"secon",
+				"r 110 t",
+				"0 turns",
+				"C the de",
+				"208B aft",
+				"08B afte",
+				"ns.\\n2091",
+				"er turn\\n"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"secon",
+				"r 110 t",
+				"0 turns",
+				"C the de",
+				"208B aft",
+				"08B afte",
+				"ns.\\n2091",
+				"er turn\\n"
+			]
+		}
+	],
+	"edit": 1,
+	"updt": 1669119301109,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
