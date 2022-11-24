@@ -1,0 +1,101 @@
+{
+	"_id": "unidentified_3gydd3.and_upgrades",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_3gydd3.and_upgrades",
+	"sector": "K_8983",
+	"sec_level": 4,
+	"date_added": 1669270197013,
+	"last_scraped": 1669270866083,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1669270197013
+		}
+	],
+	"next_scrape": 1669270926083,
+	"scrape_ct": 10,
+	"category": "fishie_tank",
+	"last_update": 1669270866083,
+	"output": [
+		{
+			"args": {},
+			"calls": 19900,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"S tod",
+				"er, I",
+				"SECT0XD",
+				"anscript",
+				"_type\":\""
+			],
+			"hits": [
+				{
+					"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+					"frags": [
+						"S tod",
+						"er, I",
+						"SECT0XD",
+						"anscript",
+						"_type\":\""
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3583,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"S tod",
+				"er, I",
+				"SECT0XD",
+				"anscript",
+				"_type\":\""
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16158,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"S tod",
+				"er, I",
+				"SECT0XD",
+				"anscript",
+				"_type\":\""
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X46_CLST0X0E_SECT0XD20D_FILE0X3FC75EC6",
+			"frags": [
+				"S tod",
+				"er, I",
+				"SECT0XD",
+				"anscript",
+				"_type\":\""
+			]
+		}
+	],
+	"edit": 2,
+	"updt": 1669270680684,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
