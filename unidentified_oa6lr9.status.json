@@ -1,0 +1,98 @@
+{
+	"_id": "unidentified_oa6lr9.status",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_oa6lr9.status",
+	"sector": "SPC_7772",
+	"sec_level": 4,
+	"date_added": 1669576044976,
+	"last_scraped": 1669576061827,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1669576044976
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"next_scrape": 1669576121827,
+	"scrape_ct": 20,
+	"category": "fishie_tank",
+	"last_update": 1669576080127,
+	"output": [
+		{
+			"args": {},
+			"calls": 2777,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ntual",
+				"hat i",
+				"o Yi' ",
+				"intell",
+				"e Chin",
+				"hina's ",
+				" the we",
+				" eventu",
+				"t in the"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"ntual",
+						"hat i",
+						"o Yi' ",
+						"intell",
+						"e Chin",
+						"hina's ",
+						" the we",
+						" eventu",
+						"t in the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 577,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ntual",
+				"hat i",
+				"o Yi' ",
+				"intell",
+				"e Chin",
+				"hina's ",
+				" the we",
+				" eventu",
+				"t in the"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+			"frags": [
+				"ntual",
+				"hat i",
+				"o Yi' ",
+				"intell",
+				"e Chin",
+				"hina's ",
+				" the we",
+				" eventu",
+				"t in the"
+			]
+		}
+	]
+}
