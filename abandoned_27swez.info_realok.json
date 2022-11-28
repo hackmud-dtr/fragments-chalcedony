@@ -1,27 +1,28 @@
 {
 	"_id": "abandoned_27swez.info_realok",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "abandoned_27swez.info_realok",
 	"sector": "K_3096",
 	"sec_level": 4,
 	"date_added": 1669603312815,
-	"last_scraped": 1669604826654,
+	"last_scraped": 1669604660220,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1669603312815
 		}
 	],
-	"edit": 7,
-	"updt": 1669604699521,
-	"next_scrape": 1669644894147,
+	"edit": 6,
+	"updt": 1669604504006,
+	"next_scrape": 1669604720220,
+	"scrape_ct": 1,
 	"category": "fishie_tank",
-	"last_update": 1669604826654,
+	"last_update": 1669604660220,
 	"output": [
 		{
 			"args": {},
-			"calls": 49309,
+			"calls": 44875,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"reques",
@@ -53,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7687,
+			"calls": 7014,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 47898,
+			"calls": 42187,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"reques",

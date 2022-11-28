@@ -1,20 +1,86 @@
 {
 	"_id": "abandoned_3k7crb.sn_w_glock",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abandoned_3k7crb.sn_w_glock",
-	"sector": "VNP_7524",
+	"sector": "K_3096",
 	"sec_level": 4,
 	"date_added": 1665056156976,
-	"last_scraped": 1669606663954,
+	"last_scraped": 1669608319495,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1665056156976
+		},
+		{
+			"type": "died",
+			"when": 1669607726238
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1669607738690,
+				"from": "K_3096",
+				"to": "VNP_7524"
+			}
+		]
+	],
+	"edit": 553,
+	"updt": 1669608212785,
+	"next_scrape": 1669608379495,
+	"pl_output": "SPECIAL :: 38\nELITE :: 1337\nHUNTER :: 3006\nMONOLITHIC :: 2001\nSECURE :: 443\nBEAST :: 666\nMAGICIAN :: 1089\nMEANING :: 42\nSECRET :: 7",
+	"scrape_ct": 14,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1669608319495,
+	"output": [
+		{
+			"args": {},
+			"calls": 32072,
+			"base": "SPECIAL :: 38\nELITE :: 1337\nHUNTER :: 3006\nMONOLITHIC :: 2001\nSECURE :: 443\nBEAST :: 666\nMAGICIAN :: 1089\nMEANING :: 42\nSECRET :: 7",
+			"fragments": [
+				"LST0XC",
+				"C4_SEC",
+				"4_SECT0",
+				"FT0X08_C",
+				"0X8926_F",
+				"08_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"LST0XC",
+						"C4_SEC",
+						"4_SECT0"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"FT0X08_C",
+						"0X8926_F",
+						"08_CLST0"
+					]
+				}
+			]
 		}
 	],
-	"edit": 549,
-	"updt": 1669598448200,
-	"next_scrape": 1669691865757,
-	"pl_output": "SPECIAL :: 38\nELITE :: 1337\nHUNTER :: 3006\nMONOLITHIC :: 2001\nSECURE :: 443\nBEAST :: 666\nMAGICIAN :: 1089\nMEANING :: 42\nSECRET :: 7"
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"LST0XC",
+				"C4_SEC",
+				"4_SECT0"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"FT0X08_C",
+				"0X8926_F",
+				"08_CLST0"
+			]
+		}
+	]
 }
