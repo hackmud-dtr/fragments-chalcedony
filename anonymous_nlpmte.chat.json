@@ -1,0 +1,121 @@
+{
+	"_id": "anonymous_nlpmte.chat",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_nlpmte.chat",
+	"sector": "K_3427",
+	"sec_level": 4,
+	"date_added": 1669887226714,
+	"last_scraped": 1669887369462,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1669887226714
+		}
+	],
+	"next_scrape": 1669887429462,
+	"scrape_ct": 19,
+	"category": "fishie_tank",
+	"last_update": 1669887369462,
+	"output": [
+		{
+			"args": {},
+			"calls": 4816,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"k bac",
+				"with p",
+				"pride ",
+				"ith pr",
+				"on\",\"ms",
+				" succes",
+				", we loo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+					"frags": [
+						"k bac",
+						"with p",
+						"pride ",
+						"ith pr",
+						", we loo"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"on\",\"ms"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" succes"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 557,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"k bac",
+				"with p",
+				"pride ",
+				"ith pr",
+				"on\",\"ms",
+				" succes",
+				", we loo"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4100,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"k bac",
+				"with p",
+				"pride ",
+				"ith pr",
+				"on\",\"ms",
+				" succes",
+				", we loo"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X57_CLST0XC3_SECT0X8A32_FILE0XA54577A2",
+			"frags": [
+				"k bac",
+				"with p",
+				"pride ",
+				"ith pr",
+				", we loo"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"on\",\"ms"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				" succes"
+			]
+		}
+	]
+}
