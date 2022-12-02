@@ -6,25 +6,28 @@
 	"sector": "SPC_1258",
 	"sec_level": 4,
 	"date_added": 1661672992209,
-	"last_scraped": 1669969102540,
+	"last_scraped": 1669977737798,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1661672992209
 		}
 	],
-	"next_scrape": 1670013914955,
+	"next_scrape": 1670021340349,
 	"category": "coin_flipper",
-	"last_update": 1669969102540,
+	"last_update": 1669977737798,
 	"output": [
 		{
 			"args": {},
-			"calls": 4440514,
+			"calls": 4444950,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"10 0001",
+				"0000 01",
+				"000 011",
 				"NULLFILE",
 				"LFILE\\n0",
+				"1 0100 0",
 				"0110 000",
 				"0100 000",
 				"01 0100 ",
@@ -38,11 +41,14 @@
 				"0 0110 0",
 				"0 0001 0",
 				"0 0000 0",
+				" 0110 00",
 				" 0100 00",
+				" 0001 01",
 				" 0000 00",
 				"ULLFILE\\n",
 				"LE\\n0000 ",
-				"FILE\\n000"
+				"FILE\\n000",
+				"E\\n0000 0"
 			],
 			"hits": [
 				{
@@ -70,6 +76,6 @@
 			]
 		}
 	],
-	"updt": 1669960848362,
-	"edit": 1020
+	"updt": 1669969247302,
+	"edit": 1021
 }
