@@ -1,0 +1,93 @@
+{
+	"_id": "unknown_8brbbq.whats_this",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_8brbbq.whats_this",
+	"sector": "K_3427",
+	"sec_level": 4,
+	"date_added": 1669996610731,
+	"last_scraped": 1669997103662,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1669996610731
+		}
+	],
+	"next_scrape": 1669997163662,
+	"scrape_ct": 13,
+	"category": "fishie_tank",
+	"last_update": 1669997103662,
+	"output": [
+		{
+			"args": {},
+			"calls": 15058,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"uestio",
+				" yeah #",
+				" its co",
+				"ion, tho",
+				" sandbox"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"uestio",
+						" yeah #",
+						" its co",
+						"ion, tho",
+						" sandbox"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2554,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"uestio",
+				" yeah #",
+				" its co",
+				"ion, tho",
+				" sandbox"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 18987,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"uestio",
+				" yeah #",
+				" its co",
+				"ion, tho",
+				" sandbox"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"uestio",
+				" yeah #",
+				" its co",
+				"ion, tho",
+				" sandbox"
+			]
+		}
+	],
+	"edit": 2,
+	"updt": 1669996982960
+}
