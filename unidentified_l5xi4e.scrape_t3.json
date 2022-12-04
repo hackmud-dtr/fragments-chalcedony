@@ -1,20 +1,66 @@
 {
 	"_id": "unidentified_l5xi4e.scrape_t3",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_l5xi4e.scrape_t3",
-	"sector": "HJG_4791",
+	"sector": "VNP_3642",
 	"sec_level": 1,
 	"date_added": 1667581698985,
-	"last_scraped": 1670135520218,
+	"last_scraped": 1670145689951,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1667581698985
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1670145236562,
+				"from": "VNP_3642",
+				"to": "HJG_4791"
+			}
+		]
+	],
+	"edit": 313,
+	"updt": 1670145496472,
+	"next_scrape": 1670145749951,
+	"pl_output": "\n\n\nInput a target with t:#s.target.goes_here, then /auto until the script asks you to input a backup server. \nInput backup server as second argument and run it again, and /auto for the 2nd time until `Lsuccess`",
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1670145563825,
+	"output": [
+		{
+			"args": {},
+			"calls": 13605,
+			"base": "\n\n\nInput a target with t:#s.target.goes_here, then /auto until the script asks you to input a backup server. \nInput backup server as second argument and run it again, and /auto for the 2nd time until `Lsuccess`",
+			"fragments": [
+				"e? Dat",
+				"e the ca",
+				"a.\\n2016 ",
+				".\\n2016 R"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e? Dat",
+						"e the ca",
+						"a.\\n2016 ",
+						".\\n2016 R"
+					]
+				}
+			]
 		}
 	],
-	"edit": 310,
-	"updt": 1670126150380,
-	"next_scrape": 1670221580670,
-	"pl_output": "\n\n\nInput a target with t:#s.target.goes_here, then /auto until the script asks you to input a backup server. \nInput backup server as second argument and run it again, and /auto for the 2nd time until `Lsuccess`"
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e? Dat",
+				"e the ca",
+				"a.\\n2016 ",
+				".\\n2016 R"
+			]
+		}
+	],
+	"scrape_ct": 17
 }
