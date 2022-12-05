@@ -1,28 +1,38 @@
 {
 	"_id": "anonymous_guscry.com",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_guscry.com",
 	"sector": "K_4617",
 	"sec_level": 4,
 	"date_added": 1670207790578,
-	"last_scraped": 1670208917614,
+	"last_scraped": 1670209495504,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670207790578
+		},
+		{
+			"type": "died",
+			"when": 1670209495504
+		},
+		{
+			"type": "died",
+			"when": 1670209702708
 		}
 	],
-	"next_scrape": 1670208977614,
-	"scrape_ct": 9,
+	"next_scrape": 1670293748705,
+	"scrape_ct": 4,
 	"category": "dice_roller",
-	"last_update": 1670208917614,
+	"last_update": 1670209368479,
 	"output": [
 		{
 			"args": {},
-			"calls": 52073,
+			"calls": 69153,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
+				"minder ",
+				"hrase r",
 				"eminder",
 				"ss passp",
 				"sphrase ",
@@ -72,6 +82,7 @@
 			]
 		}
 	],
-	"edit": 5,
-	"updt": 1670208612941
+	"edit": 9,
+	"updt": 1670209590684,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_guscry.com: script doesn't exist\"}"
 }
