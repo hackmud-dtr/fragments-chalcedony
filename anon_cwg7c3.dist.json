@@ -1,27 +1,28 @@
 {
 	"_id": "anon_cwg7c3.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_cwg7c3.dist",
 	"sector": "K_4617",
 	"sec_level": 4,
 	"date_added": 1670343596741,
-	"last_scraped": 1670345064400,
+	"last_scraped": 1670344190416,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670343596741
 		}
 	],
-	"edit": 8,
-	"updt": 1670344983786,
-	"next_scrape": 1670388053402,
+	"edit": 3,
+	"updt": 1670344006402,
+	"next_scrape": 1670344250416,
+	"scrape_ct": 12,
 	"category": "fishie_tank",
-	"last_update": 1670345064400,
+	"last_update": 1670344190416,
 	"output": [
 		{
 			"args": {},
-			"calls": 44347,
+			"calls": 21368,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tand t",
@@ -49,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7640,
+			"calls": 2952,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,7 +70,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 48399,
+			"calls": 17625,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tand t",
@@ -92,6 +93,14 @@
 				"der exp",
 				"e remit "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
