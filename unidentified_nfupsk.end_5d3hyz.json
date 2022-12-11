@@ -6,23 +6,23 @@
 	"sector": "VNP_0248",
 	"sec_level": 4,
 	"date_added": 1670729594689,
-	"last_scraped": 1670790240749,
+	"last_scraped": 1670800635207,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670729594689
 		}
 	],
-	"edit": 1,
-	"updt": 1670729768921,
-	"next_scrape": 1670790300749,
-	"scrape_ct": 20,
+	"edit": 3,
+	"updt": 1670790525650,
+	"next_scrape": 1670800695207,
+	"scrape_ct": 19,
 	"category": "coin_flipper",
-	"last_update": 1670790240749,
+	"last_update": 1670800635207,
 	"output": [
 		{
 			"args": {},
-			"calls": 3673,
+			"calls": 9473,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"LST0X",
@@ -30,6 +30,44 @@
 				"RROR |",
 				"CT0XE2",
 				"PROG ERR",
+				"ILE0X528",
+				"E0X5282A"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"LST0X",
+						"FILE0",
+						"RROR |",
+						"PROG ERR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"CT0XE2",
+						"ILE0X528",
+						"E0X5282A"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"LST0X",
+				"FILE0",
+				"RROR |",
+				"PROG ERR"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"CT0XE2",
 				"ILE0X528",
 				"E0X5282A"
 			]
