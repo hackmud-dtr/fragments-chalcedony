@@ -1,28 +1,27 @@
 {
 	"_id": "derelict_qrgpyk.binmat",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_qrgpyk.binmat",
 	"sector": "VNP_0248",
 	"sec_level": 4,
 	"date_added": 1670729594689,
-	"last_scraped": 1670802838222,
+	"last_scraped": 1671225201574,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670729594689
 		}
 	],
-	"edit": 9,
-	"updt": 1670802832224,
-	"next_scrape": 1670802898222,
-	"scrape_ct": 9,
+	"edit": 16,
+	"updt": 1670805176764,
+	"next_scrape": 1671266384364,
 	"category": "fishie_tank",
-	"last_update": 1670802838222,
+	"last_update": 1671225201574,
 	"output": [
 		{
 			"args": {},
-			"calls": 30240,
+			"calls": 58641,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" thin",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4628,
+			"calls": 9969,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +94,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30764,
+			"calls": 61138,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" thin",

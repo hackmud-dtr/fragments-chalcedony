@@ -1,26 +1,29 @@
 {
 	"_id": "anonymous_72yxj1.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "anonymous_72yxj1.bot_scam_do_not_run",
 	"sector": "NGC_3611",
 	"sec_level": 4,
 	"date_added": 1670790391637,
-	"last_scraped": 1670803037160,
+	"last_scraped": 1671225211209,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670790391637
+		},
+		{
+			"type": "died",
+			"when": 1671225211209
 		}
 	],
-	"next_scrape": 1670803097160,
-	"scrape_ct": 9,
+	"next_scrape": 1671316449906,
 	"category": "fishie_tank",
-	"last_update": 1670803037160,
+	"last_update": 1670805331390,
 	"output": [
 		{
 			"args": {},
-			"calls": 30520,
+			"calls": 51499,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"with s",
@@ -60,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4614,
+			"calls": 8636,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 29583,
+			"calls": 52011,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"with s",
@@ -123,6 +126,7 @@
 			]
 		}
 	],
-	"edit": 7,
-	"updt": 1670803026544
+	"edit": 14,
+	"updt": 1670805372570,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_72yxj1.bot_scam_do_not_run: script doesn't exist\"}"
 }
