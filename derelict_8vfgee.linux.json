@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_8vfgee.linux",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "derelict_8vfgee.linux",
 	"sector": "HJG_4219",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1671351081996,
+	"last_scraped": 1671368414410,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 1,
-	"updt": 1671350774816,
-	"next_scrape": 1671438318772,
+	"edit": 2,
+	"updt": 1671351164711,
+	"next_scrape": 1671451231435,
 	"scrape_ct": 19,
 	"category": "risk_factor",
-	"last_update": 1671351072342,
+	"last_update": 1671368414410,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 100,
+			"calls": 200,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"na be",
@@ -53,9 +53,6 @@
 	],
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
