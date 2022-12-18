@@ -1,28 +1,27 @@
 {
 	"_id": "unknown_rpneqh.count",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_rpneqh.count",
 	"sector": "K_4532",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1671364045519,
+	"last_scraped": 1671374551840,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 10,
-	"updt": 1671363476327,
-	"next_scrape": 1671364105519,
-	"scrape_ct": 4,
+	"edit": 14,
+	"updt": 1671365236500,
+	"next_scrape": 1671415357537,
 	"category": "fishie_tank",
-	"last_update": 1671364055333,
+	"last_update": 1671374551840,
 	"output": [
 		{
 			"args": {},
-			"calls": 43653,
+			"calls": 54383,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"was t",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6480,
+			"calls": 8762,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +94,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 37575,
+			"calls": 56065,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"was t",
@@ -140,11 +139,6 @@
 				"ology fo",
 				"at the v"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
