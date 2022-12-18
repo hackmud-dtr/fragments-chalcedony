@@ -6,23 +6,23 @@
 	"sector": "K_9288",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1671351547586,
+	"last_scraped": 1671352785278,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 1,
-	"updt": 1671350774816,
-	"next_scrape": 1671351607586,
-	"scrape_ct": 18,
+	"edit": 3,
+	"updt": 1671351752399,
+	"next_scrape": 1671352845278,
+	"scrape_ct": 15,
 	"category": "fishie_tank",
-	"last_update": 1671351547586,
+	"last_update": 1671352785278,
 	"output": [
 		{
 			"args": {},
-			"calls": 5721,
+			"calls": 11247,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"TIME ",
@@ -30,13 +30,25 @@
 				"USER sm",
 				"OR | PR",
 				"RROR | N"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"TIME ",
+						"OR | T",
+						"USER sm",
+						"OR | PR",
+						"RROR | N"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 604,
+			"calls": 1408,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,15 +61,51 @@
 				"USER sm",
 				"OR | PR",
 				"RROR | N"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"TIME ",
+						"OR | T",
+						"USER sm",
+						"OR | PR",
+						"RROR | N"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7310,
+			"calls": 15128,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"TIME ",
+				"OR | T",
+				"USER sm",
+				"OR | PR",
+				"RROR | N"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"TIME ",
+						"OR | T",
+						"USER sm",
+						"OR | PR",
+						"RROR | N"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
 				"TIME ",
 				"OR | T",
 				"USER sm",
