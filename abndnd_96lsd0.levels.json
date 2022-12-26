@@ -6,21 +6,21 @@
 	"sector": "K_6954",
 	"sec_level": 4,
 	"date_added": 1672042727002,
-	"last_scraped": 1672042869752,
+	"last_scraped": 1672049683926,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672042727002
 		}
 	],
-	"next_scrape": 1672042929752,
-	"scrape_ct": 18,
+	"next_scrape": 1672049743926,
+	"scrape_ct": 16,
 	"category": "fishie_tank",
-	"last_update": 1672042869752,
+	"last_update": 1672049683926,
 	"output": [
 		{
 			"args": {},
-			"calls": 8248,
+			"calls": 10830,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"m loo",
@@ -31,13 +31,28 @@
 				"y!) | B",
 				"rry!) |",
 				" all. I'"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"m loo",
+						" | BO",
+						"Y Hi a",
+						"ODY Hi",
+						"Hi all",
+						"y!) | B",
+						"rry!) |",
+						" all. I'"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 458,
+			"calls": 1037,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +68,62 @@
 				"y!) | B",
 				"rry!) |",
 				" all. I'"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"m loo",
+						" | BO",
+						"Y Hi a",
+						"ODY Hi",
+						"Hi all",
+						"y!) | B",
+						"rry!) |",
+						" all. I'"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4539,
+			"calls": 8526,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"m loo",
+				" | BO",
+				"Y Hi a",
+				"ODY Hi",
+				"Hi all",
+				"y!) | B",
+				"rry!) |",
+				" all. I'"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"m loo",
+						" | BO",
+						"Y Hi a",
+						"ODY Hi",
+						"Hi all",
+						"y!) | B",
+						"rry!) |",
+						" all. I'"
+					]
+				}
+			]
+		}
+	],
+	"edit": 2,
+	"updt": 1672043090991,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
 				"m loo",
 				" | BO",
 				"Y Hi a",

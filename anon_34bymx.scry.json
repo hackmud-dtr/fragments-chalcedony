@@ -6,26 +6,21 @@
 	"sector": "K_6954",
 	"sec_level": 4,
 	"date_added": 1672042727002,
-	"last_scraped": 1672042879214,
+	"last_scraped": 1672049723801,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672042727002
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"next_scrape": 1672042939214,
-	"scrape_ct": 20,
+	"next_scrape": 1672049783801,
+	"scrape_ct": 17,
 	"category": "fishie_tank",
-	"last_update": 1672042889290,
+	"last_update": 1672049723801,
 	"output": [
 		{
 			"args": {},
-			"calls": 2736,
+			"calls": 7188,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"socia",
@@ -36,13 +31,28 @@
 				"l change",
 				"his is m",
 				" marks a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"socia",
+						"AI-dr",
+						"I-driv",
+						"-drive",
+						"ng, and ",
+						"l change",
+						"his is m",
+						" marks a"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 628,
+			"calls": 1410,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -50,6 +60,70 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"socia",
+				"AI-dr",
+				"I-driv",
+				"-drive",
+				"ng, and ",
+				"l change",
+				"his is m",
+				" marks a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"socia",
+						"AI-dr",
+						"I-driv",
+						"-drive",
+						"ng, and ",
+						"l change",
+						"his is m",
+						" marks a"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9425,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"socia",
+				"AI-dr",
+				"I-driv",
+				"-drive",
+				"ng, and ",
+				"l change",
+				"his is m",
+				" marks a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+					"frags": [
+						"socia",
+						"AI-dr",
+						"I-driv",
+						"-drive",
+						"ng, and ",
+						"l change",
+						"his is m",
+						" marks a"
+					]
+				}
+			]
+		}
+	],
+	"edit": 2,
+	"updt": 1672043090991,
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0X6D_SECT0XB34E_FILE0XB23448B7",
+			"frags": [
 				"socia",
 				"AI-dr",
 				"I-driv",

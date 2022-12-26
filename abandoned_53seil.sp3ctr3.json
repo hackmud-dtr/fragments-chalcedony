@@ -6,21 +6,21 @@
 	"sector": "K_6954",
 	"sec_level": 4,
 	"date_added": 1672042727002,
-	"last_scraped": 1672042828670,
+	"last_scraped": 1672049654589,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672042727002
 		}
 	],
-	"next_scrape": 1672042888670,
-	"scrape_ct": 19,
+	"next_scrape": 1672049714589,
+	"scrape_ct": 17,
 	"category": "fishie_tank",
-	"last_update": 1672042828670,
+	"last_update": 1672049654589,
 	"output": [
 		{
 			"args": {},
-			"calls": 3417,
+			"calls": 8799,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rite ",
@@ -30,13 +30,27 @@
 				"| BODY ",
 				" SUBJ r",
 				" | SUBJ"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"rite ",
+						"have ",
+						"UBJ re:",
+						"that I ",
+						"| BODY ",
+						" SUBJ r",
+						" | SUBJ"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 484,
+			"calls": 1844,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,15 +65,59 @@
 				"| BODY ",
 				" SUBJ r",
 				" | SUBJ"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"rite ",
+						"have ",
+						"UBJ re:",
+						"that I ",
+						"| BODY ",
+						" SUBJ r",
+						" | SUBJ"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 5489,
+			"calls": 11129,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"rite ",
+				"have ",
+				"UBJ re:",
+				"that I ",
+				"| BODY ",
+				" SUBJ r",
+				" | SUBJ"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"rite ",
+						"have ",
+						"UBJ re:",
+						"that I ",
+						"| BODY ",
+						" SUBJ r",
+						" | SUBJ"
+					]
+				}
+			]
+		}
+	],
+	"edit": 2,
+	"updt": 1672043090991,
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
 				"rite ",
 				"have ",
 				"UBJ re:",
