@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_yawlbr.scripts",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_yawlbr.scripts",
 	"sector": "VNP_8573",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1665713530302
+		},
+		{
+			"type": "died",
+			"when": 1672042727844
 		}
 	],
 	"next_scrape": 1665713646542,
@@ -360,5 +364,7 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"edit": 1,
+	"updt": 1665713686857
 }

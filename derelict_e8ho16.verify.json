@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_e8ho16.verify",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_e8ho16.verify",
 	"sector": "VNP_6590",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1668622165298
+		},
+		{
+			"type": "died",
+			"when": 1672042727844
 		}
 	],
 	"retry_args": [
@@ -54,5 +58,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"edit": 1,
+	"updt": 1668622265394
 }
