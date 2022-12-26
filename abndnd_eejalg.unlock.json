@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_eejalg.unlock",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_eejalg.unlock",
 	"sector": "NGC_4069",
 	"sec_level": 4,
 	"date_added": 1664034363568,
-	"last_scraped": 1671635161201,
+	"last_scraped": 1672042372366,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1664034363568
+		},
+		{
+			"type": "died",
+			"when": 1672042372366
 		}
 	],
-	"next_scrape": 1671676623941,
+	"next_scrape": 1672125968697,
 	"category": "coin_flipper",
 	"last_update": 1671635161201,
 	"output": [
@@ -86,6 +90,7 @@
 			]
 		}
 	],
-	"updt": 1671628544735,
-	"edit": 808
+	"updt": 1671635187701,
+	"edit": 809,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_eejalg.unlock: script doesn't exist\"}"
 }
