@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_qrgpyk.binmat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_qrgpyk.binmat",
 	"sector": "VNP_0248",
 	"sec_level": 4,
 	"date_added": 1670729594689,
-	"last_scraped": 1672044612045,
+	"last_scraped": 1672056773499,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670729594689
 		}
 	],
-	"edit": 37,
-	"updt": 1671636555031,
-	"next_scrape": 1672089617664,
+	"edit": 38,
+	"updt": 1672044654156,
+	"next_scrape": 1672097342583,
 	"category": "fishie_tank",
-	"last_update": 1672044612045,
+	"last_update": 1672056803641,
 	"output": [
 		{
 			"args": {},
-			"calls": 160623,
+			"calls": 166191,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"think",
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 25731,
+			"calls": 26759,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -163,6 +163,11 @@
 				"oblem, s",
 				"n engine"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
