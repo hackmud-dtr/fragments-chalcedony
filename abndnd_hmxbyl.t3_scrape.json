@@ -1,26 +1,33 @@
 {
 	"_id": "abndnd_hmxbyl.t3_scrape",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_hmxbyl.t3_scrape",
 	"sector": "NGC_8833",
 	"sec_level": 4,
 	"date_added": 1672043442416,
-	"last_scraped": 1672052145488,
+	"last_scraped": 1672063198068,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672043442416
+		},
+		{
+			"type": "died",
+			"when": 1672063198068
+		},
+		{
+			"type": "died",
+			"when": 1672063513889
 		}
 	],
-	"next_scrape": 1672052205488,
-	"scrape_ct": 9,
+	"next_scrape": 1672144410023,
 	"category": "coin_flipper",
-	"last_update": 1672052145488,
+	"last_update": 1672053605823,
 	"output": [
 		{
 			"args": {},
-			"calls": 48544,
+			"calls": 94880,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"uston",
@@ -81,6 +88,7 @@
 			]
 		}
 	],
-	"edit": 6,
-	"updt": 1672051882774
+	"edit": 14,
+	"updt": 1672063356431,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_hmxbyl.t3_scrape: script doesn't exist\"}"
 }
