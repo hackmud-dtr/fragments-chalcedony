@@ -6,28 +6,32 @@
 	"sector": "K_8983",
 	"sec_level": 4,
 	"date_added": 1669078609552,
-	"last_scraped": 1672045529698,
+	"last_scraped": 1672058282580,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1669078609552
 		}
 	],
-	"next_scrape": 1672089897509,
+	"next_scrape": 1672099295772,
 	"category": "fishie_tank",
-	"last_update": 1672045529698,
+	"last_update": 1672058282580,
 	"output": [
 		{
 			"args": {},
-			"calls": 849980,
+			"calls": 859235,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" BODY",
 				"ct incr",
+				"creased",
 				"xpect in",
 				"or the r",
 				"ODY hi a",
+				"hi all -",
+				"expect i",
 				"downtime",
+				" hi all ",
 				" downtim"
 			],
 			"hits": [
@@ -49,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 148886,
+			"calls": 149362,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,10 +63,14 @@
 			"fragments": [
 				" BODY",
 				"ct incr",
+				"creased",
 				"xpect in",
 				"or the r",
 				"ODY hi a",
+				"hi all -",
+				"expect i",
 				"downtime",
+				" hi all ",
 				" downtim"
 			]
 		},
@@ -70,15 +78,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 896178,
+			"calls": 899757,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" BODY",
 				"ct incr",
+				"creased",
 				"xpect in",
 				"or the r",
 				"ODY hi a",
+				"hi all -",
+				"expect i",
 				"downtime",
+				" hi all ",
 				" downtim"
 			]
 		}
@@ -97,6 +109,6 @@
 			]
 		}
 	],
-	"edit": 234,
-	"updt": 1671637334300
+	"edit": 235,
+	"updt": 1672045825447
 }
