@@ -1,16 +1,138 @@
 {
 	"_id": "uknown_hm1vye.za_cleanup",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_hm1vye.za_cleanup",
 	"sector": "HJG_7970",
 	"sec_level": 4,
 	"date_added": 1672302528399,
-	"last_scraped": 0,
+	"last_scraped": 1672302697260,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672302528399
+		}
+	],
+	"edit": 2,
+	"updt": 1672302870456,
+	"next_scrape": 1672302757260,
+	"scrape_ct": 19,
+	"category": "fishie_tank",
+	"last_update": 1672302697260,
+	"output": [
+		{
+			"args": {},
+			"calls": 5097,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" today",
+				" hot t",
+				" but M",
+				"posed a ",
+				"it's too",
+				"e fine: ",
+				"cover al",
+				"all of t"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						" today",
+						" hot t",
+						" but M",
+						"posed a ",
+						"it's too",
+						"e fine: ",
+						"cover al",
+						"all of t"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 737,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" today",
+				" hot t",
+				" but M",
+				"posed a ",
+				"it's too",
+				"e fine: ",
+				"cover al",
+				"all of t"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						" today",
+						" hot t",
+						" but M",
+						"posed a ",
+						"it's too",
+						"e fine: ",
+						"cover al",
+						"all of t"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3248,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" today",
+				" hot t",
+				" but M",
+				"posed a ",
+				"it's too",
+				"e fine: ",
+				"cover al",
+				"all of t"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						" today",
+						" hot t",
+						" but M",
+						"posed a ",
+						"it's too",
+						"e fine: ",
+						"cover al",
+						"all of t"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				" today",
+				" hot t",
+				" but M",
+				"posed a ",
+				"it's too",
+				"e fine: ",
+				"cover al",
+				"all of t"
+			]
 		}
 	]
 }
