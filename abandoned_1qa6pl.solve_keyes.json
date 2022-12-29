@@ -1,0 +1,91 @@
+{
+	"_id": "abandoned_1qa6pl.solve_keyes",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_1qa6pl.solve_keyes",
+	"sector": "HJG_7970",
+	"sec_level": 4,
+	"date_added": 1672302528399,
+	"last_scraped": 1672302575747,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1672302528399
+		}
+	],
+	"next_scrape": 1672302635747,
+	"scrape_ct": 19,
+	"category": "fishie_tank",
+	"last_update": 1672302575747,
+	"output": [
+		{
+			"args": {},
+			"calls": 5643,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" in t",
+				"3 disc",
+				"20F4 a",
+				"tacker'",
+				"cards pl"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" in t",
+						"3 disc",
+						"20F4 a",
+						"tacker'",
+						"cards pl"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 759,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" in t",
+				"3 disc",
+				"20F4 a",
+				"tacker'",
+				"cards pl"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5612,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" in t",
+				"3 disc",
+				"20F4 a",
+				"tacker'",
+				"cards pl"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" in t",
+				"3 disc",
+				"20F4 a",
+				"tacker'",
+				"cards pl"
+			]
+		}
+	]
+}
