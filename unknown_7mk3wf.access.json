@@ -6,22 +6,22 @@
 	"sector": "K_4532",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1672318378968,
+	"last_scraped": 1672324744202,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 30,
-	"updt": 1672312446891,
-	"next_scrape": 1672363887113,
+	"edit": 31,
+	"updt": 1672318701805,
+	"next_scrape": 1672366362139,
 	"category": "fishie_tank",
-	"last_update": 1672318378968,
+	"last_update": 1672324744202,
 	"output": [
 		{
 			"args": {},
-			"calls": 141391,
+			"calls": 145971,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"P cards",
@@ -118,6 +118,14 @@
 				"rds must",
 				"n combat"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
