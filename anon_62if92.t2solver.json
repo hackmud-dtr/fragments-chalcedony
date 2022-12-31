@@ -1,25 +1,25 @@
 {
 	"_id": "anon_62if92.t2solver",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_62if92.t2solver",
 	"sector": "K_3427",
 	"sec_level": 4,
 	"date_added": 1670052966474,
-	"last_scraped": 1672489175814,
+	"last_scraped": 1672495191348,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670052966474
 		}
 	],
-	"next_scrape": 1672533275443,
+	"next_scrape": 1672536870117,
 	"category": "fishie_tank",
-	"last_update": 1672489175814,
+	"last_update": 1672495213567,
 	"output": [
 		{
 			"args": {},
-			"calls": 452778,
+			"calls": 459968,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"l str",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 71960,
+			"calls": 72445,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -123,6 +123,11 @@
 			]
 		}
 	],
-	"edit": 100,
-	"updt": 1672483391114
+	"edit": 101,
+	"updt": 1672489253214,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
