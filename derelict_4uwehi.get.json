@@ -1,16 +1,113 @@
 {
 	"_id": "derelict_4uwehi.get",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_4uwehi.get",
 	"sector": "VNP_8184",
 	"sec_level": 4,
 	"date_added": 1672648596628,
-	"last_scraped": 0,
+	"last_scraped": 1672648668198,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1672648596628
+		}
+	],
+	"edit": 1,
+	"updt": 1672648631266,
+	"next_scrape": 1672648728198,
+	"scrape_ct": 19,
+	"category": "fishie_tank",
+	"last_update": 1672648668198,
+	"output": [
+		{
+			"args": {},
+			"calls": 5302,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0XF1_",
+				"pe thi",
+				"m one ",
+				"DY E -",
+				"s below",
+				"handari",
+				"ETW ERR",
+				"75_SECT0",
+				" out man"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"0XF1_",
+						"pe thi",
+						"m one ",
+						"DY E -",
+						"s below",
+						"handari",
+						"ETW ERR",
+						"75_SECT0",
+						" out man"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1452,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0XF1_",
+				"pe thi",
+				"m one ",
+				"DY E -",
+				"s below",
+				"handari",
+				"ETW ERR",
+				"75_SECT0",
+				" out man"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5859,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0XF1_",
+				"pe thi",
+				"m one ",
+				"DY E -",
+				"s below",
+				"handari",
+				"ETW ERR",
+				"75_SECT0",
+				" out man"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"0XF1_",
+				"pe thi",
+				"m one ",
+				"DY E -",
+				"s below",
+				"handari",
+				"ETW ERR",
+				"75_SECT0",
+				" out man"
+			]
 		}
 	]
 }
