@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_7ocnyu.test2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_7ocnyu.test2",
 	"sector": "K_4617",
 	"sec_level": 4,
 	"date_added": 1670409644548,
-	"last_scraped": 1672989509945,
+	"last_scraped": 1672996089209,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1670409644548
 		}
 	],
-	"edit": 75,
-	"updt": 1672845923728,
-	"next_scrape": 1673030748041,
+	"edit": 76,
+	"updt": 1672989684635,
+	"next_scrape": 1673039218487,
 	"category": "fishie_tank",
-	"last_update": 1672989509945,
+	"last_update": 1672996089209,
 	"output": [
 		{
 			"args": {},
-			"calls": 391294,
+			"calls": 396597,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Mall",
@@ -147,6 +147,14 @@
 				" You've ",
 				"ry\\n21A5 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
