@@ -1,0 +1,43 @@
+{
+	"_id": "abndnd_gxlph3.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_gxlph3.bot_brain",
+	"sector": "SPC_7730",
+	"sec_level": 4,
+	"date_added": 1672987461180,
+	"last_scraped": 1672987528211,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1672987461180
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"next_scrape": 1672987588211,
+	"scrape_ct": 20,
+	"category": "fishie_tank",
+	"last_update": 1672987528211,
+	"output": [
+		{
+			"args": {},
+			"calls": 2884,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r pro",
+				"provi",
+				" like",
+				"n\\n1E9A",
+				"97 and ",
+				"s ago\\n1E"
+			]
+		}
+	]
+}
