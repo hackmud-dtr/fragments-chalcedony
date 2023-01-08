@@ -6,45 +6,50 @@
 	"sector": "K_9288",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1673020790328,
+	"last_scraped": 1673164627198,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 74,
-	"updt": 1673015987953,
-	"next_scrape": 1673063182447,
+	"edit": 75,
+	"updt": 1673020872201,
+	"next_scrape": 1673205996739,
 	"category": "fishie_tank",
-	"last_update": 1673020790328,
+	"last_update": 1673164637282,
 	"output": [
 		{
 			"args": {},
-			"calls": 312944,
+			"calls": 317540,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"YST E",
 				"XCF_C",
-				"ST ER",
+				" | TI",
 				"T0X6B5",
 				"R smir",
 				"OR | U",
+				"LST0X8",
 				"_FILE0",
 				"X84_SEC",
-				"USER sm",
 				"TIME ER",
 				"SECT0X6",
 				"ROR | T",
 				"OR | PR",
+				"OR | NE",
 				"ERROR |",
 				"0X7A818",
 				"X6B58_FI",
+				"T ERROR ",
+				"ST ERROR",
 				"RROR | N",
 				"MFT0XCF_",
 				"ME ERROR",
 				"ILE0X7A8",
+				"F_CLST0X",
 				"B58_FILE",
+				" USER sm",
 				" | USER ",
 				"819D\\nSYS"
 			],
@@ -65,7 +70,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 49236,
+			"calls": 49939,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,25 +80,30 @@
 			"fragments": [
 				"YST E",
 				"XCF_C",
-				"ST ER",
+				" | TI",
 				"T0X6B5",
 				"R smir",
 				"OR | U",
+				"LST0X8",
 				"_FILE0",
 				"X84_SEC",
-				"USER sm",
 				"TIME ER",
 				"SECT0X6",
 				"ROR | T",
 				"OR | PR",
+				"OR | NE",
 				"ERROR |",
 				"0X7A818",
 				"X6B58_FI",
+				"T ERROR ",
+				"ST ERROR",
 				"RROR | N",
 				"MFT0XCF_",
 				"ME ERROR",
 				"ILE0X7A8",
+				"F_CLST0X",
 				"B58_FILE",
+				" USER sm",
 				" | USER ",
 				"819D\\nSYS"
 			],
@@ -165,6 +175,11 @@
 				"OR | PR",
 				"RROR | N"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
