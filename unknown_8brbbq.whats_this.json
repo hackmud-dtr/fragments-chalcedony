@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_8brbbq.whats_this",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_8brbbq.whats_this",
 	"sector": "K_3427",
 	"sec_level": 4,
 	"date_added": 1669996610731,
-	"last_scraped": 1673354989852,
+	"last_scraped": 1673360243591,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1669996610731
 		}
 	],
-	"next_scrape": 1673395269190,
+	"next_scrape": 1673404120892,
 	"category": "fishie_tank",
-	"last_update": 1673354989852,
+	"last_update": 1673360243591,
 	"output": [
 		{
 			"args": {},
-			"calls": 587258,
+			"calls": 595408,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tho #",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 94807,
+			"calls": 96279,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 625725,
+			"calls": 630761,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tho #",
@@ -105,6 +105,6 @@
 			]
 		}
 	],
-	"edit": 138,
-	"updt": 1673350201210
+	"edit": 139,
+	"updt": 1673355081421
 }
