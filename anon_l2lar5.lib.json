@@ -6,23 +6,23 @@
 	"sector": "K_3162",
 	"sec_level": 4,
 	"date_added": 1673422245364,
-	"last_scraped": 1673422503634,
+	"last_scraped": 1673423432047,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1673422245364
 		}
 	],
-	"edit": 1,
-	"updt": 1673422266723,
-	"next_scrape": 1673422563634,
-	"scrape_ct": 18,
+	"edit": 4,
+	"updt": 1673423047535,
+	"next_scrape": 1673423492047,
+	"scrape_ct": 8,
 	"category": "fishie_tank",
-	"last_update": 1673422503634,
+	"last_update": 1673423432047,
 	"output": [
 		{
 			"args": {},
-			"calls": 4501,
+			"calls": 30908,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"se wo",
@@ -31,13 +31,26 @@
 				"physica",
 				"ata. The",
 				" as pers"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"se wo",
+						"e, af",
+						" for ",
+						"physica",
+						"ata. The",
+						" as pers"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1474,
+			"calls": 5342,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,26 @@
 				"physica",
 				"ata. The",
 				" as pers"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"se wo",
+						"e, af",
+						" for ",
+						"physica",
+						"ata. The",
+						" as pers"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10570,
+			"calls": 30635,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"se wo",
@@ -66,7 +92,41 @@
 				"physica",
 				"ata. The",
 				" as pers"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"se wo",
+						"e, af",
+						" for ",
+						"physica",
+						"ata. The",
+						" as pers"
+					]
+				}
 			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"se wo",
+				"e, af",
+				" for ",
+				"physica",
+				"ata. The",
+				" as pers"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -6,23 +6,23 @@
 	"sector": "K_3162",
 	"sec_level": 4,
 	"date_added": 1673422245364,
-	"last_scraped": 1673422652978,
+	"last_scraped": 1673423352435,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1673422245364
 		}
 	],
-	"edit": 2,
-	"updt": 1673422462642,
-	"next_scrape": 1673422712978,
-	"scrape_ct": 16,
+	"edit": 5,
+	"updt": 1673423243713,
+	"next_scrape": 1673423412435,
+	"scrape_ct": 9,
 	"category": "fishie_tank",
-	"last_update": 1673422652978,
+	"last_update": 1673423352435,
 	"output": [
 		{
 			"args": {},
-			"calls": 14207,
+			"calls": 27171,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SECT0",
@@ -35,13 +35,30 @@
 				"T0XBF_C",
 				"32143 Fi",
 				"\\nAD0321"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"SECT0",
+						"modif",
+						"Final",
+						"F227_",
+						"fiers.",
+						"D03214",
+						".\\n214",
+						"T0XBF_C",
+						"32143 Fi",
+						"\\nAD0321"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2108,
+			"calls": 4962,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,15 +76,66 @@
 				"T0XBF_C",
 				"32143 Fi",
 				"\\nAD0321"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"SECT0",
+						"modif",
+						"Final",
+						"F227_",
+						"fiers.",
+						"D03214",
+						".\\n214",
+						"T0XBF_C",
+						"32143 Fi",
+						"\\nAD0321"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 8699,
+			"calls": 27932,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"SECT0",
+				"modif",
+				"Final",
+				"F227_",
+				"fiers.",
+				"D03214",
+				".\\n214",
+				"T0XBF_C",
+				"32143 Fi",
+				"\\nAD0321"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"SECT0",
+						"modif",
+						"Final",
+						"F227_",
+						"fiers.",
+						"D03214",
+						".\\n214",
+						"T0XBF_C",
+						"32143 Fi",
+						"\\nAD0321"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"SECT0",
 				"modif",
 				"Final",
