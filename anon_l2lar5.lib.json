@@ -1,28 +1,27 @@
 {
 	"_id": "anon_l2lar5.lib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_l2lar5.lib",
 	"sector": "K_3162",
 	"sec_level": 4,
 	"date_added": 1673422245364,
-	"last_scraped": 1673423432047,
+	"last_scraped": 1673424107647,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1673422245364
 		}
 	],
-	"edit": 4,
-	"updt": 1673423047535,
-	"next_scrape": 1673423492047,
-	"scrape_ct": 8,
+	"edit": 7,
+	"updt": 1673424024643,
+	"next_scrape": 1673464976312,
 	"category": "fishie_tank",
-	"last_update": 1673423432047,
+	"last_update": 1673424107647,
 	"output": [
 		{
 			"args": {},
-			"calls": 30908,
+			"calls": 44036,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"se wo",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5342,
+			"calls": 9374,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +82,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30635,
+			"calls": 64870,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"se wo",
@@ -119,14 +118,6 @@
 				"ata. The",
 				" as pers"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
