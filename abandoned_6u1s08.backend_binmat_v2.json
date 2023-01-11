@@ -6,28 +6,33 @@
 	"sector": "HJG_4184",
 	"sec_level": 4,
 	"date_added": 1668009057892,
-	"last_scraped": 1673362044720,
+	"last_scraped": 1673427343109,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1668009057892
 		}
 	],
-	"next_scrape": 1673407035835,
+	"next_scrape": 1673469221127,
 	"category": "fishie_tank",
-	"last_update": 1673362044720,
+	"last_update": 1673427343109,
 	"output": [
 		{
 			"args": {},
-			"calls": 1665490,
+			"calls": 1668355,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"here:",
 				"C I h",
 				"AD032",
 				"re don",
+				"\\n217C",
 				": we a",
-				"17C\\nAD",
+				"re: we ",
+				"C\\nAD03",
 				"3217B Th",
+				"217B The",
+				"17C\\nAD0",
 				"17B Ther"
 			],
 			"hits": [
@@ -49,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 278820,
+			"calls": 279549,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,12 +62,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"here:",
 				"C I h",
 				"AD032",
 				"re don",
+				"\\n217C",
 				": we a",
-				"17C\\nAD",
+				"re: we ",
+				"C\\nAD03",
 				"3217B Th",
+				"217B The",
+				"17C\\nAD0",
 				"17B Ther"
 			]
 		},
@@ -70,15 +80,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1672666,
+			"calls": 1676927,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"here:",
 				"C I h",
 				"AD032",
 				"re don",
+				"\\n217C",
 				": we a",
-				"17C\\nAD",
+				"re: we ",
+				"C\\nAD03",
 				"3217B Th",
+				"217B The",
+				"17C\\nAD0",
 				"17B Ther"
 			]
 		}
@@ -97,6 +112,6 @@
 			]
 		}
 	],
-	"edit": 423,
-	"updt": 1673356645347
+	"edit": 424,
+	"updt": 1673362114109
 }
