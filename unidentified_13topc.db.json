@@ -1,21 +1,29 @@
 {
 	"_id": "unidentified_13topc.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_13topc.db",
 	"sector": "K_4532",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1673533872044,
+	"last_scraped": 1673539193120,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
+		},
+		{
+			"type": "died",
+			"when": 1673539193120
+		},
+		{
+			"type": "died",
+			"when": 1673539400028
 		}
 	],
-	"edit": 88,
-	"updt": 1673528144149,
-	"next_scrape": 1673576063032,
+	"edit": 90,
+	"updt": 1673539284531,
+	"next_scrape": 1673621840610,
 	"category": "coin_flipper",
 	"last_update": 1673533872044,
 	"output": [
@@ -95,5 +103,6 @@
 				" immedia"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_13topc.db: script doesn't exist\"}"
 }

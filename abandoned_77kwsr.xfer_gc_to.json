@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_77kwsr.xfer_gc_to",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_77kwsr.xfer_gc_to",
 	"sector": "K_4532",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1671350740074
+		},
+		{
+			"type": "died",
+			"when": 1673539098446
 		}
 	],
-	"edit": 1,
-	"updt": 1671350774816,
+	"edit": 2,
+	"updt": 1671351358724,
 	"retry_args": [
 		{
 			"do": "LOSE"
