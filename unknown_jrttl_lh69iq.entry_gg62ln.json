@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_jrttl_lh69iq.entry_gg62ln",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unknown_jrttl_lh69iq.entry_gg62ln",
-	"sector": "CHOICE_LAMBDA_2",
+	"sector": "VNP_8564",
 	"sec_level": 0,
 	"date_added": 1604855120471,
-	"last_scraped": 1668362704513,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -57,10 +57,18 @@
 		{
 			"type": "died",
 			"when": 1669734460613
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1673598731346,
+				"from": "VNP_8564",
+				"to": "CHOICE_LAMBDA_2"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_jrttl_lh69iq.entry_gg62ln: Shift operation is currently in progress. 39s remain\"}",
 	"next_scrape": 1668450549199,
-	"updt": 1668362789249,
-	"edit": 7
+	"updt": 1669734608325,
+	"edit": 8
 }
