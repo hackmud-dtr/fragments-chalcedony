@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_6n92zb.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_6n92zb.bot_scam_do_not_run",
 	"sector": "HJG_4219",
 	"sec_level": 4,
 	"date_added": 1671350740074,
-	"last_scraped": 1673707011227,
+	"last_scraped": 1673773612906,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1671350740074
 		}
 	],
-	"edit": 98,
-	"updt": 1673702204644,
-	"next_scrape": 1673750826250,
+	"edit": 99,
+	"updt": 1673707092759,
+	"next_scrape": 1673853938381,
 	"category": "fishie_tank",
-	"last_update": 1673707011227,
+	"last_update": 1673773612906,
 	"output": [
 		{
 			"args": {},
-			"calls": 450765,
+			"calls": 450865,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"XE0_S",
@@ -183,6 +183,14 @@
 				"ME ERROR",
 				" PROG ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
